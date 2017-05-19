@@ -1,0 +1,81 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi/mjpg/mjpg.cgi",
+        "/video.cgi?resolution=VGA",
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/cgi/mjpg/mjpeg.cgi",
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/videostream.cgi",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?rate=0"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.cgi?resolution=8&rate=13",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "JPEG": [
+        "/image.jpg",
+        "/cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+        "/tmpfs/auto.jpg",
+        "/img/snapshot.cgi?size=2",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/image/[CHANNEL].jpg",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "AMSERIES",
+      "APM-J011-WS",
+      "BSERIES",
+      "CW-IP01W",
+      "DOME",
+      "IPCAM1",
+      "LP001377",
+      "OTHER",
+      "PROJECTS",
+      "QSERIES",
+      "SE-039-NE",
+      "SEC-001-NE",
+      "SEC006NE",
+      "SEC-006-NE",
+      "SEC-006-SED",
+      "SEC-015-C",
+      "SEC-016-NE",
+      "SEC-023-NE",
+      "SEC-026-AM",
+      "SEC-026-AM/A",
+      "SEC-028-NE",
+      "SEC-029-NE",
+      "SEC-036-NE",
+      "SEC-037-NE",
+      "SEC-039-NE",
+      "SEC-26AM"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/12",
+        "/11"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "SEC-037NE",
+      "SEC-037-NE"
+    ]
+  }
+}

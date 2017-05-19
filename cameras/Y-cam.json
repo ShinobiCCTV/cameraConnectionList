@@ -1,0 +1,85 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/0/h264.sdp",
+        "/live_mpeg4.sdp",
+        "/live_h264_1.sdp",
+        "/live/0/onvif.sdp",
+        "/live_h264.sdp",
+        "/live_mpeg4_1.sdp"
+      ]
+    },
+    "models": [
+      "1080",
+      "BULLETHD",
+      "BULLETHD1080",
+      "BULLETHD720",
+      "BULLETRANGE",
+      "BULLETHD1040",
+      "CUBE1080",
+      "CUBE1080P",
+      "CUBE720",
+      "CUBE720P",
+      "CUBEHD",
+      "CUBEHD-720",
+      "CUBEHD1080",
+      "CUBEHD750",
+      "CUBEVGA",
+      "DOMERANGE",
+      "HD720",
+      "HD720PRO",
+      "OTHER",
+      "WHITE"
+    ]
+  },
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/stream.asf",
+        "/stream1.asf",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf"
+      ],
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/snapshot.jpg",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?1",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/guest/Video.cgi?media=JPEG",
+        "/img/snapshot.cgi?size=3",
+        "/image/[CHANNEL].jpg",
+        "/jpeg/qvga.jpg"
+      ],
+      "MJPEG": [
+        "/stream.jpg",
+        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
+        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+        "/nphMotionJpeg?Resolution=320x240&Quality=Standard"
+      ]
+    },
+    "models": [
+      "4.3",
+      "BLACK",
+      "BULLET",
+      "BULLETHD",
+      "BULLETHD1080",
+      "BULLETHD720",
+      "BULLETRANGE",
+      "CUBE1080P",
+      "CUBE720P",
+      "CUBEHD1080",
+      "CUBEHD720",
+      "DOMERANGE",
+      "HD1080",
+      "KNIGHT",
+      "OTHER",
+      "VZS5SX5U6L271JBW87ZJ",
+      "WHITE",
+      "WHITECUBE720",
+      "WHITES"
+    ]
+  }
+}

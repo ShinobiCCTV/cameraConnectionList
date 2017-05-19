@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/CH002.sdp"
+      ]
+    },
+    "models": [
+      "DUNLANG"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "JPEG": [
+        "/image/[CHANNEL].jpg"
+      ]
+    },
+    "models": [
+      "DOME",
+      "IPOUTDFOOR",
+      "IP99",
+      "OTHER",
+      "WIFI"
+    ]
+  }
+}

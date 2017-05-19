@@ -1,0 +1,49 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/ipcam/mjpegcif.cgi",
+        "/ipcam/mjpeg.cgi",
+        "/cgi-bin/getstream.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "FFMPEG": [
+        "/h264",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "JPEG": [
+        "/ipcam/jpegcif.cgi",
+        "/ipcam/jpeg.cgi",
+        "/cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT"
+      ]
+    },
+    "models": [
+      "875PRO",
+      "NCC800",
+      "NCR870",
+      "NCR875",
+      "NCR878",
+      "NDF820",
+      "NDF831",
+      "NDR890",
+      "NDR890-HP5",
+      "NDR891",
+      "NDR891PRO",
+      "NIC830",
+      "NIC836",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/h264"
+      ]
+    },
+    "models": [
+      "NDF821"
+    ]
+  }
+}

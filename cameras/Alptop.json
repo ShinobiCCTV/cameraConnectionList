@@ -1,0 +1,33 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/0",
+        "/11",
+        "/12"
+      ]
+    },
+    "models": [
+      "400",
+      "AT-B603W",
+      "AT-LIR400",
+      "B603W",
+      "B608W",
+      "IP72-ONVIF-IPS",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snap.jpg?JpegCam=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "400",
+      "AT-LBH400",
+      "AT-LIR400",
+      "IP72-ONVIF-IPS"
+    ]
+  }
+}

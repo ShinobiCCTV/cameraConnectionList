@@ -1,0 +1,23 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/h264"
+      ]
+    },
+    "models": [
+      "CM-4221-00",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/jpg/image.cgi"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

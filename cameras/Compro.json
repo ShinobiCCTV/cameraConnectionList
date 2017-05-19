@@ -1,0 +1,68 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/snapshot.jpg",
+        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]&snapshot=on"
+      ],
+      "MJPEG": [
+        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+        "/mjpegStreamer.cgi",
+        "/mjpeg.cgi",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ]
+    },
+    "models": [
+      "CS40",
+      "CS400P",
+      "CS530",
+      "IP100",
+      "IP350",
+      "IP50/70",
+      "IP530",
+      "IP530W",
+      "IP540",
+      "IP540P",
+      "IP55",
+      "IP55/60",
+      "IP550P",
+      "IP570",
+      "IP70",
+      "IP70W",
+      "IP90P",
+      "NC150/420/500",
+      "NC2200",
+      "NC2220",
+      "OTHER",
+      "TN1600P",
+      "TN1600W",
+      "TN30W",
+      "TN500LR",
+      "TN500MR",
+      "TN500W",
+      "TN50W",
+      "TN80",
+      "TN80W",
+      "TN920",
+      "TN95"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/cam[CHANNEL]/mjpeg"
+      ]
+    },
+    "models": [
+      "IP70",
+      "NC150/420/500"
+    ]
+  }
+}

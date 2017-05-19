@@ -1,0 +1,18 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "JPEG": [
+        "/snapshot.cgi",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0"
+      ]
+    },
+    "models": [
+      "101IP",
+      "DIGITALCLOCK"
+    ]
+  }
+}

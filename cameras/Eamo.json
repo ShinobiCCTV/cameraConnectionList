@@ -1,0 +1,15 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/stream.asf"
+      ],
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "AT201"
+    ]
+  }
+}

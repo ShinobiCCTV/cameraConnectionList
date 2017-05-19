@@ -1,0 +1,15 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/channels/201",
+        "/Streaming/channels/301",
+        "/Streaming/channels/401",
+        "/Streaming/channels/101"
+      ]
+    },
+    "models": [
+      "ADT"
+    ]
+  }
+}

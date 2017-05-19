@@ -1,0 +1,60 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/control/faststream.jpg?stream=full",
+        "/faststream.jpg?stream=full&fps=0",
+        "/-wvhttp-01-/GetOneShot?image_size=[WIDTH]x[HEIGHT]&frame_count=0",
+        "/mjpeg"
+      ],
+      "JPEG": [
+        "/record/current.jpg?sync=-99",
+        "/cgi-bin/image.jpg?size=[WIDTH]x[HEIGHT]",
+        "/record/current.jpg",
+        "/cgi-bin/image.jpg",
+        "/jpg/image.jpg?size=3",
+        "/cgi-bin/snapshot.cgi?1",
+        "/cgi-bin/guest/Video.cgi?media=JPEG",
+        "/jpeg/vga.jpg"
+      ]
+    },
+    "models": [
+      "BO",
+      "C25",
+      "C25D016-AUD",
+      "C25-2",
+      "D-12",
+      "D-14",
+      "D-15",
+      "D15",
+      "D-22M",
+      "D24",
+      "D-24",
+      "DM-25M",
+      "M-10",
+      "M12",
+      "M-12",
+      "M-15",
+      "M-15D",
+      "M-22",
+      "M22M",
+      "M-24",
+      "M24",
+      "M25",
+      "M-SERIES",
+      "OTHER",
+      "Q-22",
+      "Q-24",
+      "Q24M",
+      "Q-25",
+      "Q25M",
+      "Q-SERIES",
+      "S-15",
+      "T24",
+      "T-24",
+      "T25",
+      "T-25",
+      "T25M"
+    ]
+  }
+}

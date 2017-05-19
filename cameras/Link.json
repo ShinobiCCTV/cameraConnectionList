@@ -1,0 +1,22 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "NC128PW"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/0/onvif.sdp"
+      ]
+    },
+    "models": [
+      "NC233W-IR"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/video0.sdp",
+        "/0"
+      ]
+    },
+    "models": [
+      "2MPX",
+      "5MPX",
+      "629",
+      "OTHER",
+      "VDH-DXG368",
+      "VIG-DM755VE",
+      "VIG-US731VE",
+      "VIT-UA629"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snap.jpg?JpegCam=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

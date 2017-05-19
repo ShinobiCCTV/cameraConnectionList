@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/image.cgi?type=motion"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "GS-1301T"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

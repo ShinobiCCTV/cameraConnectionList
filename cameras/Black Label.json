@@ -1,0 +1,25 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ]
+    },
+    "models": [
+      "B2601"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/udp/av0_0",
+        "/tcp/av0_0"
+      ]
+    },
+    "models": [
+      "BL2305",
+      "BL2605"
+    ]
+  }
+}

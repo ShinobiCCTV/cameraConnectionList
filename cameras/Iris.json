@@ -1,0 +1,33 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi",
+        "/img/snapshot.cgi?size=2",
+        "/img/snapshot.cgi?size=3",
+        "/img/snapshot.cgi?img=vga"
+      ],
+      "MJPEG": [
+        "/img/mjpeg.jpg",
+        "/img/video.mjpeg"
+      ]
+    },
+    "models": [
+      "INDOOR/OUTDOOR",
+      "INDOOROUTDOOR",
+      "NETCAM",
+      "OC810",
+      "OC81D",
+      "OC821",
+      "OC821D",
+      "OC8221",
+      "OC830",
+      "OC8821",
+      "OTHER",
+      "OUTDOORIPCAMERA",
+      "RC8221",
+      "RC-8221",
+      "SERCOMM"
+    ]
+  }
+}

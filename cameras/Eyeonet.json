@@ -1,0 +1,13 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "IP9342F-M-28",
+      "OTHER"
+    ]
+  }
+}

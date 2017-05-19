@@ -1,0 +1,32 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/wappaint?camera_no=[CHANNEL]&animation=0&name=[USERNAME]&password=[PASSWORD]&pic_size=2",
+        "/img/snapshot.cgi?size=2",
+        "/jpeg/vga.jpg"
+      ],
+      "FFMPEG": [
+        "/videostream.cgi?resolution=8&rate=13",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "LXSERIESDVR",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "WD200P"
+    ]
+  }
+}

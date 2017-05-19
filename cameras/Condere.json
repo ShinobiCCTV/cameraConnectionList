@@ -1,0 +1,24 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?1"
+      ],
+      "MJPEG": [
+        "/mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ]
+    },
+    "models": [
+      "CO-105",
+      "CO-111",
+      "CO-113",
+      "CO-901"
+    ]
+  }
+}

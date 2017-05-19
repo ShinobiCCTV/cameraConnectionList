@@ -1,0 +1,24 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live0.264",
+        "/11",
+        "/0"
+      ]
+    },
+    "models": [
+      "1.3MP",
+      "1MPHD720",
+      "720PIP",
+      "HDIP720",
+      "HRX103",
+      "HRX-I5024P",
+      "HRX-I524C",
+      "HRX-IA604-1",
+      "NVT-HI3518EP",
+      "ONVIF",
+      "OTHER"
+    ]
+  }
+}

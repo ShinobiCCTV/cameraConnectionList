@@ -1,0 +1,36 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ch01.264"
+      ]
+    },
+    "models": [
+      "IPC100",
+      "IPCAM162A",
+      "IPCAM168A",
+      "IPCOM100"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "IPCAM062A",
+      "IPCOD",
+      "OTHER"
+    ]
+  }
+}

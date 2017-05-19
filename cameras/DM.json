@@ -1,0 +1,33 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Onvif/Streaming/2",
+        "/0",
+        "/PSIA/Streaming/channels/0",
+        "/stream",
+        "/1"
+      ]
+    },
+    "models": [
+      "BS232",
+      "CHINAMALA-BRAZO",
+      "CO36N13",
+      "368_IPNC",
+      "EC-1061",
+      "FISOTECH",
+      "FISOTECH2M",
+      "FUHO",
+      "IP255",
+      "IPC",
+      "KAMERA",
+      "LIZM40T200",
+      "LONGSE_NEW",
+      "NBX305",
+      "OTHER",
+      "TIP-200W25N",
+      "VACRON621",
+      "WINVISION1"
+    ]
+  }
+}

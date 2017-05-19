@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=YOQ38ry7_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "OMNIVISION"
+    ]
+  }
+}

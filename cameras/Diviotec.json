@@ -1,0 +1,22 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live.sdp"
+      ]
+    },
+    "models": [
+      "NBR325P"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/jpg/image.cgi"
+      ]
+    },
+    "models": [
+      "NBR325P"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "LIFETECH"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/live?camera=[CHANNEL]&framerate=5"
+      ],
+      "MJPEG": [
+        "/live?codec=mjpeg&camera=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "CORESERVER"
+    ]
+  }
+}

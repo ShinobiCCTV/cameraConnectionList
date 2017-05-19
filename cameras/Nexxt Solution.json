@@ -1,0 +1,48 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video.cgi?resolution=VGA",
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]"
+      ],
+      "JPEG": [
+        "/img/snapshot.cgi?size=2",
+        "/tmpfs/auto.jpg",
+        "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&"
+      ]
+    },
+    "models": [
+      "300",
+      "OTHER",
+      "XPY320",
+      "XPY350",
+      "XPY50",
+      "XPY500",
+      "XPY520",
+      "XPY530",
+      "XPY1200",
+      "XPY300"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/channels/401",
+        "/Streaming/channels/501",
+        "/Streaming/channels/601",
+        "/Streaming/channels/201"
+      ]
+    },
+    "models": [
+      "NEXXT"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video?submenu=mjpg",
+        "/nphMotionJpeg?Resolution=640x480&Quality=Standard"
+      ]
+    },
+    "models": [
+      "EM543",
+      "EVC510"
+    ]
+  }
+}

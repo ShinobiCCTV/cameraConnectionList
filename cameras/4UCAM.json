@@ -1,0 +1,44 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi-bin/Stream?Video?Acc=[USERNAME]?Pwd=[PASSWORD]?webcamPWD=UserCookie00000",
+        "/video.cgi?resolution=VGA",
+        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
+        "/videostream.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/shot.jpg",
+        "/cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/cgi-bin/snapshot.cgi?1",
+        "/img/snapshot.cgi?size=2",
+        "/capture[CHANNEL].jpg",
+        "/loginfree.jpg"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/stream.asf"
+      ]
+    },
+    "models": [
+      "EYESDVR",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

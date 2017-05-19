@@ -1,0 +1,26 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor"
+      ]
+    },
+    "models": [
+      "HFW-4300S",
+      "IP66",
+      "IPCHDB-4300",
+      "NC-303VD",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "NVT-530004"
+    ]
+  }
+}

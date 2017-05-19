@@ -1,0 +1,50 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp",
+        "/user=admin_password=Vh23jFhH_channel=1_stream=0.sdp",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/user=admin_password=6g2Xojz9_channel=1_stream=0.sdp",
+        "/user=admin_password=LnwLOD35_channel=1_stream=0.sdp",
+        "/user=admin_password=lGlDHqHv_channel=1_stream=0.sdp",
+        "/mpeg4cif",
+        "/Streaming/Channels/2",
+        "/Streaming/Channels/1",
+        "/stream/0:1",
+        "/user=admin_password=Amx1V9wW_channel=1_stream=0.sdp",
+        "/user=admin_password=Amx1V9wW_channel=1_stream=1.sdp",
+        "/user=admin_password=KqAuRKsh_channel=1_stream=0.sdp",
+        "/user=admin_password=CW0yqOvp_channel=1_stream=0.sdp",
+        "/user=admin_password=3JVJrc12_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "507",
+      "AR-24NR-WIFI",
+      "BLAS",
+      "CAMOLDALT",
+      "HAIVISION",
+      "IPCAMLORES",
+      "LIIKETUNNISTIN",
+      "LPCAM",
+      "MIN",
+      "MODELS",
+      "MOJA",
+      "OTHER",
+      "SC10IP",
+      "SUNBA601",
+      "TOP-201"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi?size=2"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

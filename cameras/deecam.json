@@ -1,0 +1,25 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11"
+      ]
+    },
+    "models": [
+      "200",
+      "D200",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "D200",
+      "OTHER"
+    ]
+  }
+}

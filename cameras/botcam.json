@@ -1,0 +1,17 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf"
+      ],
+      "JPEG": [
+        "/snap.jpg"
+      ]
+    },
+    "models": [
+      "IPCAMERA1",
+      "IPCAMERA2",
+      "OTHER"
+    ]
+  }
+}

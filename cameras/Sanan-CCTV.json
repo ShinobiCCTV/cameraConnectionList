@@ -1,0 +1,33 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/video.cgi?resolution=VGA"
+      ]
+    },
+    "models": [
+      "B-SERIES",
+      "ITTHON",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "DL81A"
+    ]
+  }
+}

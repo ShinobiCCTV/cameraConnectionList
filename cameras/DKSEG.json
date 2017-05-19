@@ -1,0 +1,22 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ],
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ]
+    },
+    "models": [
+      "DK408P",
+      "IPWIRELESS",
+      "OTHER"
+    ]
+  }
+}

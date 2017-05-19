@@ -1,0 +1,13 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/image/0.jpg"
+      ]
+    },
+    "models": [
+      "CLJ100L",
+      "OTHER"
+    ]
+  }
+}

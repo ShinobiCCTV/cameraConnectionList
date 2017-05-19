@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ONVIF/channel1"
+      ]
+    },
+    "models": [
+      "FD100A"
+    ]
+  }
+}

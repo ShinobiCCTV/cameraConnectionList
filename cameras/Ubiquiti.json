@@ -1,0 +1,20 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/snapshot.cgi"
+      ],
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "AIR-CAM",
+      "AIR-VISION",
+      "OTHER",
+      "WCSNET-ACD1"
+    ]
+  }
+}

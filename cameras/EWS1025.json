@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/ch00_0"
+      ]
+    },
+    "models": [
+      "-ENGENIUS"
+    ]
+  }
+}

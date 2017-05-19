@@ -1,0 +1,22 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/av0_0"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/video.jpg",
+        "/imagep/picture.jpg"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ]
+    },
+    "models": [
+      "ANC202",
+      "ANC-3210HA",
+      "G/FLOBBY",
+      "OTHER"
+    ]
+  }
+}

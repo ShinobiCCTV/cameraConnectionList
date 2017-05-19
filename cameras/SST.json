@@ -1,0 +1,22 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/mjpeg"
+      ]
+    },
+    "models": [
+      "-CNS-BUI18"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "-CNS-BUI18"
+    ]
+  }
+}

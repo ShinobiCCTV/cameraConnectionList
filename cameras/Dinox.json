@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/1",
+        "/Streaming/Channels/2"
+      ]
+    },
+    "models": [
+      "DDR-2300",
+      "DDX-4320"
+    ]
+  }
+}

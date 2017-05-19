@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/videoMain",
+        "/media/video1"
+      ]
+    },
+    "models": [
+      "971"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/videoMain",
+        "/H264/sub",
+        "/video.h264",
+        "/11"
+      ]
+    },
+    "models": [
+      "2002",
+      "CHEAPCAMS",
+      "MOCAM01",
+      "MOCAM-01",
+      "MOCAM1",
+      "OTHER",
+      "THAMES"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cam_1.jpg"
+      ]
+    },
+    "models": [
+      "2002",
+      "MOCAM01",
+      "MO-CAM01",
+      "MOCAM1"
+    ]
+  }
+}

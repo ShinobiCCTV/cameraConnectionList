@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/nphMotionJpeg?Resolution=320x240&Quality=Motion"
+      ]
+    },
+    "models": [
+      "WV-SC385"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi-bin/Stream?Video",
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/video.cgi?resolution=VGA"
+      ]
+    },
+    "models": [
+      "BCN-401",
+      "BNC-501C"
+    ]
+  }
+}

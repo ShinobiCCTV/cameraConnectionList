@@ -1,0 +1,17 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/GetImage.cgi"
+      ],
+      "MJPEG": [
+        "/GetData.cgi?CH=2"
+      ]
+    },
+    "models": [
+      "CINESE",
+      "OTHER",
+      "TCN-20BM"
+    ]
+  }
+}

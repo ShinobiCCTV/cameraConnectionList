@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/video/pull-[CHANNEL]"
+      ]
+    },
+    "models": [
+      "SERVER"
+    ]
+  }
+}

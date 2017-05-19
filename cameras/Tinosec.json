@@ -1,0 +1,20 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=ZKpqYvtt_channel=1_stream=0.sdp",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/onvif1"
+      ]
+    },
+    "models": [
+      "DOMEIPCAM",
+      "IPC-BT5025C",
+      "IPC-BT511SW",
+      "IPC-BT513S",
+      "IPC-BT619W",
+      "IPC-DM06WV-2.0",
+      "IPC-Z10B"
+    ]
+  }
+}

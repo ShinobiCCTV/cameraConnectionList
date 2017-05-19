@@ -1,0 +1,79 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/tcp/av0_0",
+        "/11",
+        "/12"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "Q701",
+      "SP-P1083WP",
+      "SP-P1802",
+      "SP-P1802SWPT2",
+      "SP-P1802SWPTZ",
+      "SP-P1803SW",
+      "SP-P1803SWZ",
+      "SP-P1804SW",
+      "SP-P1804SWZ",
+      "SP-P1806SZ",
+      "SP-P701",
+      "SP-P702W",
+      "SP-P703W",
+      "SP-P901W",
+      "SP-Q701",
+      "SP-Q701W",
+      "SP-Q702",
+      "SP-TM01WP",
+      "SP-V701W"
+    ]
+  },
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.cgi?resolution=8&rate=13",
+        "/videostream.asf"
+      ],
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/tmpfs/auto.jpg",
+        "/video.cgi",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/img/snapshot.cgi?size=2",
+        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/video.cgi?resolution=VGA",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "SP-FJ01W",
+      "SP-FJ02W",
+      "SP-H01W",
+      "SP-H02W",
+      "SP-HM01WP",
+      "SP-HS01W",
+      "SP-HS02W",
+      "SP-HS04WR",
+      "SP-HS05W",
+      "SP-T01EWP",
+      "SP-T01WP",
+      "SP-T03WP",
+      "SP-TES",
+      "SP-TM",
+      "SP-TM01EWP",
+      "SP-TM01WP",
+      "SP-TM05WP",
+      "SP-TM06EWP",
+      "SP-V701W"
+    ]
+  }
+}

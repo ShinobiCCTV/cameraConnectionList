@@ -1,0 +1,58 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ],
+      "JPEG": [
+        "/tmpfs/auto.jpg",
+        "/snapshot",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/VIDEO.CGI"
+      ]
+    },
+    "models": [
+      "3831",
+      "3846",
+      "720P",
+      "CQ3834",
+      "CQ3846",
+      "GM8126",
+      "N287",
+      "OTHER",
+      "QC-3638",
+      "QC3832",
+      "QC-3834",
+      "QC3836",
+      "QC3839",
+      "QC3846",
+      "QC3848",
+      "QCR836"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11",
+        "/12"
+      ]
+    },
+    "models": [
+      "GATE",
+      "OTHER",
+      "QC-3840",
+      "QC3842",
+      "QC-3844",
+      "QC-3846",
+      "QCC3846",
+      "RMR55"
+    ]
+  }
+}

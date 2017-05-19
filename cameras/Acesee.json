@@ -1,0 +1,28 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/0",
+        "/Streaming/Channels/1"
+      ]
+    },
+    "models": [
+      "AVP40P200",
+      "AVZM40P130",
+      "DOME",
+      "EB225/SH",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snap.jpg?JpegCam=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "AVTN40P130",
+      "OTHER"
+    ]
+  }
+}

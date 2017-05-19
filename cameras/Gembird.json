@@ -1,0 +1,27 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/cgi-bin/sf.cgi"
+      ]
+    },
+    "models": [
+      "CAM78IP",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/ch0"
+      ]
+    },
+    "models": [
+      "ICAM-WHD-01"
+    ]
+  }
+}

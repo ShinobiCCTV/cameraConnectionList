@@ -1,0 +1,22 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/axis-cgi/jpg/image.cgi?camera=1&resolution=320x240&compression=25",
+        "/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+        "/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "MJPEG": [
+        "/user/videostream.cgi",
+        "/cgi-bin/nph-update_4ch.cgi?ch=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "110",
+      "112W",
+      "120W",
+      "LWJ-330",
+      "OTHER"
+    ]
+  }
+}

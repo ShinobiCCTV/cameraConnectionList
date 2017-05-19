@@ -1,0 +1,17 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?1"
+      ],
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/jpg/1/image.jpg",
+        "/mjpg/[CHANNEL]/video.mjpg",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/mjpg/1/video.mjpg",
+        "/video.cgi?resolution=VGA",
+        "/videostream.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?rate=0"
+      ]
+    },
+    "models": [
+      "3SERIES",
+      "4SERIES",
+      "MEGACAM",
+      "MEGACAM312M",
+      "OTHER"
+    ]
+  }
+}

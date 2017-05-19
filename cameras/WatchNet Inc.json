@@ -1,0 +1,33 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/still.jpg",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi"
+      ]
+    },
+    "models": [
+      "232",
+      "MPIX",
+      "WPIX"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor"
+      ]
+    },
+    "models": [
+      "BACK",
+      "MPIX",
+      "MPIX20",
+      "MPIX21",
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/user=admin_password=VNQxOPxO_channel=1_stream=0.sdp",
+        "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=1.sdp?real_stream--rtp-caching=100",
+        "/user=admin_password=o4Xka7Dn_channel=1_stream=0.sdp",
+        "/user=admin_password=ZtyDchCa_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "1.0MP",
+      "EPC1",
+      "ESC4",
+      "ESC1",
+      "ESC3-IP(1.3)",
+      "ESC-4",
+      "ESC-IPC",
+      "ESC-IPC-1V2",
+      "IPC-1",
+      "IPC-1V1.0",
+      "IPC-52.0",
+      "IPC5-MINI2.0"
+    ]
+  }
+}

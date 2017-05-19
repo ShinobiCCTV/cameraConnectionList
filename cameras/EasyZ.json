@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf"
+      ]
+    },
+    "models": [
+      "FS613B"
+    ]
+  }
+}

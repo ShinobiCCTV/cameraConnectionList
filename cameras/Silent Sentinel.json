@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi"
+      ],
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "EASYHOME",
+      "OTHER"
+    ]
+  }
+}

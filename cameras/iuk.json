@@ -1,0 +1,15 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi?size=2"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "5A1"
+    ]
+  }
+}

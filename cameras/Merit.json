@@ -1,0 +1,39 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/GetStream.cgi?Video=[CHANNEL]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/snapshot",
+        "/snap",
+        "/getimage",
+        "/cgi-bin/Stream?Video"
+      ],
+      "MJPEG": [
+        "/getimage[CHANNEL]",
+        "/getimage?camera=[CHANNEL]&fmt=vga"
+      ]
+    },
+    "models": [
+      "LILINDVR204",
+      "LILINDVR3XX/NDR1XX",
+      "LILINDVR5XX",
+      "LILINH.264D1CAMERA",
+      "LILINH.264HDCAMERA",
+      "LILINIMEGAPROCAMERA",
+      "LILINIPFASTDOME",
+      "LILINPDR-400",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/rtsph264"
+      ]
+    },
+    "models": [
+      "LILINIPFASTDOME"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/img/video.mjpeg",
+        "/img/mjpeg.cgi",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "JPEG": [
+        "/img/snapshot.cgi"
+      ]
+    },
+    "models": [
+      "9600",
+      "NQ-9006",
+      "OTHER"
+    ]
+  }
+}

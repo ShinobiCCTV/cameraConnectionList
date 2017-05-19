@@ -1,0 +1,23 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin&password=nTBCS19C&channel=1&stream=0.sdp"
+      ]
+    },
+    "models": [
+      "2110"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "AIP205",
+      "NK-610W1A"
+    ]
+  }
+}

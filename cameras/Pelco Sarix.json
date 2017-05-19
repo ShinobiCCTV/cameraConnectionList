@@ -1,0 +1,29 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/jpeg/qvga.jpg"
+      ]
+    },
+    "models": [
+      "IL-10",
+      "IM-10DN101E",
+      "IM-S0C10",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/stream1"
+      ]
+    },
+    "models": [
+      "IL-10",
+      "IM-10",
+      "IM-10C10ADDWXR1",
+      "IM-S0C10",
+      "IM-S0LW"
+    ]
+  }
+}

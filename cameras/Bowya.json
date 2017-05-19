@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video.cgi"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

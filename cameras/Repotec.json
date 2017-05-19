@@ -1,0 +1,21 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/IMAGE.JPG",
+        "/goform/video2"
+      ],
+      "MJPEG": [
+        "/MJPEG.CGI",
+        "/VIDEO.CGI"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "RP-VP370",
+      "RP-VP700",
+      "RP-WV200",
+      "VP200"
+    ]
+  }
+}

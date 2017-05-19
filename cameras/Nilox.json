@@ -1,0 +1,22 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf"
+      ],
+      "MJPEG": [
+        "/mjpg/video.mjpg",
+        "/video.cgi",
+        "/mjpg/1/video.mjpg"
+      ],
+      "JPEG": [
+        "/snapshot.cgi"
+      ]
+    },
+    "models": [
+      "16NX2644PT001",
+      "NETWIDEYE100",
+      "OTHER"
+    ]
+  }
+}

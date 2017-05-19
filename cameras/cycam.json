@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/0/onvif.sdp"
+      ]
+    },
+    "models": [
+      "CUBEWHITE"
+    ]
+  }
+}

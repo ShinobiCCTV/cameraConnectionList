@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "H264"
+    ]
+  }
+}

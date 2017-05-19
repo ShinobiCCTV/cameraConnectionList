@@ -1,0 +1,23 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor"
+      ]
+    },
+    "models": [
+      "E-D700IR"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "E-D700IR"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?"
+      ]
+    },
+    "models": [
+      "003F0000063",
+      "N/A",
+      "OTHER"
+    ]
+  }
+}

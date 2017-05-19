@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot/snapshot.esp?stream=videoport&type=jpeg&channel=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "MPX"
+    ]
+  }
+}

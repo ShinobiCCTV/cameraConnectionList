@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/onvif-stream1"
+      ]
+    },
+    "models": [
+      "510"
+    ]
+  }
+}

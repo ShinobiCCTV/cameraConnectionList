@@ -1,0 +1,17 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/getimage.cgi?motion=0"
+      ],
+      "MJPEG": [
+        "/cgi-bin/getimage.cgi?motion=1"
+      ]
+    },
+    "models": [
+      "AV-1004BC",
+      "OTHER"
+    ]
+  }
+}

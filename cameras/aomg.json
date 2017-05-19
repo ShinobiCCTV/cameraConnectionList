@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ucast/11"
+      ]
+    },
+    "models": [
+      "CBSKYFI-831"
+    ]
+  }
+}

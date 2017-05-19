@@ -1,0 +1,27 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "ETC712IPS",
+      "IPCM04",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11"
+      ]
+    },
+    "models": [
+      "HOME2"
+    ]
+  }
+}

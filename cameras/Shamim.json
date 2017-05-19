@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?"
+      ],
+      "MJPEG": [
+        "/media/?action=stream"
+      ]
+    },
+    "models": [
+      "C50S",
+      "C50SV4.0"
+    ]
+  }
+}

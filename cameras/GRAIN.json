@@ -1,0 +1,22 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live0.264"
+      ]
+    },
+    "models": [
+      "IPCAM-100"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video.cgi?resolution=VGA"
+      ]
+    },
+    "models": [
+      "IPCAM-100"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ucast/11",
+        "/11"
+      ]
+    },
+    "models": [
+      "FCE-IP-20MDW3.60",
+      "FCE-IP-20MEW3.60"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi?size=2"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "7837WIP",
+      "C33-X4",
+      "C7837WIP",
+      "EY4",
+      "F6836W",
+      "OTHER"
+    ]
+  }
+}

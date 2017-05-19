@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "IPCAM1",
+      "OTHER"
+    ]
+  }
+}

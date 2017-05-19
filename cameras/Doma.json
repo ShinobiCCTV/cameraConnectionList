@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ch01.264"
+      ]
+    },
+    "models": [
+      "COTIER",
+      "TV-631W/IP"
+    ]
+  }
+}

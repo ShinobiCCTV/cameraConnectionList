@@ -1,0 +1,13 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/admin/snapshot.cgi"
+      ]
+    },
+    "models": [
+      "GVP-221",
+      "PTZCAMERA"
+    ]
+  }
+}

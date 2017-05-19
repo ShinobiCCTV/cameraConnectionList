@@ -1,0 +1,26 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/stream1",
+        "/11"
+      ]
+    },
+    "models": [
+      "3940",
+      "3940HD",
+      "3960",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?1"
+      ]
+    },
+    "models": [
+      "3960HD"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "IP901W"
+    ]
+  }
+}

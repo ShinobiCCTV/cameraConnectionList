@@ -1,0 +1,15 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]&snapshot=on"
+      ],
+      "MJPEG": [
+        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "SENTRY24DVR"
+    ]
+  }
+}

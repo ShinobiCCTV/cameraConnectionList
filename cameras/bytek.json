@@ -1,0 +1,22 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "IP1MP"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11"
+      ]
+    },
+    "models": [
+      "VET1"
+    ]
+  }
+}

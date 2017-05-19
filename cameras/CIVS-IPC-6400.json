@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/StreamingSetting"
+      ]
+    },
+    "models": [
+      "6400",
+      "ONVIF"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi/mjpg/mjpeg.cgi",
+        "/cgi/mjpg/mjpg.cgi",
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/video.cgi?resolution=VGA",
+        "/videostream.cgi?rate=0",
+        "/videostream.cgi?rate=11",
+        "/mjpg/video.mjpg"
+      ],
+      "JPEG": [
+        "/img/snapshot.cgi",
+        "/cgi/jpg/image.cgi",
+        "/tmpfs/auto.jpg",
+        "/jpg/image.jpg",
+        "/image.cgi?resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "12001",
+      "ICS303C",
+      "OTHER",
+      "RSC-2002",
+      "RSCM13601W",
+      "RSCM=13601B",
+      "RSCM-12001",
+      "RSCM-12002",
+      "RSCM-13601W",
+      "RSCM-15701W",
+      "RXS-3211",
+      "RXS-3323"
+    ]
+  }
+}

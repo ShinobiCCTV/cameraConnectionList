@@ -1,0 +1,24 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "300"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/1"
+      ]
+    },
+    "models": [
+      "301-MD",
+      "303-MB",
+      "303-MD"
+    ]
+  }
+}

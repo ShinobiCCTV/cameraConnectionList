@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=RDPzAozd_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "QD300"
+    ]
+  }
+}

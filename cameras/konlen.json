@@ -1,0 +1,23 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/ch0"
+      ]
+    },
+    "models": [
+      "HDCLOUD",
+      "KL-X624GAW"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi?size=2"
+      ]
+    },
+    "models": [
+      "KL-X624GAW"
+    ]
+  }
+}

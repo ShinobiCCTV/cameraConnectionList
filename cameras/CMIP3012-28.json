@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/1"
+      ]
+    },
+    "models": [
+      "HIKVISION",
+      "LTS",
+      "OTHER"
+    ]
+  }
+}

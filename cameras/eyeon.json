@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/GetData.cgi"
+      ]
+    },
+    "models": [
+      "ESR5"
+    ]
+  }
+}

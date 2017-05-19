@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=uUpAEcl7_channel=1_stream=0.sdp",
+        "/11"
+      ]
+    },
+    "models": [
+      "QD330"
+    ]
+  }
+}

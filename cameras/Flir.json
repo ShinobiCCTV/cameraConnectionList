@@ -1,0 +1,49 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor",
+        "/ch0"
+      ]
+    },
+    "models": [
+      "14TF3",
+      "CAMS",
+      "DSERIES",
+      "D33",
+      "DNB13TF2",
+      "EE3",
+      "FC-317-ID",
+      "KENYON",
+      "LOREX",
+      "N133ED",
+      "OTHER",
+      "PT606"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?1",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
+        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "AX8",
+      "DNB13TF2",
+      "DNE12TL2",
+      "N133BB",
+      "N233BE",
+      "OTHER",
+      "PE133E",
+      "PTSERIES"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/1"
+      ]
+    },
+    "models": [
+      "CAM-IPM-1B-04IR",
+      "CAM-IPM-1B-21IR"
+    ]
+  }
+}

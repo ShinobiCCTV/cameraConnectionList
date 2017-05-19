@@ -1,0 +1,57 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/h264",
+        "/rtsp/unicast/DefaultProfile-01",
+        "/channel1",
+        "/mjpeg",
+        "/onvif/stream1"
+      ]
+    },
+    "models": [
+      "421",
+      "421TIR",
+      "DWC-BVI2R",
+      "DWC-MD421D",
+      "DWC-MD7214V",
+      "DWC-MPA20M",
+      "DWC-MPA2M",
+      "DWC-MPTZ5X",
+      "DWC-MV421D",
+      "DWM20P",
+      "MD421D",
+      "MD421TIR",
+      "MF21",
+      "MF214TIR",
+      "MF21M4",
+      "MF21M4TIR",
+      "MP20",
+      "MPA20M",
+      "MPTZ5X",
+      "MV421D",
+      "MV421TIR"
+    ]
+  },
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ],
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/jpg/1/image.jpg",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/animate.cgi?[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/img/video.mjpeg"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "WATCHDOGVMAX-D1MOBILE",
+      "WATCHDOGVMAX-D1MOBİLE"
+    ]
+  }
+}

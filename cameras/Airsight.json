@@ -1,0 +1,71 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+        "/videostream.cgi?resolution=8&rate=13"
+      ],
+      "JPEG": [
+        "/IMAGE.JPG",
+        "/cgi-bin/mobile_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi?camera=[CHANNEL]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0"
+      ],
+      "MJPEG": [
+        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/video.cgi?resolution=VGA",
+        "/videostream.cgi",
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/VIDEO.CGI",
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "TOTO",
+      "WIDEEYE",
+      "X10",
+      "X10A",
+      "X34A",
+      "X36A",
+      "X38A",
+      "X39A",
+      "X40A",
+      "XC36A",
+      "XC38",
+      "XC38A",
+      "XC39A",
+      "XC40A",
+      "XC49A",
+      "XX34A",
+      "XX34C",
+      "XX36A",
+      "XX38",
+      "XX39A",
+      "XX40A",
+      "XX41A",
+      "XX42A",
+      "XX49A",
+      "XX51A",
+      "XX52A",
+      "XX59",
+      "XX59A",
+      "XX60A",
+      "XXA36A"
+    ]
+  }
+}

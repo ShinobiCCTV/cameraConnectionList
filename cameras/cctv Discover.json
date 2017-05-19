@@ -1,0 +1,13 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "IPH-2PMATT",
+      "IPHC-2P"
+    ]
+  }
+}

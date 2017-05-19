@@ -1,0 +1,78 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf"
+      ],
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/tmpfs/auto.jpg",
+        "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi",
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?rate=11"
+      ]
+    },
+    "models": [
+      "29025",
+      "2905",
+      "3003",
+      "3005",
+      "3010",
+      "3011",
+      "4010",
+      "4011",
+      "5907",
+      "5907HD",
+      "6011",
+      "6012",
+      "6012HD",
+      "6014HD",
+      "HD5907",
+      "IN-2/3/4SERIES",
+      "IN2901",
+      "IN-2905",
+      "IN-2905V2",
+      "IN-2907",
+      "IN-2908",
+      "IN-3010",
+      "IN-3011",
+      "IN-6001HD",
+      "IN-6011",
+      "3100",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11",
+        "/12"
+      ]
+    },
+    "models": [
+      "5907HD",
+      "5907HD-ONIV",
+      "5907HD-RTSP",
+      "6001",
+      "6012",
+      "6012HD",
+      "7011",
+      "7011HD",
+      "IN-1612HD",
+      "IN-5907",
+      "IN-6012",
+      "IN-6012HD",
+      "IN-6014",
+      "OTHER"
+    ]
+  }
+}

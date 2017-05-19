@@ -1,0 +1,31 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/stillimg.jpg",
+        "/stillimg2.jpg"
+      ],
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi"
+      ]
+    },
+    "models": [
+      "CST-240",
+      "ICT-220",
+      "ICT-240"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor",
+        "/live/av0",
+        "/video.h264",
+        "/video.mjpg"
+      ]
+    },
+    "models": [
+      "ICT-220"
+    ]
+  }
+}

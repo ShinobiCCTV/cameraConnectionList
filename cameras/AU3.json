@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/stream2"
+      ]
+    },
+    "models": [
+      "-1",
+      "OTHER"
+    ]
+  }
+}

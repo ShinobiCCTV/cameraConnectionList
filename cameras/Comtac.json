@@ -1,0 +1,20 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?rate=11",
+        "/user/videostream.cgi"
+      ],
+      "FFMPEG": [
+        "/videostream.cgi?resolution=8&rate=13"
+      ]
+    },
+    "models": [
+      "CS2",
+      "CS9267",
+      "OTHER",
+      "V2.0"
+    ]
+  }
+}

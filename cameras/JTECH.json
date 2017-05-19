@@ -1,0 +1,22 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=9D5i9uKa_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "GTN-HS2112VW"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2"
+      ]
+    },
+    "models": [
+      "JT-108"
+    ]
+  }
+}

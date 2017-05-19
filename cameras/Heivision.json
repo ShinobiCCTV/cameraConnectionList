@@ -1,0 +1,22 @@
+{
+  "rtsp://": {
+    "types": {
+      "MJPEG": [
+        "/cam[CHANNEL]/mjpeg"
+      ]
+    },
+    "models": [
+      "2.0MPIPCAMERA"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/"
+      ]
+    },
+    "models": [
+      "MEGAPIXELIPCAMERA"
+    ]
+  }
+}

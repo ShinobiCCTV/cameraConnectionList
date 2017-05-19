@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/encoder1"
+      ]
+    },
+    "models": [
+      "S4"
+    ]
+  }
+}

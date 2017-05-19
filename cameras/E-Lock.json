@@ -1,0 +1,17 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]"
+      ]
+    },
+    "models": [
+      "1000",
+      "OTHER"
+    ]
+  }
+}

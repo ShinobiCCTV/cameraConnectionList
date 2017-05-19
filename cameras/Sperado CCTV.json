@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot"
+      ]
+    },
+    "models": [
+      "SDS-2016H"
+    ]
+  }
+}

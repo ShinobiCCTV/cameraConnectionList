@@ -1,0 +1,17 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?"
+      ]
+    },
+    "models": [
+      "EASYHOMESENTINEL",
+      "SENTINEL"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video.cgi?resolution=VGA",
+        "/VIDEO.CGI"
+      ],
+      "JPEG": [
+        "/image.jpg"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/nph-mjpeg.cgi?[CHANNEL]",
+        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+        "/nph-mjpeg.cgi",
+        "/mjpeg"
+      ],
+      "JPEG": [
+        "/netcam.jpg",
+        "/jpeg.cgi?[CHANNEL]",
+        "/jpeg.cgi"
+      ]
+    },
+    "models": [
+      "EXPRESS2",
+      "EXPRESSVIDEOSERVER",
+      "EXPRESSXL",
+      "NETCAMSC",
+      "NETCAMXL",
+      "OTHER",
+      "SDH130V"
+    ]
+  }
+}

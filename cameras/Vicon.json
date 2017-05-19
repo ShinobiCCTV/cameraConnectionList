@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/main",
+        "/1/stream1/Profile1"
+      ]
+    },
+    "models": [
+      "BULLET",
+      "SN680D-B-WNIR"
+    ]
+  }
+}

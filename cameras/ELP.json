@@ -1,0 +1,78 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snap.jpg?JpegSize=M"
+      ]
+    },
+    "models": [
+      "1080",
+      "1080P",
+      "1280*720P",
+      "1882",
+      "1MEGPIX",
+      "720PMINI",
+      "EL-IP-1882",
+      "-IP1881",
+      "-IP3110HR",
+      "-IP6200DB",
+      "-IR3110HR",
+      "IP1881",
+      "IP1892",
+      "IP1895",
+      "IP3100HB",
+      "IP3110HR-WIFI",
+      "IP3200HR",
+      "IP4100VR",
+      "ONVIF",
+      "TOP-201",
+      "X00FIBWA7"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/user=admin_password=BvWV3bYk_channel=1_stream=0.sdp",
+        "/user=admin_password=phffTFE8_channel=1_stream=0.sdp",
+        "/user=admin&password=tlJwpbo6&channel=1&stream=0.sdp",
+        "/user=admin_password=DTsbD3QC_channel=1_stream=0.sdp",
+        "/user=admin_password=t54NyleR_channel=1_stream=0.sdp",
+        "/0",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp",
+        "/user=admin_password=npz7PAyv_channel=1_stream=1.sdp",
+        "/user=admin_password=npz7PAyv_channel=1_stream=0.sdp",
+        "/user=admin_password=2GS7u3ot_channel=1_stream=0.sdp",
+        "/user=admin_password=goLZJEp6_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "1280*720P",
+      "1881",
+      "1882",
+      "1892",
+      "1MEGPIX",
+      "720PMINI",
+      "720PMINICAM",
+      "-1881",
+      "-IP1881",
+      "-IP1882",
+      "-IP1892-POE",
+      "-IP3100HR",
+      "-IP3110HR",
+      "-IP6200DB",
+      "IP1881",
+      "IP-1891POE",
+      "IP1892",
+      "IP3100HB",
+      "IP4100VR",
+      "IP500W",
+      "IP6100",
+      "MINI",
+      "ONVIF",
+      "ONVIF1280X768",
+      "OTHER",
+      "X000QY76TT"
+    ]
+  }
+}

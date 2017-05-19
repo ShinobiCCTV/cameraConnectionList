@@ -1,0 +1,88 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/video.jpg?size=2",
+        "/video.cgi",
+        "/snapshot.jpg",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+        "/snapshot.cgi"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]"
+      ],
+      "MJPEG": [
+        "/cgi/sf.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?rate=11",
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/video.cgi?resolution=VGA",
+        "/cgi-bin/sf.cgi",
+        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi",
+        "/user/videostream.cgi",
+        "/mjpg/video.mjpg"
+      ]
+    },
+    "models": [
+      "6230",
+      "6260",
+      "6350",
+      "6561",
+      "6564",
+      "CARAVAN",
+      "EM4048",
+      "EM4445",
+      "EM4480",
+      "EM4481",
+      "EM4482",
+      "EM4484",
+      "EM448X",
+      "EM4880",
+      "EM6005",
+      "EM6015",
+      "EM6220",
+      "EM6225",
+      "EM6230",
+      "EM6230HD",
+      "EM6250HD",
+      "EM6260",
+      "EM-6325",
+      "EM6330",
+      "EM6350",
+      "EM6560",
+      "EM6561",
+      "EM6564",
+      "EM6620",
+      "EXTERNIP",
+      "OTHER",
+      "VOORDEUR"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11"
+      ]
+    },
+    "models": [
+      "6250",
+      "EM6220",
+      "EM6225",
+      "EM6230",
+      "EM6230HD",
+      "EM6330",
+      "EM6330HD",
+      "OTHER"
+    ]
+  }
+}

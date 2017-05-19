@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/onvif2",
+        "/onvif1"
+      ]
+    },
+    "models": [
+      "4056085",
+      "HIKAM"
+    ]
+  }
+}

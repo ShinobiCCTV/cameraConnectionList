@@ -1,0 +1,88 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live0.264",
+        "/live1.264",
+        "/cam1/onvif-h264-1",
+        "/live/ch0",
+        "/onvif1",
+        "/11",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/ch01.264",
+        "/ucast/11"
+      ]
+    },
+    "models": [
+      "11_19_15",
+      "13MD1G",
+      "13MD1W",
+      "180VIEWDOME",
+      "1M1G",
+      "1M1W",
+      "1MB1G",
+      "1MB1",
+      "1MB1Q",
+      "1MB1W",
+      "1MB1W-HD",
+      "1MB3W",
+      "1MB6",
+      "1MB6P",
+      "1MD1B",
+      "1MD1W",
+      "1MEG1G",
+      "1MP",
+      "1MPG",
+      "1MW1",
+      "1MW12",
+      "1MW20G",
+      "2MB",
+      "2MB1",
+      "2MB2",
+      "2MB3",
+      "2MB3G",
+      "2MB6",
+      "2MB6P",
+      "2MD1",
+      "2MD3W",
+      "2MD4P",
+      "2MP2W",
+      "2MW1",
+      "628",
+      "720P",
+      "9320",
+      "ACHTER",
+      "DOME",
+      "1080",
+      "1920",
+      "-1MB1W",
+      "-1MW1",
+      "IMB1W",
+      "IMD1W",
+      "IPC",
+      "K3MB1GP",
+      "MD13G1",
+      "MD1B",
+      "MP2",
+      "NONE",
+      "OTHER",
+      "P720D",
+      "VOOR"
+    ]
+  },
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "JPEG": [
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "1M1W",
+      "629",
+      "-628"
+    ]
+  }
+}

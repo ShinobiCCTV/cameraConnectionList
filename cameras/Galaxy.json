@@ -1,0 +1,29 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videofeed"
+      ],
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "BROKEBNSCREEN",
+      "HNC5241E-IRAS/28",
+      "MINI",
+      "NOTE2",
+      "ST7500"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/101"
+      ]
+    },
+    "models": [
+      "NV743MF-IR"
+    ]
+  }
+}

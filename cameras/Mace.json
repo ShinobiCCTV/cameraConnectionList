@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/dms.jpg"
+      ]
+    },
+    "models": [
+      "EDR4011N"
+    ]
+  }
+}

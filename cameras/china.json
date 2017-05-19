@@ -1,0 +1,113 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?resolution=8&rate=13"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/video/mjpg.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/mjpg/video.mjpg",
+        "/snapshot.html",
+        "/videostream.cgi?rate=11",
+        "/video.cgi?resolution=VGA",
+        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+        "/videostream.cgi"
+      ],
+      "JPEG": [
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/tmpfs/auto.jpg",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/snapshot.cgi?camera=[CHANNEL]",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snap.jpg?JpegCam=[CHANNEL]",
+        "/snap.jpg"
+      ]
+    },
+    "models": [
+      "0020A",
+      "002HIT",
+      "01",
+      "1122",
+      "8904W",
+      "BOO",
+      "12",
+      "CHINO",
+      "DOME",
+      "DOMO",
+      "EASYNP1",
+      "EXTERNAL",
+      "GENERALAREA",
+      "HDIPC",
+      "HDIPCAM",
+      "ID002A",
+      "INTERNETSURVILLANCE",
+      "IPCAMERA002A",
+      "IP-02OAM",
+      "IP607WX",
+      "IPC2002W",
+      "IPCAMP2P",
+      "MINE",
+      "MOVABLE",
+      "NOSE2",
+      "NP-02",
+      "OTHER",
+      "PTZCAM",
+      "RESORT",
+      "SD_OD_CAM",
+      "SECRETCLOCK",
+      "SOMETHING",
+      "W3200SG-B",
+      "WVCSERIES"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11",
+        "/ucast/11",
+        "/mpeg4cif",
+        "/live1.264",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/12",
+        "/ROH/channel/11",
+        "/stream1",
+        "/live/ch0",
+        "/mpeg4"
+      ]
+    },
+    "models": [
+      "1080",
+      "CT-902",
+      "DOME",
+      "H210",
+      "H264DVR",
+      "HDIPC",
+      "IH13-KW",
+      "INOCOM",
+      "IPC4311",
+      "ONVIF",
+      "OTHER",
+      "PST-WHM10E",
+      "SOME_ONVIF",
+      "TAG_NACHT",
+      "WIFI",
+      "WIRELESS",
+      "XINGLING"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/GetData.cgi?CH=2"
+      ]
+    },
+    "models": [
+      "IP9000"
+    ]
+  }
+}

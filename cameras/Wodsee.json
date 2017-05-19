@@ -1,0 +1,36 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ch0_0.264",
+        "/ch0_1.264",
+        "/mpeg4",
+        "/av0_0"
+      ]
+    },
+    "models": [
+      "H-100/H-200SERIE",
+      "OTHER",
+      "WIP100-BB30-150",
+      "WIP130-Y12",
+      "WIP200-DA30",
+      "WIP200-DTA40",
+      "WT40"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi?size=2",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "WIP100-BB30-150",
+      "WIP130-DA30",
+      "WIP130-Y12"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/0",
+        "/cam1/onvif-h264",
+        "/1"
+      ]
+    },
+    "models": [
+      "106",
+      "CS-C60A200",
+      "FIXED2MP",
+      "LBH24T200",
+      "LIRDCS130ONVIF",
+      "LIRDCS400",
+      "LIRDT200",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snap.jpg?JpegCam=[CHANNEL]",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "1MP",
+      "2MPX",
+      "LID40A200",
+      "LID90A300",
+      "LIRDNTA200",
+      "LIZM40",
+      "LIZM40T100",
+      "LIZM40T200",
+      "OTHER"
+    ]
+  }
+}

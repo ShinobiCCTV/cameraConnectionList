@@ -1,0 +1,23 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg",
+        "/snap.jpg?JpegSize=XL",
+        "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/snap.jpg?JpegSize=M",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ]
+    },
+    "models": [
+      "HSERIES",
+      "OTHER"
+    ]
+  }
+}

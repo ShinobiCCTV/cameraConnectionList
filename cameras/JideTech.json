@@ -1,0 +1,16 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=ysQi7BoT_channel=1_stream=0.sdp",
+        "/11",
+        "/12"
+      ]
+    },
+    "models": [
+      "1080P2MPDOME",
+      "GTN-EYE01W",
+      "GTN-EYE03WL"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/1/stream1"
+      ]
+    },
+    "models": [
+      "IPVD2TW"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "VLD4500"
+    ]
+  }
+}

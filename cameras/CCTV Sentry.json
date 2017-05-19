@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/image.jpg",
+        "/cgi-bin/jpg/image.cgi"
+      ]
+    },
+    "models": [
+      "180",
+      "OTHER"
+    ]
+  }
+}

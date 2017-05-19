@@ -1,0 +1,32 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/video1enc1.mjpg",
+        "/video1enc2.mjpg"
+      ],
+      "JPEG": [
+        "/cgi-bin/jpg/image.cgi"
+      ]
+    },
+    "models": [
+      "IPC-103",
+      "IPP-105",
+      "IRD-20W",
+      "MEGAPX1080P-D"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/video1enc1"
+      ]
+    },
+    "models": [
+      "MEGAPX1080P-D",
+      "OTHER"
+    ]
+  }
+}

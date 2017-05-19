@@ -1,0 +1,13 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "CUBE",
+      "CUBEIP"
+    ]
+  }
+}

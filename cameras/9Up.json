@@ -1,0 +1,20 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf"
+      ],
+      "JPEG": [
+        "/img/snapshot.cgi?size=2",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/cgi-bin/sf.cgi"
+      ]
+    },
+    "models": [
+      "DIP3",
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/viewer/video.jpg",
+        "/cgi-bin/video.jpg?size=2",
+        "/cgi-bin/video.jpg"
+      ]
+    },
+    "models": [
+      "7230",
+      "ABUS",
+      "OTHER",
+      "TV7204"
+    ]
+  }
+}

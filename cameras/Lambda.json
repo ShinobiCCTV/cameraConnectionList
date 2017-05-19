@@ -1,0 +1,13 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?1"
+      ]
+    },
+    "models": [
+      "24DC8"
+    ]
+  }
+}

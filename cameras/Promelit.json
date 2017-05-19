@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]"
+      ],
+      "JPEG": [
+        "/cgi-bin/jpg/image.cgi?"
+      ]
+    },
+    "models": [
+      "MP20",
+      "SENTRYH-230"
+    ]
+  }
+}

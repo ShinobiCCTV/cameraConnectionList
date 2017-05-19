@@ -1,0 +1,64 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videofeed",
+        "/?action=stream",
+        "/video.mjpg",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/video.mjpg?q=30&fps=33&id=0.5",
+        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+        "/nphMotionJpeg?Resolution=320x240&Quality=Motion",
+        "/video?submenu=mjpg",
+        "/img/mjpeg.jpg",
+        "/"
+      ],
+      "JPEG": [
+        "/out.jpg?id=0.5",
+        "/Image.jpg",
+        "/image[CHANNEL].jpg",
+        "/jpeg/pull",
+        "/jstream.cgi?chid=[CHANNEL]&cnt=0",
+        "/image/[CHANNEL].jpg",
+        "/cam_1.jpg",
+        "/image/jpeg.cgi",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/img/snapshot.cgi?size=2",
+        "/image.jpg"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf"
+      ]
+    },
+    "models": [
+      "525",
+      "9000",
+      "932L",
+      "ALERT",
+      "C170",
+      "C270",
+      "C300H",
+      "C310",
+      "C920",
+      "C933-L",
+      "DCS-5029L",
+      "DCS800",
+      "LAN-NCW150/S",
+      "MCC950",
+      "NCW150/S",
+      "ORBIT",
+      "OTHER",
+      "PLC-128PW",
+      "PRO4000",
+      "QUICKCAMFORNOTEBOOKS",
+      "QUICKCAME3500",
+      "QUICKCAMPRO4000",
+      "QUICKCAMZOOMWHITE",
+      "V-U0016",
+      "WEBCAMPRO9000",
+      "WVC54GCA"
+    ]
+  }
+}

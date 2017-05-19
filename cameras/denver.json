@@ -1,0 +1,35 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg",
+        "/img/snapshot.cgi?size=2"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?rate=0",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi"
+      ]
+    },
+    "models": [
+      "IPC1030",
+      "IPC-1020",
+      "IPC-1030",
+      "IPC-320",
+      "IPC330",
+      "IPO-320",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11"
+      ]
+    },
+    "models": [
+      "IPC-1030"
+    ]
+  }
+}

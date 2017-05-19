@@ -1,0 +1,53 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/goform/video",
+        "/videostream.cgi?resolution=8&rate=13",
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "JPEG": [
+        "/snap.jpg?JpegSize=XL",
+        "/cgi-bin/guest/Video.cgi?media=JPEG",
+        "/tmpfs/auto.jpg",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snap.jpg",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/snap.jpg?JpegCam=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?rate=0"
+      ]
+    },
+    "models": [
+      "303",
+      "402",
+      "AVM357Z",
+      "WIPC409HD",
+      "C303",
+      "OTHER",
+      "WIPC??",
+      "WIPC302",
+      "WIPC401",
+      "WIPC402",
+      "WIPC403",
+      "WIPC408HD",
+      "WORKINH",
+      "WPC408HD"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11"
+      ]
+    },
+    "models": [
+      "WIPC409HD"
+    ]
+  }
+}

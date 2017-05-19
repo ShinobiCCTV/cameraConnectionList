@@ -1,0 +1,17 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/Onvif/Streaming/2",
+        "/Streaming/Channels/1"
+      ]
+    },
+    "models": [
+      "CSJ-320R-40",
+      "CSJ-320RP-40",
+      "CSJ-NH4RU-130",
+      "CSJ-NH6RX-200"
+    ]
+  }
+}

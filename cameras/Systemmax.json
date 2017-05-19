@@ -1,0 +1,13 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/view/image?pro_[CHANNEL]"
+      ]
+    },
+    "models": [
+      "N-1350",
+      "OTHER"
+    ]
+  }
+}

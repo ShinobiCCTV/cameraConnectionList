@@ -1,0 +1,40 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/stream1.asf",
+        "/stream.asf"
+      ],
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "IPPT250",
+      "IPPT250A",
+      "N5304AV",
+      "N5304MV",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live_mpeg4_1.sdp"
+      ]
+    },
+    "models": [
+      "MV",
+      "N5304MV"
+    ]
+  }
+}

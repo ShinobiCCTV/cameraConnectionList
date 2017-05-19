@@ -1,0 +1,30 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/main",
+        "/live/second"
+      ]
+    },
+    "models": [
+      "BULLET",
+      "DDDD",
+      "IND2",
+      "KCEZB",
+      "NCD-2003PR2003PR",
+      "NCD-2003PRH",
+      "NMB2300PR",
+      "RB300"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "SME-2220"
+    ]
+  }
+}

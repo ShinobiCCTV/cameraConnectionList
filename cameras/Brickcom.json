@@ -1,0 +1,72 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/channel2",
+        "/Channel[CHANNEL]"
+      ],
+      "JPEG": [
+        "/snapshot.jpg",
+        "/cgi-bin/media.cgi?action=getSnapshot",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "100B-AP",
+      "CB-100",
+      "CB-100AP",
+      "FB-100AE",
+      "FB-100AP",
+      "FD-100AE",
+      "FD-301AF",
+      "GE-100-CB",
+      "HD",
+      "MASTERUP",
+      "MB300",
+      "MD-500AP-360-A1",
+      "OB-100AP",
+      "OB-300AF",
+      "OB-300AP",
+      "OB-E200NF",
+      "OTHER",
+      "PANOMORPHMINIDOME",
+      "VD-130AE",
+      "VD-301AF",
+      "VD-302AP",
+      "VD-500AF",
+      "WCB-100A",
+      "WCB-202AP",
+      "WCB-300AP",
+      "WCB-500AP",
+      "WORKSOK1"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ONVIF/channel2",
+        "/ONVIF/channel1",
+        "/h264"
+      ]
+    },
+    "models": [
+      "150",
+      "30XN",
+      "50XA",
+      "CB-100AE",
+      "CB-100AP",
+      "CB-200AP",
+      "FB-100AP",
+      "FD-130AE",
+      "OB-200AF-A1-V5",
+      "OB-500AF",
+      "OTHER",
+      "VD-300AF",
+      "VD-302NP",
+      "VD-500AF",
+      "WCB-100AP"
+    ]
+  }
+}

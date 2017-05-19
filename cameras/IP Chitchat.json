@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/video.jpg"
+      ]
+    },
+    "models": [
+      "PT-DOOR01C"
+    ]
+  }
+}

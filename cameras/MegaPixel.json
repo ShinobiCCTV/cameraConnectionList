@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "IPS911S",
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/ipcam/mjpeg.cgi"
+      ]
+    },
+    "models": [
+      "AR3520P",
+      "OTHER"
+    ]
+  }
+}

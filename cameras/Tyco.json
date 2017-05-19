@@ -1,0 +1,29 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam1/onvif-h264",
+        "/stream1",
+        "/"
+      ]
+    },
+    "models": [
+      "DSCI350-D1122",
+      "FLEX",
+      "ILLUSTRAFLEX600"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/image.jpg"
+      ],
+      "MJPEG": [
+        "/video.cgi?resolution=VGA"
+      ]
+    },
+    "models": [
+      "NCP3200"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf"
+      ],
+      "MJPEG": [
+        "/cgi-bin/sf.cgi",
+        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
+        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]"
+      ],
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "ZN-IPC1",
+      "ZPI-132P"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/H264"
+      ]
+    },
+    "models": [
+      "ZPI-132P"
+    ]
+  }
+}

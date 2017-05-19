@@ -1,0 +1,26 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/11",
+        "/0"
+      ]
+    },
+    "models": [
+      "100BY",
+      "SD13W",
+      "TP-C537T"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/goform/video"
+      ],
+      "MJPEG": [
+        "/img/mjpeg.jpg",
+        "/videofeed",
+        "/goform/video"
+      ],
+      "JPEG": [
+        "/shot.jpg",
+        "/image.jpg"
+      ]
+    },
+    "models": [
+      "F7D7601V1",
+      "F7D7602V1",
+      "HDNETCAM",
+      "NETCAM",
+      "NETCAMF7D7601V1",
+      "NETCAMHD",
+      "NETCAMHD+",
+      "NETCAMHDX",
+      "NETCAMHDXX",
+      "OPEN",
+      "OTHER",
+      "WIFINETCAM"
+    ]
+  }
+}

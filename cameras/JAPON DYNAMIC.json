@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/SubStream"
+      ]
+    },
+    "models": [
+      "1.3"
+    ]
+  }
+}

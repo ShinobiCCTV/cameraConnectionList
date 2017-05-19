@@ -1,0 +1,29 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "MJPEG": [
+        "/nphMotionJpeg?Resolution=640x480&Quality=Standard"
+      ],
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "G-2720",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ch01.264"
+      ]
+    },
+    "models": [
+      "UNVRC65"
+    ]
+  }
+}

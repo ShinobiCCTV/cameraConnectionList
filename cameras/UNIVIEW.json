@@ -1,0 +1,38 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/media/video1",
+        "/media/video3",
+        "/media/video2",
+        "/11",
+        "/unicast/c1/s1/live"
+      ]
+    },
+    "models": [
+      "1234",
+      "12345",
+      "720P",
+      "DABOO2",
+      "DOME",
+      "DVZ28",
+      "IPC1112060880",
+      "IPC2122SR3-PF36",
+      "IPC2124SR3-DPF36",
+      "IPC2322EBR-P",
+      "IPC2324EBR-DPZ28",
+      "IPC2333",
+      "IPC242ER5-DL",
+      "IPC252ERA-X22",
+      "IPC3611SR3",
+      "IPC3612ER3-PF28",
+      "IPC3614SR3-DPF36",
+      "IPC6221ER-X20",
+      "IPC642E-X22-IN",
+      "NVR201-04LP",
+      "UNI",
+      "UN-IPC3611SR3",
+      "UNV"
+    ]
+  }
+}

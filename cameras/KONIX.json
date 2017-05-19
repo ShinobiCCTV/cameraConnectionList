@@ -1,0 +1,18 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi"
+      ],
+      "JPEG": [
+        "/snapshot.cgi",
+        "/snap.jpg?JpegCam=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "APM-J011-WS",
+      "OTHER",
+      "TATU"
+    ]
+  }
+}

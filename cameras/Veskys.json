@@ -1,0 +1,25 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/tcp/av0_0"
+      ]
+    },
+    "models": [
+      "360WIFI",
+      "NETCAM",
+      "OTHER",
+      "WIFICAM"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi?size=3"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

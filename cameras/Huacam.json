@@ -1,0 +1,79 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/0",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/4"
+      ]
+    },
+    "models": [
+      "5150",
+      "701",
+      "7010",
+      "712",
+      "720",
+      "721",
+      "COLORCCD",
+      "CYCLOPS",
+      "DIAGEN",
+      "DOMEDOWER",
+      "DOMEDRIVE",
+      "FEZDW",
+      "FOO",
+      "H264",
+      "HCV724",
+      "HCV207",
+      "HCV701",
+      "HCV701264X",
+      "HCV712",
+      "HCV720",
+      "HCV724-AL",
+      "HCV725",
+      "HCV822",
+      "HCV824",
+      "HCV824G",
+      "HCV901",
+      "HIGHRES",
+      "HILL",
+      "HOOHA",
+      "HPV701",
+      "2",
+      "METALSTORE",
+      "MTI1",
+      "NOIDEA",
+      "ONVIF-VLC",
+      "OTHER",
+      "UPSTAIRSDECK"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot/view[CHANNEL].jpg",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ],
+      "MJPEG": [
+        "/goform/stream?cmd=get&channel=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "5150",
+      "703",
+      "712",
+      "724",
+      "CYCLOPS",
+      "HCV701",
+      "HCV712",
+      "HCV720",
+      "HCV724",
+      "HIGHRES",
+      "HV724",
+      "OTHER"
+    ]
+  }
+}

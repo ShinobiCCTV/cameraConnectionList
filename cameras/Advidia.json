@@ -1,0 +1,35 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/1",
+        "/0",
+        "/ONVIF/MediaInput"
+      ]
+    },
+    "models": [
+      "A14",
+      "A-15",
+      "A-44-IR",
+      "A-54-OD",
+      "OTHER",
+      "P-25"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi-bin/cmd/system?GET_STREAM&USER=[USERNAME]&PWD=[PASSWORD]"
+      ],
+      "JPEG": [
+        "/cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT"
+      ]
+    },
+    "models": [
+      "B-31",
+      "B-33",
+      "B5360",
+      "OTHER"
+    ]
+  }
+}

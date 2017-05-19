@@ -1,0 +1,18 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/GetData.cgi?Status=false",
+        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+      ],
+      "JPEG": [
+        "/Jpeg/CamImg.jpg"
+      ]
+    },
+    "models": [
+      "9100",
+      "9100A",
+      "OTHER"
+    ]
+  }
+}

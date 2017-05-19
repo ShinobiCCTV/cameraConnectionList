@@ -1,0 +1,22 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "I70"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/H264"
+      ]
+    },
+    "models": [
+      "NCE3"
+    ]
+  }
+}

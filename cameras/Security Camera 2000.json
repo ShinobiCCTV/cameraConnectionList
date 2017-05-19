@@ -1,0 +1,27 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/mpeg4"
+      ]
+    },
+    "models": [
+      "IPQ-2385XPOE",
+      "OTHER",
+      "SKU-IPQ-2385X"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot/view[CHANNEL].jpg",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "SKU-IPQW-2283X",
+      "SKU-IPQW-2367X"
+    ]
+  }
+}

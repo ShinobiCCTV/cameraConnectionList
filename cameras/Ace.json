@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videofeed"
+      ]
+    },
+    "models": [
+      "ESPERANZA",
+      "OTHER",
+      "SAMSUNG",
+      "XIN",
+      "YCA"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/img/snapshot.cgi?size=2"
+      ]
+    },
+    "models": [
+      "IPC-674",
+      "IPCAM1",
+      "IPCAM2",
+      "IPCAM3",
+      "IPCAM5",
+      "OTHER"
+    ]
+  }
+}

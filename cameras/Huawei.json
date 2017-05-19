@@ -1,0 +1,38 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videofeed",
+        "/video?submenu=mjpg",
+        "/video?profile=[CHANNEL]",
+        "/video.mjpg"
+      ],
+      "JPEG": [
+        "/snapshot/view[CHANNEL].jpg"
+      ]
+    },
+    "models": [
+      "ASCENDQ",
+      "G300",
+      "G740",
+      "IMPULSE4G",
+      "MEDIAPAD",
+      "OTHER",
+      "PHONE",
+      "U9200",
+      "Y220",
+      "Y320",
+      "Y511"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/1"
+      ]
+    },
+    "models": [
+      "IPC6331-IR"
+    ]
+  }
+}

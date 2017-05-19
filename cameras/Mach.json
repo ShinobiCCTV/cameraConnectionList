@@ -1,0 +1,15 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf"
+      ],
+      "JPEG": [
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

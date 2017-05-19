@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=gKL5O1JV_channel=1_stream=0.sdp",
+        "/cam/realmonitor"
+      ]
+    },
+    "models": [
+      "BLIP20",
+      "SK-HFW2100P"
+    ]
+  }
+}

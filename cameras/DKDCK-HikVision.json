@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/2"
+      ]
+    },
+    "models": [
+      "DS-2CD2032-I"
+    ]
+  }
+}

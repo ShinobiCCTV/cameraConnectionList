@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/video.jpg"
+      ]
+    },
+    "models": [
+      "ANC-600G",
+      "ANC-606G",
+      "ANC-818G"
+    ]
+  }
+}

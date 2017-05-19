@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?1"
+      ]
+    },
+    "models": [
+      "3MP",
+      "3MPVANDALDOME"
+    ]
+  }
+}

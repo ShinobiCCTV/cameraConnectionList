@@ -1,0 +1,108 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/jpg/image.jpg?size=3",
+        "/cgi-bin/viewer/video.jpg?resolution=640x480",
+        "/cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+        "/cgi-bin/video.jpg",
+        "/cgi-bin/viewer/video.jpg",
+        "/cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/jpg/image",
+        "/jpg/image.jpg",
+        "/cgi-bin/view/image?pro_[CHANNEL]",
+        "/cgi-bin/video.jpg?size=2",
+        "/jpeg/pull"
+      ],
+      "MJPEG": [
+        "/video.mjpg",
+        "/video.mjpg?q=30&fps=33&id=0.5",
+        "/video[USERNAME].mjpg"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/video.mp4"
+      ]
+    },
+    "models": [
+      "21501",
+      "CASA20550",
+      "DIGI-LANTV7204",
+      "DIGI-LANTV7206",
+      "DIGI-LANTV7219",
+      "DIGI-LANTV7230",
+      "DIGI-LANTV7230V2",
+      "FENIX",
+      "HD720PDOME",
+      "INNENHOF",
+      "IPTV605550",
+      "OTHER",
+      "TIVP31500",
+      "TIVP31550",
+      "TV21550",
+      "TV7202",
+      "TV7203",
+      "TV7204V2",
+      "TV7210",
+      "TV7214",
+      "TV7216",
+      "TV7218",
+      "TV7220",
+      "TV7222",
+      "TV7240-LAN",
+      "TVIP10000",
+      "TVIP10001",
+      "TVIP10051",
+      "TVIP10055",
+      "TVIP10500",
+      "TVIP10550",
+      "TVIP11000",
+      "TVIP11502",
+      "TVIP11551",
+      "TVIP11552",
+      "TVIP20000",
+      "TVIP20050",
+      "TVIP21050",
+      "TVIP21500",
+      "TVIP21501",
+      "TVIP21550",
+      "TVIP21551",
+      "TVIP21560",
+      "TVIP32500",
+      "TVIP40000",
+      "TVIP41550",
+      "TVIP51500",
+      "TVIP51550",
+      "TVIP52500",
+      "TVIP52501",
+      "TVIP60550",
+      "TVIP62000",
+      "TVIP62500",
+      "TVIP71501",
+      "TVIP71550",
+      "TVIP71551",
+      "TVIPEM"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/101",
+        "/Streaming/Channels/1",
+        "/video.h264",
+        "/Streaming/Channels/2"
+      ]
+    },
+    "models": [
+      "IPCB42550",
+      "TVIP11560",
+      "TVIP22500",
+      "TVIP31001",
+      "TVIP41500",
+      "TVIP61500",
+      "TVIP61550",
+      "TVIP72500"
+    ]
+  }
+}

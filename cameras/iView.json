@@ -1,0 +1,40 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf"
+      ],
+      "JPEG": [
+        "/pic[CHANNEL]-9999.jpg",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/Image.jpg"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+        "/img/video.mjpeg",
+        "/image.cgi?CAPTURE=YES&STREAM=1&COMMAND=",
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videofeed"
+      ]
+    },
+    "models": [
+      "002A",
+      "4.2",
+      "EST-032939-DCEBB",
+      "H264",
+      "H624",
+      "HD-2M",
+      "ID002A",
+      "ID520",
+      "IW2305",
+      "NOPO",
+      "OTHER",
+      "XDC"
+    ]
+  }
+}

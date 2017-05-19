@@ -1,0 +1,35 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi",
+        "/stream.jpg"
+      ],
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/img/snapshot.cgi?size=2"
+      ]
+    },
+    "models": [
+      "247",
+      "IPV68IP_JPEG",
+      "NC308W-IR-1080P",
+      "NC328W-IR",
+      "NC328W-IR-1080P",
+      "OTHER",
+      "UCAM247I-1080HD"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/0/onvif.sdp"
+      ]
+    },
+    "models": [
+      "247I"
+    ]
+  }
+}

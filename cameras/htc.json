@@ -1,0 +1,65 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videofeed",
+        "/video?submenu=mjpg",
+        "/video?profile=[CHANNEL]",
+        "/mjpeg",
+        "/mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0"
+      ],
+      "JPEG": [
+        "/shot.jpg",
+        "/now.jpg"
+      ]
+    },
+    "models": [
+      "100",
+      "ANDROID",
+      "ANDROID4GBG",
+      "ANROIRD",
+      "CELL",
+      "CHACHA",
+      "DESIRE",
+      "DESIRE1",
+      "DESIRE510",
+      "DESIREHD",
+      "DESIRES",
+      "DESIREX",
+      "DESIREZ",
+      "DROIDDNA",
+      "DROIDINCREDIBLE",
+      "EVI",
+      "EVO",
+      "EVO3D",
+      "EVO4G",
+      "G2",
+      "HD2",
+      "HERO",
+      "ONE",
+      "INCREDIBLE",
+      "INCREDIBLES",
+      "INCREDIBLE1",
+      "INCREDIBLE2",
+      "INSPIRE4G",
+      "IPCAMERAAPP",
+      "KAISER",
+      "NEXUSONE",
+      "ONEM8",
+      "ONEMINI",
+      "ONEVIPCAM",
+      "ONEX",
+      "OTHER",
+      "PERSONALPHONE",
+      "S",
+      "SAMSUNGGALAXYS",
+      "SENSATIONXE",
+      "THUNDERBOLT",
+      "VERIZONINCREDIBLE",
+      "WILDFIRE",
+      "WILDFIRES",
+      "WILDFIRES2012",
+      "XPERIAX10I"
+    ]
+  }
+}

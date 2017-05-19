@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video2.mjpg"
+      ],
+      "JPEG": [
+        "/imagep/picture.jpg"
+      ]
+    },
+    "models": [
+      "DM-23220",
+      "OTHER"
+    ]
+  }
+}

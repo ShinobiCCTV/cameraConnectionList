@@ -1,0 +1,30 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ],
+      "JPEG": [
+        "/snapshot",
+        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/cgi-bin/Stream?Video?Acc=[USERNAME]?Pwd=[PASSWORD]?webcamPWD=RootCookies00000"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

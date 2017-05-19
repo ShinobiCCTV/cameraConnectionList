@@ -1,0 +1,17 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videofeed"
+      ]
+    },
+    "models": [
+      "C6725",
+      "EVENT",
+      "HYDRO1",
+      "POS",
+      "RISE",
+      "WAVE"
+    ]
+  }
+}

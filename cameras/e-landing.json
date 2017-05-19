@@ -1,0 +1,18 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "720PH.26420FPSFIXED(NOPTZ)",
+      "720PH.264WHITE20FPS",
+      "720PH264FIXED20FPSWHITE"
+    ]
+  }
+}

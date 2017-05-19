@@ -1,0 +1,15 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=PrRI5Yxv_channel=1_stream=0.sdp",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "3131",
+      "SCI-DMP130F",
+      "SP1013"
+    ]
+  }
+}

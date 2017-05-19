@@ -1,0 +1,45 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/ch0",
+        "/tcp/av0_0",
+        "/ROH/channel/11",
+        "/ucast/11",
+        "/live/ch1"
+      ]
+    },
+    "models": [
+      "10809",
+      "1080WHITE",
+      "309146-TGCHU",
+      "720P",
+      "720PIPCAMERA",
+      "CHINA",
+      "H02",
+      "HDIPCAM",
+      "IPCAMERA1080P",
+      "MINIIPCAM",
+      "MINIIPCAMERA",
+      "OTHER",
+      "SMARTP2P",
+      "XSERIES",
+      "XSERIESIPCAMERA"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?rate=11",
+        "/cgi/mjpg/mjpeg.cgi"
+      ]
+    },
+    "models": [
+      "720P",
+      "SMARTP2P",
+      "VIEW-30969-RRFR"
+    ]
+  }
+}

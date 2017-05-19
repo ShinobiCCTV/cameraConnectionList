@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/media/video1"
+      ]
+    },
+    "models": [
+      "SD522B4K-IRNA"
+    ]
+  }
+}

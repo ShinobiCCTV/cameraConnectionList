@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "IPINDOOR",
+      "OTHER"
+    ]
+  }
+}

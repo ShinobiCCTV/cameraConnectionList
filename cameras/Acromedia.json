@@ -1,0 +1,41 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi",
+        "/snap.jpg?JpegCam=[CHANNEL]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+      ]
+    },
+    "models": [
+      "IN-009",
+      "ECESMS",
+      "IN/EX",
+      "IN/EXSERIES",
+      "IN/EXSERİES",
+      "IN-010",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/12",
+        "/ONVIF/channel2"
+      ]
+    },
+    "models": [
+      "IN-010"
+    ]
+  }
+}

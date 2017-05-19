@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf"
+      ],
+      "JPEG": [
+        "/cgi-bin/viewer/video.jpg?resolution=640x480"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "PIPC-011"
+    ]
+  }
+}

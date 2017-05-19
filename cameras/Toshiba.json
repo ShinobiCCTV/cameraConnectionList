@@ -1,0 +1,74 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/viewer/video.jpg",
+        "/GetData.cgi",
+        "/__live.jpg?&&&",
+        "/__live.jpg?&&[USERNAME]&[PASSWORD]",
+        "/Jpeg/CamImg.jpg",
+        "/cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
+        "/cgi-bin/viewer/video.jpg?resolution=640x480",
+        "/image/jpeg.cgi"
+      ],
+      "MJPEG": [
+        "/getstream.cgi?10&10&&&10&0&0&0&0",
+        "/user/cgi-bin/getstream.cgi?10&&&&0&0&0&0&0",
+        "/GetData.cgi?Status=0",
+        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+        "/admin/cgi-bin/getstream.cgi?10&&&&&0&0&0&0",
+        "/video[USERNAME].mjpg",
+        "/video.mjpg",
+        "/video.mjpg?q=30&fps=33&id=0.5",
+        "/videofeed",
+        "/cgi-bin/mjpeg?stream=[CHANNEL]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ]
+    },
+    "models": [
+      "IK-WB01A",
+      "IK-WB02A",
+      "IK-WB11A",
+      "IKWB15A",
+      "IK-WB15A",
+      "IK-WB16A",
+      "IK-WB16A-W",
+      "IK-WB21A",
+      "IKWB-30A",
+      "IKWB-70A",
+      "IKWB-80A",
+      "IK-WB80A",
+      "IKWB-81A",
+      "IKWD-01A",
+      "IKWD05A",
+      "IKWD-14A",
+      "IKWR-01A",
+      "IK-WR04A",
+      "IK-WR12A",
+      "IK-WR14A",
+      "M-1060W",
+      "OTHER",
+      "TD05W",
+      "WEBCAMHD",
+      "WVSC-385"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live.sdp",
+        "/live2.sdp",
+        "/live3.sdp",
+        "/live4.sdp"
+      ]
+    },
+    "models": [
+      "IKWD-12A",
+      "IKWD-14A",
+      "IKWR-05",
+      "IK-WR14A"
+    ]
+  }
+}

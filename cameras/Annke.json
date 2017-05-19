@@ -1,0 +1,46 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi",
+        "/cgi-bin/video.cgi?msubmenu=mjpg",
+        "/cgi/mjpg/mjpeg.cgi"
+      ]
+    },
+    "models": [
+      "141CW",
+      "DE81G",
+      "DL81A",
+      "DVR",
+      "I31V",
+      "IPC",
+      "POE"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/101",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp"
+      ]
+    },
+    "models": [
+      "4MPBULLET",
+      "720P",
+      "DL81A",
+      "DL81A1T",
+      "DVR",
+      "I21G",
+      "L21G",
+      "NP41F1P",
+      "POE",
+      "POECUSTOM"
+    ]
+  }
+}

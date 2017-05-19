@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ch0.h264"
+      ]
+    },
+    "models": [
+      "XC-BU-34F-IR"
+    ]
+  }
+}

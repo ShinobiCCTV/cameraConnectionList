@@ -1,0 +1,35 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11",
+        "/PSIA/Streaming/channels/h264",
+        "/user=admin_password=ZQVWXnGa_channel=1_stream=0.sdp",
+        "/user=admin_password=RupUZdXG_channel=1_stream=0.sdp",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "301655956206",
+      "365IP",
+      "OTHER",
+      "W201",
+      "W212",
+      "WM-351185110",
+      "WM-35185029",
+      "WM-35185110",
+      "WM-35185115"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "WM-128339"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/img/snapshot.cgi?size=2"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "COBELL",
+      "DH43S",
+      "OTHER"
+    ]
+  }
+}

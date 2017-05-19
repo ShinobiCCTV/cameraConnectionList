@@ -1,0 +1,26 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/video.jpg?ch=[CHANNEL]",
+        "/cgi-bin/jpg/image.cgi"
+      ]
+    },
+    "models": [
+      "HD-66",
+      "HSD-626",
+      "HSD-820",
+      "MD60"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ProfileToken_1_4"
+      ]
+    },
+    "models": [
+      "HSD-626"
+    ]
+  }
+}

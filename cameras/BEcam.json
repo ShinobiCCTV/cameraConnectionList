@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/ch0",
+        "/user=admin_password=U6Aan3LB_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "SSKANTOOR",
+      "SSTECH"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cgi-bin/rtspStreamOvf/1",
+        "/live1.sdp",
+        "/cgi-bin/rtspStreamOvf/0",
+        "/cgi-bin/rtspStream/0"
+      ]
+    },
+    "models": [
+      "1360",
+      "2260",
+      "3260",
+      "DVR",
+      "EAN3220",
+      "EBN268",
+      "ECOR",
+      "EDN1120",
+      "EHN1320",
+      "EHN3200",
+      "EHN3260",
+      "EHN3261",
+      "EMN2220",
+      "EPN4220",
+      "EZN",
+      "EZN1260",
+      "EZN268",
+      "EZN3160",
+      "FRONTENTRYWAY",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/image[CHANNEL].jpg",
+        "/m/camera[CHANNEL].jpg",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg"
+      ]
+    },
+    "models": [
+      "EBN268",
+      "ECOR",
+      "EHN1320",
+      "EHN3261",
+      "EPARA",
+      "EQN2101",
+      "EQN2200",
+      "EZN268"
+    ]
+  }
+}

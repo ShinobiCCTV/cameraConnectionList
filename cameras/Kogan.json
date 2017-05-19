@@ -1,0 +1,65 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "JPEG": [
+        "/video.cgi",
+        "/snapshot.cgi",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/current[CHANNEL].jpg"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/videostream.cgi?",
+        "/video.cgi?resolution=VGA",
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?rate=11",
+        "/cgi/mjpg/mjpeg.cgi",
+        "/user/videostream.cgi",
+        "/videostream.cgi?rate=0",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "CAM2",
+      "CLONE",
+      "ENCODER",
+      "FI8904W",
+      "HDIPCAM",
+      "ICAM",
+      "IPCAMPT",
+      "IPWIRELESS",
+      "KAIP",
+      "KAIPC01BLKA",
+      "KAIPC01BLKB",
+      "KAIPCO1BLKA",
+      "MELBOURNE2",
+      "OTHER",
+      "OTHER_2",
+      "PNPIPCAM",
+      "PNP-IP",
+      "WIRELESSCAM"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/tcp/av0_0"
+      ]
+    },
+    "models": [
+      "HDIPCAM",
+      "ZH-IXA15-WC"
+    ]
+  }
+}

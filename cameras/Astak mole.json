@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg",
+        "/snap.jpg?JpegCam=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "IP-700",
+      "MOLE",
+      "OTHER",
+      "ZNY1022"
+    ]
+  }
+}

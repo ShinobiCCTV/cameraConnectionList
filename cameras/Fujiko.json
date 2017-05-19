@@ -1,0 +1,17 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi-bin/sf.cgi"
+      ],
+      "JPEG": [
+        "/stillimg.jpg"
+      ]
+    },
+    "models": [
+      "-007",
+      "-01",
+      "-02"
+    ]
+  }
+}

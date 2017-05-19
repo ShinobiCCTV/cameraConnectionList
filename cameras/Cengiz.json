@@ -1,0 +1,23 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/stream1"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/stream2",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

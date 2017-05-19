@@ -1,0 +1,24 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "EV-100D36IPC",
+      "HMIFI1001-IR",
+      "MBG001"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11"
+      ]
+    },
+    "models": [
+      "EV-IP100M"
+    ]
+  }
+}

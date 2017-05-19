@@ -1,0 +1,48 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi?size=2",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/user/videostream.cgi"
+      ]
+    },
+    "models": [
+      "5030-E",
+      "53100",
+      "5330-E",
+      "OTHER",
+      "SEXY",
+      "XXC-000723-NJFJD",
+      "XXC-003433-DWPZT",
+      "XXC-092411-DCAFC",
+      "XXC-118422-DBABC",
+      "XXC-50100-H",
+      "XXC-50100-T",
+      "XXC5030-E",
+      "XXC-5030-E",
+      "XXC51300-PIR",
+      "XXC52130",
+      "XXC-53100-T"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/0"
+      ]
+    },
+    "models": [
+      "XXK41E",
+      "XXK41E-V1.0"
+    ]
+  }
+}

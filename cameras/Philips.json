@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi",
+        "/out.jpg?id=0.5"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "SPC1300NC"
+    ]
+  }
+}

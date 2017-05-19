@@ -1,0 +1,32 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/jpg/image.jpg?size=3",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "MJPEG": [
+        "/mjpg/video.mjpg",
+        "/mjpg/1/video.mjpg"
+      ]
+    },
+    "models": [
+      "86970",
+      "D86",
+      "IPC-1",
+      "IPC-10AC",
+      "IPC-20C",
+      "IPCAM068301",
+      "MD86970",
+      "MD96350",
+      "OTHER",
+      "P86019",
+      "P89019"
+    ]
+  }
+}

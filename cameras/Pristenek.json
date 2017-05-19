@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/mpeg4"
+      ]
+    },
+    "models": [
+      "EX-S06WM-3W"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf"
+      ],
+      "JPEG": [
+        "/snap.jpg?JpegCam=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+      ]
+    },
+    "models": [
+      "BSERIES",
+      "HSERIES",
+      "OTHER"
+    ]
+  }
+}

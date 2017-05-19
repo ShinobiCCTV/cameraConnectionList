@@ -1,0 +1,13 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/stream.asf"
+      ]
+    },
+    "models": [
+      "AT-201",
+      "NT-3000"
+    ]
+  }
+}

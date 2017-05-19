@@ -1,0 +1,24 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ]
+    },
+    "models": [
+      "IP300",
+      "IPCAM-1000"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/rtsp_live0",
+        "/rtsp_live2"
+      ]
+    },
+    "models": [
+      "IPCAM-1000G"
+    ]
+  }
+}

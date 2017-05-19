@@ -1,0 +1,17 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "JPEG": [
+        "/image/jpeg.cgi"
+      ]
+    },
+    "models": [
+      "DT-231",
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi?img=vga"
+      ]
+    },
+    "models": [
+      "RC-8030"
+    ]
+  }
+}

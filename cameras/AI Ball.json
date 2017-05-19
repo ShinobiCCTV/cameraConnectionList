@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/Image.jpg"
+      ],
+      "MJPEG": [
+        "/?action=stream",
+        "/?action=appletvstream"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

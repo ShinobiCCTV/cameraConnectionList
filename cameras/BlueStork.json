@@ -1,0 +1,42 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "MJPEG": [
+        "/mjpg/video.mjpg",
+        "/videostream.cgi",
+        "/videostream.cgi?",
+        "/cgi/mjpg/mjpeg.cgi"
+      ],
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "AMAN",
+      "BLUEPIXIPCAM",
+      "BS-IPCAM/TP",
+      "BS-IPCAM/W2",
+      "BS-IPCAM-W",
+      "FGHGH",
+      "OTHER",
+      "PORTAIL",
+      "TP81C2300195"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/1.3gp"
+      ]
+    },
+    "models": [
+      "BS-CAM-OF/HD",
+      "CAM-RHD"
+    ]
+  }
+}

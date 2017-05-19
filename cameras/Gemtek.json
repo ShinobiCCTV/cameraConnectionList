@@ -1,0 +1,15 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot[CHANNEL].jpg",
+        "/snapshot.jpg"
+      ]
+    },
+    "models": [
+      "B1100",
+      "D0100",
+      "OTHER"
+    ]
+  }
+}

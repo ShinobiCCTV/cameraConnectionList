@@ -1,0 +1,28 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ch1_s1"
+      ]
+    },
+    "models": [
+      "MY-303IP/M"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/?action=stream",
+        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ]
+    },
+    "models": [
+      "NVS-365-V01",
+      "NVS-365-VO1",
+      "OTHER"
+    ]
+  }
+}

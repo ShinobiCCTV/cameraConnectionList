@@ -1,0 +1,28 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.cgi?resolution=8&rate=13"
+      ]
+    },
+    "models": [
+      "C7824WIP",
+      "DOMEH264",
+      "OTHER",
+      "ROBO2",
+      "ROBOCAM4",
+      "ROBOT3",
+      "T6892WP"
+    ]
+  }
+}

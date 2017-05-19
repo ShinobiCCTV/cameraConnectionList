@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/image.cgi"
+      ],
+      "MJPEG": [
+        "/image.cgi?type=motion"
+      ]
+    },
+    "models": [
+      "TC-9751",
+      "TC-9852"
+    ]
+  }
+}

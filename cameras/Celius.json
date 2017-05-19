@@ -1,0 +1,13 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/mjpeg"
+      ]
+    },
+    "models": [
+      "IP18W",
+      "IP61W"
+    ]
+  }
+}

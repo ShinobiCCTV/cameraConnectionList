@@ -1,0 +1,18 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?camera=[CHANNEL]"
+      ],
+      "FFMPEG": [
+        "/videostream.cgi?resolution=8&rate=13",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "EXPLOTEC",
+      "HT8260",
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ch0_0.264"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

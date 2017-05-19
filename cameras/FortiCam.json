@@ -1,0 +1,29 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ONVIF/channel3",
+        "/cam1/onvif-h264"
+      ]
+    },
+    "models": [
+      "20A"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "20A",
+      "IPC-20C",
+      "OTHER"
+    ]
+  }
+}

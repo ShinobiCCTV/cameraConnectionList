@@ -1,0 +1,33 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11",
+        "/live/0/onvif.sdp",
+        "/1.3gp"
+      ]
+    },
+    "models": [
+      "CLOCK",
+      "TT520PW",
+      "TT522PW-PRO",
+      "TT522W-PRO",
+      "TT730PW"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "TT520PW",
+      "TT522PW",
+      "TT522PW-PRO",
+      "TT531W-N"
+    ]
+  }
+}

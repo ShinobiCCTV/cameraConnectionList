@@ -1,0 +1,57 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/tmpfs/auto.jpg",
+        "/snapshot.cgi?"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi",
+        "/videostream.cgi?rate=0",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "20HD",
+      "3XPTZ",
+      "720",
+      "7210W",
+      "7210W-MJPEG",
+      "-7210W",
+      "OTHER",
+      "X01"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/mpeg4",
+        "/11",
+        "/mpeg4cif",
+        "/12"
+      ]
+    },
+    "models": [
+      "3XPTZ",
+      "7210W",
+      "9610",
+      "B10",
+      "B10A",
+      "B11N",
+      "B12NW",
+      "B12N-W",
+      "B15N-W",
+      "B22",
+      "HDMEGAPIXEL",
+      "-009041-BUFXD",
+      "-7210W",
+      "-H05-POEA",
+      "OTHER",
+      "VVVIPC1501223580HSDS"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]"
+      ]
+    },
+    "models": [
+      "SV-5804W"
+    ]
+  }
+}

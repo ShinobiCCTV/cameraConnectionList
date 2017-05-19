@@ -1,0 +1,24 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/user=admin_password=mF95aD4o_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "IPC10",
+      "SC10"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi"
+      ]
+    },
+    "models": [
+      "SC10IP"
+    ]
+  }
+}

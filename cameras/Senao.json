@@ -1,0 +1,22 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/ch00_0"
+      ]
+    },
+    "models": [
+      "EXT1025"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "PTZ-01H"
+    ]
+  }
+}

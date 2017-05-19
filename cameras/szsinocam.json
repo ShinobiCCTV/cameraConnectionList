@@ -1,0 +1,40 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ROH/channel/11",
+        "/ucast/11",
+        "/11",
+        "/ucast/12"
+      ]
+    },
+    "models": [
+      "1.0IP",
+      "1.0OMPIPCAMERA",
+      "4036",
+      "5024SW",
+      "5033SW",
+      "5033SW-UK",
+      "720P",
+      "720PWIFIONVIF",
+      "7889BF",
+      "794D6E",
+      "CAM5",
+      "GROSS",
+      "IPC-5029",
+      "IPC-5030BSW-EU",
+      "IPC-5030BSW-UK",
+      "IPC-5033-SW",
+      "OTHER",
+      "P2PIP",
+      "SN-IPC5033SW-UK",
+      "SN-IPC-4014SW-AU",
+      "SN-IPC-4015SW-AU",
+      "SN-IPC-4036SW-AU",
+      "SN-IPC-5033CSW-AU",
+      "SN-IPC-5033SW",
+      "SN-IPC5034CSW-UK",
+      "SZSCAM"
+    ]
+  }
+}

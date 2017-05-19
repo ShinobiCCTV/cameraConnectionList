@@ -1,0 +1,40 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/tmpfs/auto.jpg",
+        "/img/snapshot.cgi?size=2",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "MJPEG": [
+        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "AM-C732",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11",
+        "/cam1/onvif-h264",
+        "/live0.264",
+        "/av0_0"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "SKYNET",
+      "SW",
+      "X5"
+    ]
+  }
+}

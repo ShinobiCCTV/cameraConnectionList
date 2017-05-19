@@ -1,0 +1,13 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi?size=2"
+      ]
+    },
+    "models": [
+      "RC8221",
+      "RC8221D"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ch0.h264"
+      ]
+    },
+    "models": [
+      "ANITS",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videofeed"
+      ]
+    },
+    "models": [
+      "MI-3",
+      "MI5"
+    ]
+  }
+}

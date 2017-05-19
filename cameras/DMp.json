@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi",
+        "/img/snapshot.cgi?size=2"
+      ]
+    },
+    "models": [
+      "OTOC810",
+      "RC8021"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video.cgi?resolution=VGA",
+        "/img/video.mjpeg"
+      ],
+      "JPEG": [
+        "/img/snapshot.cgi?size=3"
+      ]
+    },
+    "models": [
+      "930L",
+      "C24-CAM541R",
+      "OTHER"
+    ]
+  }
+}

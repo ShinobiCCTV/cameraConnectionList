@@ -1,0 +1,17 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/video.h264",
+        "/Streaming/Channels/1",
+        "/Streaming/Channels/2"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "TVD-1103",
+      "TVW-1101",
+      "TVW-3101"
+    ]
+  }
+}

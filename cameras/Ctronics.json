@@ -1,0 +1,46 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/11",
+        "/ch01.264",
+        "/user=admin_password=2xsH8XwC_channel=1_stream=0.sdp",
+        "/user=admin_password=wcPNY294_channel=1_stream=0.sdp",
+        "/user=admin_password=bHW0TSyA_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "123C720PW",
+      "245C720PWS",
+      "2MP",
+      "651C720POE",
+      "720P",
+      "AAAA-192503-TEZSJ",
+      "CTIPC-123C720",
+      "CTIPC-123C720PW",
+      "CTIPC-224C720PWS",
+      "CTIPC-245C720PWS",
+      "CTIPC-536C1080POE",
+      "CTIPC-631C1080POE",
+      "CTIPC-631C1090POE",
+      "CTIPC-631C720POE",
+      "CTIPCD-631C720POE",
+      "CTIPCW-112C720",
+      "CTIPCW-123C1080PW",
+      "CTIPCW-123C720PW",
+      "OTHER",
+      "PWR1"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "CTIPC-224C720720PWS"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "NC128PW",
+      "NC223W-IR",
+      "NC233W-IR",
+      "NC355PW"
+    ]
+  }
+}

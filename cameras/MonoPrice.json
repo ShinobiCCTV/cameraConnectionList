@@ -1,0 +1,31 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg",
+        "/image.cgi?img=ch[CHANNEL]",
+        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "H264DVR",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/1"
+      ]
+    },
+    "models": [
+      "NC303-MB",
+      "NC303-MD",
+      "OTHER"
+    ]
+  }
+}

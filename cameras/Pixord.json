@@ -1,0 +1,57 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/images1full",
+        "/cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
+        "/images[CHANNEL]sif",
+        "/images[CHANNEL]full",
+        "/cgi-bin/admin/snapshot.cgi",
+        "/getimage",
+        "/Getimage.cgi",
+        "/tmp/snap.jpg",
+        "/Jpeg/CamImg.jpg"
+      ],
+      "MJPEG": [
+        "/getimage?camera=[CHANNEL]&fmt=full",
+        "/GetData.cgi?Status=0"
+      ]
+    },
+    "models": [
+      "100SERIES",
+      "120",
+      "200SERIES",
+      "201P",
+      "205P",
+      "4000",
+      "4000SERVERSERIES",
+      "423_LESV",
+      "LENNARTP465",
+      "ND6914E",
+      "NL621",
+      "OTHER",
+      "P120",
+      "P400",
+      "P-400",
+      "P405",
+      "P600E",
+      "PB670E",
+      "PD-614",
+      "PL621",
+      "PL621E"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/video.h264",
+        "/live/av0",
+        "/11"
+      ]
+    },
+    "models": [
+      "P-400",
+      "P405"
+    ]
+  }
+}

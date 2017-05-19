@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/jpg/1/image.jpg"
+      ]
+    },
+    "models": [
+      "K2-100"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/tcp/av0_1",
+        "/tcp/av0_0"
+      ]
+    },
+    "models": [
+      "HSL-289799-JUWZB",
+      "I9831B-#6698"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "HSL-289799-JUWZB",
+      "OTHER"
+    ]
+  }
+}

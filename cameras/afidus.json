@@ -1,0 +1,26 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/jpg/image.cgi"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor",
+        "/media.amp",
+        "/Streaming/Channels/1"
+      ]
+    },
+    "models": [
+      "R-09A",
+      "RH-331Z2",
+      "TM-110F5"
+    ]
+  }
+}

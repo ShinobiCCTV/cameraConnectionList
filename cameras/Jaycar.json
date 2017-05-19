@@ -1,0 +1,70 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/tmpfs/auto.jpg",
+        "/video.cgi",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/videostream.cgi",
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+        "/videostream.cgi?",
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?rate=0",
+        "/video.cgi?resolution=VGA",
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "3834",
+      "3836",
+      "3839",
+      "38568",
+      "720P",
+      "OTHER",
+      "OUTDOORMAC",
+      "QC-3831",
+      "QC-3832",
+      "QC-3834",
+      "QC-3836",
+      "QC-3839",
+      "QC-3840",
+      "QC-3842",
+      "QC-3844",
+      "QC-3846",
+      "QC-3H34",
+      "WIFICAMERA"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/0/av0",
+        "/h264",
+        "/11"
+      ]
+    },
+    "models": [
+      "720P",
+      "OTHER",
+      "QC-3834",
+      "QC-3839",
+      "QC-3846"
+    ]
+  }
+}

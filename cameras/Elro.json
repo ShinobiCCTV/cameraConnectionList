@@ -1,0 +1,96 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/image.jpg",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi",
+        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/IMAGE.JPG",
+        "/jpg/image.jpg?size=3",
+        "/snapshot.cgi?",
+        "/cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+        "/cgi-bin/guest/Video.cgi?media=JPEG",
+        "/current[CHANNEL].jpg"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.cgi?resolution=8&rate=13",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ],
+      "MJPEG": [
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/mjpeg.cgi",
+        "/videostream.cgi?rate=11",
+        "/MJPEG.CGI",
+        "/videostream.cgi",
+        "/video.cgi?resolution=VGA",
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/VIDEO.CGI",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+        "/videostream.cgi?rate=0",
+        "/videostream.cgi?",
+        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "700IP",
+      "704IP",
+      "900IP",
+      "901",
+      "901IP",
+      "903",
+      "9031IP",
+      "903I",
+      "903IP",
+      "9501",
+      "C403IP",
+      "C703",
+      "C7031P",
+      "C703IP",
+      "C703IP.2",
+      "C703IP2",
+      "C704IP",
+      "C704-IP2",
+      "C704IP.2",
+      "C724IP",
+      "C800",
+      "C800IP",
+      "C801IP",
+      "C803IP",
+      "C900",
+      "C900IP",
+      "C901",
+      "C901IP",
+      "C903IP",
+      "C903IP.2",
+      "C904IP",
+      "C904IP.2",
+      "DIER",
+      "DVR534",
+      "FISHGRIND",
+      "IP901",
+      "IP903",
+      "OPRIT",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/av0_1"
+      ]
+    },
+    "models": [
+      "C723IP"
+    ]
+  }
+}

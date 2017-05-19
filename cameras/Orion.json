@@ -1,0 +1,22 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/main"
+      ]
+    },
+    "models": [
+      "224"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snap.jpg"
+      ]
+    },
+    "models": [
+      "950"
+    ]
+  }
+}

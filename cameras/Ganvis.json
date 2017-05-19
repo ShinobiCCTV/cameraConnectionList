@@ -1,0 +1,23 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "5MP",
+      "T554F"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/mpeg4"
+      ]
+    },
+    "models": [
+      "GV-T530A"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi/jpg/image.cgi",
+        "/axis-cgi/jpg/image.cgi?camera=1&resolution=320x240&compression=25"
+      ],
+      "MJPEG": [
+        "/cgi/mjpg/mjpeg.cgi",
+        "/mjpg/video.mjpg",
+        "/mjpeg.cgi"
+      ]
+    },
+    "models": [
+      "100W",
+      "300WEDNU",
+      "IPCAMERA100WED",
+      "OTHER"
+    ]
+  }
+}

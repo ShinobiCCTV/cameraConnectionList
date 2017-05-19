@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=5gkYl5fr_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "CHINESE"
+    ]
+  }
+}

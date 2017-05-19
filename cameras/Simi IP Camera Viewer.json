@@ -1,0 +1,23 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/mjpeg.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ucast/11"
+      ]
+    },
+    "models": [
+      "PLONKA"
+    ]
+  }
+}

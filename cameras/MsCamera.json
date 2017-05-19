@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/main"
+      ]
+    },
+    "models": [
+      "MILESIGHT"
+    ]
+  }
+}

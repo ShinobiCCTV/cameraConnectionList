@@ -1,0 +1,31 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/tmpfs/auto.jpg",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?resolution=8&rate=13",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ],
+      "MJPEG": [
+        "/cgi-bin/sf.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/img/video.mjpeg",
+        "/video.cgi?resolution=VGA",
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?rate=0"
+      ]
+    },
+    "models": [
+      "HVC",
+      "OTHER",
+      "WB-IP03A"
+    ]
+  }
+}

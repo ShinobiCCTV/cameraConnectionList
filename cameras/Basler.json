@@ -1,0 +1,33 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi-bin/mjpeg?session_id=[CHANNEL]&buffer=0&prio=high&frame=4",
+        "/cgi-bin/mjpeg",
+        "/cgi-bin/mjpeg?stream=[CHANNEL]"
+      ],
+      "JPEG": [
+        "/cgi-bin/jpeg?session_id=[CHANNEL]&buffer=0&prio=high&frame=4",
+        "/cgi-bin/jpeg?stream=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "BIP1300",
+      "BIP-2",
+      "BIP2-1300",
+      "BIP2-1300C-DN",
+      "IPCAMERA(2)",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/0"
+      ]
+    },
+    "models": [
+      "BIP-2"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?rate=11"
+      ],
+      "JPEG": [
+        "/tmpfs/auto.jpg",
+        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
+      ]
+    },
+    "models": [
+      "610",
+      "626W",
+      "IP615EW",
+      "IP-CAM615AEW",
+      "IP-CAM615AEW-74460"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11"
+      ]
+    },
+    "models": [
+      "626W",
+      "IP-CAMD628EW",
+      "M-624W"
+    ]
+  }
+}

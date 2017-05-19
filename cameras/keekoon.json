@@ -1,0 +1,36 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/rtsp_live0"
+      ]
+    },
+    "models": [
+      "3",
+      "KK001",
+      "KK002"
+    ]
+  },
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?resolution=8&rate=13",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "KK001",
+      "KK002",
+      "KK004",
+      "OTHER",
+      "WI-FIIPCAMERA"
+    ]
+  }
+}

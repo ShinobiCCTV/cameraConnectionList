@@ -1,0 +1,49 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video.cgi?resolution=VGA",
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "JPEG": [
+        "/image.jpg",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/img/snapshot.cgi?size=2",
+        "/image.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "107",
+      "301",
+      "42352",
+      "42353",
+      "42532",
+      "4400",
+      "IPA-5857",
+      "IPA-6440",
+      "IPB-9389",
+      "OTHER",
+      "TCAM-2390",
+      "TOP-788",
+      "TOP-788HMP",
+      "TOP-788XMP",
+      "TP-S26404DR"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live0.264"
+      ]
+    },
+    "models": [
+      "MY-310"
+    ]
+  }
+}

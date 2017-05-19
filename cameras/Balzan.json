@@ -1,0 +1,15 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/image/jpeg.cgi",
+        "/Image.jpg"
+      ]
+    },
+    "models": [
+      "LOUNGE",
+      "MANCAVE",
+      "OTHER"
+    ]
+  }
+}

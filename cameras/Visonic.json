@@ -1,0 +1,18 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi/mjpg/mjpg.cgi",
+        "/video.cgi?resolution=VGA"
+      ],
+      "JPEG": [
+        "/cgi-bin/image.jpg"
+      ]
+    },
+    "models": [
+      "3100",
+      "CAM2000",
+      "OTHER"
+    ]
+  }
+}

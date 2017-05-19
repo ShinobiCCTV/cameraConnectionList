@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "909",
+      "OTHER"
+    ]
+  }
+}

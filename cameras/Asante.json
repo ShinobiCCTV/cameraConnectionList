@@ -1,0 +1,24 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/image.cgi",
+        "/image.jpg"
+      ],
+      "MJPEG": [
+        "/image.jpg?type=motion",
+        "/videostream.cgi?rate=0",
+        "/image.cgi?type=motion"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "SMARTBOT",
+      "VOYAGER1",
+      "VOYAGERI",
+      "VOYAGERI/II",
+      "VOYAGERII",
+      "VOYAGERSMARTBOT"
+    ]
+  }
+}

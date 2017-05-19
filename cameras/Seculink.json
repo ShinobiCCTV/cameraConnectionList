@@ -1,0 +1,31 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/video.cgi?resolution=VGA"
+      ],
+      "JPEG": [
+        "/snap.jpg?JpegCam=[CHANNEL]",
+        "/img/snapshot.cgi?size=2"
+      ]
+    },
+    "models": [
+      "10709",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live1.264",
+        "/live0.264"
+      ]
+    },
+    "models": [
+      "HDIPC",
+      "OTHER"
+    ]
+  }
+}

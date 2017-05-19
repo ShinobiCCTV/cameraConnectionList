@@ -1,0 +1,20 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/current[CHANNEL].jpg"
+      ],
+      "MJPEG": [
+        "/video.cgi?resolution=VGA"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "CA-IP100M",
+      "CA-IP300MP",
+      "OTHER"
+    ]
+  }
+}

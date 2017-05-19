@@ -1,0 +1,103 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?1",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/showimg_pda.cgi?cam=[CHANNEL]",
+        "/jpg/image.jpg",
+        "/cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg",
+        "/cgi-bin/jpg/image",
+        "/snapshot",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
+        "/GetData.cgi",
+        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+        "/video.mjpg",
+        "/getimage",
+        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+        "/axis-cgi/mjpg/video.cgi",
+        "/GetData.cgi?CH=2"
+      ]
+    },
+    "models": [
+      "4321",
+      "DVR",
+      "IP1240",
+      "IPSCSERIES",
+      "L23WD",
+      "LBN4321-C",
+      "LHV",
+      "LHV1000",
+      "LHV2016",
+      "LHV21081TU4",
+      "LIVEPING",
+      "LN1001",
+      "LN3003",
+      "LNB3143R-C",
+      "LNB-3143R-CP",
+      "LNB3321B",
+      "LNB4163B",
+      "LNB4321",
+      "LNB4321B",
+      "LNB4613B",
+      "LNC104",
+      "LNC116",
+      "LNC204",
+      "LNC216",
+      "LNC226X",
+      "LNC230",
+      "LNC234",
+      "LNC254",
+      "LND3152",
+      "LND3374SB",
+      "LNE1001",
+      "LNE3003",
+      "LNE3322B",
+      "LNE4322",
+      "LNR400",
+      "LNXIPCAMS",
+      "LNZ32P12",
+      "LNZ32P1212X",
+      "LNZ32P4",
+      "LNZ32P-4",
+      "LNZ3522-C",
+      "LNZ4001",
+      "LNC100",
+      "PING",
+      "LVH1000",
+      "MCN2153",
+      "MCNB3153",
+      "MCNB3153B",
+      "MPX822VW",
+      "OTHER",
+      "V030409"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor",
+        "/Streaming/Channels/1",
+        "/Streaming/Channels/2"
+      ]
+    },
+    "models": [
+      "LHV1000",
+      "LNB2153",
+      "LNZ",
+      "MCN2153",
+      "MCNB2152",
+      "MCNB2153",
+      "MCND2152",
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/GetStream.cgi?Video=[CHANNEL]",
+        "/tmpfs/auto.jpg",
+        "/snap.jpg?JpegCam=[CHANNEL]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf"
+      ],
+      "MJPEG": [
+        "/cgi-bin/sf.cgi"
+      ]
+    },
+    "models": [
+      "CM-818DVR4V",
+      "IP-700",
+      "MOLE",
+      "MOLESCOTT",
+      "MOLE2",
+      "OTHER"
+    ]
+  }
+}

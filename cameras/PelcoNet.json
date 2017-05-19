@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snap.jpg?JpegSize=XL",
+        "/image/[CHANNEL].jpg",
+        "/snap.jpg?JpegSize=M"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

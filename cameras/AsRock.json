@@ -1,0 +1,15 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/user=admin_password=cnjkDu6G_channel=1_stream=1.sdp"
+      ]
+    },
+    "models": [
+      "AS-5110HQ",
+      "AS-5313-EJ",
+      "H264"
+    ]
+  }
+}

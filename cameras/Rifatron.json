@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/animate.cgi?[CHANNEL]"
+      ]
+    },
+    "models": [
+      "HD1SERIESDVR",
+      "MHSERIESDVR",
+      "MMSERIESDVR",
+      "MMSERİESDVR",
+      "OTHER"
+    ]
+  }
+}

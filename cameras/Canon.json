@@ -1,0 +1,66 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/stream/profile2=r",
+        "/stream/profile1=r",
+        "/stream/profile0=r"
+      ]
+    },
+    "models": [
+      "740",
+      "VB-H41",
+      "VB-H43",
+      "VB-H630",
+      "VB-H710F",
+      "VB-M42",
+      "VB-M50B",
+      "VB-M720F",
+      "VB-S800D",
+      "VB-S900F",
+      "VB-S905F"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/?&AUDIO=YES&CHOPIMAGE=YES&STREAM=YES&WANTIMAGE=[CHANNEL].JPG&SENDEMPTYIMAGES=NO",
+        "/-wvhttp-01-/video.cgi",
+        "/-wvhttp-01-/GetOneShot?image_size=[WIDTH]x[HEIGHT]&frame_count=0"
+      ],
+      "JPEG": [
+        "/-wvhttp-01-/GetLiveImage",
+        "/-wvhttp-01-/GetOneShot?image_size=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "DC210",
+      "H-SERIES",
+      "OTHER",
+      "PUBLICWEBCAM",
+      "VB150",
+      "VB300",
+      "VB-610",
+      "VB-C10",
+      "VB-C300",
+      "VB-C500D",
+      "VB-C50FI",
+      "VB-C50FSI",
+      "VB-C50I",
+      "VB-C50I/C50IRSERIES",
+      "VB-C50İ/C50İRSERİES",
+      "VB-C60",
+      "VB-H41",
+      "VB-H43",
+      "VB-H630",
+      "VB-H630VE",
+      "VB-M40",
+      "VB-M50B",
+      "VB-M600D",
+      "VB-M700F",
+      "VBS30D",
+      "VB-S805D",
+      "VB-S900F"
+    ]
+  }
+}

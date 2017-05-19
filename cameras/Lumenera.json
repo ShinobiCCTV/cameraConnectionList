@@ -1,0 +1,18 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi-usr/nph-video",
+        "/cgi-bin/nph-video"
+      ],
+      "JPEG": [
+        "/cgi-usr/nph-image",
+        "/cgi-usr/image"
+      ]
+    },
+    "models": [
+      "LC165E",
+      "OTHER"
+    ]
+  }
+}

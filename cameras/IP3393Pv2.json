@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/stream1",
+        "/stream2"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "ZOT"
+    ]
+  }
+}

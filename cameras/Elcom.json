@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/mjpg/video.mjpg"
+      ]
+    },
+    "models": [
+      "CBM-300"
+    ]
+  }
+}

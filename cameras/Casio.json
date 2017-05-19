@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videofeed"
+      ]
+    },
+    "models": [
+      "COMM",
+      "GZ1",
+      "G'ZONECOMMANDO"
+    ]
+  }
+}

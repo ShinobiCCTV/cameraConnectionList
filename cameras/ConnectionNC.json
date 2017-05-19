@@ -1,0 +1,21 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ],
+      "JPEG": [
+        "/image.jpg",
+        "/imagep/picture.jpg",
+        "/img/video.jpg",
+        "/cgi-bin/video.jpg"
+      ],
+      "MJPEG": [
+        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/open?chn=[CHANNEL]+usr=[USERNAME]+key=[PASSWORD]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0"
+      ]
+    },
+    "models": [
+      "4000",
+      "OTHER"
+    ]
+  }
+}

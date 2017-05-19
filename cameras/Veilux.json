@@ -1,0 +1,19 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "JPEG": [
+        "/cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?rate=11"
+      ]
+    },
+    "models": [
+      "NCB-546W",
+      "OTHER"
+    ]
+  }
+}

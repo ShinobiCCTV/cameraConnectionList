@@ -1,0 +1,27 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "150H",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/av0"
+      ]
+    },
+    "models": [
+      "H803"
+    ]
+  }
+}

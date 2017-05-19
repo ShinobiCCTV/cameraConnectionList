@@ -1,0 +1,18 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videofeed",
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "JPEG": [
+        "/out.jpg?id=0.5"
+      ]
+    },
+    "models": [
+      "IPWEBCAM",
+      "OTHER"
+    ]
+  }
+}

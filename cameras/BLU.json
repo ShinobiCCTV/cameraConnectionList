@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videofeed",
+        "/video?profile=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "IPANDROID",
+      "STUDIOX5.5"
+    ]
+  }
+}

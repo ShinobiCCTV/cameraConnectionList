@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video.cgi"
+      ],
+      "JPEG": [
+        "/snapshot.cgi"
+      ]
+    },
+    "models": [
+      "AVN362",
+      "OTHER"
+    ]
+  }
+}

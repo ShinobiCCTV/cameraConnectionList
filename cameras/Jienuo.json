@@ -1,0 +1,18 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ucast/12",
+        "/ucast/11"
+      ]
+    },
+    "models": [
+      "AR511",
+      "IP501JR",
+      "JN-IP506AR-A-WIFI",
+      "JN-IP5108AR-A-WIFI",
+      "JN-IP6008AR-A-WIFI",
+      "KUH"
+    ]
+  }
+}

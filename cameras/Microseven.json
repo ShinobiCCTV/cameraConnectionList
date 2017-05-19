@@ -1,0 +1,60 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11",
+        "/12",
+        "/cam1/onvif-h264"
+      ]
+    },
+    "models": [
+      "1.3MEGADOME",
+      "1083",
+      "960P",
+      "C6F0SGZ3N0P0L0",
+      "M7B15",
+      "M7B37W",
+      "M7B57",
+      "M7B77",
+      "M7B77-WBPS",
+      "M7B77-WPS",
+      "M7B77-WPSHD",
+      "M7B77-WPSV2",
+      "M7D12",
+      "M7D12-POE",
+      "M7MY",
+      "MD712-POE",
+      "MYM7",
+      "MYM7I",
+      "NEWNORTHCAMERA",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot_ch0[CHANNEL].jpg",
+        "/snapshot_ch[CHANNEL].jpg",
+        "/tmpfs/auto.jpg"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ],
+      "MJPEG": [
+        "/video/mjpg.cgi"
+      ]
+    },
+    "models": [
+      "550TVL",
+      "M7DVR",
+      "M7B37W",
+      "M7B77",
+      "M7B77-WPS",
+      "MINI",
+      "MY7",
+      "MYM7",
+      "MYM7I",
+      "YM7"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/mpeg4"
+      ]
+    },
+    "models": [
+      "BULLETCAMERA",
+      "FISHEYE",
+      "LHT-8880W"
+    ]
+  }
+}

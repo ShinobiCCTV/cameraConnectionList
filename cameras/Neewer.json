@@ -1,0 +1,39 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/tmpfs/auto.jpg",
+        "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]",
+        "/img/snapshot.cgi?size=2",
+        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi/mjpg/mjpeg.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+      ]
+    },
+    "models": [
+      "LSERIES",
+      "MSERIES",
+      "OTHER",
+      "V-100"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "V-100",
+      "V-200"
+    ]
+  }
+}

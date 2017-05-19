@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ch01.264",
+        "/cam/realmonitor"
+      ]
+    },
+    "models": [
+      "INC-2030W",
+      "INCMD"
+    ]
+  }
+}

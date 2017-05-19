@@ -1,0 +1,54 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/av0_0",
+        "/av0_1",
+        "/video.mp4"
+      ]
+    },
+    "models": [
+      "1210",
+      "2015",
+      "2710",
+      "2710-P2",
+      "2710R",
+      "B1710RV",
+      "B2710DR",
+      "B2720RV",
+      "N13103",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/jpg/image.cgi",
+        "/cgi-bin/jpg/image.cgi?",
+        "/cgi-bin/view/image?pro_[CHANNEL]",
+        "/jpg/image.jpg",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/",
+        "/video.mjpg"
+      ],
+      "FFMPEG": [
+        "/video.mp4"
+      ]
+    },
+    "models": [
+      "B1710RV",
+      "BD",
+      "BDSERIES",
+      "BD43...",
+      "BN1250-1",
+      "CD600",
+      "NSERIES",
+      "NSERIES2",
+      "N1000",
+      "N1250",
+      "OTHER"
+    ]
+  }
+}

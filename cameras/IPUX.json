@@ -1,0 +1,36 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi/mjpg/mjpg.cgi",
+        "/cgi/mjpg/mjpeg.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "JPEG": [
+        "/cgi/jpg/image.cgi",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "100",
+      "1003",
+      "1013",
+      "1033",
+      "1330",
+      "2030",
+      "ICS-100",
+      "ICS-1033",
+      "ICS1310",
+      "ICS-1310",
+      "ICS-131A",
+      "ICS1330",
+      "ICS2330",
+      "ICS-2330",
+      "ICS303A",
+      "ICS7220",
+      "IP-100",
+      "OKOK",
+      "OTHER"
+    ]
+  }
+}

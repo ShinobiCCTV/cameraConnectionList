@@ -1,0 +1,47 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?1"
+      ],
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
+        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "BR_1",
+      "OTHER",
+      "S4120",
+      "VIP",
+      "VIP4120",
+      "VIPP",
+      "VIPS3020",
+      "VIP-S3120",
+      "VIPS4100",
+      "VIPS4220"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor"
+      ]
+    },
+    "models": [
+      "INNOVAR",
+      "OTHER",
+      "S3020",
+      "S3120",
+      "VIP",
+      "VIP25",
+      "VIP4120",
+      "VIPS3020",
+      "VIP-S3120",
+      "VIPS4100"
+    ]
+  }
+}

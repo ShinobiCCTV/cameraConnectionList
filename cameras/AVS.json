@@ -1,0 +1,30 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
+        "/jpeg.fcgi?mode=real&si=[USERNAME]&mon=1&ch=[CHANNEL]&width=[WIDTH]&height=[HEIGHT]&quality=7&fps=0",
+        "/cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+        "/cgi-usr/image",
+        "/pic01/images.jpg",
+        "/jpg/image.jpg",
+        "/cgi-bin/stream/nph-stream.cgi?id=[USERNAME]&pw=[PASSWORD]&streamtype=jpeg&truenph=1"
+      ],
+      "MJPEG": [
+        "/jpeg.fcgi?mode=real&si=[USERNAME]&mon=1&ch=[CHANNEL]&width=[WIDTH]&height=[HEIGHT]&quality=7&fps=0",
+        "/cgi-bin/image/mjpeg.cgi?id=[USERNAME]&passwd=[PASSWORD]",
+        "/cgi-bin/stream/nph-stream.cgi?id=[USERNAME]&pw=[PASSWORD]&streamtype=mjpeg&truenph=1"
+      ]
+    },
+    "models": [
+      "ME",
+      "NVR",
+      "OTHER",
+      "SYSTEMSHD1024SERIES",
+      "SYSTEMSMPIX2.0",
+      "SYSTEMSMPIXSERIES",
+      "TITANAPOLLOATOM",
+      "TITANAPOLLOATOMDVR"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/mpeg4",
+        "/user=admin_password=m6OHh4fp_channel=1_stream=0.sdp",
+        "/av0_0",
+        "/live1.264",
+        "/live0.264",
+        "/0",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "0032014",
+      "5MPEBAY",
+      "AOTE",
+      "AOTE5MP",
+      "CAM0981",
+      "CTV-IPB2840VRM",
+      "HDIPC",
+      "MANFIRE",
+      "OTHER",
+      "POE",
+      "SP015"
+    ]
+  },
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?rate=11",
+        "/video.cgi?resolution=VGA",
+        "/axis-cgi/mjpg/video.cgi",
+        "/mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0"
+      ],
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?1",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/tmpfs/auto.jpg",
+        "/snapshot",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/snapshot.jpg",
+        "/img/snapshot.cgi?size=2",
+        "/snapshot.cgi",
+        "/cgi-bin/guest/Video.cgi?media=JPEG",
+        "/snapshot/view[CHANNEL].jpg",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "B1",
+      "2",
+      "CSP-IPED3",
+      "IP6C21-P1",
+      "IPC",
+      "IPCH-2",
+      "K-EP104LWE",
+      "KHORGOEI",
+      "OTHER",
+      "T136B",
+      "VR-DC540W",
+      "W921RG-B-POE",
+      "WIP130-DT30"
+    ]
+  }
+}

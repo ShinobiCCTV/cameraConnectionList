@@ -1,0 +1,27 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi?size=3",
+        "/img/snapshot.cgi?size=2"
+      ],
+      "MJPEG": [
+        "/img/mjpeg.cgi",
+        "/img/video.mjpeg",
+        "/img/mjpeg.jpg"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ]
+    },
+    "models": [
+      "8030",
+      "OTHER",
+      "RC4020",
+      "RC4021",
+      "RC-4030",
+      "RC-8021",
+      "RC-8030"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/PSIA/Streaming/channels/0"
+      ]
+    },
+    "models": [
+      "S1080"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/h264.sdp4"
+      ]
+    },
+    "models": [
+      "AV40185DN"
+    ]
+  }
+}

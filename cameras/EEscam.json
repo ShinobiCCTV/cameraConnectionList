@@ -1,0 +1,22 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin&password=tlJwpbo6&channel=1&stream=0.sdp"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

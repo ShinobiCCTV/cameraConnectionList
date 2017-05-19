@@ -1,0 +1,80 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]"
+      ],
+      "MJPEG": [
+        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?rate=11",
+        "/video.cgi?resolution=VGA",
+        "/videofeed",
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/VIDEO.CGI",
+        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+        "/videostream.cgi?"
+      ],
+      "JPEG": [
+        "/cgi-bin/mobile_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/snapshot.cgi",
+        "/image.jpg",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/img/snapshot.cgi?size=2",
+        "/snapshot.cgi?camera=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "34A",
+      "39A",
+      "39-A",
+      "40",
+      "AIRSIGHT",
+      "AIRSIGHTB",
+      "AIRSIGHTDOME",
+      "AIRSIGHTHD",
+      "AIRSIGHTOUTSIDE",
+      "AIRSIGHTX36A",
+      "AIRSIGHTXX39",
+      "AIRSIGHTBIONDI",
+      "ARCSIGHT",
+      "JAKE",
+      "MYCAM1",
+      "OTHER",
+      "PTZPRO",
+      "X-10PT",
+      "XC-36A",
+      "XC-38A",
+      "XC-40A",
+      "XX-34A",
+      "XX-36A",
+      "XX-36C",
+      "XX-39A",
+      "XX-40A",
+      "XX41AHOME",
+      "XX-52A",
+      "XX-56A",
+      "XX-59A",
+      "XX-60",
+      "XX-69A"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11"
+      ]
+    },
+    "models": [
+      "XX-59A"
+    ]
+  }
+}

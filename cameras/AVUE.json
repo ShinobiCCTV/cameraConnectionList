@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live1.sdp"
+      ]
+    },
+    "models": [
+      "AVD552MIP"
+    ]
+  }
+}

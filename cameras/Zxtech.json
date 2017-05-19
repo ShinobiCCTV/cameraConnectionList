@@ -1,0 +1,40 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snap.jpg?JpegSize=XL",
+        "/snap.jpg?JpegCam=[CHANNEL]",
+        "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/tmpfs/auto.jpg",
+        "/snap.jpg",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "3516CV200_IMX323",
+      "MCI281D6",
+      "MCI281O6",
+      "OTHER",
+      "PREMIO",
+      "TROPOX",
+      "TROPOXIP",
+      "WIFI-002"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/0",
+        "/11"
+      ]
+    },
+    "models": [
+      "BIG",
+      "MCIDP17",
+      "MINKAMERA",
+      "MONSTERVISION",
+      "PREMIO",
+      "TROPOX"
+    ]
+  }
+}

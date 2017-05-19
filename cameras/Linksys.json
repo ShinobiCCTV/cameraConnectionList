@@ -1,0 +1,86 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/img/video.mjpeg",
+        "/MJPEG.CGI",
+        "/img/mjpeg.jpg",
+        "/img/mjpeg.cgi",
+        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+        "/cgi/mjpg/mjpeg.cgi",
+        "/video.cgi?resolution=VGA"
+      ],
+      "JPEG": [
+        "/cgi-bin/video.jpg?size=2",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
+        "/goform/video2",
+        "/snapshot.jpg",
+        "/img/snapshot.cgi?size=3",
+        "/cgi-bin/guest/Video.cgi?media=JPEG",
+        "/img/snapshot.cgi",
+        "/img/snapshot.cgi?size=2",
+        "/video.cgi",
+        "/img/snapshot.cgi?img=vga",
+        "/jpg/image.jpg?size=3",
+        "/tmpfs/auto.jpg"
+      ],
+      "FFMPEG": [
+        "/img/video.asf",
+        "/videostream.asf"
+      ]
+    },
+    "models": [
+      "54G",
+      "54GCA",
+      "920",
+      "932L",
+      "ANC808V",
+      "ANC80V",
+      "EVC54GCA",
+      "LCA",
+      "LCAB03VLNNOD",
+      "LCAB03VLNOD",
+      "LCAD03VLNOD",
+      "OTHER",
+      "PVC2003",
+      "PVC2300",
+      "SC3130",
+      "W54G",
+      "W54GC",
+      "WC210",
+      "WCV200",
+      "WIRELESS-G",
+      "WPC200",
+      "WSC80N",
+      "WVC",
+      "WVCSERIES",
+      "WVC11B",
+      "WVC200",
+      "WVC210",
+      "WVC2300",
+      "WVC54G",
+      "WVC54GC",
+      "WVC54GCA",
+      "WVC54GCAMGP",
+      "WVC80N",
+      "WVN80"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ONVIF/channel2",
+        "/ONVIF/channel1"
+      ]
+    },
+    "models": [
+      "LCAB03VLNOD",
+      "LCAD03FLN",
+      "LCAD03VLNOD",
+      "LCAM0336OD",
+      "OTHER"
+    ]
+  }
+}

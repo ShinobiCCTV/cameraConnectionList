@@ -1,0 +1,17 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/ch1",
+        "/live/ch0"
+      ]
+    },
+    "models": [
+      "HDPTZ",
+      "MINI",
+      "MINIHD",
+      "MINIIPCAMERA",
+      "VIEW"
+    ]
+  }
+}

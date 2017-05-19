@@ -1,0 +1,17 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/mjpeg",
+        "/PSIA/Streaming/channels/2",
+        "/h264main",
+        "/mpeg4main"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "SNC-2202",
+      "SNC-WD91M1322"
+    ]
+  }
+}

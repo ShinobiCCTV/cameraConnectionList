@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videofeed"
+      ]
+    },
+    "models": [
+      "CNM",
+      "GALAXYTAB",
+      "OTHER"
+    ]
+  }
+}

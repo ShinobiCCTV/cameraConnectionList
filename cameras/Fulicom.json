@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi-bin/sf.cgi"
+      ]
+    },
+    "models": [
+      "FC-CR1060"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11",
+        "/12"
+      ]
+    },
+    "models": [
+      "KR004",
+      "KR0043",
+      "KW02B",
+      "ONVIF720HDIPCAMERA",
+      "PNP1P"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg",
+        "/img/snapshot.cgi?size=2"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ]
+    },
+    "models": [
+      "KR0043",
+      "KW0043",
+      "KW01B",
+      "KW02B",
+      "ONVIF720HDIPCAMERA",
+      "OTHER"
+    ]
+  }
+}

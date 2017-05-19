@@ -1,0 +1,19 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/mjpeg.cgi",
+        "/?action=appletvstream"
+      ],
+      "JPEG": [
+        "/img/snapshot.cgi?size=2"
+      ]
+    },
+    "models": [
+      "LN-400",
+      "OTHER"
+    ]
+  }
+}

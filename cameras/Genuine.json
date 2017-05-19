@@ -1,0 +1,18 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/stream1"
+      ]
+    },
+    "models": [
+      "2.1",
+      "DOME",
+      "FGF",
+      "H264",
+      "HTF",
+      "HYT",
+      "KCE"
+    ]
+  }
+}

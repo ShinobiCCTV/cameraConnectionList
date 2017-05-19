@@ -1,0 +1,17 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi?size=3",
+        "/video.cgi"
+      ],
+      "MJPEG": [
+        "/img/video.mjpeg"
+      ]
+    },
+    "models": [
+      "OHLSONNC802APT",
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ucast/11",
+        "/ucast/12"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

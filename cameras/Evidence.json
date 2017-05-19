@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/jpg/image.cgi",
+        "/cgi-bin/jpg/image.cgi?"
+      ]
+    },
+    "models": [
+      "APIXBOXM2",
+      "OTHER"
+    ]
+  }
+}

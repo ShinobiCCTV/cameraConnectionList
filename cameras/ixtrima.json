@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snap.jpg"
+      ]
+    },
+    "models": [
+      "XT-IPB24A200"
+    ]
+  }
+}

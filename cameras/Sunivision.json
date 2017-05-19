@@ -1,0 +1,26 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/12",
+        "/11"
+      ]
+    },
+    "models": [
+      "B1012",
+      "OTHER",
+      "SV-B603W",
+      "SW-B603W"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video.cgi?resolution=VGA"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

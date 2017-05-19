@@ -1,0 +1,28 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/av0",
+        "/live/av1"
+      ]
+    },
+    "models": [
+      "IP100",
+      "PX-3720-675",
+      "PYLE",
+      "S610",
+      "SUMPPLE",
+      "SUMPPLES650"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "SUMPPLE"
+    ]
+  }
+}

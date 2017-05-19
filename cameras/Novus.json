@@ -1,0 +1,26 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/profile1"
+      ]
+    },
+    "models": [
+      "1MPX",
+      "NVIP-3DN3012V/IR-1P"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/",
+        "/GetData.cgi?Status=false"
+      ]
+    },
+    "models": [
+      "7000",
+      "NASZA",
+      "NVIP-TDN5401C"
+    ]
+  }
+}

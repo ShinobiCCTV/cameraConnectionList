@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=6qAry1RO_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "DK-7043S-GP-AF"
+    ]
+  }
+}

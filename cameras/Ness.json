@@ -1,0 +1,27 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/h264"
+      ]
+    },
+    "models": [
+      "NIP-200",
+      "NIP-300"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/jpg/image.cgi"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ]
+    },
+    "models": [
+      "NIP-300",
+      "OTHER"
+    ]
+  }
+}

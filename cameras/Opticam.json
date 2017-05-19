@@ -1,0 +1,40 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/videoMain",
+        "/videoSub"
+      ]
+    },
+    "models": [
+      "DBHD",
+      "O3_V2",
+      "O3V2",
+      "O4MINIHD",
+      "OLOHUONE"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
+        "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]",
+        "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "FI8903W",
+      "HD3",
+      "I6DB",
+      "O4MINIHD",
+      "O7DOME",
+      "ODOTUSTILA",
+      "OLOHUONE",
+      "HD",
+      "_O3_V2",
+      "OTHER",
+      "PTZ07"
+    ]
+  }
+}

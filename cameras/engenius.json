@@ -1,0 +1,33 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/GetData.cgi"
+      ]
+    },
+    "models": [
+      "E200",
+      "EDS1130",
+      "EDS5110",
+      "EDS5115",
+      "EDS5250",
+      "FRAMSIDAN",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/ch01_0",
+        "/live/ch00_0"
+      ]
+    },
+    "models": [
+      "EDS6115",
+      "EWS1025"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/stremming1",
+        "/v01"
+      ]
+    },
+    "models": [
+      "M-12",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

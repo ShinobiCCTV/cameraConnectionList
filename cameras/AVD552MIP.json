@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live1.sdp",
+        "/live2.sdp"
+      ]
+    },
+    "models": [
+      "AVUE"
+    ]
+  }
+}

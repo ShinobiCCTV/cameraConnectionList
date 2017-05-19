@@ -1,0 +1,24 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ch0_0.264"
+      ]
+    },
+    "models": [
+      "2101IP-V"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "BLW-2024",
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi-bin/video.cgi?msubmenu=mjpg"
+      ]
+    },
+    "models": [
+      "IPC-5100"
+    ]
+  }
+}

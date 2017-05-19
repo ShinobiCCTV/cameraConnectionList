@@ -1,0 +1,53 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/stream.jpg",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/cgi/mjpg/mjpeg.cgi"
+      ],
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "MFC-228WF",
+      "MFC-229WF",
+      "NC-107W",
+      "NC-306W",
+      "NC-307W",
+      "NC-326G",
+      "NC-326PW",
+      "NC-326W",
+      "NC-335PW",
+      "NC-335PW-HD-10",
+      "NC-335PW-HD-1080P",
+      "NC-336P",
+      "NC-336PW",
+      "NC-336PWHD1080",
+      "NC-336PW-HD-1080P",
+      "NC-336W-HD-1080P",
+      "OTHER",
+      "TV-IP110WN"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/0/onvif.sdp",
+        "/ch1/stream0"
+      ]
+    },
+    "models": [
+      "NC-239WF",
+      "NC-240WF",
+      "NC-240WF-HD-1080P",
+      "NC-335PW",
+      "NC-335PW-HD-1080P",
+      "NC-336PW-HD-1080P",
+      "NC-336W-HD-1080P",
+      "TV-IP302PI"
+    ]
+  }
+}

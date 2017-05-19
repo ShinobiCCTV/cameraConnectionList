@@ -1,0 +1,17 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/video.sdp",
+        "/PSIA/Streaming/channels/2"
+      ]
+    },
+    "models": [
+      "CONCEALED",
+      "EVO5",
+      "EVO5MINI",
+      "INDOOR",
+      "MINI"
+    ]
+  }
+}

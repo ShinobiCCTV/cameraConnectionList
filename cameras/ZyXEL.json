@@ -1,0 +1,39 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+        "/snapshot.jpg",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+        "/cgi/jpg/image.cgi"
+      ],
+      "MJPEG": [
+        "/mjpegStreamer.cgi",
+        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+        "/cgi/mjpg/mjpg.cgi",
+        "/cgi/mjpg/mjpeg.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/goform/video",
+        "/videostream.asf"
+      ]
+    },
+    "models": [
+      "2605-N",
+      "IPC2605N",
+      "IPC-3605N",
+      "IPC36XX/46XX",
+      "IPC-4605N",
+      "IPC-4609N",
+      "N454",
+      "OTHER"
+    ]
+  }
+}

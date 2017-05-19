@@ -1,0 +1,25 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/stream1"
+      ]
+    },
+    "models": [
+      "AD1",
+      "AU1"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi/mjpg/mjpeg.cgi"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "SICPT500W",
+      "SICPT501W"
+    ]
+  }
+}

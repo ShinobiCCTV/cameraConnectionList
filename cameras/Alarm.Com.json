@@ -1,0 +1,43 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/viewer/video.jpg?resolution=640x480",
+        "/cgi-bin/viewer/video.jpg",
+        "/cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
+        "/img/snapshot.cgi?size=2",
+        "/cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "ADC-520IR",
+      "ADC-V510",
+      "ADC-V520",
+      "ADC-V520IR",
+      "ADC-V610PT",
+      "ADC-V700X",
+      "ADC-V720W",
+      "ADC-V721W",
+      "ADC-VS120",
+      "CUBE",
+      "MINE",
+      "OTHER",
+      "V520IR"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live.sdp"
+      ]
+    },
+    "models": [
+      "ADC-V510",
+      "ADC-V520",
+      "ADC-V520IR",
+      "ADC-V52IR",
+      "ADC-V720W",
+      "V510"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/11",
+        "/live0.264"
+      ]
+    },
+    "models": [
+      "IP66",
+      "LH-R6100",
+      "LS-F2",
+      "LS-F2(HX)",
+      "LS-IPK15",
+      "LS-R2600",
+      "WIFI"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snap.jpg?JpegCam=[CHANNEL]",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/tmpfs/auto.jpg"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "IP66",
+      "LS-F2",
+      "LS-IP36CM",
+      "LS-IP601",
+      "OTHER"
+    ]
+  }
+}

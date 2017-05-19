@@ -1,0 +1,13 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video.cgi?resolution=VGA"
+      ]
+    },
+    "models": [
+      "CAR-B2500HQIP",
+      "CAR-R300IP"
+    ]
+  }
+}

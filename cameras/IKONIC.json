@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/stillimg[CHANNEL].jpg"
+      ]
+    },
+    "models": [
+      "IKE-D9004W/WEBPORT"
+    ]
+  }
+}

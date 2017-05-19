@@ -1,0 +1,42 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+        "/video.cgi?resolution=VGA",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "JPEG": [
+        "/snapshot.cgi",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/cgi-bin/guest/Video.cgi?media=JPEG",
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "EYECAM",
+      "HOMEGUARD",
+      "OTHER",
+      "SON-IPC1"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11"
+      ]
+    },
+    "models": [
+      "HOMEGUARD720P"
+    ]
+  }
+}

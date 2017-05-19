@@ -1,0 +1,67 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/rtsp/onvif",
+        "/rtsp/stream1",
+        "/stream1",
+        "/rtsp/now.mp4",
+        "/rtsp/now.jpg"
+      ]
+    },
+    "models": [
+      "3",
+      "862",
+      "IQ862N",
+      "IQ8712",
+      "IQR53",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/now.jpg?ds=",
+        "/jpg/image.jpg?size=3",
+        "/now.jpg",
+        "/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "MJPEG": [
+        "/now.jpg?snap=spush",
+        "/mjpg/video.mjpg",
+        "/axis-cgi/mjpg/video.cgi",
+        "/now.jpg?snap=spush?ds=",
+        "/video?submenu=mjpg"
+      ]
+    },
+    "models": [
+      "3",
+      "4SERIES",
+      "511DV",
+      "705",
+      "732",
+      "752",
+      "753",
+      "755",
+      "832.33",
+      "832.34",
+      "832.35",
+      "832.36",
+      "855",
+      "A12S",
+      "IPCAMS",
+      "IQ031S",
+      "IQ041S",
+      "IQ4XX",
+      "IQ732N",
+      "IQ863N",
+      "IQD32S",
+      "IQM31N",
+      "IQM32N",
+      "M53",
+      "OTHER",
+      "S031",
+      "SENTINEL855"
+    ]
+  }
+}

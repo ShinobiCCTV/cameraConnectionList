@@ -1,0 +1,29 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/mobile/channel[CHANNEL].jpg",
+        "/current[CHANNEL].jpg",
+        "/image/[CHANNEL].jpg",
+        "/cgi-bin/video.jpg",
+        "/cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
+        "/screen.jpg",
+        "/jpg/1/image.jpg",
+        "/cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+        "/cgi-bin/viewer/video.jpg",
+        "/[USERNAME]/cam[CHANNEL].jpg",
+        "/images/stream_[CHANNEL].jpg",
+        "/snapshot_ch0[CHANNEL].jpg",
+        "/stillimg[CHANNEL].jpg",
+        "/snapshot/view[CHANNEL].jpg"
+      ],
+      "MJPEG": [
+        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2"
+      ]
+    },
+    "models": [
+      "H9008W/WEBPORT",
+      "OTHER"
+    ]
+  }
+}

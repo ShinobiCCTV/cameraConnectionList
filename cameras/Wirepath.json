@@ -1,0 +1,19 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/GetData.cgi"
+      ],
+      "JPEG": [
+        "/cgi-bin/wappaint?camera_no=[CHANNEL]&animation=0&name=[USERNAME]&password=[PASSWORD]&pic_size=2"
+      ]
+    },
+    "models": [
+      "750DOME",
+      "IPDOME",
+      "WPS-300-IP-DOM",
+      "WPS-550-BUL-IP-WH",
+      "WPS-750-BUL-IP-GR"
+    ]
+  }
+}

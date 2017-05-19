@@ -1,0 +1,18 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/snapshot.jpg"
+      ],
+      "MJPEG": [
+        "/img/video.mjpeg"
+      ]
+    },
+    "models": [
+      "ISEE",
+      "OTHER"
+    ]
+  }
+}

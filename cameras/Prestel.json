@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/stream1"
+      ]
+    },
+    "models": [
+      "HD-PTZ8IP"
+    ]
+  }
+}

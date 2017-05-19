@@ -1,0 +1,20 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi-bin/Stream?Video",
+        "/cgi-bin/Stream?Video?Acc=[USERNAME]?Pwd=[PASSWORD]?webcamPWD=UserCookie00000"
+      ],
+      "JPEG": [
+        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "P1000",
+      "P1100",
+      "P2000",
+      "SLIM240NVR"
+    ]
+  }
+}

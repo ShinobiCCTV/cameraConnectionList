@@ -1,0 +1,57 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.cgi?resolution=8&rate=13"
+      ],
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?rate=0",
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+        "/video.cgi?resolution=VGA",
+        "/videofeed"
+      ]
+    },
+    "models": [
+      "2.6",
+      "201B",
+      "300",
+      "300B",
+      "350",
+      "351S",
+      "B300",
+      "IP300",
+      "IP-100",
+      "IP-101W",
+      "IP-200B",
+      "IP-201B",
+      "IP201W",
+      "IP-300",
+      "IP-300B",
+      "IP-300W",
+      "IP-302",
+      "IP302B",
+      "IP-350",
+      "IP-351S",
+      "IP-360S",
+      "IP-810RW",
+      "IP-810W",
+      "IP-810WZ",
+      "OTHER",
+      "POLIP101W",
+      "POLIP201B",
+      "POLIP201W",
+      "POLIP351S",
+      "POLIP35I5",
+      "TABLET"
+    ]
+  }
+}

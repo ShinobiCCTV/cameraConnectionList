@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ch0.liv"
+      ]
+    },
+    "models": [
+      "SIR75A",
+      "TC26"
+    ]
+  }
+}

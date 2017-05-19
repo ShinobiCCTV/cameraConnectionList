@@ -1,0 +1,90 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/mpeg4cif",
+        "/mpeg4",
+        "/0",
+        "/11",
+        "/H264",
+        "/ch00/0"
+      ]
+    },
+    "models": [
+      "1337IP",
+      "2016IP",
+      "2037",
+      "2040",
+      "2065IP",
+      "2078-IP",
+      "2440I",
+      "5071IP",
+      "5MP",
+      "GW1324IP",
+      "GW-1340IP",
+      "GW1361IP",
+      "GW-2037",
+      "GW-2040IP",
+      "GW-2050IP",
+      "GW-2061IP",
+      "GW-2071IP",
+      "GW-2078IP",
+      "GW-2250",
+      "GW-2271IP",
+      "GW4028IP",
+      "GW4571MIP",
+      "GW5037IP",
+      "GW-5061IP",
+      "GW-5080IP",
+      "GW-5081IP",
+      "GW-5091IP",
+      "GW-N-2037IP",
+      "HD1920",
+      "IP-2000",
+      "IP-2037",
+      "UNK"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?camera=[CHANNEL]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi?",
+        "/img/snapshot.cgi?size=2",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?1"
+      ]
+    },
+    "models": [
+      "2250IP",
+      "5050IP",
+      "5MP",
+      "GE2237IP",
+      "GW-1333IP",
+      "GW1361IP",
+      "GW-2037IP",
+      "GW-2040",
+      "GW-2040IP",
+      "GW-2050IP",
+      "GW-2061",
+      "GW-2061IP",
+      "GW2071IP",
+      "GW-2089IP",
+      "GW-2237IP",
+      "GW-2250IP",
+      "GW5037IP",
+      "GW-5050IP",
+      "GW-5061IP",
+      "GW-5071IP",
+      "GW5077MIC",
+      "GW-5081IP",
+      "GW822CVB",
+      "GW852CVB",
+      "GWSEC",
+      "IP66",
+      "KDW-HW29RC72"
+    ]
+  }
+}

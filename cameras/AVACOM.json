@@ -1,0 +1,53 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/img/snapshot.cgi?size=2",
+        "/snapshot.cgi"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/video.cgi?resolution=VGA",
+        "/videostream.cgi?"
+      ]
+    },
+    "models": [
+      "1080W",
+      "5060",
+      "5060W",
+      "5980",
+      "H5060W",
+      "H5080W",
+      "M1060W",
+      "M1080W",
+      "M1080-W",
+      "NEW",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/tcp/av0_0",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/0"
+      ]
+    },
+    "models": [
+      "5080W",
+      "FRONTYARD",
+      "H5060W",
+      "H5080W",
+      "H5160W",
+      "H6080AW",
+      "H6081"
+    ]
+  }
+}

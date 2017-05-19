@@ -1,0 +1,13 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/stream1.asf",
+        "/stream.asf"
+      ]
+    },
+    "models": [
+      "BLKN3304MV"
+    ]
+  }
+}

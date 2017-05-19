@@ -1,0 +1,115 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?1",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
+        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
+        "/cgi-bin/video.cgi?msubmenu=mjpg",
+        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+        "/?action=stream"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ]
+    },
+    "models": [
+      "001B",
+      "1080",
+      "1080-",
+      "1080P",
+      "192.168.1.31",
+      "1920TVL",
+      "1P2M-841B",
+      "720",
+      "720P",
+      "720PIPM-721S",
+      "720PIPM-723S",
+      "7225",
+      "722-IP",
+      "722S",
+      "841",
+      "841BIMI",
+      "841W",
+      "AMC001T4_590R5V",
+      "FISHFARM",
+      "HDPRO",
+      "HDPROIPM",
+      "IMP722S",
+      "IMP-751W",
+      "IMP-HX1B",
+      "IP20-841B",
+      "IP2-841M",
+      "IP2M",
+      "IP2M-841",
+      "IP2M-841B",
+      "IP2M841B",
+      "IP2M-841E",
+      "IP2M-841S",
+      "IP2M-841W",
+      "IP2M-842",
+      "IP2M-842B",
+      "IP2M-842E",
+      "IP2M-842W",
+      "IP2M-844E",
+      "IP396EW",
+      "IP3M-941",
+      "IP3M-941B",
+      "IP3M-941W",
+      "IP3M-943B",
+      "IP3M-943W",
+      "IP3M952E",
+      "IP3M-954E",
+      "IP3M-954EB",
+      "IP3M-954EW",
+      "IP3M-956",
+      "IP3M-956E",
+      "IP3M-956EB",
+      "IP3M-HX2B",
+      "IP4M-1025EB",
+      "IP67",
+      "IP-842M",
+      "IPM723W",
+      "IPM-22S",
+      "IPM2M-841B",
+      "IPM-721",
+      "IPM-721B",
+      "IPM-721P",
+      "IPM721S",
+      "IPM-721S",
+      "IPM-721W",
+      "IPM-722S",
+      "IPM723S",
+      "IPM-723S",
+      "IPM743",
+      "IPM-743ES",
+      "IPM751B",
+      "IPM-751W",
+      "IPM-HX1W",
+      "NVR",
+      "OTHER",
+      "PROHD"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor",
+        "/h264Preview_01_main"
+      ]
+    },
+    "models": [
+      "722-IP",
+      "IP3M-956E",
+      "IPM722S",
+      "QCAMIP3M952E"
+    ]
+  }
+}

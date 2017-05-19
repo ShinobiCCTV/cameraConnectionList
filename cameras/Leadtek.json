@@ -1,0 +1,30 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2"
+      ]
+    },
+    "models": [
+      "C351",
+      "OTHER",
+      "VS-2001"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/media.amp"
+      ]
+    },
+    "models": [
+      "C512",
+      "C522",
+      "C541"
+    ]
+  }
+}

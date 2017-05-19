@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=i8fT8Xff_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "CAMARAIP",
+      "IMB-F13M"
+    ]
+  }
+}

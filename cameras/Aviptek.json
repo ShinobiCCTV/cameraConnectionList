@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/GetData.cgi"
+      ],
+      "JPEG": [
+        "/GetData.cgi?Status=1"
+      ]
+    },
+    "models": [
+      "NC1600",
+      "OTHER"
+    ]
+  }
+}

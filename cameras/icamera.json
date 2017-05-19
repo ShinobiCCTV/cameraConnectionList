@@ -1,0 +1,48 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/img/mjpeg.jpg",
+        "/img/video.mjpeg",
+        "/img/mjpeg.cgi",
+        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]"
+      ],
+      "JPEG": [
+        "/img/snapshot.cgi?size=2",
+        "/img/snapshot.cgi?size=3",
+        "/img/snapshot.cgi",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/img/snapshot.cgi?img=vga",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "1000",
+      "1000-ADT",
+      "CAM-IP9742",
+      "COMCAST",
+      "DACLINZ",
+      "I1000",
+      "2",
+      "ICONNECT",
+      "IP66",
+      "MIP1002-8",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/mpeg4"
+      ]
+    },
+    "models": [
+      "IP66"
+    ]
+  }
+}

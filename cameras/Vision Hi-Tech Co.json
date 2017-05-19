@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/mjpeg&basic_auth=YWRtaW46U0lTdGVjMjAwNQ=="
+      ]
+    },
+    "models": [
+      "727",
+      "VISIONXIP"
+    ]
+  }
+}

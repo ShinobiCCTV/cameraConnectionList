@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/video.jpg"
+      ]
+    },
+    "models": [
+      "3602"
+    ]
+  }
+}

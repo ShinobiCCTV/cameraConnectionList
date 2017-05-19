@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/Jpeg/Img.jpg"
+      ],
+      "MJPEG": [
+        "/GetData.cgi?Camera=0&BandWidth=0"
+      ]
+    },
+    "models": [
+      "7000EMSERIES",
+      "OTHER"
+    ]
+  }
+}

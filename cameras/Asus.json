@@ -1,0 +1,33 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video.mjpg?q=30&fps=33&id=0.5",
+        "/videofeed",
+        "/mjpg/video.mjpg",
+        "/video.cgi?resolution=VGA",
+        "/",
+        "/video?submenu=mjpg",
+        "/video?profile=[CHANNEL]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ]
+    },
+    "models": [
+      "202",
+      "ANDROID",
+      "NEXUS",
+      "NEXUS7",
+      "OTHER",
+      "PAD",
+      "PADFONE",
+      "PADFONEX",
+      "PADFONEXMINI",
+      "TRANSFORMERPRIME",
+      "ZEN",
+      "ZENFONE4",
+      "ZENFONE5"
+    ]
+  }
+}

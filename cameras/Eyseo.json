@@ -1,0 +1,19 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video.mjpeg"
+      ],
+      "JPEG": [
+        "/cgi-bin/viewer/video.jpg?resolution=640x480",
+        "/cgi-bin/video.jpg"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "TV7204",
+      "TV7230",
+      "TV7240"
+    ]
+  }
+}

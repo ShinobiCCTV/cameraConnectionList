@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/stream0/Channel=0;Profile=0"
+      ]
+    },
+    "models": [
+      "IP1"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp"
+      ]
+    },
+    "models": [
+      "AR-24NWPOE",
+      "AR-24NWPOE960"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "AR-24NWPOE"
+    ]
+  }
+}

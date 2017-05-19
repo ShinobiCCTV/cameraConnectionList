@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/101",
+        "/Streaming/Channels/1"
+      ]
+    },
+    "models": [
+      "DS-I113",
+      "DS-N211"
+    ]
+  }
+}

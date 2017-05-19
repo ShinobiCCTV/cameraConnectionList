@@ -1,0 +1,103 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.cgi?resolution=8&rate=13",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.asf"
+      ],
+      "MJPEG": [
+        "/videostream.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/videostream.cgi?",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videofeed",
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+        "/VIDEO.CGI",
+        "/video.mjpg",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/GetData.cgi?CH=2",
+        "/cgi/mjpg/mjpeg.cgi",
+        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
+        "/axis-cgi/mjpg/video.cgi",
+        "/video?profile=[CHANNEL]",
+        "/video.cgi?resolution=VGA",
+        "/image.cgi?type=motion&camera=[CHANNEL]",
+        "/image.cgi?type=motion",
+        "/GetData.cgi?Status=false",
+        "/video?submenu=mjpg",
+        "/user/videostream.cgi",
+        "/?action=stream"
+      ],
+      "JPEG": [
+        "/mobile/channel[CHANNEL].jpg",
+        "/snapshot/view[CHANNEL].jpg",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
+        "/now.jpg",
+        "/snap.jpg?JpegCam=[CHANNEL]",
+        "/img/snapshot.cgi?size=2",
+        "/ipcam/jpeg.cgi",
+        "/cgi-bin/video.jpg?size=2",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/guest/Video.cgi?media=JPEG",
+        "/usr/yoics[CHANNEL].jpg",
+        "/Jpeg/CamImg.jpg",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/image.jpg",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/tmpfs/auto.jpg",
+        "/current[CHANNEL].jpg",
+        "/out.jpg?id=0.5"
+      ]
+    },
+    "models": [
+      "100",
+      "2015",
+      "ALL-IN-ONE",
+      "AVERMEDIADVR",
+      "BILLY",
+      "BRAND",
+      "CHINACAM",
+      "DOMEA-OUTDOOR",
+      "GARDENCAM",
+      "PTZ",
+      "IPWEB1",
+      "IPWEBCAM",
+      "KARE",
+      "KAWAYAN",
+      "MOUVE",
+      "MUF",
+      "NANNYCAM",
+      "ONE",
+      "OTHER",
+      "OTHER1",
+      "RASPBERRYPI",
+      "SAP",
+      "YAWCAM",
+      "ZIO"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/1",
+        "/mpeg4",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/rtsp_live0"
+      ]
+    },
+    "models": [
+      "IS-3NA66",
+      "OTHER"
+    ]
+  }
+}

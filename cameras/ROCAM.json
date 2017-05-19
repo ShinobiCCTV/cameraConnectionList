@@ -1,0 +1,44 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/videostream.cgi?rate=0",
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "JPEG": [
+        "/snapshot.cgi",
+        "/img/snapshot.cgi?size=2",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
+      ]
+    },
+    "models": [
+      "M-200HD",
+      "NC300",
+      "NC300-1",
+      "NC-400",
+      "NC-400HD",
+      "NC-500",
+      "NC-500HD",
+      "OTHER",
+      "PTZ"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/0"
+      ]
+    },
+    "models": [
+      "NC-500",
+      "NC-500HD"
+    ]
+  }
+}

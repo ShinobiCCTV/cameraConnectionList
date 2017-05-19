@@ -1,0 +1,28 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ch0_1.264",
+        "/ch0_0.264"
+      ]
+    },
+    "models": [
+      "DOME",
+      "IPC"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "GJ-6075P1080P",
+      "OTHER"
+    ]
+  }
+}

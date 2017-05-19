@@ -1,0 +1,37 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/101",
+        "/Streaming/Channels/1",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "3012R",
+      "3030R",
+      "ABC01",
+      "BI",
+      "-IPU3230R",
+      "-IPV3013R",
+      "-NS1012VR",
+      "-NS1014VR",
+      "-NS3014R"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/tmpfs/auto.jpg"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "5MP",
+      "EXPRESS"
+    ]
+  }
+}

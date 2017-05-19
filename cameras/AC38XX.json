@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/onvif/live/2",
+        "/onvif/live/1"
+      ]
+    },
+    "models": [
+      "DM12",
+      "MD12"
+    ]
+  }
+}

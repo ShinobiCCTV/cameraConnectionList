@@ -1,0 +1,26 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/GetData.cgi?Status=0",
+        "/GetData.cgi",
+        "/stream.jpg",
+        "/GetData.cgi?Status=false"
+      ],
+      "JPEG": [
+        "/Jpeg/CamImg.jpg"
+      ],
+      "FFMPEG": [
+        "/stream.asf"
+      ]
+    },
+    "models": [
+      "301",
+      "IC-301",
+      "IP-301",
+      "MW-BISI",
+      "NW-100N",
+      "PT-300"
+    ]
+  }
+}

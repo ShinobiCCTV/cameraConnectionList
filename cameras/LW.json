@@ -1,0 +1,18 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi"
+      ],
+      "FFMPEG": [
+        "/videostream.cgi?resolution=8&rate=13"
+      ]
+    },
+    "models": [
+      "-H264TF",
+      "OTHER"
+    ]
+  }
+}

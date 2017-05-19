@@ -1,0 +1,27 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "FW35",
+      "FW38-US"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11",
+        "/live/ch0",
+        "/live/ch1"
+      ]
+    },
+    "models": [
+      "FW38",
+      "OTHER",
+      "PTZ"
+    ]
+  }
+}

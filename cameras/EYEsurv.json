@@ -1,0 +1,23 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "ESIP-MP3-BT1"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor"
+      ]
+    },
+    "models": [
+      "PTZ1080IPIR"
+    ]
+  }
+}

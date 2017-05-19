@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videofeed"
+      ]
+    },
+    "models": [
+      "NEXUS",
+      "NEXUS4",
+      "NEXUS6",
+      "NEXUS7",
+      "NEXUS5"
+    ]
+  }
+}

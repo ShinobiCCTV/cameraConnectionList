@@ -1,0 +1,13 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/video.jpg",
+        "/cgi-bin/video.jpg?size=2"
+      ]
+    },
+    "models": [
+      "ANC-800"
+    ]
+  }
+}

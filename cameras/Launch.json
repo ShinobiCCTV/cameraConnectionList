@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/image.jpg"
+      ]
+    },
+    "models": [
+      "LC5000"
+    ]
+  }
+}

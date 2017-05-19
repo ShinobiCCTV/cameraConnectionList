@@ -1,0 +1,13 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/video.jpg?size=2",
+        "/cgi-bin/video.jpg"
+      ]
+    },
+    "models": [
+      "PZ61X2"
+    ]
+  }
+}

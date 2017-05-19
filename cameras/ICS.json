@@ -1,0 +1,22 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/jpg/image.jpg?size=3"
+      ]
+    },
+    "models": [
+      "330L"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "IP1300"
+    ]
+  }
+}

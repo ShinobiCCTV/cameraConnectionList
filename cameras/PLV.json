@@ -1,0 +1,16 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/user=admin_password=QQ9sbKBy_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "DOME",
+      "837",
+      "-NC811KE",
+      "-NC816ME"
+    ]
+  }
+}

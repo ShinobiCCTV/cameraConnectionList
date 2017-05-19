@@ -1,0 +1,21 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/img/video.mjpeg"
+      ],
+      "JPEG": [
+        "/img/snapshot.cgi?size=2"
+      ]
+    },
+    "models": [
+      "1000",
+      "CAM1000",
+      "ICAMERA1000",
+      "ICAMERA-1000",
+      "RC8021",
+      "RC8025",
+      "RC8201"
+    ]
+  }
+}

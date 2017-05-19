@@ -1,0 +1,17 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/image.cgi",
+        "/shot.jpg"
+      ],
+      "MJPEG": [
+        "/image.cgi?type=motion"
+      ]
+    },
+    "models": [
+      "9852W",
+      "OTHER"
+    ]
+  }
+}

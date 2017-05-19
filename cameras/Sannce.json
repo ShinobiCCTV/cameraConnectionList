@@ -1,0 +1,26 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/tcp/av0_0",
+        "/Streaming/Unicast/channels/101"
+      ]
+    },
+    "models": [
+      "720HDIPCAM",
+      "OTHER",
+      "PTZCAMERA"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi?size=2"
+      ]
+    },
+    "models": [
+      "I21AG",
+      "OTHER"
+    ]
+  }
+}

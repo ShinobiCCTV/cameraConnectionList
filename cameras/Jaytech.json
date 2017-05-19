@@ -1,0 +1,25 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ONVIF/Streaming/channels/0_a/unicast",
+        "/H264",
+        "/av0_0"
+      ]
+    },
+    "models": [
+      "DH43",
+      "DING"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+      ]
+    },
+    "models": [
+      "IP6021W"
+    ]
+  }
+}

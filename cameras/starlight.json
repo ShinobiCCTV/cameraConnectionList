@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/profile1"
+      ]
+    },
+    "models": [
+      "AMAZON"
+    ]
+  }
+}

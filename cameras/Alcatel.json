@@ -1,0 +1,20 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videofeed",
+        "/video.mjpg"
+      ]
+    },
+    "models": [
+      "6055U",
+      "ALCA",
+      "ANDROID",
+      "DL900",
+      "ONETOUCHFIERCE",
+      "OT'POP",
+      "PHONE",
+      "TEMPORISIP80"
+    ]
+  }
+}

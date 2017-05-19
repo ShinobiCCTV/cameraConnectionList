@@ -1,0 +1,18 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/cgi-bin/net_jpeg.cgi?ch=0"
+      ],
+      "JPEG": [
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "IP102W",
+      "IP202WN",
+      "IP302P"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/ch0"
+      ]
+    },
+    "models": [
+      "DMW5820",
+      "OTHER",
+      "PTZ1080"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/mobile_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf"
+      ]
+    },
+    "models": [
+      "400W",
+      "700W"
+    ]
+  }
+}

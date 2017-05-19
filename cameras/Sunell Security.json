@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/snl/live/1/2"
+      ]
+    },
+    "models": [
+      "IPR54/12ND",
+      "IPR-5440APDN",
+      "IPS-56"
+    ]
+  }
+}

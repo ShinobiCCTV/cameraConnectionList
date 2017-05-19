@@ -1,0 +1,20 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/user=admin_password=WPn0PZSY_channel=1_stream=0.sdp",
+        "/user=admin_password=jkVdojUA_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "720P",
+      "IPC-BT511S",
+      "IPC-BT623-2.0",
+      "IPC-DM05",
+      "IPC-DM13E-2.0",
+      "YN-IPC-BT606WV",
+      "YN-IPC-DM04"
+    ]
+  }
+}

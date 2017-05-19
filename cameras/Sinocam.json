@@ -1,0 +1,83 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11",
+        "/ucast/11",
+        "/ucast/12",
+        "/ROH/channel/11"
+      ]
+    },
+    "models": [
+      "1MPCAM",
+      "1MPIPCAM",
+      "1MPIPCAMERA",
+      "4036SW",
+      "5001-S",
+      "5033",
+      "5033SW",
+      "8002",
+      "8003-C",
+      "8107",
+      "AUSSEN",
+      "BLACK",
+      "CAM2",
+      "H264",
+      "HI-3518C",
+      "IP2MPCAM",
+      "IP-66",
+      "IPC4015CSW-EU",
+      "IPC-5001C-PPOE",
+      "IPC-5033",
+      "IPC-7004A-WI-EU",
+      "IPC-9031A-POE",
+      "IPCAM1",
+      "IPC-F20M",
+      "NOTSURE",
+      "ONVI",
+      "OTHER",
+      "SINO",
+      "SN-30008B",
+      "SN-5022CSW",
+      "SN5033",
+      "SN-6408CW",
+      "SN-6409C",
+      "SN-6409CW",
+      "SN-IP-8005C",
+      "SN-IPC4036SW",
+      "SN-IPC-4015SW-AU",
+      "SN-IPC-4036SW-AU",
+      "SN-IPC-5032CSW",
+      "SN-IPC-5033",
+      "SN-IPC5033CSW-WI",
+      "SN-IPC-5033SW-WI-UK",
+      "SN-IPC-5125CSW",
+      "SN-IPC-562410",
+      "SN-IPC-6409",
+      "SN-IPC-8002A-WI-EU",
+      "SN-NVK-6004H10",
+      "SN-NVK-W5065",
+      "X264"
+    ]
+  },
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "JPEG": [
+        "/snapshot",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "SNIPC3001",
+      "SN-IPC-3001FSW13"
+    ]
+  }
+}

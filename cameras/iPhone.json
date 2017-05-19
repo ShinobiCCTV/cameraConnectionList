@@ -1,0 +1,35 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video.mjpg",
+        "/user/videostream.cgi",
+        "/?action=appletvstream",
+        "/videofeed",
+        "/live?camera=[CHANNEL]&fps=5&quality=75&resolution=[WIDTH]x[HEIGHT]",
+        "/?action=stream",
+        "/live?codec=mjpeg&camera=[CHANNEL]",
+        "/live?camera=[USERNAME]&quality=75&fps=5&resolution=[PASSWORD]"
+      ],
+      "JPEG": [
+        "/cgi-bin/image.jpg?size=[WIDTH]x[HEIGHT]",
+        "/current[CHANNEL].jpg",
+        "/image.jpg"
+      ],
+      "FFMPEG": [
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "3GS",
+      "4",
+      "4S",
+      "CUSTOMCAM",
+      "İPHONE",
+      "5",
+      "OTHER",
+      "USETHIS"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/mpeg4",
+        "/11",
+        "/ch0.h264"
+      ]
+    },
+    "models": [
+      "1024V",
+      "1812VW",
+      "911",
+      "913V",
+      "922V",
+      "923",
+      "EA1812",
+      "EA-1822",
+      "EYE",
+      "EYE03W",
+      "HI3507RS7507H",
+      "-EYE01A",
+      "-EYE01W",
+      "-KI-EL",
+      "KI-DL",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/cgi-bin/net_jpeg.cgi?ch=0"
+      ]
+    },
+    "models": [
+      "911",
+      "911S",
+      "911V",
+      "912",
+      "913V",
+      "914V",
+      "922",
+      "924VPOE",
+      "925",
+      "925POE",
+      "EYE01W",
+      "EYE3",
+      "EYEOW1",
+      "HI3507RS7507H",
+      "-911",
+      "-924V",
+      "-EYE01W",
+      "-EYE01W2",
+      "-EYE03W",
+      "KI-C",
+      "KI-E",
+      "OTHER"
+    ]
+  }
+}

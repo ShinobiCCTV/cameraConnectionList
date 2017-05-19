@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/profile1",
+        "/11"
+      ]
+    },
+    "models": [
+      "DOME",
+      "FULLHD"
+    ]
+  }
+}

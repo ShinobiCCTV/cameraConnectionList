@@ -1,0 +1,25 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "6100",
+      "AS-IP1250"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11"
+      ]
+    },
+    "models": [
+      "AS-IP1250",
+      "-IPC6100--B1W",
+      "OTHER"
+    ]
+  }
+}

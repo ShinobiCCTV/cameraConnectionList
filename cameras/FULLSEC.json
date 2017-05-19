@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/H264",
+        "/cam1/onvif-h264"
+      ]
+    },
+    "models": [
+      "FS-IP13E",
+      "FS-IP1EW"
+    ]
+  }
+}

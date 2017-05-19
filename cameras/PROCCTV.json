@@ -1,0 +1,30 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg",
+        "/snapshot.cgi",
+        "/snap.jpg",
+        "/tmpfs/auto.jpg"
+      ],
+      "MJPEG": [
+        "/snapshot.cgi",
+        "/videostream.cgi?rate=11",
+        "/mjpegStreamer.cgi"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ]
+    },
+    "models": [
+      "CAMVIEWHSERIES",
+      "CAMVIEWJSERIES",
+      "CAMVIEWPSERIES",
+      "H5523W",
+      "OTHER",
+      "PET\\'ZVIEW"
+    ]
+  }
+}

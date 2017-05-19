@@ -1,0 +1,18 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/snapshot.jpg",
+        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "IC-212W",
+      "IC-502W",
+      "OTHER",
+      "ST-1354"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/stillimg.jpg",
+        "/stillimg1.jpg",
+        "/stillimg2.jpg"
+      ]
+    },
+    "models": [
+      "DATANVC910H"
+    ]
+  }
+}

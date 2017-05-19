@@ -1,0 +1,74 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi/jpg/image.cgi",
+        "/goform/video2",
+        "/image.jpg",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/goform/capture",
+        "/jpg/image.jpg",
+        "/jpg/image.jpg?size=3"
+      ],
+      "MJPEG": [
+        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+        "/mjpg/video.mjpg",
+        "/cgi/mjpg/mjpeg.cgi",
+        "/cgi/mjpg/mjpg.cgi",
+        "/video.cgi?resolution=VGA",
+        "/video.cgi",
+        "/mjpeg.cgi",
+        "/videostream.cgi?rate=0",
+        "/videofeed",
+        "/image.cgi?type=motion&camera=[CHANNEL]",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.cgi"
+      ],
+      "FFMPEG": [
+        "/videostream.asf",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ]
+    },
+    "models": [
+      "101",
+      "1620W",
+      "250AIC",
+      "500",
+      "747W",
+      "ACIN1747W",
+      "AIC250",
+      "AIC-250A",
+      "AIC250W",
+      "AIC600W",
+      "AIC650W",
+      "AIC650WDEAN",
+      "AICAP650SERIES",
+      "AICAP650W",
+      "AICN1500W",
+      "AICN500",
+      "AICN500SERIES",
+      "AICN500/A",
+      "AICN500W",
+      "AICN747W",
+      "AICN777W",
+      "AICP310SERIES",
+      "OTHER",
+      "SKYIPCAM310",
+      "SKYIPCAM500",
+      "SKYIPCAM747SERIES",
+      "SKYIPCAM777SERIES",
+      "SKYIPCAM1747W",
+      "SKYIPCAM250",
+      "SKYIPCAM250W",
+      "SKYIPCAM500W",
+      "SKYIPCAM747W",
+      "SMURFA1",
+      "SMURFA12"
+    ]
+  }
+}

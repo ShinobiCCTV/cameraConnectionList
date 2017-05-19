@@ -1,0 +1,16 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/1.3gp",
+        "/2.3gp"
+      ]
+    },
+    "models": [
+      "EXTERIOR",
+      "INTERIOR",
+      "PRO",
+      "PRO1"
+    ]
+  }
+}

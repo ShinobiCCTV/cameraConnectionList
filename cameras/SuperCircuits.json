@@ -1,0 +1,20 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/ivop.get?action=live&THREAD_ID=",
+        "/nvc-cgi/operator/snapshot.fcgi?channel=[CHANNEL]&name=snapshot&resolution=custom&quality=70&width=[WIDTH]&height=[HEIGHT]",
+        "/Getvideo.cgi?Cookie="
+      ],
+      "MJPEG": [
+        "/videostream.cgi?"
+      ]
+    },
+    "models": [
+      "16-CHDVR",
+      "BLK-IPS101",
+      "DVQ-2",
+      "OTHER"
+    ]
+  }
+}

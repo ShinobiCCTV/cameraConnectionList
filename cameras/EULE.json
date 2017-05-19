@@ -1,0 +1,24 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/0",
+        "/1"
+      ]
+    },
+    "models": [
+      "DOM-21IP",
+      "DOM-21IP_LOW"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "DOM-21IP"
+    ]
+  }
+}

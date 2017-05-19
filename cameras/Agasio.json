@@ -1,0 +1,74 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi",
+        "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
+        "/snapshot.cgi?",
+        "/tmpfs/auto.jpg",
+        "/snap.jpg",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snap.jpg?JpegCam=[CHANNEL]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?rate=11",
+        "/media/?action=stream",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/video.cgi?resolution=VGA",
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+        "/videostream.cgi?"
+      ]
+    },
+    "models": [
+      "4LIFE",
+      "5",
+      "621",
+      "621W",
+      "622W",
+      "A500W",
+      "A502W",
+      "A503W",
+      "A512",
+      "A512W",
+      "A522W",
+      "A533W",
+      "A602W",
+      "A603W",
+      "A612",
+      "A612-CUSTOM",
+      "A612W",
+      "A621W",
+      "A621W#1",
+      "A621W#2",
+      "A621W#4",
+      "A622W",
+      "A632W",
+      "BW",
+      "CABINEYE",
+      "DOME",
+      "F-SERIES",
+      "FR4020A2",
+      "HW",
+      "M1051",
+      "M105I",
+      "M105L",
+      "M1BF",
+      "M1BW",
+      "M501I",
+      "OIHN",
+      "OTHER",
+      "VNT6656G6A40",
+      "VNT6656G6A440"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/0",
+        "/ch00/1"
+      ]
+    },
+    "models": [
+      "960",
+      "MSK"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/stillimg[CHANNEL].jpg",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/video.cgi?resolution=VGA"
+      ]
+    },
+    "models": [
+      "H264DVRW/WEBPORT",
+      "OTHER",
+      "RVHDVR",
+      "RX100"
+    ]
+  }
+}

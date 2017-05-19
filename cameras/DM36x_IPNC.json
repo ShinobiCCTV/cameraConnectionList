@@ -1,0 +1,26 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Onvif/Streaming/2"
+      ]
+    },
+    "models": [
+      "001",
+      "0100",
+      "01001",
+      "10XMBR-1080IP",
+      "202",
+      "222",
+      "ALADETECH",
+      "DM36X720P",
+      "IMP3MP91AH",
+      "IMPORX",
+      "IMPORX2",
+      "IMPORX3",
+      "JIDETECH",
+      "JT-1080P",
+      "MYTECH"
+    ]
+  }
+}

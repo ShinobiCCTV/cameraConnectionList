@@ -1,0 +1,15 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "6149",
+      "OTHER",
+      "RAPTOR6149"
+    ]
+  }
+}

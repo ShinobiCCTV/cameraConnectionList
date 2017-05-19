@@ -1,0 +1,26 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "AES-30H100E"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=S2fGqNFs_channel=1_stream=0.sdp",
+        "/mpeg4"
+      ]
+    },
+    "models": [
+      "AES-30H100E-A1",
+      "AES30H200E",
+      "BP20S-1H",
+      "OTHER"
+    ]
+  }
+}

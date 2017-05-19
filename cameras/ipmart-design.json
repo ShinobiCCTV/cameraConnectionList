@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/goform/video"
+      ]
+    },
+    "models": [
+      "IPD-380"
+    ]
+  }
+}

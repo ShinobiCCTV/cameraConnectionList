@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam1/onvif-h264"
+      ]
+    },
+    "models": [
+      "MV-81031IRWPR-3D"
+    ]
+  }
+}

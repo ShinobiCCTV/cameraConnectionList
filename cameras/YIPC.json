@@ -1,0 +1,17 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?rate=11"
+      ]
+    },
+    "models": [
+      "NC300",
+      "OTHER",
+      "PTP-332017-DADDE"
+    ]
+  }
+}

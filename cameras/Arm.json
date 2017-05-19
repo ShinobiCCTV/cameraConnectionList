@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/ivop.get?action=live&THREAD_ID="
+      ]
+    },
+    "models": [
+      "H.264LITEDVR"
+    ]
+  }
+}

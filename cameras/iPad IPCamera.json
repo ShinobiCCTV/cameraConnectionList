@@ -1,0 +1,17 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/user/videostream.cgi",
+        "/live?camera=[USERNAME]&quality=75&fps=5&resolution=[PASSWORD]"
+      ],
+      "JPEG": [
+        "/image.jpg"
+      ]
+    },
+    "models": [
+      "2",
+      "OTHER"
+    ]
+  }
+}

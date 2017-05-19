@@ -1,0 +1,29 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/1"
+      ]
+    },
+    "models": [
+      "DM365_IPNC"
+    ]
+  },
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/video.cgi?resolution=VGA",
+        "/videostream.cgi?rate=0"
+      ]
+    },
+    "models": [
+      "IP103",
+      "OTHER",
+      "SEC-IP-CAM"
+    ]
+  }
+}

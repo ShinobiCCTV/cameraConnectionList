@@ -1,0 +1,64 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf"
+      ],
+      "JPEG": [
+        "/IMAGE.JPG",
+        "/cgi/jpg/image.cgi",
+        "/tmpfs/auto.jpg",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/MJPEG.CGI",
+        "/VIDEO.CGI",
+        "/cgi/mjpg/mjpeg.cgi",
+        "/video.cgi?resolution=VGA",
+        "/cgi/mjpg/mjpg.cgi",
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "BSERIES",
+      "C54NETCAM",
+      "C54NETCAM_F",
+      "C54NETCAM2",
+      "C54NETCAM2OK",
+      "CIPCAM720OD",
+      "CIPCAM720PTIWL",
+      "CIPCAM720PTIWLV2",
+      "CIPCAMPTIWL",
+      "CNETCAM2",
+      "NEW",
+      "OTHER",
+      "PTZ-CAM",
+      "SLIM1320",
+      "THUIS"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor",
+        "/live/ch0",
+        "/11",
+        "/12",
+        "/live/ch2"
+      ]
+    },
+    "models": [
+      "C54NETCAM2OK",
+      "CIPCAM1080OD",
+      "CIPCAM720OD",
+      "CIPCAM720PTIWL",
+      "CIPCAM720PTIWLV1",
+      "CIPCAM720PTIWLV2",
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/1"
+      ]
+    },
+    "models": [
+      "DS-2ZMN2007",
+      "HIKVISION",
+      "K20IA",
+      "OTHER"
+    ]
+  }
+}

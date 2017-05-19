@@ -1,0 +1,44 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/tmpfs/auto.jpg",
+        "/img/snapshot.cgi?size=2",
+        "/snapshot.cgi"
+      ],
+      "FFMPEG": [
+        "/videostream.asf"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ]
+    },
+    "models": [
+      "2011-05",
+      "HI3507",
+      "OTHER",
+      "RTSP",
+      "RTSP(TCP)DVR",
+      "XZ-30I-AK/P"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/11",
+        "/0",
+        "/user=admin_password=jWJ42w5x_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "3518",
+      "HI3516C",
+      "HI3518E",
+      "OTHER",
+      "RTSP(TCP)DVR",
+      "WORKS"
+    ]
+  }
+}

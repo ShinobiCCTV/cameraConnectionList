@@ -1,0 +1,33 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live_st1",
+        "/live_st2",
+        "/"
+      ]
+    },
+    "models": [
+      "FB3027",
+      "FX2000",
+      "OTHER",
+      "SF1311H-C",
+      "SF2012H-B"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/img/video.mjpeg",
+        "/GetData.cgi?Status=false",
+        "/GetData.cgi",
+        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "SF2012B",
+      "SF2012H-D"
+    ]
+  }
+}

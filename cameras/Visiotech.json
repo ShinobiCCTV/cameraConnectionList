@@ -1,0 +1,20 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ucast/11",
+        "/h264",
+        "/Streaming/Channels/2",
+        "/cam/realmonitor",
+        "/live/ch0"
+      ]
+    },
+    "models": [
+      "DVR-6008",
+      "IPC",
+      "IPC809I-H",
+      "NIVIANONV515",
+      "SF-IPCU102"
+    ]
+  }
+}

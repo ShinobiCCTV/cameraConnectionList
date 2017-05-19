@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/videoinput_1:0/h264_1/onvif.stm"
+      ]
+    },
+    "models": [
+      "ATOMASMICRO"
+    ]
+  }
+}

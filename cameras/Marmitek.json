@@ -1,0 +1,42 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11"
+      ]
+    },
+    "models": [
+      "BULLET"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi/mjpg/mjpeg.cgi",
+        "/cgi/mjpg/mjpg.cgi",
+        "/MJPEG.CGI",
+        "/VIDEO.CGI"
+      ],
+      "JPEG": [
+        "/cgi/jpg/image.cgi",
+        "/IMAGE.JPG",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0"
+      ]
+    },
+    "models": [
+      "GM-8126",
+      "IPEYE21",
+      "IPEYEANYWHERE",
+      "IPEYEANYWHERE241",
+      "IPROBOCAM10/11/541/641",
+      "IPROBOCAM21",
+      "IPROBOCAM8",
+      "OTHER",
+      "ROBOCAM10",
+      "ROBOCAM21",
+      "ROBOCAM8"
+    ]
+  }
+}

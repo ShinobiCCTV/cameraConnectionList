@@ -1,0 +1,78 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/jpg/image.jpg",
+        "/temp/image.jpg",
+        "/snapshot.cgi",
+        "/jpg/image.jpg?size=3",
+        "/cgi-bin/view/image?pro_[CHANNEL]",
+        "/cgi-bin/jpg/image",
+        "/snapshot.jpg",
+        "/image.jpg",
+        "/loginfree.jpg",
+        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/video.cgi",
+        "/snapshot.cgi",
+        "/image.cgi",
+        "/video.mjpg",
+        "/video.mjpg?q=30&fps=33&id=0.5",
+        "/mjpg/video.mjpg",
+        "/video.cgi?resolution=VGA"
+      ],
+      "FFMPEG": [
+        "/video.mp4"
+      ]
+    },
+    "models": [
+      "INT-L10",
+      "503792",
+      "524421",
+      "550710",
+      "551106",
+      "IBC-637IR",
+      "ICD-862HD",
+      "IDC-752IR",
+      "IDC-757IR",
+      "IDC-767IR",
+      "IDC-862",
+      "INTL200",
+      "CAMERA",
+      "L10",
+      "MNC-L10",
+      "N1000",
+      "NBC30",
+      "NBC30-IR",
+      "NCS18",
+      "NFC30",
+      "NFC30IR",
+      "NFC30-IR",
+      "NFC30-WG",
+      "NFC31",
+      "NFC31IR",
+      "NFD130-IR",
+      "NFD30",
+      "NSC11",
+      "NSC11-WN",
+      "NSC15",
+      "NSC15-WG",
+      "NSC16-WG",
+      "NSC18",
+      "OTHER",
+      "ROMANELLI"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/video.pro1"
+      ]
+    },
+    "models": [
+      "IBC-637IR"
+    ]
+  }
+}

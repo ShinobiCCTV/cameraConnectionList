@@ -1,0 +1,71 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/jpg/image.jpg?size=3",
+        "/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+        "/axis-cgi/jpg/image.cgi?camera=1&resolution=320x240&compression=25",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/jpg/1/image.jpg"
+      ],
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi",
+        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+        "/mjpg/1/video.mjpg",
+        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
+        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
+        "/img/video.mjpeg",
+        "/videostream.cgi?rate=11"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "1011W",
+      "205",
+      "206",
+      "207",
+      "207MW",
+      "207W",
+      "209FD",
+      "2100",
+      "211",
+      "212",
+      "2120",
+      "214PTZ",
+      "214PZT",
+      "215PTZ",
+      "221",
+      "223M",
+      "223W",
+      "233D",
+      "2600",
+      "ADT8021",
+      "AXIS",
+      "AXISTEICH",
+      "M1004-W",
+      "M1013",
+      "M1031-W",
+      "M1054",
+      "M1114",
+      "M3004",
+      "M3005",
+      "M3007",
+      "M3114",
+      "M3204",
+      "OTHER",
+      "P1214",
+      "P1344",
+      "P1347",
+      "P1354",
+      "P3301",
+      "P3343",
+      "P5532-E",
+      "P5534-E",
+      "Q6035",
+      "Q6035-E",
+      "Q7401"
+    ]
+  }
+}

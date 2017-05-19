@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/primarystream"
+      ]
+    },
+    "models": [
+      "D-111"
+    ]
+  }
+}

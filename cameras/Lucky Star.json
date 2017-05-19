@@ -1,0 +1,17 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/ch2",
+        "/live/ch0"
+      ]
+    },
+    "models": [
+      "CLOUDIPCAMERA720P",
+      "CLOUDIP",
+      "OTHER",
+      "SMALLSMART",
+      "XSERIES"
+    ]
+  }
+}

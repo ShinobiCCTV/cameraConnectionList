@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/jstream.cgi?chid=[CHANNEL]&cnt=0"
+      ]
+    },
+    "models": [
+      "DVR"
+    ]
+  }
+}

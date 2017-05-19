@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf"
+      ]
+    },
+    "models": [
+      "IP-705MW"
+    ]
+  }
+}

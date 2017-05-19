@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=fmP8mqj1_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "HD103POE"
+    ]
+  }
+}

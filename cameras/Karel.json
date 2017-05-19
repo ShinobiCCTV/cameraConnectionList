@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/capture[CHANNEL].jpg"
+      ],
+      "MJPEG": [
+        "/cgi/mjpg/mjpeg.cgi"
+      ]
+    },
+    "models": [
+      "CKB423-PM2",
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cmd=live&codec=mjpeg&ID=[CHANNEL]/"
+      ]
+    },
+    "models": [
+      "RGSSERVER"
+    ]
+  }
+}

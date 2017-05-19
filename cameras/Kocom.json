@@ -1,0 +1,22 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/profile/profile01"
+      ]
+    },
+    "models": [
+      "CR351F"
+    ]
+  },
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

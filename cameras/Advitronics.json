@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/?action=stream"
+      ]
+    },
+    "models": [
+      "PORTAVISIONSIP"
+    ]
+  }
+}

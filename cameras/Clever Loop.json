@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/ch0"
+      ]
+    },
+    "models": [
+      "251253-SLCPR",
+      "342405-JJWJS"
+    ]
+  }
+}

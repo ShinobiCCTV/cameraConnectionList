@@ -1,0 +1,15 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/video.h264",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/11"
+      ]
+    },
+    "models": [
+      "ELITE",
+      "OTHER"
+    ]
+  }
+}

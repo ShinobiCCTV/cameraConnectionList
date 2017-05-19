@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "JPEG": [
+        "/cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "CUP5011-WS",
+      "OTHER"
+    ]
+  }
+}

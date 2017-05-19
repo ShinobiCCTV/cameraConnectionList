@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/op?sid=0+type=203+busid=0+devid=0+chanid=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "EDV-EXSERVER"
+    ]
+  }
+}

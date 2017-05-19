@@ -1,0 +1,22 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ]
+    },
+    "models": [
+      "SAFETYCAM",
+      "SAFETYCAM10HD",
+      "SAFETYCAM20HD",
+      "SAFETYCAM-10HD",
+      "SAFETZCAM-20HD",
+      "SECURITYCAM"
+    ]
+  }
+}

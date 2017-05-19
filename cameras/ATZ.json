@@ -1,0 +1,24 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/tcp/av0_0"
+      ]
+    },
+    "models": [
+      "-CHV07P"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?rate=0"
+      ]
+    },
+    "models": [
+      "CH007",
+      "CH-007"
+    ]
+  }
+}

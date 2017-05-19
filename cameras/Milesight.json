@@ -1,0 +1,58 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/main",
+        "/sub"
+      ]
+    },
+    "models": [
+      "3MPMINIDOME",
+      "BULLET",
+      "BULLETCAMERA",
+      "BULLETOUTDOOR",
+      "C2672-P",
+      "C3366-FP",
+      "C3366-FPH",
+      "C3672",
+      "C3687",
+      "C-MS3672",
+      "ETUOVI",
+      "MINIDOOM",
+      "MS-2672C",
+      "MS-2681",
+      "MS-3366-FPH",
+      "MS-3567-FPN",
+      "MS-3672",
+      "MS3672",
+      "MS-C2173",
+      "MS-C2191",
+      "MS-C2363",
+      "MS-C2681",
+      "MS-C2682",
+      "MS-C2973-PB",
+      "MS-C3567-PN",
+      "MS-C3587-PA",
+      "MS-C3662",
+      "MS-C3672",
+      "MS-C4473-PB",
+      "OTHER",
+      "TAKAOVI"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "C2972",
+      "MS-C3577-PNA",
+      "MS-C3582-PA",
+      "OTHER"
+    ]
+  }
+}

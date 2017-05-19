@@ -1,0 +1,25 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ch01.264"
+      ]
+    },
+    "models": [
+      "IR-30"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi/sf.cgi"
+      ],
+      "JPEG": [
+        "/img/snapshot.cgi?size=2"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

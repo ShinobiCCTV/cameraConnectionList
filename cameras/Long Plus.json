@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/0"
+      ]
+    },
+    "models": [
+      "BR40W3200T",
+      "IPC-DSW3200T",
+      "OTHER"
+    ]
+  }
+}

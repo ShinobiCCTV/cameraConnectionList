@@ -1,0 +1,20 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+        "/video.cgi?resolution=VGA",
+        "/videostream.cgi"
+      ],
+      "JPEG": [
+        "/img/snapshot.cgi?size=2",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "ANDROID",
+      "CLOUD",
+      "NC400"
+    ]
+  }
+}

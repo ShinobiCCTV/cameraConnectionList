@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/mpeg4",
+        "/mpeg4cif"
+      ]
+    },
+    "models": [
+      "2MP",
+      "90120"
+    ]
+  }
+}

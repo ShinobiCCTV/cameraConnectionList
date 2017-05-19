@@ -1,0 +1,18 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/1",
+        "/Streaming/Channels/2",
+        "/11"
+      ]
+    },
+    "models": [
+      "0E-21BF40",
+      "0E-21DF28",
+      "OE-21DF28",
+      "OE-31BVF2812",
+      "WBXIL139RT"
+    ]
+  }
+}

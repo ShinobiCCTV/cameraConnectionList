@@ -1,0 +1,36 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "IPCS5030-M",
+      "S5001Y-BW",
+      "S5030-MP2P",
+      "S62024-BWRA",
+      "S6202Y",
+      "S6203",
+      "S6203-WR",
+      "S6203Y",
+      "S6203Y-WP",
+      "S6203Y-WR",
+      "S6211Y-WR"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11"
+      ]
+    },
+    "models": [
+      "S6207Y-WRA"
+    ]
+  }
+}

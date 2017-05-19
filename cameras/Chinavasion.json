@@ -1,0 +1,70 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/tmpfs/auto.jpg",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/video.cgi?resolution=VGA"
+      ]
+    },
+    "models": [
+      "1.7.24HD",
+      "133",
+      "2MP",
+      "CHINESE",
+      "CVLM-133",
+      "CVLM-I33",
+      "CVLM-I342",
+      "CVYE-1278",
+      "GUNNIE",
+      "H30",
+      "H31",
+      "H31HOME",
+      "HOMECAM",
+      "IP609AW",
+      "IP611W",
+      "LSERIES",
+      "OTHER",
+      "S06",
+      "STREET",
+      "SUPER-1"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/0",
+        "/ucast/11",
+        "/user=admin&password=zrkXveRr&channel=1&stream=0.sdp",
+        "/live/0/MAIN",
+        "/onvif1"
+      ]
+    },
+    "models": [
+      "BOATCAM",
+      "CHINESE",
+      "CVABN-I369",
+      "CVLM-I342",
+      "IPC_2394699",
+      "RACONTEUR",
+      "SINOCAM"
+    ]
+  }
+}

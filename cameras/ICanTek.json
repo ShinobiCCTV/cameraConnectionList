@@ -1,0 +1,18 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/stillimg.jpg",
+        "/stillimg1.jpg",
+        "/stillimg2.jpg",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/stillimg[CHANNEL].jpg"
+      ]
+    },
+    "models": [
+      "ICANVIEWCAMERA",
+      "MYDVRISERIES",
+      "OTHER"
+    ]
+  }
+}

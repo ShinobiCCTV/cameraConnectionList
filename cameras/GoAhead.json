@@ -1,0 +1,30 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+      ],
+      "JPEG": [
+        "/img/snapshot.cgi?size=2",
+        "/snapshot.cgi",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
+      ]
+    },
+    "models": [
+      "EC-101SD",
+      "GHJARKES",
+      "WEBS",
+      "H.264",
+      "HBELL",
+      "IPCAM1",
+      "IPCAM2",
+      "NCB-540",
+      "OTHER",
+      "THEDON"
+    ]
+  }
+}

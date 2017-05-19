@@ -1,0 +1,17 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/tcp/av0_0",
+        "/live/ch0",
+        "/live/ch1"
+      ]
+    },
+    "models": [
+      "C7824W",
+      "E300",
+      "IPCAM720",
+      "OTHER"
+    ]
+  }
+}

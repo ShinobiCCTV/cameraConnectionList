@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf"
+      ],
+      "JPEG": [
+        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
+      ]
+    },
+    "models": [
+      "ES-IP910IW",
+      "IP935IW"
+    ]
+  }
+}

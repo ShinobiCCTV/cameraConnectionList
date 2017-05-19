@@ -1,0 +1,31 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/config/jpeg.cgi"
+      ]
+    },
+    "models": [
+      "CKSC",
+      "EV8580",
+      "EV8180U",
+      "EV8580A-C",
+      "EV8582A",
+      "EV8582A-BD",
+      "EV8782U-B",
+      "EVXX8X",
+      "N53",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/rtpvideoch12.sdp"
+      ]
+    },
+    "models": [
+      "N76F-M"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi/mjpg/mjpeg.cgi",
+        "/cgi/mjpg/mjpg.cgi",
+        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
+      ],
+      "JPEG": [
+        "/cgi/jpg/image.cgi"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "ENVCWI-G1",
+      "ENVCWI-GX/PTGX",
+      "OTHER"
+    ]
+  }
+}

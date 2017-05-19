@@ -1,0 +1,67 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/1.ch",
+        "/h264main",
+        "/PSIA/Streaming/channels/2",
+        "/0",
+        "/0.ch",
+        "/1",
+        "/video1",
+        "/mjpeg"
+      ]
+    },
+    "models": [
+      "1010",
+      "1322",
+      "3MEGA",
+      "764",
+      "AOSHIDI",
+      "AOSHIDO",
+      "CCD",
+      "CCDCAMERA",
+      "CHIU",
+      "COOL",
+      "ESCAMKNOCKOFF",
+      "EVERVOX",
+      "H20237",
+      "HI1602",
+      "HISLICON",
+      "IVS-D6000",
+      "JANO",
+      "JANO-24",
+      "JANO3",
+      "KINIETIS",
+      "KK_IP_CAM",
+      "NIMA",
+      "OMA",
+      "ONVIF",
+      "OTHER",
+      "P1001",
+      "ROBOCAM",
+      "SENZOR",
+      "SHANI",
+      "SHANYH2",
+      "SNC-WD91M1322",
+      "SOAR",
+      "SPY",
+      "SUCHINKO",
+      "TECHSON",
+      "TESET",
+      "TESTI",
+      "TESTJPEG",
+      "WEBCAMHI3518"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

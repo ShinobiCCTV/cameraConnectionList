@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/rtsp/record.sdp",
+        "/rtsp/mjpeg.sdp"
+      ]
+    },
+    "models": [
+      "HIV6",
+      "HIV67"
+    ]
+  }
+}

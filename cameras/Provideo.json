@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/g711v1"
+      ]
+    },
+    "models": [
+      "PRVA"
+    ]
+  }
+}

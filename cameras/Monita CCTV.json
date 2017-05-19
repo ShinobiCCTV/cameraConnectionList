@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/channel=0;stream=0;user=system;pass=system;"
+      ]
+    },
+    "models": [
+      "LPR"
+    ]
+  }
+}

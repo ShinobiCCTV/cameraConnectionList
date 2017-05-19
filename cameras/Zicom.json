@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/image.jpg"
+      ]
+    },
+    "models": [
+      "IC-502W",
+      "ZNIP-C01"
+    ]
+  }
+}

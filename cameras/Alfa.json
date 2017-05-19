@@ -1,0 +1,22 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/user/videostream.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "JPEG": [
+        "/cgi-bin/video.jpg",
+        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0"
+      ]
+    },
+    "models": [
+      "0002HD",
+      "AW300P",
+      "LOP",
+      "OTHER"
+    ]
+  }
+}

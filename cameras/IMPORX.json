@@ -1,0 +1,32 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11",
+        "/Onvif/live/1/1",
+        "/user=admin_password=d2gNs1nj_channel=1_stream=0.sdp",
+        "/cam1/onvif-h264",
+        "/RtspTranslator.25"
+      ]
+    },
+    "models": [
+      "GARTENCAM",
+      "IMP-3MP98A-H",
+      "IMP-HD5MP73-W",
+      "IMP-SCB405IP-V10",
+      "OTHER",
+      "PTZ"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "IMP-RH6116-IR-Z",
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videofeed",
+        "/video?submenu=mjpg",
+        "/video?profile=[CHANNEL]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ],
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "LITE",
+      "N-860",
+      "OTHER",
+      "SPEED",
+      "Z-665G",
+      "Z-667",
+      "Z-667G",
+      "Z-66G",
+      "Z753G",
+      "Z768G",
+      "-667",
+      "-667G"
+    ]
+  }
+}

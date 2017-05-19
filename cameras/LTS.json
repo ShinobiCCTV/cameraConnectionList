@@ -1,0 +1,56 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/1",
+        "/live/ch0",
+        "/Streaming/Channels/2",
+        "/Streaming/Channels/101",
+        "/rtsph2641080p",
+        "/Streaming/Unicast/channels/801",
+        "/Streaming/Channels/102"
+      ]
+    },
+    "models": [
+      "3432",
+      "B01JRQWJDI",
+      "CLOULDIP",
+      "CMIP3122",
+      "CMIP3022-28",
+      "CMIP3032-28",
+      "CMIP3132-28",
+      "CMIP3152-28S",
+      "CMIP3432",
+      "CMIP7233-S",
+      "CMIP7422W-M",
+      "CMIP8212",
+      "CMIP8932-W",
+      "CMIP9532",
+      "DS-2CD2112-I",
+      "FFMPEG",
+      "OTHER",
+      "PTZ",
+      "PTZIP762X20IR",
+      "X-CAM"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?rate=11",
+        "/stream.jpg"
+      ],
+      "JPEG": [
+        "/snapshot.jpg",
+        "/snapshot_3gp.jpg",
+        "/stillimg[CHANNEL].jpg"
+      ]
+    },
+    "models": [
+      "6800B",
+      "830",
+      "CIP830MV-W",
+      "LTD2294HMW/WEBPORT"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/snl/live/1/2"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

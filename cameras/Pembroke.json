@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/media.amp"
+      ]
+    },
+    "models": [
+      "PLANETICA-2200",
+      "PLANETICA-4500V"
+    ]
+  }
+}

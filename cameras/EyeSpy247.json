@@ -1,0 +1,25 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi?size=2",
+        "/img/snapshot.cgi?size=3"
+      ],
+      "MJPEG": [
+        "/img/video.mjpeg",
+        "/img/mjpeg.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "EXT",
+      "EXT+",
+      "EXT+HDSD",
+      "HDSD",
+      "NOTSURE",
+      "OFFICE",
+      "OTHER",
+      "PTZ"
+    ]
+  }
+}

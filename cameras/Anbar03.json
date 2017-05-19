@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Onvif/live/1/1"
+      ]
+    },
+    "models": [
+      "KANDD"
+    ]
+  }
+}

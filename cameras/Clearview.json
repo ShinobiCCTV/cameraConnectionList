@@ -1,0 +1,18 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]"
+      ],
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?1"
+      ]
+    },
+    "models": [
+      "IP-70",
+      "IP-72",
+      "IPD92-A",
+      "IPWIFI"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/",
+        "/mpeg4",
+        "/ucast/11"
+      ]
+    },
+    "models": [
+      "1",
+      "1012",
+      "JOSH",
+      "OTHER",
+      "S898BVE",
+      "TEK1.0MP/1.0MEGAPIXELHD1280X720P",
+      "W1012VG-B-POE",
+      "W5999BG",
+      "W5999W-B",
+      "W5999W-POE",
+      "W6409G",
+      "W6409G-B",
+      "W898BG-B",
+      "W898BG-B-POE",
+      "W898BVG-B-POE",
+      "W898G5MP"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi?size=2",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "W3200",
+      "W514VG-B",
+      "W5889G-B",
+      "W889G-B",
+      "W898BVG-B-POE"
+    ]
+  }
+}

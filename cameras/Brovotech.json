@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/main"
+      ]
+    },
+    "models": [
+      "600102003-BV-H0203"
+    ]
+  }
+}

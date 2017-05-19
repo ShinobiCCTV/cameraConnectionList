@@ -1,0 +1,48 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/Jpeg/CamImg.jpg",
+        "/still.jpg",
+        "/img/snapshot.cgi?size=2"
+      ],
+      "MJPEG": [
+        "/video.cgi",
+        "/video.cgi?resolution=VGA",
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/cgi-bin/still.cgi"
+      ]
+    },
+    "models": [
+      "1-PORTVIDEOSERVER",
+      "GD-4254-PORTVIDEOSERVER",
+      "GRANDIPCAMERAII",
+      "GRANDIPCAMERAPRO",
+      "IPCAMERAII",
+      "IPCAMERAPLUS",
+      "IPCMERAIII",
+      "IPCAM2",
+      "MEGACAM",
+      "MEGAPIXELIIWIFI",
+      "MEGAPIXEL",
+      "OTHER",
+      "OTHER1",
+      "PANTILTV5",
+      "WIFICAMERA",
+      "WIFICAMERAPRO",
+      "WIFICAMERAPRO1",
+      "WIFICAMERAPRO2"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/[CHANNEL]"
+      ]
+    },
+    "models": [
+      "MEGACAM",
+      "OTHER"
+    ]
+  }
+}

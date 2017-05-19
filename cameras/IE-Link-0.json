@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/av0"
+      ]
+    },
+    "models": [
+      "KHAN",
+      "OTHER"
+    ]
+  }
+}

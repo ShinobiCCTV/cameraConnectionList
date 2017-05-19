@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/stream.sdp1"
+      ]
+    },
+    "models": [
+      "IPVD-3MPVFIR",
+      "OTHER"
+    ]
+  }
+}

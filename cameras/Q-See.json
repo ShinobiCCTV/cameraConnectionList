@@ -1,0 +1,79 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/stillimg[CHANNEL].jpg",
+        "/images/stream_[CHANNEL].jpg",
+        "/cgi-bin/snapshot.cgi?1"
+      ],
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
+        "/image.jpg?type=motion",
+        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+        "/cgi-bin/video.cgi?msubmenu=mjpg"
+      ]
+    },
+    "models": [
+      "308",
+      "8004B",
+      "8033B",
+      "814",
+      "DVRW/WEBPORT",
+      "OTHER",
+      "QC-304",
+      "QC-308",
+      "QC-588",
+      "QC-858",
+      "QCN-7001B",
+      "QCN-7005B",
+      "QCN-8004B",
+      "QCN-8009D",
+      "QCN-8014Z",
+      "QCN8026B",
+      "QCN-8028D",
+      "QS-9016"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor",
+        "/profile1"
+      ]
+    },
+    "models": [
+      "3MPBULLET",
+      "8002B",
+      "8004B",
+      "8012B",
+      "BULLET",
+      "DVRW/WEBPORT",
+      "ONVIF",
+      "OTHER",
+      "QC-308",
+      "QC-40108",
+      "QC-7005B",
+      "QC-804",
+      "QC-858",
+      "QCN",
+      "QCN-7001B",
+      "QCN7002D",
+      "QCN-7005B",
+      "QCN-8001D",
+      "QCN-8004B",
+      "QCN8007B",
+      "QCN8009D",
+      "QCN-8012",
+      "QCN-8012B",
+      "QCN-8014Z",
+      "QCN-8023B",
+      "QCN-8912B",
+      "QNC7001B",
+      "QNC8004B",
+      "QTN-8041B",
+      "SD-40212"
+    ]
+  }
+}

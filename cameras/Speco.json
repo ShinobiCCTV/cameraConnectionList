@@ -1,0 +1,72 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/stillimg.jpg",
+        "/cgi-bin/snapshot.cgi?1",
+        "/cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/mobile/channel[CHANNEL].jpg",
+        "/ivop.get?action=live&THREAD_ID=",
+        "/images[CHANNEL]sif",
+        "/images[CHANNEL]full"
+      ],
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+        "/axis-cgi/mjpg/video.cgi",
+        "/cgi-bin/cmd/system?GET_STREAM&USER=[USERNAME]&PWD=[PASSWORD]",
+        "/getimage?camera=[CHANNEL]&fmt=full"
+      ]
+    },
+    "models": [
+      "02B5",
+      "02MD2",
+      "04D2M",
+      "05MDP1",
+      "IP-SD10X",
+      "O2-B16",
+      "O2-B2",
+      "O2B5",
+      "O2D3",
+      "O2-D4",
+      "O2DP9",
+      "O2FB3M",
+      "O2IMT61",
+      "O2-VLB2",
+      "O3VLB3",
+      "O5MDP1",
+      "OINT-56B1G",
+      "OPTZ-36XO",
+      "OTHER",
+      "SIP",
+      "SIPD3",
+      "SIPWDRB2",
+      "TECHDVR-16IP"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Master-0",
+        "/Streaming/Channels/1",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/1/stream1",
+        "/stream0/Channel=0;Profile=0"
+      ]
+    },
+    "models": [
+      "O2DP14",
+      "O2DP14-242954",
+      "O2-MD1",
+      "OTHER",
+      "VIP-2B1M",
+      "VIP-2C1N",
+      "VIP-2P1",
+      "VIP-2PTZ12X",
+      "ZIP-2B"
+    ]
+  }
+}

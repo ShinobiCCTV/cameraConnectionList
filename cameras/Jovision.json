@@ -1,0 +1,40 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11",
+        "/live0.264",
+        "/Streaming/Channels/1",
+        "/live1.264"
+      ]
+    },
+    "models": [
+      "DRIVEWAY",
+      "FULLHD1080P2MP",
+      "H411",
+      "HD1MP",
+      "JVS-H210",
+      "JVS-H400",
+      "JVS-N3DL-HG-12V",
+      "JVS-N3FL-HF-POE",
+      "JVS-N3FL-HT",
+      "JVS-N5DL-HC",
+      "JVS-N61-NA",
+      "JVS-N63-HC",
+      "N61-HA",
+      "N61-NA",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

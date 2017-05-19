@@ -1,0 +1,44 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/user=admin_password=pncuLxmt_channel=1_stream=1.sdp",
+        "/0",
+        "/user=admin_password=SM3GLfvG_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "180S",
+      "6200HV",
+      "VT6200HV",
+      "VT-6300A"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/tmpfs/auto.jpg",
+        "/img/snapshot.cgi?size=2",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ]
+    },
+    "models": [
+      "DVR",
+      "OTHER",
+      "PTZCAMERAFORREACHINGOUT",
+      "VT-6200W"
+    ]
+  }
+}

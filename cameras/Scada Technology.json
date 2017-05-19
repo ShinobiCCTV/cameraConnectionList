@@ -1,0 +1,17 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor",
+        "/2"
+      ]
+    },
+    "models": [
+      "ST-MB-3MP",
+      "ST-MD-3MP",
+      "ST-MP-PTZ-18XIR",
+      "ST-TD-3MP",
+      "ST-VD-1080P"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/api.htm?op.liveimage=1",
+        "/img/snapshot.cgi?size=2"
+      ],
+      "MJPEG": [
+        "/img/mjpeg.jpg",
+        "/img/video.mjpeg",
+        "/img/mjpeg.cgi"
+      ]
+    },
+    "models": [
+      "EDVR",
+      "ICAM1000",
+      "OC-810",
+      "OC-810V",
+      "OTHER",
+      "RC-8021",
+      "RC-8021WADT",
+      "RC8025B",
+      "RC8025B-ADT"
+    ]
+  }
+}

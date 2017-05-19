@@ -1,0 +1,34 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/video.cgi?resolution=VGA",
+        "/videostream.cgi?rate=11",
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/user/videostream.cgi",
+        "/videostream.cgi?rate=0",
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+        "/videostream.cgi"
+      ],
+      "JPEG": [
+        "/img/snapshot.cgi?size=2"
+      ]
+    },
+    "models": [
+      "C-001640",
+      "DVR",
+      "OTHER",
+      "T-6835",
+      "T-6835WIP",
+      "T-7838"
+    ]
+  }
+}

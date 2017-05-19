@@ -1,0 +1,44 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/12",
+        "/11",
+        "/1/stream1",
+        "/live0.264",
+        "/live1.264",
+        "/ch0_0.264"
+      ]
+    },
+    "models": [
+      "603I",
+      "604I",
+      "86032B",
+      "BACK",
+      "HDCAMERAS",
+      "I6032B-P",
+      "I6032B-POE1080P",
+      "I6032B-WIFI",
+      "IF02",
+      "IF-04-AUDIO",
+      "IPC",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/jpeg/1/jpeg.php"
+      ],
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "HDCAMERAS",
+      "I6032B-POE1080P",
+      "IPC"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/stream2"
+      ]
+    },
+    "models": [
+      "WV2210"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi?size=2"
+      ],
+      "MJPEG": [
+        "/img/video.mjpeg"
+      ]
+    },
+    "models": [
+      "IPCAMERA1000"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/rtsph264480p",
+        "/rtsph2641024p",
+        "/rtsph2641080p",
+        "/rtsph264720p"
+      ]
+    },
+    "models": [
+      "H.264",
+      "IPR6122",
+      "IPR712M4.3",
+      "LD2222",
+      "LR2122E4",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi?size=2",
+        "/snap",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/image/[CHANNEL].jpg"
+      ],
+      "MJPEG": [
+        "/getimage[CHANNEL]",
+        "/getimage?camera=[CHANNEL]&fmt=vga"
+      ]
+    },
+    "models": [
+      "H.264",
+      "IPG1022ES",
+      "IPR434",
+      "IPR6122",
+      "IPS420",
+      "LD2222",
+      "LR7022E4",
+      "LR7424",
+      "LR7722EX",
+      "OTHER",
+      "SIP",
+      "ZR6122-IVS"
+    ]
+  }
+}

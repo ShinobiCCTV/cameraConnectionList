@@ -1,0 +1,96 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/img/snapshot.cgi?size=2",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/snapshot.cgi",
+        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
+        "/img/snapshot.cgi?img=vga",
+        "/snapshot.cgi?camera=[CHANNEL]",
+        "/cgi-bin/mobile_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/user/videostream.cgi",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi",
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?rate=0",
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+        "/videostream.cgi?rate=11",
+        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+        "/videofeed"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.cgi?resolution=8&rate=13"
+      ]
+    },
+    "models": [
+      "001",
+      "004",
+      "008",
+      "A-0006",
+      "A-0009",
+      "A-001",
+      "A-003",
+      "A-004",
+      "A-009",
+      "A-500",
+      "AB-001",
+      "AJ-006",
+      "AP-0001",
+      "AP-0005",
+      "AP-0009",
+      "AP-001",
+      "AP-0014",
+      "AP-002",
+      "AP003",
+      "AP-003",
+      "AP-004",
+      "AP-004AF",
+      "AP-005",
+      "AP-006",
+      "AP-007",
+      "AP-008",
+      "AP-009",
+      "AP-009TESTED",
+      "AP-009TRIAL",
+      "AP-0091",
+      "AP-0093",
+      "AP-011",
+      "AP-014",
+      "AP-03",
+      "H-264",
+      "HD-750",
+      "OTHER",
+      "P2P-BLACK",
+      "SP-007",
+      "SR-001",
+      "SR-004"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/onvif1",
+        "/11"
+      ]
+    },
+    "models": [
+      "009C",
+      "AP-008",
+      "C6F0SFZ3N0P0L0",
+      "IPF-W-2",
+      "OTHER",
+      "SP-006",
+      "SP-007",
+      "SP-009B"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi/jpg/image.cgi",
+        "/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "MJPEG": [
+        "/cgi/mjpg/mjpg.cgi"
+      ]
+    },
+    "models": [
+      "ACT-2800/3100",
+      "OTHER"
+    ]
+  }
+}

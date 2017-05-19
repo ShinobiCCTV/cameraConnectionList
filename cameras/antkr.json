@@ -1,0 +1,15 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/stream1",
+        "/stream2"
+      ]
+    },
+    "models": [
+      "AMA-2500",
+      "AMZ-1100",
+      "XGEN"
+    ]
+  }
+}

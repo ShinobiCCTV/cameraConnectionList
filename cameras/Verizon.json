@@ -1,0 +1,34 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/img/video.mjpeg",
+        "/videofeed",
+        "/img/mjpeg.jpg"
+      ]
+    },
+    "models": [
+      "EL2-8H",
+      "OC-810V",
+      "OTHER",
+      "RC-8021",
+      "RC-8021V",
+      "RC8061",
+      "RC-8061V",
+      "RC8201V"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/main"
+      ]
+    },
+    "models": [
+      "EZIC-IBRF20"
+    ]
+  }
+}

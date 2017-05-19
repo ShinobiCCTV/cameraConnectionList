@@ -1,0 +1,38 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/main",
+        "/mpeg4",
+        "/11"
+      ]
+    },
+    "models": [
+      "CAR",
+      "ITCAM",
+      "METAL",
+      "MINI2MP",
+      "OASIS",
+      "OTHER",
+      "ST-222"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "IP935FW",
+      "OTHER"
+    ]
+  }
+}

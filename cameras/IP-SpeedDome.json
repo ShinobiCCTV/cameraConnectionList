@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/v2",
+        "/"
+      ]
+    },
+    "models": [
+      "EP_PELCO_D"
+    ]
+  }
+}

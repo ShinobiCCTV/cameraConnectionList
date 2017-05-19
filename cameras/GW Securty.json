@@ -1,0 +1,28 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/img/snapshot.cgi?size=2"
+      ]
+    },
+    "models": [
+      "GW200IP",
+      "GW-5071IP",
+      "GW-5072IP"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/mpeg4",
+        "/mpeg4cif"
+      ]
+    },
+    "models": [
+      "GW2040IP",
+      "GW-5050IP",
+      "GW-5071IP"
+    ]
+  }
+}

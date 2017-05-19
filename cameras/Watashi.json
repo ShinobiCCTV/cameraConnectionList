@@ -1,0 +1,33 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor",
+        "/11"
+      ]
+    },
+    "models": [
+      "NVR",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?1",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "NVR-24",
+      "WIP-026T",
+      "WIP058",
+      "WIP-061T",
+      "WRC",
+      "WRC125",
+      "WVR002"
+    ]
+  }
+}

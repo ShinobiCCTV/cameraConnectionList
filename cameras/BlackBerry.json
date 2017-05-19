@@ -1,0 +1,20 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+        "/videostream.asf"
+      ],
+      "JPEG": [
+        "/cgi-bin/video.jpg"
+      ],
+      "MJPEG": [
+        "/videofeed"
+      ]
+    },
+    "models": [
+      "BOLD",
+      "Z10"
+    ]
+  }
+}

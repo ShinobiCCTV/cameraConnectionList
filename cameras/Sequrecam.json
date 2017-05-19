@@ -1,0 +1,27 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam1/onvif-h264"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/user/videostream.cgi"
+      ],
+      "JPEG": [
+        "/img/snapshot.cgi?size=2"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "PNP-125"
+    ]
+  }
+}

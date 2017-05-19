@@ -1,0 +1,49 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/GetImage.cgi",
+        "/GetStream.cgi?Video=[CHANNEL]",
+        "/cgi-bin/jpg.cgi?refresh=0&channel=[CHANNEL]&id=[USERNAME]&pass=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]&oldbrowser=1",
+        "/GetImage.cgi?CH=[CHANNEL]",
+        "/GetStream.cgi"
+      ],
+      "MJPEG": [
+        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+        "/GetData.cgi?Status=0"
+      ]
+    },
+    "models": [
+      "1NCD",
+      "DVR-08CH",
+      "HBD-16EE",
+      "HDRPRODVR",
+      "HDR-16EE",
+      "HDR-16RP",
+      "HLC-15",
+      "HLC-79AD",
+      "HLC-81I",
+      "HLT-87Z",
+      "HLT87Z/A",
+      "HLT-S30",
+      "HLV-1CI",
+      "HLV-1CM",
+      "HWS-04HD",
+      "LONIX",
+      "OTHER",
+      "VLC-83V/W"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/stream1"
+      ]
+    },
+    "models": [
+      "HNC303",
+      "HTP-T3MPT",
+      "OTHER"
+    ]
+  }
+}

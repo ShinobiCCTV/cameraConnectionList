@@ -1,0 +1,44 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/user=admin_password=5IZA9u7u_channel=1_stream=0.sdp",
+        "/user=admin_password=fnLzNd8l_channel=1_stream=0.sdp",
+        "/user=admin_password=LMZsdd5A_channel=1_stream=0.sdp",
+        "/user=admin_password=5Nnb2Ao0_channel=1_stream=0.sdp",
+        "/user=admin_password=wbnQ0SX5_channel=1_stream=0.sdp",
+        "/user=admin_password=hxWPhXaB_channel=1_stream=0.sdp",
+        "/user=admin_password=rlEjb61N_channel=1_stream=0.sdp",
+        "/live/ch0",
+        "/cam/realmonitor",
+        "/user=admin_password=pfCUI11x_channel=1_stream=0.sdp",
+        "/stream1",
+        "/Onvif/Streaming/2",
+        "/stream2",
+        "/1"
+      ]
+    },
+    "models": [
+      "1800",
+      "20X",
+      "502-4X",
+      "502S-4X",
+      "507-20XB",
+      "507-20XBP2P",
+      "507-20XC",
+      "601",
+      "60120X",
+      "601-D20X",
+      "602-D20X",
+      "805",
+      "805-D20X",
+      "805-DG20X",
+      "HZ502-20XA",
+      "OTHER",
+      "PTZIRCAM",
+      "MEGAPIXEL1080HP",
+      "XMEYE"
+    ]
+  }
+}

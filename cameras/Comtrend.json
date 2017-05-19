@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi/mjpg/mjpeg.cgi"
+      ]
+    },
+    "models": [
+      "VD-21IR"
+    ]
+  }
+}

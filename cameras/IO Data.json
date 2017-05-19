@@ -1,0 +1,20 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg",
+        "/snapshot.cgi?camera=[CHANNEL]",
+        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/mjpg/video.mjpg",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/mjpg/1/video.mjpg"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "QWATCH"
+    ]
+  }
+}

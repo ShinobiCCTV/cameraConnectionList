@@ -1,0 +1,43 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/channels/101",
+        "/0/av0",
+        "/11",
+        "/live/stream3"
+      ]
+    },
+    "models": [
+      "10921",
+      "333",
+      "IPSERIES(GENERIC)",
+      "IP-129HW"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/pda.cgi?page=image&cam=[CHANNEL]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/showimg_pda.cgi?cam=[CHANNEL]",
+        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/snapshot.html"
+      ]
+    },
+    "models": [
+      "IPSERIES(GENERIC)",
+      "IP06V1",
+      "IP06V2",
+      "IP-109H",
+      "IP-109HRTSP",
+      "IP-129HW",
+      "IP-510",
+      "ULKO"
+    ]
+  }
+}

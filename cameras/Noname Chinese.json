@@ -1,0 +1,19 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/?action=stream"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "SEASIDECAM"
+    ]
+  }
+}

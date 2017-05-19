@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live1.264",
+        "/live0.264"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

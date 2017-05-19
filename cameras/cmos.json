@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/viewer/video.jpg?resolution=640x480",
+        "/cgi-bin/video.jpg"
+      ]
+    },
+    "models": [
+      "Q",
+      "TV7204"
+    ]
+  }
+}

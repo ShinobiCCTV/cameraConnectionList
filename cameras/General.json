@@ -1,0 +1,112 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/streaming/mjpeg"
+      ]
+    },
+    "models": [
+      "0101",
+      "1300",
+      "230",
+      "2MP",
+      "3100",
+      "3200C",
+      "3200CHD",
+      "3200CP",
+      "3300",
+      "391789",
+      "4200",
+      "4200SP",
+      "4300S",
+      "5200",
+      "5300",
+      "7153",
+      "8310",
+      "ALHUABULLET",
+      "AMBEYE1.3",
+      "AMBEYE3",
+      "B7IPCAMTEST",
+      "BLACHLAK",
+      "BRYAN",
+      "BULLET",
+      "CAMERAKINGPTZ",
+      "CLAY",
+      "CORTILE",
+      "DAH",
+      "DAHAU4300S",
+      "DAHAUS",
+      "DAHUA",
+      "DAHUA2MPBULLET",
+      "DAHUA4200",
+      "DAHUAPTZ",
+      "DAHUA2",
+      "DAHUI",
+      "DAHUS",
+      "DAUHU",
+      "DH-DAX",
+      "ENC4360",
+      "FRONT1",
+      "FUNLUX",
+      "GENIV",
+      "HARD",
+      "HFW1200S-W",
+      "HFW2100",
+      "HFW3200",
+      "HFW4100S",
+      "HHHH",
+      "ICR",
+      "ICREALTIME",
+      "IP66",
+      "IPC",
+      "IPC-2200",
+      "IPCAM1",
+      "IPC-DHW2100N",
+      "IPC-HFW2100",
+      "IPC-HFW3300CP",
+      "IP-HWB-3200S",
+      "KAMERA",
+      "LEAD1",
+      "MYZMODO",
+      "NEW",
+      "ONVIFCAMERAPARKINGCAMIONES",
+      "OTHER",
+      "PTZ_CAM",
+      "QVIS",
+      "SMALL",
+      "SMOKER",
+      "ST-MD-3MP",
+      "TESTGEN4",
+      "TILL",
+      "TZC$EA",
+      "TZC3DW217000",
+      "TZC4EA",
+      "VAN",
+      "VANTECH",
+      "VIP",
+      "VOORDEUR",
+      "W3200SL-B",
+      "WIIR"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "ICREALTIME",
+      "OTHER"
+    ]
+  }
+}

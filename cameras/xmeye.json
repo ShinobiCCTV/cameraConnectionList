@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp"
+      ]
+    },
+    "models": [
+      "DOME_IP",
+      "TOP-201"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf"
+      ],
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/Jpeg/CamImg.jpg",
+        "/GetData.cgi"
+      ],
+      "MJPEG": [
+        "/GetData.cgi?Status=0",
+        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "IPNETWORKCAMERA",
+      "OTHER"
+    ]
+  }
+}

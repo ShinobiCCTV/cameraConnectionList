@@ -1,0 +1,22 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf"
+      ]
+    },
+    "models": [
+      "E-LOCKCAM"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ucast/11"
+      ]
+    },
+    "models": [
+      "E-LOCKCAM"
+    ]
+  }
+}

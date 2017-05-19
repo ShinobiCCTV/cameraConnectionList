@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/0/MAIN"
+      ]
+    },
+    "models": [
+      "SQ-D20CT30-POE"
+    ]
+  }
+}

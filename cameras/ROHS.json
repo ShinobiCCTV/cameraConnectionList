@@ -1,0 +1,32 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/video.cgi?resolution=VGA",
+        "/img/video.mjpeg",
+        "/videostream.cgi?rate=0"
+      ],
+      "JPEG": [
+        "/snap.jpg?JpegCam=[CHANNEL]",
+        "/snap.jpg?JpegSize=XL",
+        "/img/snapshot.cgi?size=3",
+        "/img/snapshot.cgi?size=2"
+      ],
+      "FFMPEG": [
+        "/goform/video"
+      ]
+    },
+    "models": [
+      "IP20",
+      "IPD-2M-30V-POE",
+      "NONE",
+      "OTHER",
+      "P27-RC8221",
+      "RC8021",
+      "RC8221",
+      "S134",
+      "WV-CAM"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/jstream.cgi?chid=[CHANNEL]&cnt=0"
+      ]
+    },
+    "models": [
+      "9000SERIES",
+      "HX-08DVR"
+    ]
+  }
+}

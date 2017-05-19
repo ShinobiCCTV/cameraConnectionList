@@ -1,0 +1,29 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/snapshot.cgi?",
+        "/cgi-bin/snapshot.cgi?1"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "(2)",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/0/av0"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

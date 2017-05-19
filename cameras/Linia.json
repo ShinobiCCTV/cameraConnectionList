@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/h264/VGA"
+      ]
+    },
+    "models": [
+      "AVTECH459"
+    ]
+  }
+}

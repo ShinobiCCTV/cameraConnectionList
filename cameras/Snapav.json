@@ -1,0 +1,36 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/",
+        "/v2",
+        "/s1"
+      ]
+    },
+    "models": [
+      "750",
+      "OTHER",
+      "WPS-300-CUB-IP-WH",
+      "WPS-750-DOM-IP",
+      "WPS-750-DOM-IP-WH"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/GetData.cgi",
+        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+      ],
+      "JPEG": [
+        "/cgi-bin/wappaint?camera_no=[CHANNEL]&animation=0&name=[USERNAME]&password=[PASSWORD]&pic_size=2"
+      ]
+    },
+    "models": [
+      "750",
+      "OTHER",
+      "WPS-300-CUB-IP-WH",
+      "WPS-750-DOM-IP",
+      "WPS-750-DOM-IP-WH"
+    ]
+  }
+}

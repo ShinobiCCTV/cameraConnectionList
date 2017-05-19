@@ -1,0 +1,13 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi-bin/sf.cgi"
+      ]
+    },
+    "models": [
+      "IPC1002",
+      "UP009"
+    ]
+  }
+}

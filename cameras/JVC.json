@@ -1,0 +1,61 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/api/video?encode=jpeg&framerate=2&boundary=on",
+        "/api/video?encode=jpeg&framerate=15&boundary=on",
+        "/cgi-bin/getstream.cgi?VideoType=[CHANNEL]"
+      ],
+      "JPEG": [
+        "/still.jpg",
+        "/api/video?encode=jpeg",
+        "/java.jpg",
+        "/cgi-bin/video.jpg",
+        "/cgi-bin/view/image?pro_[CHANNEL]",
+        "/cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+        "/cgi-bin/getstream.cgi"
+      ]
+    },
+    "models": [
+      "V686",
+      "OTHER",
+      "V685U",
+      "VNSERIES",
+      "VNC205U",
+      "VN-C20U",
+      "VN-C215",
+      "VN-H237",
+      "VN-H37",
+      "VN-H557",
+      "VN-H657",
+      "VN-T216U",
+      "VN-V225",
+      "VN-X35U/235U",
+      "WEBV.NETWORKS"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/livestream",
+        "/ch01_sub.264",
+        "/video.h264",
+        "/ONVIF/Streaming/channels/0_a/unicast",
+        "/1/stream1"
+      ],
+      "MJPEG": [
+        "/cam[CHANNEL]/mjpeg"
+      ]
+    },
+    "models": [
+      "VN-T216/U",
+      "OTHER",
+      "VNSERIES",
+      "VN-H557",
+      "VNH57",
+      "VN-T16U",
+      "VN-T216U",
+      "VN-T216VPRU"
+    ]
+  }
+}

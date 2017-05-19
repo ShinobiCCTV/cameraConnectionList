@@ -1,0 +1,89 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi",
+        "/tmpfs/auto.jpg",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/snap.jpg",
+        "/snap.jpg?JpegSize=XL",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/video.cgi?resolution=VGA"
+      ]
+    },
+    "models": [
+      "0009FB006BBD",
+      "801W",
+      "B-1",
+      "B216G",
+      "B-XE",
+      "DEPENDANCE",
+      "H502W",
+      "H201",
+      "H201C",
+      "H201D",
+      "H206C",
+      "H216W",
+      "H218W",
+      "H2A6W",
+      "H501",
+      "H502",
+      "H503W",
+      "H504W",
+      "H601W",
+      "M01W",
+      "M2/6/8SERIES",
+      "M201W",
+      "M202W",
+      "M204W",
+      "M205W",
+      "M206W",
+      "M501W",
+      "M502W",
+      "M601",
+      "M601W",
+      "M801W",
+      "M801W-1",
+      "MW801",
+      "OTHER",
+      "S-X"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ch0.h264",
+        "/11",
+        "/Streaming/Channels/1",
+        "/ONVIF/channel2"
+      ]
+    },
+    "models": [
+      "206C",
+      "B-1",
+      "B2-16G",
+      "H201C",
+      "H206C-P",
+      "H306C-TM",
+      "H501",
+      "H502W",
+      "H601W",
+      "H602W",
+      "M801W",
+      "OTHER"
+    ]
+  }
+}

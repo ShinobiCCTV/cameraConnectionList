@@ -1,0 +1,39 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=ST2TOrkp_channel=1_stream=0.sdp",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/user=admin_password=KlAFSMGu_channel=1_stream=0.sdp",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp",
+        "/user=admin_password=xLXwfa2M_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "192.168.1.10",
+      "CLG-080",
+      "CLG-A211M13",
+      "CLG-A212",
+      "CLG-A371M13",
+      "CLG-A611M1",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot",
+        "/snap.jpg?JpegCam=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?"
+      ]
+    },
+    "models": [
+      "CLG-QY120WDEP",
+      "KAVAS",
+      "OTHER",
+      "OTHER?"
+    ]
+  }
+}

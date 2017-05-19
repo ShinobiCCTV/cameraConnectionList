@@ -1,0 +1,44 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/0",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "200SR40N",
+      "KIP-100CZ40H",
+      "KIP-100R30N",
+      "KIP-130RT45H",
+      "KIP-130SHR30H",
+      "KIP-130SL20H",
+      "KIP-130Y20",
+      "KIP20040N",
+      "KIP-200A40H",
+      "KIP-200CY60N",
+      "KIP-200HV20H",
+      "KIP-200PT40",
+      "KIP200PT40N",
+      "KIP-200SHR30N",
+      "KIP30-1080P-MX"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snap.jpg?JpegCam=[CHANNEL]",
+        "/snap.jpg?JpegSize=M"
+      ]
+    },
+    "models": [
+      "KIP-130RT45H",
+      "KIP-200PT40",
+      "KIP-200SHR30N",
+      "KIP-200W25N",
+      "KIP-300HV20A",
+      "KIT200NF60",
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "JPEG": [
+        "/jpg/1/image.jpg",
+        "/snapshot.cgi",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg",
+        "/cgi-bin/guest/Video.cgi?media=JPEG"
+      ],
+      "MJPEG": [
+        "/mjpg/1/video.mjpg",
+        "/mjpg/video.mjpg",
+        "/cgi/mjpg/mjpeg.cgi",
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "WC0002",
+      "WC0004A",
+      "WC0007",
+      "WC0009",
+      "WC0016",
+      "WC0022",
+      "WC0030",
+      "WC0030A",
+      "WC0041",
+      "WC0042",
+      "WC0044",
+      "WC006"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/av0"
+      ]
+    },
+    "models": [
+      "WC0047",
+      "WC0048"
+    ]
+  }
+}

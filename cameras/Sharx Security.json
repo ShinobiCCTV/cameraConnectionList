@@ -1,0 +1,37 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/stream.asf",
+        "/stream1.asf"
+      ],
+      "JPEG": [
+        "/snapshot.jpg",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot_3gp.jpg",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/stream.jpg",
+        "/mjpg/video.mjpg"
+      ]
+    },
+    "models": [
+      "2700",
+      "OTHER",
+      "SCNC-2601",
+      "SCNC-2606N",
+      "SCNC-2607",
+      "SCNC-2700",
+      "SCNC-2900",
+      "SCNC-2900WP",
+      "SCNC-3604",
+      "SCNC-3605N",
+      "SCNC-3606",
+      "SCNC3904",
+      "SCNC-3904-WIDE",
+      "SCNC3905",
+      "SCNC-3905"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/tcp/av0_0",
+        "/udp/av0_0",
+        "/tcp/av0_1"
+      ]
+    },
+    "models": [
+      "37738236",
+      "7838",
+      "ATENDIMENTO",
+      "AVACOM",
+      "BT464",
+      "C7637WIP",
+      "C7812WIP",
+      "C7815WIP",
+      "C7835WIP",
+      "C7837WIP",
+      "C7838WIP",
+      "CAMSPOT3.1",
+      "E6813",
+      "EASYCAM",
+      "ESCAMQF100",
+      "H264_HOMENET_CAM",
+      "HI3518E",
+      "IN1",
+      "IP-1",
+      "JTH1",
+      "OTHER",
+      "QF100",
+      "QF300",
+      "SP-TM01EWP",
+      "STARBASE",
+      "STARCAM",
+      "SUNLUXY",
+      "SUNLUXY_MTS",
+      "T7838WIP",
+      "VSTARCAM",
+      "VSTARCAMC7815IP",
+      "VSTARCAMC7837WIP",
+      "WINTECH",
+      "WP-711",
+      "WP-717"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/snap.jpg?JpegCam=[CHANNEL]",
+        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+      ]
+    },
+    "models": [
+      "ESCAMQF100",
+      "OTHER",
+      "VSTARCAM",
+      "VSTARCAMC7815IP",
+      "VSTARCAMC7816IP",
+      "VSTARCAMC7837WIP"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/main"
+      ]
+    },
+    "models": [
+      "HD-313"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

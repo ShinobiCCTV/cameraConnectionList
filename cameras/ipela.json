@@ -1,0 +1,24 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/CH[CHANNEL]/oneshotimage.jpg",
+        "/oneshotimage.jpg"
+      ],
+      "MJPEG": [
+        "/cgi-bin/mjpeg?stream=[CHANNEL]",
+        "/image",
+        "/mjpeg"
+      ],
+      "FFMPEG": [
+        "/h264"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "SNC-DH140",
+      "SNC-RX550N",
+      "SNC-RZ50N"
+    ]
+  }
+}

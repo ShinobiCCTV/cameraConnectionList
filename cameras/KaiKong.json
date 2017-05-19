@@ -1,0 +1,82 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf",
+        "/videostream.cgi?resolution=8&rate=13"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?rate=0",
+        "/videostream.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/user/videostream.cgi",
+        "/videostream.cgi?",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+        "/video.cgi?resolution=VGA",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+      ],
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/img/snapshot.cgi?size=2",
+        "/[CHANNEL].jpg",
+        "/snap.jpg?JpegCam=[CHANNEL]",
+        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
+        "/tmpfs/auto.jpg",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?1",
+        "/snapshot.cgi?camera=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "1016",
+      "1201",
+      "1406",
+      "1601",
+      "1602",
+      "1602W",
+      "IP1018",
+      "IP-1801",
+      "OTHER",
+      "SIP1018W",
+      "SIP1022",
+      "SIP1128",
+      "SIP1201",
+      "SIP1215",
+      "SIP1601",
+      "SIP1602",
+      "SIP1602W",
+      "SIP1016",
+      "SIP1018",
+      "SIP1603",
+      "SIP1603W",
+      "SIP428",
+      "SPI1602"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11",
+        "/12"
+      ]
+    },
+    "models": [
+      "1214",
+      "1303",
+      "OTHER",
+      "SIP1303",
+      "SIP1130",
+      "SIP1201",
+      "SIP1201PLUS",
+      "SIP1303W"
+    ]
+  }
+}

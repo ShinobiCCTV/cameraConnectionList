@@ -1,0 +1,67 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi",
+        "/img/video.mjpeg"
+      ],
+      "JPEG": [
+        "/cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
+        "/img/snapshot.cgi?size=3"
+      ]
+    },
+    "models": [
+      "H264",
+      "HBD2PR1",
+      "HDR-C1648L",
+      "HICC-P3100",
+      "HIDC-P-010",
+      "HREP",
+      "IPCAM-10",
+      "IPCAM-IP",
+      "IPCAM-OD",
+      "IPCAM-PT",
+      "IPCAM-PT2",
+      "IPCAM-W12",
+      "IPCAM-WI",
+      "IPCAM-WI2",
+      "IPCAM-WO",
+      "IP-W0",
+      "IP-WO",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/media",
+        "/h264",
+        "/cam/realmonitor",
+        "/ch01.264"
+      ]
+    },
+    "models": [
+      "H3D1F",
+      "H3S1P",
+      "H4D1F",
+      "H4D2F",
+      "H4S1P",
+      "H4W1F",
+      "H4W2GR2",
+      "HBD2FR",
+      "HCD1F",
+      "HCD5HIH",
+      "HD31F",
+      "HD45IP",
+      "HD54IP",
+      "HD55IPX",
+      "HDZ20HDEX",
+      "HDZ20HDX",
+      "HDZ30",
+      "HIDC-2600TVI",
+      "H4D1FR",
+      "OTHER",
+      "PACO"
+    ]
+  }
+}

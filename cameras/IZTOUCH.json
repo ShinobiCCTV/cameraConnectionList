@@ -1,0 +1,30 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/onvif1"
+      ]
+    },
+    "models": [
+      "0009",
+      "IZ-009"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+      ]
+    },
+    "models": [
+      "0009",
+      "A001",
+      "AP001",
+      "IZ-009",
+      "LTH-A8645-C15",
+      "OTHER",
+      "OTHER1"
+    ]
+  }
+}

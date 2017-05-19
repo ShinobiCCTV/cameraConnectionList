@@ -1,0 +1,13 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videofeed",
+        "/mjpg/video.mjpg"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/streaming/video0",
+        "/mpeg4/media.amp?resolution=640x480"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+        "/cgi-bin/guest/Video.cgi?media=JPEG",
+        "/capture[CHANNEL].jpg",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/[USERNAME]/cam[CHANNEL].jpg"
+      ],
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi",
+        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
+        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
+        "/mjpeg",
+        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "SC530",
+      "VISIONSX-1200",
+      "VISIONSX-500"
+    ]
+  }
+}

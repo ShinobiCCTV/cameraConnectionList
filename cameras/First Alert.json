@@ -1,0 +1,22 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf"
+      ],
+      "JPEG": [
+        "/image/[CHANNEL].jpg"
+      ],
+      "MJPEG": [
+        "/video.cgi?resolution=VGA"
+      ]
+    },
+    "models": [
+      "420",
+      "DC8810-420",
+      "IMS200",
+      "OTHER"
+    ]
+  }
+}

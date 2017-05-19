@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg",
+        "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/snap.jpg?JpegSize=XL",
+        "/snap.jpg",
+        "/snap.jpg?JpegCam=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

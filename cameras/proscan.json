@@ -1,0 +1,15 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/shot.jpg"
+      ],
+      "MJPEG": [
+        "/video?submenu=mjpg"
+      ]
+    },
+    "models": [
+      "PLT1052"
+    ]
+  }
+}

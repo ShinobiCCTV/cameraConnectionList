@@ -1,0 +1,52 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11",
+        "/live0.264",
+        "/cam1/onvif-h264",
+        "/live/ch0",
+        "/tcp/av0_0"
+      ]
+    },
+    "models": [
+      "862",
+      "IPC-1100HA",
+      "NC-627M",
+      "NC-628MWP",
+      "NC630MW-P",
+      "NC-824",
+      "NC-851",
+      "NC851MW-P",
+      "OTHER",
+      "ZW-NC530W",
+      "ZW-NC638MWP",
+      "ZW-NC638MW-P",
+      "ZW-NC649MP",
+      "ZW-NC857MVP"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/mobile_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "IPC-1100HA",
+      "NC638MW-P",
+      "OTHER",
+      "ZW-NC638MWP",
+      "ZW-NC857MVP",
+      "ZW-NC866M-P",
+      "ZW-NNC638MW-P"
+    ]
+  }
+}

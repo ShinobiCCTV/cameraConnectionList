@@ -1,0 +1,42 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snap.jpg?JpegCam=[CHANNEL]",
+        "/img/snapshot.cgi?size=2",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/ipcam/mjpegcif.cgi"
+      ],
+      "FFMPEG": [
+        "/videostream.cgi?resolution=8&rate=13"
+      ]
+    },
+    "models": [
+      "1080P",
+      "115VW",
+      "231F",
+      "NIP",
+      "NIP2",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/1",
+        "/ucast/12",
+        "/ROH/channel/11",
+        "/ucast/11"
+      ]
+    },
+    "models": [
+      "115VW",
+      "235",
+      "235FW",
+      "OTHER"
+    ]
+  }
+}

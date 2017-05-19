@@ -1,0 +1,86 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.cgi?resolution=8&rate=13",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]"
+      ],
+      "JPEG": [
+        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
+        "/tmpfs/auto.jpg",
+        "/snap.jpg?JpegCam=[CHANNEL]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/img/snapshot.cgi?size=2",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/mobile/channel[CHANNEL].jpg",
+        "/video.cgi"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/user/videostream.cgi",
+        "/videostream.cgi",
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/video.cgi?resolution=VGA",
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/video.cgi",
+        "/videostream.cgi?rate=0"
+      ]
+    },
+    "models": [
+      "COOLCAM",
+      "E-LOCK",
+      "IP-20",
+      "NC603P",
+      "NEO",
+      "NIP06",
+      "NIP20",
+      "NIPJEAN",
+      "NIP-02",
+      "NIP-02(OAM)",
+      "NIP-02BGPW3A2",
+      "NIP-03(OAM)",
+      "NIP-06",
+      "NIP-066777-BWESL",
+      "NIP-06NEW",
+      "NIP-09",
+      "NIP-102428-DFBEF",
+      "NIP-11",
+      "NIP-12",
+      "NIP-12(OAM)",
+      "NIP-160238-AADDB",
+      "NIP-20",
+      "NIP-26",
+      "NIP-31",
+      "NIP-51FX",
+      "NIP-H20(OZX)",
+      "NIPJEAN2",
+      "OBJ-007260-LYLDU",
+      "OTHER",
+      "P2P"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/12",
+        "/0/av1"
+      ]
+    },
+    "models": [
+      "COOLCAMHBP",
+      "NIP",
+      "NIP06",
+      "NIP-31H"
+    ]
+  }
+}

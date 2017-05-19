@@ -1,0 +1,15 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live1.264",
+        "/0"
+      ]
+    },
+    "models": [
+      "RAYCAMX",
+      "RAYCAMX3",
+      "X3"
+    ]
+  }
+}

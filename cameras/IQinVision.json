@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/now.jpg"
+      ]
+    },
+    "models": [
+      "AZ032S",
+      "AZ765N",
+      "AZD075"
+    ]
+  }
+}

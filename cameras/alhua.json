@@ -1,0 +1,43 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor"
+      ]
+    },
+    "models": [
+      "BULLET",
+      "DH-IPC-HDBW4300E",
+      "DH-IPC-HFW4300S",
+      "DOME",
+      "IPC-2200",
+      "IPC-HFW3200"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
+        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]"
+      ],
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?1",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "DH_IPC_HFW1320SN",
+      "DH_IPC_HFW1320SP",
+      "DH-IPC-HDBW4300E",
+      "DH-IPC-HFW1000S",
+      "DH-IPC-HFW1000SP",
+      "DH-IPC-HFW4300S",
+      "IPC-2200",
+      "IPC-HDW4300C",
+      "IPC-HDW4431C-A",
+      "OTHER"
+    ]
+  }
+}

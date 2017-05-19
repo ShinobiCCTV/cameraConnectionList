@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam0_0"
+      ]
+    },
+    "models": [
+      "GPCZ-636A1NT"
+    ]
+  }
+}

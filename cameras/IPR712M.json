@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/rtsph264vga"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

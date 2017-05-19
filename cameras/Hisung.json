@@ -1,0 +1,16 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=NqFVIcK5_channel=1_stream=0.sdp",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp"
+      ]
+    },
+    "models": [
+      "3016B",
+      "3016BDVR",
+      "301B",
+      "OTHER"
+    ]
+  }
+}

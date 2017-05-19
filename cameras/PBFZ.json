@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=hi1FGS1g_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "TCV-GQH300"
+    ]
+  }
+}

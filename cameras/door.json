@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Unicast/channels/401"
+      ]
+    },
+    "models": [
+      "GATE"
+    ]
+  }
+}

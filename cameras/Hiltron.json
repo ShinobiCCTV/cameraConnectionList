@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "THC2033"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi?size=2"
+      ]
+    },
+    "models": [
+      "TH38C4-ONVIF"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/h264_stream",
+        "/live/ch0"
+      ]
+    },
+    "models": [
+      "TH38C4-ONVIF"
+    ]
+  }
+}

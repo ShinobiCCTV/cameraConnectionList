@@ -1,0 +1,32 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snap.jpg?JpegSize=XL",
+        "/snap.jpg?JpegCam=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "13V2-36",
+      "14C2-36W",
+      "27C4-2812W",
+      "2KP6-2812",
+      "-14V3-2812W"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/0",
+        "/cam1/onvif-h264"
+      ]
+    },
+    "models": [
+      "14-C2",
+      "14C2-36W",
+      "14C6-2812",
+      "24C6-2812W",
+      "-24V2-36W"
+    ]
+  }
+}

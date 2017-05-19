@@ -1,0 +1,16 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ucast/11",
+        "/ucast/12",
+        "/11"
+      ]
+    },
+    "models": [
+      "720P",
+      "HD720P",
+      "OTHER"
+    ]
+  }
+}

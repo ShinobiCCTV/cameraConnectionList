@@ -1,0 +1,42 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/12",
+        "/ucast/11",
+        "/11",
+        "/ucast/12"
+      ]
+    },
+    "models": [
+      "00000",
+      "101",
+      "1MPA",
+      "200A",
+      "ANX",
+      "BULLET960",
+      "CHINA1.0MP",
+      "CHINA_MODEL",
+      "COMPUTERLAP",
+      "GADSPOT",
+      "GS200A",
+      "GS-220W",
+      "GS-W220B",
+      "IPC-8016B",
+      "ONVIF",
+      "OTHER",
+      "SUMVISION",
+      "VOORDEUR"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videofeed"
+      ]
+    },
+    "models": [
+      "VOORDEUR"
+    ]
+  }
+}

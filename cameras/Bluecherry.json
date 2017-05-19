@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/media/mjpeg.php?multipart=true&id=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "DVR"
+    ]
+  }
+}

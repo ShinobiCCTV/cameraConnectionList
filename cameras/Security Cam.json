@@ -1,0 +1,25 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/0/admin:db2x.x1UW/main",
+        "/0/888888:888888/main"
+      ]
+    },
+    "models": [
+      "5MP",
+      "IPVA58",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/image.jpg"
+      ]
+    },
+    "models": [
+      "SEC"
+    ]
+  }
+}

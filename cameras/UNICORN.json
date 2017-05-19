@@ -1,0 +1,25 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg"
+      ],
+      "MJPEG": [
+        "/video?submenu=mjpg",
+        "/videostream.cgi",
+        "/video.cgi?resolution=VGA",
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf"
+      ]
+    },
+    "models": [
+      "ONEPLUS",
+      "QCAM-3000",
+      "QCAM-5000N"
+    ]
+  }
+}

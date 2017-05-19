@@ -1,0 +1,61 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/cgi-bin/snapshot.cgi?1",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/img/snapshot.cgi?size=2",
+        "/snapshot",
+        "/tmpfs/auto.jpg"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0"
+      ]
+    },
+    "models": [
+      "1234",
+      "8CH",
+      "BT470",
+      "H-264",
+      "H-264NETWORKDVR",
+      "HZCAM",
+      "OTHER",
+      "PTZONVIF",
+      "SL-701",
+      "TK-D8C4L"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ucast/12",
+        "/onvif1",
+        "/tcp/av0_0",
+        "/tcp/av0_1",
+        "/ucast/11",
+        "/11",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/12"
+      ]
+    },
+    "models": [
+      "IPSECURITYCAM",
+      "IPC_714838",
+      "NETCAM",
+      "NETCAMHIGHRES",
+      "NETCAMLOWRES",
+      "OTHER",
+      "PTZONVIF",
+      "SL-C702",
+      "SL-C704",
+      "SL-C708",
+      "SP-009",
+      "SP-009A",
+      "T8809"
+    ]
+  }
+}

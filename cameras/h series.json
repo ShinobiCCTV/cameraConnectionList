@@ -1,0 +1,18 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/img/snapshot.cgi?size=2",
+        "/cgi-bin/guest/Video.cgi?media=JPEG"
+      ]
+    },
+    "models": [
+      "EAGLEEYE",
+      "H3",
+      "HI3507",
+      "OTHER"
+    ]
+  }
+}

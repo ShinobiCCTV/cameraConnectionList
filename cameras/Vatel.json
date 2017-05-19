@@ -1,0 +1,23 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "1080P",
+      "HT-N4K1080P-3919"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11"
+      ]
+    },
+    "models": [
+      "HT-N$K1080P-9313"
+    ]
+  }
+}

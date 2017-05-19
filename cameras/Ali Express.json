@@ -1,0 +1,16 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/user=admin_password=6QNMIQGe_channel=1_stream=0.sdp",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp"
+      ]
+    },
+    "models": [
+      "ALIEXPRESS",
+      "IPCX-BC43272",
+      "POE1"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/image/[CHANNEL].jpg"
+      ]
+    },
+    "models": [
+      "D6008DH-II"
+    ]
+  }
+}

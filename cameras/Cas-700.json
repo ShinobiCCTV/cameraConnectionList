@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/goform/capture",
+        "/goform/video2"
+      ],
+      "MJPEG": [
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

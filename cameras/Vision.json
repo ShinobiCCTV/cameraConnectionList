@@ -1,0 +1,26 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/?action=stream"
+      ]
+    },
+    "models": [
+      "540TVL",
+      "WS-D5538"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/h264&basic_auth=YWRtaW46U2tyYWJ5MjkyNSE="
+      ]
+    },
+    "models": [
+      "VDA101"
+    ]
+  }
+}

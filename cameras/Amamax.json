@@ -1,0 +1,19 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/Getvideo.cgi?Cookie=",
+        "/jpg/image.jpg"
+      ]
+    },
+    "models": [
+      "CCTVDVRH800",
+      "CCTVDVRMPEG4",
+      "IPZB-600",
+      "IPZW-400",
+      "IPZW-600",
+      "OTHER"
+    ]
+  }
+}

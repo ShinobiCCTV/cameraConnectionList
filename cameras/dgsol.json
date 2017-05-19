@@ -1,0 +1,13 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/mjpg/video.mjpg"
+      ]
+    },
+    "models": [
+      "DG-SC2100W",
+      "DG-SC2600"
+    ]
+  }
+}

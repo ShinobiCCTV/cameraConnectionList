@@ -1,0 +1,44 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi",
+        "/video.cgi?resolution=VGA"
+      ],
+      "JPEG": [
+        "/img/snapshot.cgi?size=2"
+      ]
+    },
+    "models": [
+      "150",
+      "150IP",
+      "ATHEROS",
+      "DCV-210IP",
+      "DV150",
+      "DVC120",
+      "DVC-125IP",
+      "DVC-150IP",
+      "DVC-150-IP",
+      "DVC-1601",
+      "DVC-210IP",
+      "DVC-215IP",
+      "DVC-255-IP",
+      "IVM150?",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam1/onvif-h264"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

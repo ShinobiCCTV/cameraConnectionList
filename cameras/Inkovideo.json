@@ -1,0 +1,45 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/Streaming/Channels/2",
+        "/11",
+        "/user=admin_password=DWfHWbin_channel=1_stream=0.sdp",
+        "/user=admin_password=ZlNKhPmN_channel=1_stream=0.sdp",
+        "/user=admin_password=6QNMIQGe_channel=1_stream=0.sdp",
+        "/user=admin_password=w6pWZwJz_channel=1_stream=0.sdp",
+        "/user=admin_password=ecuMeEKh_channel=1_stream=0.sdp",
+        "/Streaming/Channels/1",
+        "/"
+      ]
+    },
+    "models": [
+      "107HD",
+      "110HD",
+      "117HD",
+      "V-105HD",
+      "V107",
+      "V107-HD",
+      "V-107HD",
+      "V-110HD",
+      "V-111-4M"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "JPEG": [
+        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/mobile_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "V-104",
+      "V-104W",
+      "V-105"
+    ]
+  }
+}

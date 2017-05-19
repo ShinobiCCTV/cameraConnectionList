@@ -1,0 +1,35 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11",
+        "/ucast/11",
+        "/ucast/12",
+        "/onvif1",
+        "/user=admin&password=tlJwpbo6&channel=1&stream=0.sdp"
+      ]
+    },
+    "models": [
+      "3007",
+      "720P",
+      "BQ-ND7202RW",
+      "BQ-NO5WS",
+      "BQ-NR3007",
+      "NR3007"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot/view[CHANNEL].jpg"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "BQ-P6182M",
+      "OTHER"
+    ]
+  }
+}

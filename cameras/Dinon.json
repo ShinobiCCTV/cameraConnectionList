@@ -1,0 +1,24 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/user/videostream.cgi",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "8475",
+      "8673",
+      "8675",
+      "SEGEV-103",
+      "SEGEV-105",
+      "SEGEV4"
+    ]
+  }
+}

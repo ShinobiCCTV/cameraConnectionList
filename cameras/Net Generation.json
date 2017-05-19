@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video.mjpg"
+      ]
+    },
+    "models": [
+      "IPCAM25110"
+    ]
+  }
+}

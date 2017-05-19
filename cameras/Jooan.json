@@ -1,0 +1,74 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/user=admin_password=D1ppAle1_channel=1_stream=1.sdp",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp",
+        "/user=admin_password=ALny5T6n_channel=1_stream=0.sdp",
+        "/user=admin_password=3DWewWT8_channel=1_stream=1.sdp",
+        "/user=admin_password=d2gNs1nj_channel=1_stream=0.sdp",
+        "/onvif1",
+        "/user=admin_password=9RIuWsCE_channel=1_stream=0.sdp",
+        "/user=admin_password=6Kc1TcES_channel=1_stream=0.sdp",
+        "/user=admin_password=N9kl8P8f_channel=1_stream=0.sdp",
+        "/user=admin_password=5LuOvIBF_channel=1_stream=1.sdp",
+        "/user=admin_password=XXy7Ar9a_channel=1_stream=0.sdp",
+        "/user=admin_password=4RiynpAE_channel=1_stream=1.sdp",
+        "/user=admin_password=jQzITpGC_channel=1_stream=0.sdp",
+        "/onvif2"
+      ]
+    },
+    "models": [
+      "703",
+      "703HRB",
+      "703CRB",
+      "703ERC",
+      "703ERC-T",
+      "703KRA",
+      "703KRA-T",
+      "703KRB-T2.0",
+      "703KRB-T2MP",
+      "704ERC-T",
+      "704YRC",
+      "705NRB-Z-P",
+      "720",
+      "720PBULLETCAMERA",
+      "720PIPCAMERA",
+      "720POMNIF",
+      "770",
+      "DOMEIP",
+      "JA-700MRB-T",
+      "JA-700MRB-US",
+      "JA-700MR-W-US",
+      "JA-703ERA-T-P",
+      "JA-703ERC-T",
+      "JA-703KRA-T",
+      "JA-703KRA-T-MINE",
+      "JA-703KRB",
+      "JA-703-KRB-T-P",
+      "JA-703KRC-T2(720P)",
+      "JA-703KR-TWITRHPW",
+      "JA-731KRD-T",
+      "JA-733KBRT",
+      "JA-733KRB-T",
+      "JA-737NRC-T-P",
+      "JA-770MR",
+      "JA-770MR-US",
+      "JA-770MR-W",
+      "JA-770MR-W-US",
+      "JA-A5-US",
+      "ONVIF"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi?size=2"
+      ]
+    },
+    "models": [
+      "JA703ERA-T-P"
+    ]
+  }
+}

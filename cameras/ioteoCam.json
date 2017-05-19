@@ -1,0 +1,26 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0"
+      ]
+    },
+    "models": [
+      "3712"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ONVIF/channel2",
+        "/ONVIF/channel1",
+        "/ONVIF/channel3"
+      ]
+    },
+    "models": [
+      "BLACK",
+      "LOW",
+      "OTHER"
+    ]
+  }
+}

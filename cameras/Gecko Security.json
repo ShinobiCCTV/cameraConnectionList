@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/1",
+        "/Streaming/Channels/2"
+      ]
+    },
+    "models": [
+      "GD-328"
+    ]
+  }
+}

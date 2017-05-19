@@ -1,0 +1,15 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snap.jpg?JpegSize=XL",
+        "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/snap.jpg"
+      ]
+    },
+    "models": [
+      "ITSIPD36H200",
+      "OTHER"
+    ]
+  }
+}

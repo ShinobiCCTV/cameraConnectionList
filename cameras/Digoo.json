@@ -1,0 +1,34 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "JPEG": [
+        "/img/snapshot.cgi?size=2",
+        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "BB-M2",
+      "M2-BB",
+      "MM==BB-M2"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/tcp/av0_0",
+        "/1.3gp",
+        "/onvif1"
+      ]
+    },
+    "models": [
+      "BB-M2",
+      "BB-MI",
+      "M1Q",
+      "MM-B2"
+    ]
+  }
+}

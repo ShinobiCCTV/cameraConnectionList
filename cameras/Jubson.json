@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/PSIA/Streaming/channels/2"
+      ]
+    },
+    "models": [
+      "720P",
+      "ES500-MIP-813A"
+    ]
+  }
+}

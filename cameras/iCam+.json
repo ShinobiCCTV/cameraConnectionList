@@ -1,0 +1,36 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11"
+      ]
+    },
+    "models": [
+      "GARDEN"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/jpg/image.jpg?size=3",
+        "/snap.jpg",
+        "/tmpfs/auto.jpg",
+        "/snapshot.cgi",
+        "/img/snapshot.cgi?size=3"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/img/video.mjpeg",
+        "/video?submenu=mjpg"
+      ]
+    },
+    "models": [
+      "H264",
+      "I918W",
+      "IPP105",
+      "LIVE",
+      "OTHER"
+    ]
+  }
+}

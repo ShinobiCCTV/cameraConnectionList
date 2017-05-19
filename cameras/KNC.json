@@ -1,0 +1,28 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/ipcam/jpeg.cgi"
+      ]
+    },
+    "models": [
+      "HDI47"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/stream0",
+        "/Streaming/Channels/1",
+        "/h264",
+        "/Streaming/Channels/2"
+      ]
+    },
+    "models": [
+      "HDI47",
+      "-P3TR3XIR",
+      "KTC230",
+      "P3TR3XIR"
+    ]
+  }
+}

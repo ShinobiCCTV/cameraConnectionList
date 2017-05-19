@@ -1,0 +1,42 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/av0",
+        "/live/av1"
+      ]
+    },
+    "models": [
+      "610",
+      "610S",
+      "631",
+      "A610",
+      "S610",
+      "S631",
+      "S650"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "JPEG": [
+        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "610",
+      "610S",
+      "631",
+      "960P",
+      "QD300",
+      "S601",
+      "S610",
+      "S631",
+      "S650",
+      "S651",
+      "SC631"
+    ]
+  }
+}

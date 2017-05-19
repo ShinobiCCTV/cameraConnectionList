@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ROH/channel/11"
+      ]
+    },
+    "models": [
+      "4015SW"
+    ]
+  }
+}

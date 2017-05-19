@@ -1,0 +1,89 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11",
+        "/cam/realmonitor",
+        "/12",
+        "/cam1/onvif-h264",
+        "/av0_1"
+      ]
+    },
+    "models": [
+      "C-32FX",
+      "COOLCAM",
+      "NIP-031",
+      "NIP-16",
+      "NIP-31(L2J)",
+      "NIP-36",
+      "NOP-16",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/video.cgi?resolution=VGA",
+        "/videostream.cgi",
+        "/user/videostream.cgi"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/tmpfs/auto.jpg",
+        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
+        "/snap.jpg?JpegCam=[CHANNEL]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/jpg/image.jpg?size=3"
+      ]
+    },
+    "models": [
+      "CAM0X",
+      "COOLCAM",
+      "IP-031",
+      "NC-603P",
+      "NHP-09Z",
+      "NI-36L2J",
+      "NIP",
+      "NIP-0",
+      "NIP-02",
+      "NIP-031",
+      "NIP-031H",
+      "NIP-05BW",
+      "NIP-06",
+      "NIP-070291-RKJMC",
+      "NIP-09",
+      "NIP-09Z",
+      "NIP-11",
+      "NIP-12",
+      "NIP-12-320",
+      "NIP-12OAM",
+      "NIP-146342-CDCEE",
+      "NIP-2",
+      "NIP-20",
+      "NIP-210485-ABABC",
+      "NIP-22L2J",
+      "NIP-254930-EAFFB",
+      "NIP-26",
+      "NIP-31",
+      "NIP-9",
+      "NIP-H20",
+      "NIP-X",
+      "NIT",
+      "NP-254095",
+      "OTHER",
+      "TFD"
+    ]
+  }
+}

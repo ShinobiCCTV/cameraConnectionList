@@ -1,0 +1,40 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/mjpg/video.mjpg",
+        "/video.cgi?resolution=VGA",
+        "/img/video.mjpeg",
+        "/mjpeg.cgi",
+        "/image.jpg?type=motion",
+        "/cgi-bin/still.cgi"
+      ],
+      "JPEG": [
+        "/jpg/image.jpg",
+        "/Image.jpg",
+        "/img/snapshot.cgi?size=3",
+        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]&snapshot=on",
+        "/video.cgi",
+        "/img/snapshot.cgi?img=vga",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ]
+    },
+    "models": [
+      "150N",
+      "150-NWL-405",
+      "IC-192701",
+      "LN-400",
+      "LN-401",
+      "LN-406",
+      "OTHER",
+      "WL-400",
+      "WL-402",
+      "WL-404",
+      "WL-405",
+      "WLC-4000"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/0"
+      ]
+    },
+    "models": [
+      "MZOOM"
+    ]
+  }
+}

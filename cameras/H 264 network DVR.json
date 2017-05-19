@@ -1,0 +1,53 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/cgi-bin/guest/Video.cgi?media=JPEG",
+        "/[CHANNEL].jpg",
+        "/image/[CHANNEL].jpg",
+        "/cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/cgi-bin/guest/Video?format=JPEG",
+        "/cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/video.cgi?resolution=VGA",
+        "/api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
+        "/cgi-bin/guest/Video?format=MJPEG",
+        "/mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "720P",
+      "DVR",
+      "DVR:KR-6008SV",
+      "IPTECH",
+      "KPN100HD",
+      "KR-6008",
+      "KR-6008SV",
+      "KV:D4C2",
+      "LTD2304SE-SL",
+      "OTHER",
+      "QVS",
+      "SUNLUXY",
+      "VVME"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

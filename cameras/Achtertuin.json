@@ -1,0 +1,23 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam1/onvif-h264"
+      ]
+    },
+    "models": [
+      "3011",
+      "N3011"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video.cgi?resolution=VGA"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+        "/cgi-bin/getimage.cgi?motion=1"
+      ]
+    },
+    "models": [
+      "NC-1000",
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/img/video.mjpeg",
+        "/video?profile=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "BLINK",
+      "RAZR"
+    ]
+  }
+}

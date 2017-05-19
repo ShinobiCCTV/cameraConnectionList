@@ -1,0 +1,24 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/ivop.get?action=live&THREAD_ID=",
+        "/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "DVRMINIH4",
+      "OVSERIES"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/3"
+      ]
+    },
+    "models": [
+      "OVSERIES"
+    ]
+  }
+}

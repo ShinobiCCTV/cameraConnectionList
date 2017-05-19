@@ -1,0 +1,18 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/av0_0",
+        "/user=admin&password=tlJwpbo6&channel=1&stream=0.sdp",
+        "/user=admin_password=DivDbUd2_channel=1_stream=0.sdp",
+        "/live_h264_1.sdp"
+      ]
+    },
+    "models": [
+      "GT-NHS-DIA48W",
+      "X39C13M",
+      "X3-HF^B20M",
+      "X5"
+    ]
+  }
+}

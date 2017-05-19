@@ -1,0 +1,34 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11",
+        "/12",
+        "/user=admin_password=l5o5gWYt_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "1080P",
+      "1080PCCTV",
+      "652",
+      "653",
+      "C09H4W4",
+      "P01X2LP4",
+      "POE1080P",
+      "PT-163-S200W4-W"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "C01H1W2",
+      "C02H1W4",
+      "C02H4P2",
+      "C04H4W4"
+    ]
+  }
+}

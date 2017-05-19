@@ -1,0 +1,35 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/media/video1",
+        "/media/video3",
+        "/cam/realmonitor"
+      ]
+    },
+    "models": [
+      "211",
+      "212",
+      "GIRIS",
+      "IPC222ER-F36",
+      "ONWIFI",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?1",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ]
+    },
+    "models": [
+      "ICAMERA",
+      "OTHER"
+    ]
+  }
+}

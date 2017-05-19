@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videofeed",
+        "/video?submenu=mjpg"
+      ]
+    },
+    "models": [
+      "FIRE",
+      "FIRE7HD"
+    ]
+  }
+}

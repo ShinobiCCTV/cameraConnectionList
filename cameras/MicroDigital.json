@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Primary"
+      ]
+    },
+    "models": [
+      "MDC-N7290TDN"
+    ]
+  }
+}

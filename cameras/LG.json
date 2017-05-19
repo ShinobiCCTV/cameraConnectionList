@@ -1,0 +1,58 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videofeed",
+        "/video?profile=[CHANNEL]",
+        "/video?submenu=mjpg",
+        "/",
+        "/?&AUDIO=YES&CHOPIMAGE=YES&STREAM=YES&WANTIMAGE=[CHANNEL].JPG&SENDEMPTYIMAGES=NO",
+        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2"
+      ],
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg",
+        "/shot.jpg",
+        "/snapshot.cgi",
+        "/img/snapshot.cgi",
+        "/cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "4X",
+      "509",
+      "APEX",
+      "G2MINI",
+      "CLL55",
+      "LNP3700T",
+      "LP500",
+      "LS670",
+      "LW130W",
+      "NEXUS4",
+      "OPTIMUS",
+      "OPTIMUSV",
+      "OTHER",
+      "P350",
+      "P509",
+      "P970"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Master-0",
+        "/Slave-0"
+      ]
+    },
+    "models": [
+      "LDW2010-F1E858",
+      "LNB3100",
+      "LND7210",
+      "LNDS5100",
+      "LNP3700T",
+      "LNV5100R",
+      "LW130W",
+      "LW342"
+    ]
+  }
+}

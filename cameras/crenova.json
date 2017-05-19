@@ -1,0 +1,26 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/streaming/video0",
+        "/user=admin_password=8bZ0Z76g_channel=1_stream=0.sdp",
+        "/ucast/11",
+        "/realmonitor",
+        "/streaming/video1"
+      ]
+    },
+    "models": [
+      "520",
+      "ABK-Q360",
+      "ABK-QD520",
+      "AMAZON",
+      "CHS0126N",
+      "OTHER",
+      "PANQ360",
+      "Q360",
+      "Q-3605.0",
+      "QD520"
+    ]
+  }
+}

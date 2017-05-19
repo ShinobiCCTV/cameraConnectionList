@@ -1,0 +1,24 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/showimg_pda.cgi?cam=[CHANNEL]",
+        "/pda.cgi?[USERNAME]&page=image&cam=[CHANNEL]",
+        "/pda.cgi?page=image&cam=[CHANNEL]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "FFMPEG": [
+        "/videostream.cgi?resolution=8&rate=13"
+      ]
+    },
+    "models": [
+      "(2)",
+      "LSERIES",
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
+        "/snapshot.cgi",
+        "/mjpg/video.mjpg",
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "JPEG": [
+        "/snapshot.jpg",
+        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/cgi-bin/video.jpg"
+      ]
+    },
+    "models": [
+      "CS-TX02F",
+      "CS-TX04",
+      "CS-W04G",
+      "CS-W05N",
+      "CS-W06N",
+      "CS-W60HD",
+      "CS-W60N",
+      "CS-WMV02",
+      "CS-WMV04",
+      "CS-WMV0402",
+      "CS-WMV043G-NV",
+      "CS-WMV04N",
+      "CS-WMV04N2",
+      "CS-WV4N",
+      "OTHER",
+      "IPCAM264"
+    ]
+  }
+}

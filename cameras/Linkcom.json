@@ -1,0 +1,13 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video.mjpg"
+      ]
+    },
+    "models": [
+      "DOORVIDEO",
+      "OTHER"
+    ]
+  }
+}

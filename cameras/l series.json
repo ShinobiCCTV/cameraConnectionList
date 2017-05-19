@@ -1,0 +1,23 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/img/mjpeg.jpg",
+        "/user/videostream.cgi",
+        "/videostream.cgi"
+      ],
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/img/snapshot.cgi?size=2",
+        "/img/snapshot.cgi?size=3"
+      ]
+    },
+    "models": [
+      "CAM0758",
+      "CAM0760",
+      "OTHER",
+      "V100"
+    ]
+  }
+}

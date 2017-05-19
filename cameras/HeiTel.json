@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/webclisession/image_req0?camera=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "SERVER"
+    ]
+  }
+}

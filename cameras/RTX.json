@@ -1,0 +1,44 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+      ],
+      "JPEG": [
+        "/tmpfs/auto.jpg",
+        "/snap.jpg?JpegCam=[CHANNEL]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi?",
+        "/img/snapshot.cgi?size=2"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ]
+    },
+    "models": [
+      "06R",
+      "25-HV",
+      "DVS",
+      "IMX322+HI3516",
+      "IP-06R",
+      "IP-09R",
+      "IP-26H",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11"
+      ]
+    },
+    "models": [
+      "31-HV",
+      "IP-16H",
+      "IP-25HV",
+      "IP-26H"
+    ]
+  }
+}

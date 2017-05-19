@@ -1,0 +1,43 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/profile1",
+        "/cam/realmonitor",
+        "/Streaming/Channels/1"
+      ]
+    },
+    "models": [
+      "9411M",
+      "TI-E36F13I",
+      "TVC-1102",
+      "TVC-1201"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/image.jpg",
+        "/goform/video2",
+        "/out.jpg?id=0.5"
+      ],
+      "MJPEG": [
+        "/video.cgi",
+        "/mjpeg.cgi",
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/video.mjpg",
+        "/?action=stream"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ]
+    },
+    "models": [
+      "NW-7100",
+      "NW-7500",
+      "OTHER",
+      "SIP1M"
+    ]
+  }
+}

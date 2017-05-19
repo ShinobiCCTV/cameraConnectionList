@@ -1,0 +1,96 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "JPEG": [
+        "/snapshot.cgi?camera=[CHANNEL]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/stillimg[CHANNEL].jpg",
+        "/image/[CHANNEL].jpg",
+        "/img/video.jpg"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/video.cgi?resolution=VGA",
+        "/mjpeg",
+        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
+        "/cgi/mjpg/mjpeg.cgi"
+      ]
+    },
+    "models": [
+      "CMI-11123BK",
+      "CMI-11123BKR",
+      "CMI-11133WT",
+      "CMI-12316GY",
+      "CNI-11123BK",
+      "IP-900",
+      "OTHER",
+      "PKD-DK40107",
+      "ZHIBH-13W",
+      "ZH-IXA15-WC",
+      "ZH-IXY10",
+      "ZMD-IDV-BFS",
+      "ZP-IGH13-W"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/tcp/av0_0",
+        "/000100",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/tcp/av0_1",
+        "/h264",
+        "/onvif1",
+        "/udp/av0_0",
+        "/udp/av0_1"
+      ],
+      "MJPEG": [
+        "/cam[CHANNEL]/mjpeg"
+      ]
+    },
+    "models": [
+      "CS-S1T-S",
+      "I202W-95-NC8-2T-1",
+      "IBH15-S1",
+      "IBI-13",
+      "INDOOR",
+      "IXA15-WC",
+      "NEW",
+      "ONVIF",
+      "OTHER",
+      "ZHIBH-13W",
+      "ZH-IDP15-W",
+      "ZH-IXA15-WAC",
+      "ZH-IXA15-WC",
+      "ZH-IXA1D-WAC",
+      "ZH-IXB1D-WAC",
+      "ZH-IXC1D-WAC",
+      "ZH-IXD15-WAC",
+      "ZH-IXU1D-WAC",
+      "ZM-SH721",
+      "ZM-SS718",
+      "ZP-IBH13-P",
+      "ZP-IBH13-W",
+      "ZP-IBH15-S",
+      "ZP-IBH15-S1",
+      "ZP-IBI13W",
+      "ZP-IBI13-W",
+      "ZP-IBT15-S",
+      "ZP-IGH13-W",
+      "ZP-IHB13-W",
+      "ZP-KEH104",
+      "ZP-NE14S"
+    ]
+  }
+}

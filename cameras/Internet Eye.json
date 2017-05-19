@@ -1,0 +1,17 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video.cgi?resolution=VGA",
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "JPEG": [
+        "/images/stream_[CHANNEL].jpg"
+      ]
+    },
+    "models": [
+      "M6840",
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/1",
+        "/cam1/onvif-h264"
+      ]
+    },
+    "models": [
+      "THK-ICB13",
+      "THK-IDM13"
+    ]
+  }
+}

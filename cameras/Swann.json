@@ -1,0 +1,119 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/VIDEO.CGI",
+        "/cgi/mjpg/mjpeg.cgi",
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/user/videostream.cgi",
+        "/videostream.cgi?rate=0",
+        "/video.cgi?resolution=VGA",
+        "/MJPEG.CGI",
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/videofeed",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/Stream?Video",
+        "/video.mjpg"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.asf",
+        "/goform/video",
+        "/videostream.cgi?resolution=8&rate=13"
+      ],
+      "JPEG": [
+        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+        "/img/snapshot.cgi?size=2",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/img/snapshot.cgi?size=3",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/img/snapshot.cgi?img=vga",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/stillimg[CHANNEL].jpg",
+        "/Getvideo.cgi?Cookie=",
+        "/cgi/jpg/image.cgi",
+        "/cgi-bin/snapshot.cgi?1",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/tmpfs/auto.jpg",
+        "/video.cgi"
+      ]
+    },
+    "models": [
+      "005FTCD",
+      "2009",
+      "440",
+      "440-IPC",
+      "450",
+      "ADS440",
+      "ADS-440",
+      "ADS440FRONTDOOR",
+      "ADS-440-PTZ",
+      "ADS-450",
+      "ADS-CAMAX1",
+      "AJ-COWA-C116",
+      "MAXIP",
+      "OTHER",
+      "OTHER0",
+      "RTSP(TCP)DVR",
+      "SW111-WIP-21030",
+      "SWAD440IPC",
+      "SWADS-440IPC",
+      "SWADS-440-IPC",
+      "SWADS-440IPC-AU",
+      "SWADS-450-IPC",
+      "EYE",
+      "SWK-2550",
+      "WIFI-PT"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/h264Preview_01_sub",
+        "/Streaming/Channels/1",
+        "/Streaming/Channels/101",
+        "/Streaming/Unicast/channels/101",
+        "/Streaming/Channels/102",
+        "/0",
+        "/h264Preview_01_main",
+        "/Streaming/channels/101",
+        "/Streaming/Channels/2"
+      ]
+    },
+    "models": [
+      "460",
+      "815",
+      "ADS-440-PTZ",
+      "ADS-446",
+      "DVRW/WEBPORT",
+      "DVR4",
+      "DVR8-1500",
+      "DVR8-4500",
+      "GS3500",
+      "HD8153MP",
+      "HD-815",
+      "NEW",
+      "NHD-806",
+      "OTHER",
+      "SWADS-446-CAM",
+      "SWADS-456-CAM",
+      "SWADS-466CAM",
+      "SWANHD-830",
+      "SWNHD-806CAM",
+      "SWNHD-820CAM",
+      "SWNHD-825CAM",
+      "SWNHD-830CAM",
+      "SWO-SVC01K",
+      "SWO-SVC02K",
+      "SW-WIFIPT",
+      "T855"
+    ]
+  }
+}

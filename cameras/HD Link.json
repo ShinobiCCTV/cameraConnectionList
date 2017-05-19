@@ -1,0 +1,27 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/MJPEG.CGI"
+      ],
+      "JPEG": [
+        "/image/jpeg.cgi",
+        "/Image.jpg"
+      ]
+    },
+    "models": [
+      "930L",
+      "DCS930LB"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/h264&basic_auth=YWRtaW46MTIzNA=="
+      ]
+    },
+    "models": [
+      "IPMC-K200T(L)"
+    ]
+  }
+}

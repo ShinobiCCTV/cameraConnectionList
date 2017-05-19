@@ -1,0 +1,15 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ch2",
+        "/ch0"
+      ]
+    },
+    "models": [
+      "DLTV",
+      "PT606",
+      "THERMAL"
+    ]
+  }
+}

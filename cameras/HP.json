@@ -1,0 +1,17 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/image.jpg",
+        "/current[CHANNEL].jpg",
+        "/shot.jpg"
+      ],
+      "MJPEG": [
+        "/?action=stream"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

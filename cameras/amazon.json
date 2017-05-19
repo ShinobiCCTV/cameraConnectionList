@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video?profile=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "FIREHDX"
+    ]
+  }
+}

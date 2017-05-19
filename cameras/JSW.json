@@ -1,0 +1,23 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf"
+      ],
+      "MJPEG": [
+        "/live?camera=[USERNAME]&quality=75&fps=5&resolution=[PASSWORD]",
+        "/cgi/mjpg/mjpg.cgi",
+        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
+        "/live?camera=[CHANNEL]&fps=5&quality=75&resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "JPEG": [
+        "/img/snapshot.cgi?size=2"
+      ]
+    },
+    "models": [
+      "562M",
+      "OTHER"
+    ]
+  }
+}

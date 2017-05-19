@@ -1,0 +1,39 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/user/videostream.cgi",
+        "/videostream.cgi",
+        "/videostream.cgi?rate=11",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
+        "/videofeed"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.cgi?resolution=8&rate=13",
+        "/videostream.asf"
+      ],
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "5900",
+      "C5700",
+      "C5900",
+      "H4800",
+      "H6800",
+      "LSERIES",
+      "LIVE",
+      "OTHER",
+      "UNLISTED"
+    ]
+  }
+}

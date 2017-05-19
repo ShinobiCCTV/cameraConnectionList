@@ -1,0 +1,15 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "LSERIES",
+      "L610WS",
+      "OTHER"
+    ]
+  }
+}

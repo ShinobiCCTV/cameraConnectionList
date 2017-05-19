@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/h264_stream"
+      ]
+    },
+    "models": [
+      "S1227"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snap.jpg?JpegCam=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "ICS-IP1300",
+      "ICSM-IP3000"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=7sQICnsr_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "ICS-IP2000"
+    ]
+  }
+}

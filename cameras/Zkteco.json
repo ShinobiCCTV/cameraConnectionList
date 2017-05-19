@@ -1,0 +1,27 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor",
+        "/0",
+        "/Streaming/Channels/1",
+        "/11"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "ZKT"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "ZK-IR372"
+    ]
+  }
+}

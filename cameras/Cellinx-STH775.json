@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/AVStream1_1"
+      ]
+    },
+    "models": [
+      "DY-IR2020HD"
+    ]
+  }
+}

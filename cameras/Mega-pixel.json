@@ -1,0 +1,57 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/img/snapshot.cgi?size=2",
+        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi/jpg/image.cgi",
+        "/snap.jpg?JpegSize=XL",
+        "/snap.jpg",
+        "/cgi-bin/jpg/image.cgi",
+        "/tmpfs/auto.jpg"
+      ],
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi",
+        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
+        "/video.cgi?resolution=VGA",
+        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
+        "/getimage[CHANNEL]",
+        "/cgi-bin/still.cgi"
+      ]
+    },
+    "models": [
+      "1PS-912",
+      "1PS-912V",
+      "BKOFF",
+      "CM-3211",
+      "IPC-631/T13",
+      "IPS-911",
+      "IPS-912",
+      "IPS-912V",
+      "OTHER",
+      "RS7507H",
+      "RS7518",
+      "SP-V701W",
+      "SV-MIP102-W",
+      "TV-536W/IP"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/mpeg4",
+        "/11",
+        "/12",
+        "/ONVIF_1_a_unicast",
+        "/ONVIF_1_unicast"
+      ]
+    },
+    "models": [
+      "534H",
+      "AQ-IPR1623X",
+      "NVS-DM36X",
+      "OTHER"
+    ]
+  }
+}

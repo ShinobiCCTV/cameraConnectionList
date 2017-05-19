@@ -1,0 +1,14 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/img/snapshot.cgi?size=2"
+      ]
+    },
+    "models": [
+      "XZ-14F-R",
+      "XZ-34F-C"
+    ]
+  }
+}

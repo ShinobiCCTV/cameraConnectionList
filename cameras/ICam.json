@@ -1,0 +1,65 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi?size=2",
+        "/img/snapshot.cgi?size=3",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi",
+        "/tmpfs/auto.jpg",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/pda.cgi?[USERNAME]&page=image&cam=[CHANNEL]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/images/webcam.jpg",
+        "/cgi-bin/snapshot.cgi?1"
+      ],
+      "MJPEG": [
+        "/img/video.mjpeg",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/videostream.cgi?rate=11",
+        "/?action=stream",
+        "/img/mjpeg.cgi",
+        "/cgi-bin/halfsize.jpg?camera=[CHANNEL]&clock=on&motion=0",
+        "/img/mjpeg.jpg",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?resolution=8&rate=13",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ]
+    },
+    "models": [
+      "0C810",
+      "1000",
+      "1908W",
+      "59587",
+      "7647",
+      "BSERIES",
+      "DOME",
+      "I908W",
+      "I-CAM100",
+      "56311",
+      "IP-1",
+      "IPS-911",
+      "NIP-02",
+      "OTHER",
+      "OTHER2"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/ch0",
+        "/11"
+      ]
+    },
+    "models": [
+      "-703",
+      "OTHER"
+    ]
+  }
+}

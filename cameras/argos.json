@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?"
+      ]
+    },
+    "models": [
+      "514"
+    ]
+  }
+}

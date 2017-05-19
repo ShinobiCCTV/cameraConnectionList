@@ -1,0 +1,24 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi-bin/sf.cgi",
+        "/videostream.cgi"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf"
+      ],
+      "JPEG": [
+        "/cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "CAMIP3",
+      "CAMIP5N1",
+      "CAMIP7N",
+      "OTHER"
+    ]
+  }
+}

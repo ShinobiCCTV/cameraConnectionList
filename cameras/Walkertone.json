@@ -1,0 +1,27 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/0/888888:888888/sub",
+        "/0/888888:888888/main"
+      ]
+    },
+    "models": [
+      "HI-3512",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi",
+        "/"
+      ]
+    },
+    "models": [
+      "HI-3512",
+      "WT-1536E",
+      "WT-1536M"
+    ]
+  }
+}

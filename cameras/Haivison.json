@@ -1,0 +1,24 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/mpeg4"
+      ]
+    },
+    "models": [
+      "1080P",
+      "5MP"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
+      ]
+    },
+    "models": [
+      "1080P",
+      "720P"
+    ]
+  }
+}

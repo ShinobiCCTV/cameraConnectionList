@@ -1,0 +1,19 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/0",
+        "/1"
+      ]
+    },
+    "models": [
+      "453",
+      "CHINA2",
+      "DA-IP8517",
+      "MOJECAM",
+      "NVS-DM36X",
+      "OTHER",
+      "TE72"
+    ]
+  }
+}

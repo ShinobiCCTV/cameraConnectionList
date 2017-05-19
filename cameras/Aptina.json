@@ -1,0 +1,26 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ucast/11",
+        "/mpeg4",
+        "/0"
+      ]
+    },
+    "models": [
+      "9P006",
+      "GXV3662HD"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot/view[CHANNEL].jpg"
+      ]
+    },
+    "models": [
+      "ARR0331",
+      "MT9M034"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ucast/11",
+        "/user=admin_password=5uemOtop_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "BN-HIP100HCVL/IR",
+      "BN-HIP200HDV-IR"
+    ]
+  }
+}

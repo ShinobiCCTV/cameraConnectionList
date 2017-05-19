@@ -1,0 +1,22 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img.jpg"
+      ]
+    },
+    "models": [
+      "CAM-817F2"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/main"
+      ]
+    },
+    "models": [
+      "H0202"
+    ]
+  }
+}

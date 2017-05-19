@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/img/snapshot.cgi?size=2"
+      ]
+    },
+    "models": [
+      "GW2040",
+      "GW2040A",
+      "GW2078IP"
+    ]
+  }
+}

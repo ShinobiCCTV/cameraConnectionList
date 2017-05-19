@@ -1,0 +1,29 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/mpeg4",
+        "/stander/livestream/0/0"
+      ]
+    },
+    "models": [
+      "720P",
+      "VG-130282HIPC/POE",
+      "VGIPY-5002W"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi?camera=[CHANNEL]",
+        "/img/snapshot.cgi?size=2",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "VG-L610WP"
+    ]
+  }
+}

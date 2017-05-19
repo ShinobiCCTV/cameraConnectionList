@@ -1,0 +1,32 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi?camera=[CHANNEL]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/img/snapshot.cgi?size=2",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "GW200IP",
+      "GW-5071IP",
+      "VDG2061IP"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/mpeg4",
+        "/Onvif/live/1/1"
+      ]
+    },
+    "models": [
+      "GW5055",
+      "HW10",
+      "KDT-HW67RC80"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.cgi",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "5210",
+      "IC-202W",
+      "OTHER",
+      "P6620",
+      "RSERIESDVR"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/h264main"
+      ]
+    },
+    "models": [
+      "D6122P"
+    ]
+  }
+}

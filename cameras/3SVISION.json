@@ -1,0 +1,45 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam1/onvif-h264",
+        "/cam1/onvif-h264-1"
+      ]
+    },
+    "models": [
+      "N3011",
+      "N6079",
+      "N9071",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/image/[CHANNEL].jpg",
+        "/snap.jpg?JpegCam=[CHANNEL]",
+        "/img/snapshot.cgi?size=2",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/video.jpg",
+        "/image.jpg",
+        "/current[CHANNEL].jpg"
+      ],
+      "MJPEG": [
+        "/axis-cgi/mjpg/video.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/GetData.cgi",
+        "/videofeed"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "N8072",
+      "OTHER"
+    ]
+  }
+}

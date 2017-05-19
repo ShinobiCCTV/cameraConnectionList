@@ -1,0 +1,27 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11"
+      ]
+    },
+    "models": [
+      "123282",
+      "OTHER",
+      "VISIA123288"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "123288",
+      "IPC281-EX",
+      "OTHER",
+      "VISIA"
+    ]
+  }
+}

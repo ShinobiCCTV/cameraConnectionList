@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/-wvhttp-01-/GetOneShot?image_size=[WIDTH]x[HEIGHT]&frame_count=0"
+      ]
+    },
+    "models": [
+      "VB-C10"
+    ]
+  }
+}

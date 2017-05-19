@@ -1,0 +1,19 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/video.jpg?size=2",
+        "/cgi-bin/jpg/image.cgi"
+      ],
+      "MJPEG": [
+        "/",
+        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "1CIT01",
+      "ICIT01",
+      "OTHER"
+    ]
+  }
+}

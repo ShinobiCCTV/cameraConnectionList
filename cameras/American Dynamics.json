@@ -1,0 +1,53 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/primarystream",
+        "/live2.sdp",
+        "/ufirststream",
+        "/Video"
+      ]
+    },
+    "models": [
+      "610",
+      "ADCI400-D023",
+      "I610",
+      "ILLUSTRA600",
+      "ILLUSTRA610",
+      "ILLUSTRAADCI-M-111",
+      "IPDOME",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/dms",
+        "/ipcam/jpegcif.cgi",
+        "/jpg/image.jpg?size=3",
+        "/ipcam/jpeg.cgi",
+        "/now.jpg",
+        "/image.jpg",
+        "/cgi-bin/video.jpg?size=2",
+        "/operator/get_jpeg.cgi",
+        "/cgi-bin/video.jpg"
+      ],
+      "MJPEG": [
+        "/api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
+        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "610",
+      "ACDI610-D021",
+      "ADCIPE37120",
+      "ILLUSTR400",
+      "ILLUSTRA600",
+      "ILLUSTRA610",
+      "INDOORDOME",
+      "IPINDOORMINIDOME",
+      "OTHER",
+      "VIDEOEDGE"
+    ]
+  }
+}

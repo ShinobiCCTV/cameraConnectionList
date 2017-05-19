@@ -1,0 +1,28 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+        "/snapshot.jpg"
+      ],
+      "MJPEG": [
+        "/mjpg/video.mjpg",
+        "/mjpg/1/video.mjpg",
+        "/snapshot.cgi",
+        "/videofeed",
+        "/videostream.cgi",
+        "/video.cgi?resolution=VGA"
+      ],
+      "FFMPEG": [
+        "/videostream.asf",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ]
+    },
+    "models": [
+      "53157",
+      "M360",
+      "OTHER"
+    ]
+  }
+}

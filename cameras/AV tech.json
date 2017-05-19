@@ -1,0 +1,36 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+        "/cgi-bin/guest/Video.cgi?media=JPEG"
+      ]
+    },
+    "models": [
+      "500",
+      "AV5115-8B",
+      "AVI203Z",
+      "AVM311P/F28",
+      "AVM317BPP/F38",
+      "AVM328",
+      "AVM365",
+      "AVN320",
+      "AVN807ZA",
+      "AVP542B",
+      "MAINGATE",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/h264.sdp"
+      ]
+    },
+    "models": [
+      "AV5115-8B",
+      "AV5115-9A",
+      "AV5455DN-50"
+    ]
+  }
+}

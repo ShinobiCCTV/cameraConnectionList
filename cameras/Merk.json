@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=Ar5Ot34a_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

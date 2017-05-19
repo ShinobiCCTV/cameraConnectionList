@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=6y5vryG2_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "ONVIF"
+    ]
+  }
+}

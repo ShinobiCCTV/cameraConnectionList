@@ -1,0 +1,27 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "JPEG": [
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "AV-IPE03",
+      "AV-IPE04",
+      "FIXHD720"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/12"
+      ]
+    },
+    "models": [
+      "VIZION"
+    ]
+  }
+}

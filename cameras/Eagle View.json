@@ -1,0 +1,16 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "M13DW355",
+      "SS-13MPD355",
+      "SS-IP13MPD55",
+      "SS-IPMP13D55"
+    ]
+  }
+}

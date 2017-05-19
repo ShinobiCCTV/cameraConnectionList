@@ -1,0 +1,31 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/onvif-stream1",
+        "/media/video1",
+        "/onvif-stream2",
+        "/h264"
+      ]
+    },
+    "models": [
+      "AVX-HD510",
+      "AVX-HD820IR",
+      "HD510",
+      "HD-80IP",
+      "HD820",
+      "HD820IR",
+      "HD90"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/jpg/image.cgi"
+      ]
+    },
+    "models": [
+      "HD90"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/profile2"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

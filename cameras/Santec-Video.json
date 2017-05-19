@@ -1,0 +1,40 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/shot.jpg",
+        "/now.jpg",
+        "/dms",
+        "/cgi-bin/jpg/image.cgi?"
+      ],
+      "MJPEG": [
+        "/video?submenu=mjpg",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/ipcam/mjpeg.cgi?ch=[CHANNEL]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ]
+    },
+    "models": [
+      "I-8262",
+      "OTHER",
+      "SNC-521IR/B",
+      "SNC-565IR",
+      "SNC-6302"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/h264"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "SNC-6202",
+      "SNC-6302",
+      "SNC-6303"
+    ]
+  }
+}

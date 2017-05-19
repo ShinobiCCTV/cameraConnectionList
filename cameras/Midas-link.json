@@ -1,0 +1,21 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ucast/11",
+        "/user=admin_password=oM20GpeF_channel=1_stream=0.sdp",
+        "/user=admin_password=oM20GpeF_channel=1_stream=1.sdp"
+      ]
+    },
+    "models": [
+      "203W",
+      "IDK",
+      "ML-203W",
+      "ML-203W-G",
+      "ML-204DW",
+      "ML204DW-G",
+      "ML-214SD",
+      "MS-214SD"
+    ]
+  }
+}

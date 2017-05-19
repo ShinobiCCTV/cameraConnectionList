@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/101",
+        "/Streaming/Channels/1"
+      ]
+    },
+    "models": [
+      "I30C",
+      "I30VD"
+    ]
+  }
+}

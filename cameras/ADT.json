@@ -1,0 +1,52 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img/snapshot.cgi",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/snap.jpg",
+        "/img/snapshot.cgi?size=2",
+        "/img/snapshot.cgi?img=vga",
+        "/cgi-bin/snapshot.cgi?1",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/img/snapshot.cgi?size=3"
+      ],
+      "MJPEG": [
+        "/img/video.mjpeg",
+        "/img/mjpeg.jpg",
+        "/img/mjpeg.cgi",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ]
+    },
+    "models": [
+      "0C810",
+      "A-4HS2",
+      "DYK4500",
+      "G-CAMERA",
+      "ICAMERA",
+      "ICAMERA1000",
+      "ICAMERA-1000-",
+      "NV412A",
+      "NV412A-",
+      "OC810",
+      "OC810-",
+      "OC835-",
+      "OTC810",
+      "OTHER",
+      "PULSE",
+      "RC8010",
+      "RC8021",
+      "RC8021W",
+      "RC8021W-",
+      "RC8025",
+      "RC8025-",
+      "RC8025B",
+      "RC8025B-",
+      "RCR021W-"
+    ]
+  }
+}

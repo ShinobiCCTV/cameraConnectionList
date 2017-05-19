@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/onvif1"
+      ]
+    },
+    "models": [
+      "IPC_469257"
+    ]
+  }
+}

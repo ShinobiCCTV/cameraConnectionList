@@ -1,0 +1,35 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "233W",
+      "325PW",
+      "HDPLC-223W",
+      "HD720",
+      "OTHER",
+      "PLC325W",
+      "PLC-129PW",
+      "PLC-233W",
+      "PLC-325PW",
+      "PLC-335",
+      "PLC-335PW"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/0/onvif.sdp"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "PLC-128PW",
+      "PLC-335PW"
+    ]
+  }
+}

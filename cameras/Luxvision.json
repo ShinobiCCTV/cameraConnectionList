@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=1.sdp"
+      ]
+    },
+    "models": [
+      "DVR6008T-EL"
+    ]
+  }
+}

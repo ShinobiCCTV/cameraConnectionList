@@ -1,0 +1,88 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
+        "/cgi/jpg/image.cgi",
+        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+        "/goform/capture",
+        "/cgi-bin/video.jpg",
+        "/snapshot.cgi",
+        "/jpg/image.jpg",
+        "/_gCVimage.jpg",
+        "/cgi-bin/guest/Video.cgi?media=JPEG",
+        "/video.cgi"
+      ],
+      "MJPEG": [
+        "/video.cgi?resolution=VGA",
+        "/cgi/mjpg/mjpg.cgi",
+        "/live/mjpeg",
+        "/mjpg/video.mjpg",
+        "/videostream.cgi",
+        "/user/videostream.cgi"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "16037",
+      "16037:WIFI",
+      "16044",
+      "16054",
+      "DN16027",
+      "DN16034",
+      "DN16035",
+      "DN16037",
+      "DN16039",
+      "DN-16004",
+      "DN-16005",
+      "DN-16023",
+      "DN-16024",
+      "DN-16025",
+      "DN-16026",
+      "DN-16027",
+      "DN-16028",
+      "DN-16030",
+      "DN-16036",
+      "DN-16038",
+      "DN-16044",
+      "DN-16047",
+      "DN-16053",
+      "DN-16055",
+      "DN-16071",
+      "DN-1608",
+      "DN-16082",
+      "IPCAMERAGARTEN",
+      "ONEWAY",
+      "OPTIDOME",
+      "OTHER",
+      "PSCAM"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11",
+        "/12",
+        "/live/video/profile1"
+      ]
+    },
+    "models": [
+      "16048",
+      "16049",
+      "DN-16029",
+      "DN-16038",
+      "DN-16039R2",
+      "DN-16040",
+      "DN-16046",
+      "DN-16047",
+      "DN16048",
+      "DN-16084",
+      "MOBA01",
+      "MOBA02",
+      "MOBA03"
+    ]
+  }
+}

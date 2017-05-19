@@ -1,0 +1,21 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/?action=snapshot",
+        "/GetData.cgi",
+        "/Jpeg/CamImg.jpg",
+        "/cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/?action=stream",
+        "/",
+        "/GetData.cgi?Status=0"
+      ]
+    },
+    "models": [
+      "OBSERVER",
+      "OTHER"
+    ]
+  }
+}

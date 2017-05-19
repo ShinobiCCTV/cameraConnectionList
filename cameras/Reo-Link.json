@@ -1,0 +1,55 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/h264Preview_01_main",
+        "/h264Preview_01_sub",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "1411",
+      "1440P",
+      "2MP",
+      "410S",
+      "410WS",
+      "411",
+      "411WS",
+      "420",
+      "422",
+      "423",
+      "432",
+      "ABC",
+      "DOMECAMERA",
+      "DOMEZOOMCAM",
+      "HLC420",
+      "IPC-BO",
+      "IRC-410",
+      "OTHER",
+      "PTZ",
+      "RC-410",
+      "RC423",
+      "RCL410",
+      "RCL-410S",
+      "RCL-411WS",
+      "RCL-423",
+      "REO-423",
+      "RL-410",
+      "RLC",
+      "RLC423",
+      "RLC-410",
+      "RLC-410S",
+      "RLC-410WS",
+      "RLC-411",
+      "RLC-411S",
+      "RLC-420",
+      "RLC422",
+      "RLC-4231080P",
+      "RSL-411",
+      "SDCARD",
+      "STANDARD",
+      "TC-410",
+      "WS411"
+    ]
+  }
+}

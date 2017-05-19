@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/ch0",
+        "/live/ch1"
+      ]
+    },
+    "models": [
+      "KZ2"
+    ]
+  }
+}

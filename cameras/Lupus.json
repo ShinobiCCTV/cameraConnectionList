@@ -1,0 +1,39 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
+        "/GetImage.cgi",
+        "/cgi-bin/getstream.cgi",
+        "/GetData.cgi"
+      ],
+      "MJPEG": [
+        "/GetData.cgi?Status=0",
+        "/stream.jpg"
+      ]
+    },
+    "models": [
+      "LE800+",
+      "LE200",
+      "LE800",
+      "LE931",
+      "LE933",
+      "LE969",
+      "LE970",
+      "LE971",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/v1"
+      ]
+    },
+    "models": [
+      "LE180",
+      "LE970"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/video.jpg",
+        "/GetData.cgi"
+      ],
+      "MJPEG": [
+        "/mjpeg.cgi"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

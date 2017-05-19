@@ -1,0 +1,31 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0"
+      ],
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/snapshot",
+        "/snapshot.jpg"
+      ]
+    },
+    "models": [
+      "HDDVR4CH",
+      "OTHER",
+      "TP-IP1012"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/onvif1",
+        "/ch0_0.264"
+      ]
+    },
+    "models": [
+      "TV-CB6010",
+      "TV-IP1011"
+    ]
+  }
+}

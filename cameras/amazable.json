@@ -1,0 +1,13 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi-bin/still.cgi"
+      ]
+    },
+    "models": [
+      "GRAND",
+      "GRANDIP"
+    ]
+  }
+}

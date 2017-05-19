@@ -1,0 +1,15 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/video.cgi?resolution=VGA",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ]
+    },
+    "models": [
+      "IP607W",
+      "IP607WLQ",
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/viewer/video.jpg?resolution=640x480",
+        "/cgi-bin/stilljpeg",
+        "/cgi-bin/getstream.cgi"
+      ],
+      "MJPEG": [
+        "/cgi-bin/getstream.cgi?VideoType=3",
+        "/cgi-bin/getstream.cgi?VideoType=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "CCIC-1410-L",
+      "CCIS-1425",
+      "CCMC-1315-LP",
+      "CCMS-1315",
+      "CFMS-2025",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/livestream/trackID=1",
+        "/stream1"
+      ]
+    },
+    "models": [
+      "CFMS2025",
+      "CVMW-3025",
+      "OTHER"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/gnz_media/main",
+        "/gnz_media/second"
+      ]
+    },
+    "models": [
+      "GANZ",
+      "ZN-MD243M"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/img.jpg",
+        "/Jpeg/CamImg.jpg"
+      ]
+    },
+    "models": [
+      "MP2",
+      "MP5"
+    ]
+  }
+}

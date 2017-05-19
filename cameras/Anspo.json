@@ -1,0 +1,15 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/ucast/11"
+      ]
+    },
+    "models": [
+      "ASP-32130TPOE",
+      "ASP-82200P",
+      "OTHER"
+    ]
+  }
+}

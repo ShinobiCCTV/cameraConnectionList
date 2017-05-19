@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/av0_0"
+      ]
+    },
+    "models": [
+      "IPC",
+      "OTHER"
+    ]
+  }
+}

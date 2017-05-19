@@ -1,0 +1,24 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi-bin/fwstream.cgi?ServerId=0&AppKey=0x331287e3&CameraId=[CHANNEL]&PortId=0&PauseTime=1&FwCgiVer=0x0001",
+        "/cgi-bin/fwstream.cgi?ServerId=0&AppKey=0x00006784&PortId=0&CameraId=[CHANNEL]&PauseTime=0&FwCgiVer=0x0001"
+      ],
+      "JPEG": [
+        "/cgi-bin/fwstream.cgi"
+      ]
+    },
+    "models": [
+      "1120",
+      "1150CAM",
+      "117XCAM",
+      "500A",
+      "DVR",
+      "FW11XXRTSP",
+      "FW5470",
+      "KALVING1",
+      "OTHER"
+    ]
+  }
+}

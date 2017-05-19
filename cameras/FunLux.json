@@ -1,0 +1,22 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/tcp/av0_0",
+        "/udp/av0_0",
+        "/11",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp"
+      ]
+    },
+    "models": [
+      "720P",
+      "CH-S1A-WACS",
+      "NVR",
+      "ZH-IXA15-WAC",
+      "ZH-IXA15-WC",
+      "ZH-IXA1D-WAC",
+      "ZP-IBI13-W"
+    ]
+  }
+}

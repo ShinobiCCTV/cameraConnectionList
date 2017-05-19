@@ -1,0 +1,19 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/?action=snapshot"
+      ],
+      "MJPEG": [
+        "/?action=appletvstream",
+        "/?action=stream"
+      ]
+    },
+    "models": [
+      "AI-BALL",
+      "AI-BALL_1",
+      "AI-BALL2",
+      "OTHER"
+    ]
+  }
+}

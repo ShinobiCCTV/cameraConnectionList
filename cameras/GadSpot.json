@@ -1,0 +1,56 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/GetData.cgi",
+        "/cgi-bin/getimage.cgi?motion=1",
+        "/video.mjpg",
+        "/GetData.cgi?Status=0",
+        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+      ],
+      "JPEG": [
+        "/stillimg[CHANNEL].jpg",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/jpg/image.jpg?size=3",
+        "/Jpeg/CamImg.jpg",
+        "/jpg/image.jpg",
+        "/cgi-bin/jpg/image",
+        "/GetData.cgi?Status=1",
+        "/cgi-bin/admin/snapshot.cgi",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi-bin/getimage.cgi?motion=0",
+        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+        "/tmp/snap.jpg"
+      ]
+    },
+    "models": [
+      "GS-1000",
+      "GS2002DVRW/WEBPORT",
+      "GS2102",
+      "IPCAM1200",
+      "N1000",
+      "N1250",
+      "N600E",
+      "NC1000",
+      "NC-1000/1600SERIES",
+      "NC1000-L10",
+      "NC1000-W10",
+      "NC1200",
+      "NC-1200SERIES",
+      "NC800",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ucast/11",
+        "/11"
+      ]
+    },
+    "models": [
+      "GS-W221A",
+      "OTHER"
+    ]
+  }
+}

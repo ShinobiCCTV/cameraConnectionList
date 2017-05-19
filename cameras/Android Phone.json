@@ -1,0 +1,64 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/shot.jpg",
+        "/now.jpg",
+        "/capture[CHANNEL].jpg",
+        "/cam_1.jpg",
+        "/jpeg/qvga.jpg",
+        "/cgi-bin/jpg.cgi?refresh=0&channel=[CHANNEL]&id=[USERNAME]&pass=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]&oldbrowser=1",
+        "/?action=snapshot"
+      ],
+      "MJPEG": [
+        "/video?submenu=mjpg",
+        "/videofeed",
+        "/video?profile=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "ALCATEL",
+      "ASUSTRANSFORMERPRIME",
+      "DROIDX",
+      "EVODESIGN",
+      "EVO4G",
+      "FUNBOOK",
+      "GALAXY2",
+      "GALAXYRELAY",
+      "HAWAI",
+      "HTC",
+      "HTCDESIRES",
+      "HTCEVO",
+      "HTCMYTOUCH4GDCT",
+      "HTCONE",
+      "HTCONES",
+      "HTCWILDFIRE",
+      "IPCAMERAAPP",
+      "IPCAMMERAAPP",
+      "IPWEBCAM",
+      "KAISERTILT",
+      "LG",
+      "LGG2",
+      "LGOPTIMUS3D",
+      "LGOPTIMUSG",
+      "LGOPTIMUSMMS690",
+      "MOTO",
+      "MOTOROLAPHOTON",
+      "MOTOX",
+      "OTHER",
+      "QMOBILE",
+      "S6500",
+      "SAMSUNG",
+      "SAMSUNGGALAXYS5",
+      "SAMSUNGNOTE",
+      "SAMSUNGSIII",
+      "SHARPFX",
+      "SLIDE",
+      "SONY",
+      "SPICE",
+      "X10IMINI",
+      "ZTERACER",
+      "ZTEZ750C"
+    ]
+  }
+}

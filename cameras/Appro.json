@@ -1,0 +1,31 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/dms",
+        "/api.htm?op.liveimage=1",
+        "/dms?nowprofileid=[CHANNEL]"
+      ],
+      "MJPEG": [
+        "/video?profile=[CHANNEL]",
+        "/ipcam/mjpeg.cgi?ch=[CHANNEL]",
+        "/ipcam/stream.cgi?nowprofileid=[CHANNEL]",
+        "/videostream.cgi?rate=11",
+        "/VIDEO.CGI",
+        "/videostream.cgi?rate=0"
+      ],
+      "FFMPEG": [
+        "/videostream.cgi?resolution=8&rate=13"
+      ]
+    },
+    "models": [
+      "DVR-3016",
+      "LC_7226",
+      "LC7211WB",
+      "LC-7226",
+      "LC-74XX",
+      "OTHER",
+      "VSSERIES"
+    ]
+  }
+}

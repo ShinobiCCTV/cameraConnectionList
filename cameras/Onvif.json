@@ -1,0 +1,16 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/mpeg4cif",
+        "/profile1",
+        "/tcp/av0_0"
+      ]
+    },
+    "models": [
+      "5MPTOPSEE",
+      "TECHSONS1PRO52030IM",
+      "VESKYS"
+    ]
+  }
+}

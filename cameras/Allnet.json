@@ -1,0 +1,89 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/video.jpg",
+        "/img/snapshot.cgi?size=3",
+        "/jpg/image.jpg?size=3",
+        "/cgi/jpg/image.cgi",
+        "/cgi-bin/jpg/image",
+        "/cgi-bin/jpg/image.cgi",
+        "/cgi-bin/guest/Video.cgi?media=JPEG"
+      ],
+      "MJPEG": [
+        "/img/mjpeg.jpg",
+        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/img/video.mjpeg",
+        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/",
+        "/video.mjpg",
+        "/live/mjpeg",
+        "/img/mjpeg.cgi",
+        "/cgi/mjpg/mjpeg.cgi",
+        "/cgi/mjpg/mjpg.cgi"
+      ],
+      "FFMPEG": [
+        "/stream1.asf"
+      ]
+    },
+    "models": [
+      "2200",
+      "2211",
+      "2213",
+      "2240",
+      "2250",
+      "2272",
+      "2281",
+      "2ALL2285",
+      "ALL2205",
+      "ALL2212",
+      "ALL2213",
+      "ALL2250",
+      "ALL2272",
+      "ALL2281",
+      "ALL2282",
+      "ALL2285",
+      "ALL2288V2",
+      "ALL2295",
+      "ALL2295V2",
+      "ALL2296V2",
+      "ALL2297",
+      "ALL2298",
+      "ALL2299",
+      "OTHER",
+      "TECHNOPARK",
+      "TECHNOPARK2",
+      "TECHNOPARK3"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/h264",
+        "/video.h264",
+        "/mpeg4",
+        "/Streaming/Channels/101",
+        "/Streaming/Channels/1",
+        "/Streaming/Channels/2"
+      ]
+    },
+    "models": [
+      "2250",
+      "2397_LE",
+      "ALL2205",
+      "ALL2272",
+      "ALL2281",
+      "ALL2282",
+      "ALL2288",
+      "ALL2288V2",
+      "ALL2295",
+      "ALL2295V2",
+      "ALL2296V2",
+      "ALL2298",
+      "ALL-CAM2305-LW",
+      "ALL-CAM2397-LE",
+      "ALL-CAM2398-EP",
+      "OTHER"
+    ]
+  }
+}

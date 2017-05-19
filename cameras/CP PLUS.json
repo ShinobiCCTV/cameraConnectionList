@@ -1,0 +1,89 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?1",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/jpg/image.cgi",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "MJPEG": [
+        "/cgi-bin/video.cgi?msubmenu=mjpg",
+        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
+        "/",
+        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/axis-cgi/mjpg/video.cgi",
+        "/api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
+        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
+        "/video/mjpg.cgi"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+      ]
+    },
+    "models": [
+      "121",
+      "1MP",
+      "2MP",
+      "3MP",
+      "ADATA",
+      "BSERIES",
+      "CNP_UNC",
+      "CN-RNP-36D",
+      "CP:UVR-0401E1S",
+      "CP-EPK-HC10L1",
+      "CP-RNP-36D",
+      "CP-UNC-CS10L1W",
+      "CP-UNC-DA10R3",
+      "CP-UNC-DA13L3-0360",
+      "CP-UNC-DP10L2C",
+      "CP-UNC-DP10L3C-V2",
+      "CP-UNC-T2322L3",
+      "CP-UNC-TA10L3S-0280",
+      "CP-UNC-TA13L3",
+      "CP-UNC-TA20L3S-0360",
+      "CP-UNC-TA30L3S",
+      "CP-UNC-TY20FL2C",
+      "CP-UNP-2020TL10",
+      "CP-UNP-3013SL10SPEEDDOME",
+      "CP-UVC-T1000L2A",
+      "CP-UVC-T1000L2A0360",
+      "CP-UVR-1601E1",
+      "CP-VGC-T13L2",
+      "DA10L3S",
+      "DOMECAMERA",
+      "IPCV1.37",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor",
+        "/live/av0"
+      ]
+    },
+    "models": [
+      "1MP",
+      "3MP",
+      "CNP_UNC",
+      "CP-UNC-CS10L1W",
+      "CP-UNC-DP10L3C-V2-0280B",
+      "CP-UNC-T2212L3-0360",
+      "CP-UNC-T2322L3",
+      "CP-UNC-T5254L3",
+      "CP-UNC-TP10L2C",
+      "DINE",
+      "DOMECAMERA",
+      "DVR",
+      "INFEEDOFAUTOMATICSHOTBLASTING",
+      "MODELCB",
+      "OTHER",
+      "TP10L3C-V2-0360B"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/stream.sdp1"
+      ]
+    },
+    "models": [
+      "IPID-2MPIR"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/ch0",
+        "/11"
+      ]
+    },
+    "models": [
+      "4059",
+      "HDPRO",
+      "MT405`",
+      "MT4051",
+      "MT4052",
+      "MT4059"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+      ],
+      "JPEG": [
+        "/tmpfs/auto.jpg"
+      ]
+    },
+    "models": [
+      "MT4050",
+      "MT4052"
+    ]
+  }
+}

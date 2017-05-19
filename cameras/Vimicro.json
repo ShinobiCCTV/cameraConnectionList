@@ -1,0 +1,26 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/cgi/sf.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/cgi-bin/sf.cgi",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?resolution=8&rate=13"
+      ],
+      "JPEG": [
+        "/image.jpg",
+        "/video.cgi"
+      ]
+    },
+    "models": [
+      "1002",
+      "OTHER",
+      "VC305",
+      "VS-IPC1002"
+    ]
+  }
+}

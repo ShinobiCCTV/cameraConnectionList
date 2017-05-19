@@ -1,0 +1,14 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ucast/11"
+      ]
+    },
+    "models": [
+      "IPC3F18P-I3",
+      "IPC5F19P2-I3-W",
+      "IPC5F1JMM-13"
+    ]
+  }
+}

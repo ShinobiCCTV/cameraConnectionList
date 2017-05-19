@@ -1,0 +1,32 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11"
+      ]
+    },
+    "models": [
+      "1VP-P75",
+      "720P",
+      "BULLET",
+      "OTHER",
+      "WIRED"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg",
+        "/snapshot.cgi"
+      ]
+    },
+    "models": [
+      "720",
+      "720P",
+      "BULLET",
+      "HJT-IPC6200-D1",
+      "OTHER",
+      "V6.1.1.2.1-20150320"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/nphMotionJpeg?Resolution=640x480&Quality=Standard"
+      ]
+    },
+    "models": [
+      "BB-HCM580"
+    ]
+  }
+}

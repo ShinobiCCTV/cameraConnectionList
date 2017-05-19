@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "FFMPEG": [
+        "/video.mp4"
+      ]
+    },
+    "models": [
+      "TL-SC3130"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?rate=11"
+      ]
+    },
+    "models": [
+      "1601",
+      "1602",
+      "1609",
+      "OTHER"
+    ]
+  }
+}

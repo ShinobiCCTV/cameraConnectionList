@@ -1,0 +1,41 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/1",
+        "/Streaming/Channels/2",
+        "/Streaming/Channels/101",
+        "/Streaming/channels/101"
+      ]
+    },
+    "models": [
+      "CBP1334",
+      "CDP6034",
+      "CMIP3432",
+      "LV-CBP1014",
+      "LV-CDP6014",
+      "LV-CDP6034",
+      "LV-PB932F4",
+      "LV-PC902F2-W",
+      "LV-PC903F4-W",
+      "LV-WB933F4B",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/image/[CHANNEL].jpg"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf"
+      ]
+    },
+    "models": [
+      "H.264D1DVR",
+      "LV-CBA2963B",
+      "OTHER"
+    ]
+  }
+}

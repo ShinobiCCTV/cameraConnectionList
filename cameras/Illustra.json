@@ -1,0 +1,20 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/primarystream",
+        "/ufirststream",
+        "/stream1"
+      ]
+    },
+    "models": [
+      "600",
+      "AD610",
+      "ADCI610-D113",
+      "ADCI800F-D111",
+      "FLEX",
+      "FLEX600",
+      "I210"
+    ]
+  }
+}

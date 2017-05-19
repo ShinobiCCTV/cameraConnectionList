@@ -1,0 +1,16 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/h264_stream",
+        "/mjpeg_stream"
+      ]
+    },
+    "models": [
+      "2N",
+      "IPFORCE",
+      "IPVARIO",
+      "IP-54-1190-0554"
+    ]
+  }
+}

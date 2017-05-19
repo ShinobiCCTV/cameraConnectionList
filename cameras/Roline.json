@@ -1,0 +1,31 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/mjpg/1/video.mjpg",
+        "/mjpg/video.mjpg"
+      ],
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "IC-42D63A",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/Streaming/Channels/101",
+        "/Streaming/Channels/1"
+      ]
+    },
+    "models": [
+      "RBOF4-1",
+      "RCIF3-1W",
+      "RDOF2-1W",
+      "RDOF4-1"
+    ]
+  }
+}

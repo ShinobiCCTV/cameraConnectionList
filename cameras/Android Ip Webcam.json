@@ -1,0 +1,15 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videofeed",
+        "/video?submenu=mjpg"
+      ]
+    },
+    "models": [
+      "IPWEBCAM",
+      "OTHER",
+      "SAMSUNGACEPLUS"
+    ]
+  }
+}

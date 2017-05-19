@@ -1,0 +1,22 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT"
+      ]
+    },
+    "models": [
+      "ULISSE"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/av0"
+      ]
+    },
+    "models": [
+      "VD6304"
+    ]
+  }
+}

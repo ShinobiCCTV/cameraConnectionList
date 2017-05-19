@@ -1,0 +1,21 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/GetData.cgi"
+      ],
+      "JPEG": [
+        "/cgi-bin/video.jpg?size=2"
+      ]
+    },
+    "models": [
+      "151",
+      "153",
+      "MCAS-100",
+      "MCAS100",
+      "MCAS300",
+      "MCAS-400PT",
+      "OTHER"
+    ]
+  }
+}

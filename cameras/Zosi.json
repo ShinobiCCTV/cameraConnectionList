@@ -1,0 +1,40 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ch0_0.264",
+        "/onvif1",
+        "/ucast/11"
+      ]
+    },
+    "models": [
+      "1080P",
+      "1AC-28113M-W",
+      "720P",
+      "IPC_1150381",
+      "ONVIF",
+      "OTHER",
+      "ZG-2611M",
+      "ZG28110M",
+      "ZND311"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot/view[CHANNEL].jpg"
+      ]
+    },
+    "models": [
+      "1AC-28113M-W",
+      "K9504-W",
+      "ONVIF",
+      "OTHER",
+      "WDCWD10EZEX-21W",
+      "ZSWNVK-A41001-US"
+    ]
+  }
+}

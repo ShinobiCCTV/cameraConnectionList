@@ -1,0 +1,17 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/shot.asp",
+        "/imagep/picture.jpg"
+      ],
+      "MJPEG": [
+        "/getimage?video=1&audio=0"
+      ]
+    },
+    "models": [
+      "ANC-818GE",
+      "ANC-818GR"
+    ]
+  }
+}

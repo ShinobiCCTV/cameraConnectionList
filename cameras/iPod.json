@@ -1,0 +1,26 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/live?camera=[CHANNEL]&fps=5&quality=75&resolution=[WIDTH]x[HEIGHT]",
+        "/?action=appletvstream",
+        "/?&AUDIO=YES&CHOPIMAGE=YES&STREAM=YES&WANTIMAGE=[CHANNEL].JPG&SENDEMPTYIMAGES=NO",
+        "/?action=stream",
+        "/",
+        "/video.mjpg"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf"
+      ],
+      "JPEG": [
+        "/image.jpg"
+      ]
+    },
+    "models": [
+      "OTHER",
+      "SERVER",
+      "TOUCH4G"
+    ]
+  }
+}

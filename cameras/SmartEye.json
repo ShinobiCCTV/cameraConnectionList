@@ -1,0 +1,58 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live/ch0",
+        "/11",
+        "/live/ch1",
+        "/cam/realmonitor",
+        "/12"
+      ]
+    },
+    "models": [
+      "625GB",
+      "720PH.264",
+      "754GA",
+      "HD701W",
+      "NC-530",
+      "NCM750GA",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/tmpfs/auto.jpg",
+        "/snap.jpg?JpegCam=[CHANNEL]",
+        "/snap.jpg",
+        "/snap.jpg?JpegSize=XL",
+        "/jpg/image.jpg",
+        "/jpg/image.jpg?size=3"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ],
+      "MJPEG": [
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/axis-cgi/mjpg/video.cgi"
+      ]
+    },
+    "models": [
+      "720PH.264",
+      "754GA",
+      "B1IPCAMERA",
+      "FR-4020A2",
+      "HD701W",
+      "NC-530",
+      "OTHER",
+      "SIP08",
+      "SP1M"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/live0.264"
+      ]
+    },
+    "models": [
+      "HAREX",
+      "HAREX720P1MP"
+    ]
+  }
+}

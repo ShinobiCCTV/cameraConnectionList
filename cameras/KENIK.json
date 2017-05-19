@@ -1,0 +1,23 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=09XWqxRO_channel=1_stream=0.sdp",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
+        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp",
+        "/user=admin_password=V0SBxyFA_channel=1_stream=0.sdp",
+        "/user=admin_password=JrIUIsvQ_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "1301T",
+      "2036T",
+      "2042T",
+      "2052T",
+      "GS-1301T",
+      "KG-1301T",
+      "KG-2036T",
+      "KG-2122D"
+    ]
+  }
+}

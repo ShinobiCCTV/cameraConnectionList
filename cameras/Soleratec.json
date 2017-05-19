@@ -1,0 +1,23 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/snap.jpg?JpegCam=[CHANNEL]"
+      ]
+    },
+    "models": [
+      "IP61335",
+      "IP51000"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/user=admin_password=a16PLMkt_channel=1_stream=0.sdp"
+      ]
+    },
+    "models": [
+      "IP61335"
+    ]
+  }
+}

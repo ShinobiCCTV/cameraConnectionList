@@ -1,0 +1,72 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/11",
+        "/live/ch0",
+        "/0/video0",
+        "/h264",
+        "/live/ch1",
+        "/Streaming/channels/101"
+      ]
+    },
+    "models": [
+      "1MPHDP2P",
+      "2MPFULLHDP2PCAMERA",
+      "278040-NORDIC",
+      "278050",
+      "278050-NORDIC",
+      "278050-NORDIC-X",
+      "278052-NORDICX",
+      "391W-HD",
+      "HD-628W",
+      "HD-720P",
+      "IP601W",
+      "IP601W-HD",
+      "N/A",
+      "NORDIC",
+      "OMANORDIC",
+      "OTHER",
+      "P2POUTDOOR",
+      "VGA616W"
+    ]
+  },
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+        "/user/videostream.cgi"
+      ],
+      "JPEG": [
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
+        "/tmpfs/auto.jpg",
+        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
+        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+      ]
+    },
+    "models": [
+      "278042",
+      "278043",
+      "616-W",
+      "IP255",
+      "IP601W",
+      "IP-601W",
+      "IP601W-HD",
+      "IPROBOT",
+      "MP391W-HD",
+      "NORDIC",
+      "OTHER",
+      "OTHER-MEDION",
+      "P2P",
+      "P2POUTDOOR",
+      "VGA616W",
+      "WH"
+    ]
+  }
+}

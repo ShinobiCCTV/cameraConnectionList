@@ -1,0 +1,38 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videofeed"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "JPEG": [
+        "/image.jpg",
+        "/current[CHANNEL].jpg",
+        "/Image.jpg",
+        "/out.jpg?id=0.5",
+        "/shot.jpg"
+      ]
+    },
+    "models": [
+      "A100",
+      "A500",
+      "APIREONE",
+      "ASPIRE",
+      "ICONIA",
+      "LMT",
+      "OTHER"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/cam/realmonitor"
+      ]
+    },
+    "models": [
+      "OTHER"
+    ]
+  }
+}

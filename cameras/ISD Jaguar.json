@@ -1,0 +1,13 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/onvif/stream1"
+      ]
+    },
+    "models": [
+      "ISDCAM",
+      "JDV-AF-1080P"
+    ]
+  }
+}

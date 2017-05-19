@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/video.jpg?size=2"
+      ]
+    },
+    "models": [
+      "FCS-1040"
+    ]
+  }
+}

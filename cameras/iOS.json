@@ -1,0 +1,19 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/videofeed",
+        "/live?camera=[CHANNEL]&fps=5&quality=75&resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "JPEG": [
+        "/image.jpg"
+      ]
+    },
+    "models": [
+      "AIRBEAMFOR",
+      "IPCAMFOR",
+      "IPODTOUCH",
+      "OTHER"
+    ]
+  }
+}

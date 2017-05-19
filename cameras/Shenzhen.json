@@ -1,0 +1,40 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/mpeg4",
+        "/4",
+        "/live/ch0"
+      ]
+    },
+    "models": [
+      "720P",
+      "CVAFA-I465",
+      "OTHER"
+    ]
+  },
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/tmpfs/auto.jpg",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/snapshot/view[CHANNEL].jpg",
+        "/img/snapshot.cgi?size=2"
+      ],
+      "MJPEG": [
+        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
+        "/videostream.cgi"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
+      ]
+    },
+    "models": [
+      "720P",
+      "IM61",
+      "OTHER",
+      "P2PWIFICAM",
+      "SMARTEYE"
+    ]
+  }
+}

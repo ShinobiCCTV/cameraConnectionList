@@ -1,0 +1,65 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/cgi-bin/snapshot.cgi?1",
+        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
+        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
+        "/img/snapshot.cgi?size=2",
+        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ],
+      "MJPEG": [
+        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+        "/axis-cgi/mjpg/video.cgi",
+        "/video.cgi?resolution=VGA",
+        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+        "/cgi/mjpg/mjpeg.cgi"
+      ]
+    },
+    "models": [
+      "1080D",
+      "1080-D",
+      "3000-V",
+      "FI-8602W",
+      "OTHER",
+      "X-720B",
+      "X720D",
+      "XIP3001",
+      "XP-1080B",
+      "XP3000B"
+    ]
+  },
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/ch01.264",
+        "/cam/realmonitor",
+        "/mpeg4/media.amp?resolution=640x480",
+        "/ch00/0",
+        "/ch00/1",
+        "/cam1/onvif-h264-1"
+      ]
+    },
+    "models": [
+      "1080-D",
+      "FI-8602W",
+      "OTHER",
+      "X2C",
+      "X2C4000BP",
+      "X2C400BP",
+      "X-720D",
+      "XC-1080BP",
+      "XC-1080DAP",
+      "XC-1080P",
+      "XC-1080VVP",
+      "XC-108BP",
+      "XCB-N3072",
+      "XP3000V",
+      "-720D"
+    ]
+  }
+}

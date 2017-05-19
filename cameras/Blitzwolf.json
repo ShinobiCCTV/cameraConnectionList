@@ -1,0 +1,18 @@
+{
+  "rtsp://": {
+    "types": {
+      "FFMPEG": [
+        "/1.3gp",
+        "/2.3gp"
+      ]
+    },
+    "models": [
+      "B1W",
+      "BW-SCI1",
+      "BW-SIC1",
+      "FIRST",
+      "SIC1",
+      "SMARTCAMERA"
+    ]
+  }
+}

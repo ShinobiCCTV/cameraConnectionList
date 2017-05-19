@@ -1,0 +1,12 @@
+{
+  "http://": {
+    "types": {
+      "MJPEG": [
+        "/VIDEO.CGI"
+      ]
+    },
+    "models": [
+      "930L"
+    ]
+  }
+}

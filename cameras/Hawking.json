@@ -1,0 +1,40 @@
+{
+  "http://": {
+    "types": {
+      "JPEG": [
+        "/IMAGE.JPG",
+        "/cgi-bin/video.jpg",
+        "/cgi-bin/video.jpg?size=2",
+        "/loginfree.jpg",
+        "/jpg/image.jpg",
+        "/image.jpg"
+      ],
+      "MJPEG": [
+        "/cgi/mjpg/mjpeg.cgi",
+        "/mjpg/video.mjpg",
+        "/video.mjpg"
+      ],
+      "FFMPEG": [
+        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+      ]
+    },
+    "models": [
+      "HNC310",
+      "HNC3W",
+      "HNC5W",
+      "HNC-700PT",
+      "HNC720G",
+      "HNC-820G",
+      "JNC3W",
+      "OTHER",
+      "TECHHNC290",
+      "TECHHNC290G",
+      "TECHHNC300SERIES",
+      "TECHHNC320SERIES",
+      "TECHHNC720G",
+      "TECHNC200SERIES",
+      "TECHNC220SERIES",
+      "TVP110"
+    ]
+  }
+}
