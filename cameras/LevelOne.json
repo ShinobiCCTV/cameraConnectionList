@@ -36,7 +36,7 @@
         "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
         "/video2.mjpg"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/img/video.asf"
       ]
     },
@@ -128,7 +128,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/live1.sdp",
         "/h264",
         "/onvif-stream1",

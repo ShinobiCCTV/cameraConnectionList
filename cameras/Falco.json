@@ -4,7 +4,7 @@
       "JPEG": [
         "/cgi-bin/wappaint?camera_no=[CHANNEL]&animation=0&name=[USERNAME]&password=[PASSWORD]&pic_size=2"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
       ],
       "MJPEG": [

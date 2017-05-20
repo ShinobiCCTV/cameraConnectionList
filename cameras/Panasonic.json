@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/ONVIF/MediaInput",
         "/cam/realmonitor"
       ]
@@ -160,7 +160,7 @@
         "/liveimg.cgi?serverpush=1",
         "/liveimg.cgi?serverpush=1&jpeg=1&stream=[CHANNEL]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
         "/videostream.asf"
       ]

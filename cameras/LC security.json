@@ -5,7 +5,7 @@
         "/snap.jpg?JpegCam=[CHANNEL]",
         "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"

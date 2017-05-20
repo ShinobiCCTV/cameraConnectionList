@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/live1.sdp",
         "/live2.sdp",
         "/ch1/stream0"

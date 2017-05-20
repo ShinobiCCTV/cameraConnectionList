@@ -6,7 +6,7 @@
         "/img/snapshot.cgi?size=2",
         "/jpeg/vga.jpg"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.cgi?resolution=8&rate=13",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
@@ -20,7 +20,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/cam/realmonitor"
       ]
     },

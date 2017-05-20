@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/h264Preview_01_main",
         "/h264Preview_01_sub",
         "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"

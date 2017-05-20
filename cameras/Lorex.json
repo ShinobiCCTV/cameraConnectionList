@@ -83,7 +83,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/cam/realmonitor",
         "/Streaming/Channels/1",
         "/Streaming/Channels/2"

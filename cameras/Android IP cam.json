@@ -16,7 +16,7 @@
         "/video?submenu=jpg",
         "/cgi-bin/viewer/video.jpg"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
       ]
     },

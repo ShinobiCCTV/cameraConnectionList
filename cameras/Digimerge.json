@@ -1,7 +1,7 @@
 {
   "http://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
       ],
       "JPEG": [
@@ -20,7 +20,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/cam/realmonitor",
         "/snl/live/1/1"
       ]

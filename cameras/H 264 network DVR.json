@@ -19,7 +19,7 @@
         "/cgi-bin/guest/Video?format=MJPEG",
         "/mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
       ]
@@ -42,7 +42,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/cam/realmonitor"
       ]
     },

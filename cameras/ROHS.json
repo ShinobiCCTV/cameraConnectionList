@@ -13,7 +13,7 @@
         "/img/snapshot.cgi?size=3",
         "/img/snapshot.cgi?size=2"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/goform/video"
       ]
     },

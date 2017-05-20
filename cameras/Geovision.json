@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/CH002.sdp",
         "/CH001.sdp",
         "/Streaming/Channels/1"
@@ -137,7 +137,7 @@
         "/cgi-bin/viewer/video.jpg?resolution=640x480",
         "/jpg/1/image.jpg"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
       ]
     },

@@ -11,7 +11,7 @@
         "/videostream.cgi?rate=11",
         "/user/videostream.cgi"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
       ]
     },
@@ -29,7 +29,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/profile1",
         "/tcp/av0_0"
       ]

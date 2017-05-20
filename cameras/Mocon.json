@@ -1,7 +1,7 @@
 {
   "http://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf"
       ]
     },
@@ -11,7 +11,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/ucast/11"
       ]
     },

@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
         "/user=admin_password=Ui7bxyLv_channel=1_stream=0.sdp",
         "/ONVIF/channel1",
@@ -23,7 +23,7 @@
         "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
         "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
       ],

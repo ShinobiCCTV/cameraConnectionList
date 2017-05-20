@@ -13,7 +13,7 @@
         "/snapshot.cgi?",
         "/img/snapshot.cgi?size=2"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
       ]
     },
@@ -30,7 +30,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/11"
       ]
     },

@@ -26,7 +26,7 @@
         "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
         "/videostream.cgi"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf",
         "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",

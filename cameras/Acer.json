@@ -4,7 +4,7 @@
       "MJPEG": [
         "/videofeed"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
       ],
       "JPEG": [
@@ -27,7 +27,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/cam/realmonitor"
       ]
     },

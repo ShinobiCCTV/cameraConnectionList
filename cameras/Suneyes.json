@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/tcp/av0_0",
         "/11",
         "/12"
@@ -32,7 +32,7 @@
   },
   "http://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
         "/videostream.cgi?resolution=8&rate=13",
         "/videostream.asf"

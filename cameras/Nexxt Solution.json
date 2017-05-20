@@ -6,7 +6,7 @@
         "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
         "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
         "/videostream.asf",
@@ -34,7 +34,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/Streaming/channels/401",
         "/Streaming/channels/501",
         "/Streaming/channels/601",

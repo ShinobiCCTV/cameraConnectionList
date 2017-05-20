@@ -9,7 +9,7 @@
         "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
         "/videostream.cgi?"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
       ]
     },

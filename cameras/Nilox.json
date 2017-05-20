@@ -1,7 +1,7 @@
 {
   "http://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf"
       ],
       "MJPEG": [

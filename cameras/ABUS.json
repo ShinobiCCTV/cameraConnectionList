@@ -20,7 +20,7 @@
         "/video.mjpg?q=30&fps=33&id=0.5",
         "/video[USERNAME].mjpg"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
         "/video.mp4"
       ]
@@ -87,7 +87,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/Streaming/Channels/101",
         "/Streaming/Channels/1",
         "/video.h264",

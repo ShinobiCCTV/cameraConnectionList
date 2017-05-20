@@ -73,7 +73,7 @@
         "/temp/image.jpg",
         "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
         "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
@@ -523,7 +523,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/live1.sdp",
         "/live3.sdp",
         "/live2.sdp",

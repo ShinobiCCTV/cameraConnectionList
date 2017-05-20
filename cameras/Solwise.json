@@ -8,7 +8,7 @@
         "/snapshot.cgi",
         "/Jpeg/CamImg.jpg"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"

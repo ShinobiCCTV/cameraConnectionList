@@ -4,7 +4,7 @@
       "JPEG": [
         "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
       ]
     },

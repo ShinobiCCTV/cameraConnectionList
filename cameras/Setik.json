@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/user=admin_password=gKL5O1JV_channel=1_stream=0.sdp",
         "/cam/realmonitor"
       ]

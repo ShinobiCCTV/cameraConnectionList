@@ -8,7 +8,7 @@
         "/cgi-bin/fullsize.jpg?camera=[CHANNEL]&clock=on&motion=0",
         "/videofeed"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
         "/h264",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"

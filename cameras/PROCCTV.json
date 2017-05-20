@@ -12,7 +12,7 @@
         "/videostream.cgi?rate=11",
         "/mjpegStreamer.cgi"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
         "/videostream.asf",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"

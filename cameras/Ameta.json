@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/cam/realmonitor"
       ]
     },
@@ -17,7 +17,7 @@
       "JPEG": [
         "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
       ]
     },

@@ -18,7 +18,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/Streaming/Channels/1"
       ]
     },

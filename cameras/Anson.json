@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/mpeg4cif",
         "/channel=0;stream=1;user=system;pass=system;"
       ]

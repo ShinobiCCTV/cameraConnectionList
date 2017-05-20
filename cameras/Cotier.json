@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/mpeg4",
         "/ch01.264",
         "/Onvif/Streaming/2",

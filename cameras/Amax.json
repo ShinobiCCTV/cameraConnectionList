@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/user=admin&password=nTBCS19C&channel=1&stream=0.sdp"
       ]
     },

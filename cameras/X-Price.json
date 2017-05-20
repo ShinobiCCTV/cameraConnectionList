@@ -4,7 +4,7 @@
       "MJPEG": [
         "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
       ]
@@ -15,7 +15,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/ch01.264"
       ]
     },

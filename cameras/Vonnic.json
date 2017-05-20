@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/cam/realmonitor"
       ]
     },
@@ -15,7 +15,7 @@
   },
   "http://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf"
       ],
       "JPEG": [

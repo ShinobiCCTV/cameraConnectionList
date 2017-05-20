@@ -13,7 +13,7 @@
         "/VIDEO.CGI",
         "/video/mjpg.cgi"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/goform/video"
       ]
     },

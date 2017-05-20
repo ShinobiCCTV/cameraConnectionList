@@ -12,7 +12,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/udp/av0_0",
         "/tcp/av0_0"
       ]

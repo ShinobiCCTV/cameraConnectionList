@@ -34,7 +34,7 @@
         "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
         "/img/video.mjpeg"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
         "/videostream.asf",
@@ -235,7 +235,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/Streaming/Channels/1",
         "/cam/realmonitor",
         "/cam1/onvif-h264",

@@ -31,7 +31,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/ucast/12",
         "/onvif1",
         "/tcp/av0_0",

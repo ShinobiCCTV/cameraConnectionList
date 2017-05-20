@@ -6,7 +6,7 @@
         "/cgi-bin/guest/Video.cgi?media=JPEG",
         "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
       ],

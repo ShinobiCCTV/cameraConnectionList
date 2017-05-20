@@ -25,7 +25,7 @@
         "/videostream.cgi?rate=0",
         "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
         "/videostream.asf",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
@@ -104,7 +104,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/11",
         "/ucast/11",
         "/onvif1",

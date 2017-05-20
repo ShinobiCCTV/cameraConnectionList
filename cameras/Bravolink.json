@@ -7,7 +7,7 @@
       "JPEG": [
         "/img/snapshot.cgi?size=2"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
       ]
     },

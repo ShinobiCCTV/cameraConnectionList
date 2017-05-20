@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/user=[USERNAME]&password=[PASSWORD]&channel=1&stream=1.sdp"
       ]
     },

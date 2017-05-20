@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/cam/realmonitor",
         "/video.pro2",
         "/videoMain"
@@ -183,7 +183,7 @@
         "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
         "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
       ]
     },

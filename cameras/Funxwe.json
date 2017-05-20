@@ -12,7 +12,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/11",
         "/live/ch0",
         "/live/ch1"

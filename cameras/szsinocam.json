@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/ROH/channel/11",
         "/ucast/11",
         "/11",

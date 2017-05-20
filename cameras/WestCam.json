@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/11",
         "/PSIA/Streaming/channels/h264",
         "/user=admin_password=ZQVWXnGa_channel=1_stream=0.sdp",

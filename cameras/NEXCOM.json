@@ -5,7 +5,7 @@
         "/cgi-bin/snapshot.cgi?1",
         "/shot.jpg"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
       ],
       "MJPEG": [
@@ -25,7 +25,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/media.amp",
         "/live/stream1",
         "/live0.264"

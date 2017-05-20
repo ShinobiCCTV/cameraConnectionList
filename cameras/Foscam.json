@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/videoMain",
         "/ucast/11",
         "/cam1/onvif-h264",
@@ -192,7 +192,7 @@
         "/nphMotionJpeg?Resolution=640x480&Quality=Standard",
         "/cgi-bin/CGIStream.cgi?cmd=GetMJStream"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",

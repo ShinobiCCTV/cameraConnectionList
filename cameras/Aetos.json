@@ -7,7 +7,7 @@
       "MJPEG": [
         "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf"
       ]
     },

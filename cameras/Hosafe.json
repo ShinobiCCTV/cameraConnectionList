@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/live0.264",
         "/live1.264",
         "/cam1/onvif-h264-1",
@@ -72,7 +72,7 @@
   },
   "http://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
       ],
       "JPEG": [

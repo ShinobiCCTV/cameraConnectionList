@@ -24,7 +24,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/Streaming/Channels/101",
         "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
         "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp"

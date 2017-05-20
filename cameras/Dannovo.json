@@ -4,7 +4,7 @@
       "JPEG": [
         "/tmpfs/auto.jpg"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
       ]
     },
@@ -15,7 +15,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/av0_0"
       ]
     },

@@ -20,7 +20,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/video1enc1"
       ]
     },

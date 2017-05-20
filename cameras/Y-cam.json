@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/live/0/h264.sdp",
         "/live_mpeg4.sdp",
         "/live_h264_1.sdp",
@@ -35,7 +35,7 @@
   },
   "http://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/stream.asf",
         "/stream1.asf",
         "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",

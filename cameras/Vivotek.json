@@ -238,7 +238,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/live.sdp",
         "/live4.sdp",
         "/live2.sdp",

@@ -15,7 +15,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/ProfileToken_1_4"
       ]
     },

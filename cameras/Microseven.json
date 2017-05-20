@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/11",
         "/12",
         "/cam1/onvif-h264"
@@ -37,7 +37,7 @@
         "/snapshot_ch[CHANNEL].jpg",
         "/tmpfs/auto.jpg"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
       ],
       "MJPEG": [

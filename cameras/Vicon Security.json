@@ -7,7 +7,7 @@
         "/jpg/image.jpg",
         "/cgi-bin/viewer/video.jpg?resolution=640x480"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
       ]
     },
@@ -19,7 +19,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/1/stream1",
         "/live/main"
       ]

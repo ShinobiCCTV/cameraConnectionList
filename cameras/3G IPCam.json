@@ -18,7 +18,7 @@
         "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
         "/image.jpg"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
       ]
     },
@@ -30,7 +30,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/11"
       ]
     },

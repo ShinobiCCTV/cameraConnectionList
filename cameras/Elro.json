@@ -13,7 +13,7 @@
         "/cgi-bin/guest/Video.cgi?media=JPEG",
         "/current[CHANNEL].jpg"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
         "/videostream.asf",
@@ -85,7 +85,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/av0_1"
       ]
     },

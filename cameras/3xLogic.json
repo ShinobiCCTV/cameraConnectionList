@@ -8,7 +8,7 @@
         "/live?camera=[CHANNEL]&quality=75&resolution=[WIDTH]x[HEIGHT]",
         "/live?camera=[USERNAME]&quality=75&resolution=[PASSWORD]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
       ],
       "MJPEG": [
@@ -30,7 +30,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/video.h264",
         "/Streaming/Channels/1"
       ]

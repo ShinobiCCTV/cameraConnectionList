@@ -9,7 +9,7 @@
         "/snap.jpg?JpegSize=XL",
         "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
         "/videostream.asf",
         "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
@@ -64,7 +64,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/ch0.h264",
         "/11",
         "/Streaming/Channels/1",

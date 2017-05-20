@@ -49,7 +49,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/Master-0",
         "/Streaming/Channels/1",
         "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",

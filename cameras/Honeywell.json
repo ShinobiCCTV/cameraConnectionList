@@ -33,7 +33,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/media",
         "/h264",
         "/cam/realmonitor",

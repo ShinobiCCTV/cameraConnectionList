@@ -21,7 +21,7 @@
         "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
         "/video/mjpg.cgi"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
       ]
     },
@@ -62,7 +62,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/cam/realmonitor",
         "/live/av0"
       ]

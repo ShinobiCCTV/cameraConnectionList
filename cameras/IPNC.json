@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/1.ch",
         "/h264main",
         "/PSIA/Streaming/channels/2",

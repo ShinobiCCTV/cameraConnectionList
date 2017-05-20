@@ -6,7 +6,7 @@
         "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
         "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
       ],
       "MJPEG": [

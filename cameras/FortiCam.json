@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/ONVIF/channel3",
         "/cam1/onvif-h264"
       ]
@@ -15,7 +15,7 @@
       "MJPEG": [
         "/video.cgi?resolution=[WIDTH]x[HEIGHT]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
       ]

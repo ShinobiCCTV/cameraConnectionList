@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/tcp/av0_0",
         "/tcp/av0_1",
         "/11"
@@ -110,7 +110,7 @@
         "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
         "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/goform/video",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
       ]

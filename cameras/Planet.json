@@ -31,7 +31,7 @@
         "/",
         "/snapshot.cgi"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/h264",
         "/jpeg",
         "/goform/video"
@@ -97,7 +97,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/stander/livestream/0/0",
         "/stream1",
         "/",

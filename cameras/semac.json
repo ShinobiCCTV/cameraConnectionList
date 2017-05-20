@@ -4,7 +4,7 @@
       "JPEG": [
         "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
       ],
       "MJPEG": [

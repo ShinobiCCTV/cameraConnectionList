@@ -26,7 +26,7 @@
         "/jpg/image.jpg?size=3",
         "/tmpfs/auto.jpg"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/img/video.asf",
         "/videostream.asf"
       ]
@@ -70,7 +70,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/ONVIF/channel2",
         "/ONVIF/channel1"
       ]

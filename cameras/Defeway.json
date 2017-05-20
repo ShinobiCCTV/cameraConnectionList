@@ -8,7 +8,7 @@
       "JPEG": [
         "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
       ]
     },
@@ -25,7 +25,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"
       ]
     },

@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/Streaming/Channels/101",
         "/Streaming/Channels/1",
         "/11",
@@ -368,7 +368,7 @@
         "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
         "/cgi/mjpg/mjpeg.cgi"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
       ]
     },

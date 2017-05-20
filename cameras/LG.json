@@ -39,7 +39,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/Master-0",
         "/Slave-0"
       ]

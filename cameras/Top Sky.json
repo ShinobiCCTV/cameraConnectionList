@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/mpeg4cif",
         "/mpeg4",
         "/user=admin_password=UqsecOdl_channel=1_stream=0.sdp",

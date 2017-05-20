@@ -53,7 +53,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/[CHANNEL]"
       ],
       "MJPEG": [

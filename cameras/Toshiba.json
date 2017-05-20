@@ -23,7 +23,7 @@
         "/videofeed",
         "/cgi-bin/mjpeg?stream=[CHANNEL]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
       ]
     },
@@ -57,7 +57,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/live.sdp",
         "/live2.sdp",
         "/live3.sdp",

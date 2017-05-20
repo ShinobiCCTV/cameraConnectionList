@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/media/video1",
         "/11",
         "/stream2",
@@ -23,7 +23,7 @@
         "/dsr-cgi/getdsrimage.cgi?camera=[CHANNEL]&username=[USERNAME]&password=[PASSWORD]&adfa=1",
         "/img/snapshot.cgi?size=2"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
       ]
     },

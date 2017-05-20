@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/av0_0",
         "/av0_1",
         "/video.mp4"
@@ -33,7 +33,7 @@
         "/",
         "/video.mjpg"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/video.mp4"
       ]
     },

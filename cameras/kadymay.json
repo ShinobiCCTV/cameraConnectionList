@@ -10,7 +10,7 @@
         "/snap.jpg?JpegCam=[CHANNEL]",
         "/snap.jpg?JpegSize=M"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf"
       ],
       "MJPEG": [
@@ -33,7 +33,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
         "/live0.264"
       ]

@@ -6,7 +6,7 @@
         "/videostream.cgi?rate=11",
         "/user/videostream.cgi"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.cgi?resolution=8&rate=13"
       ]
     },

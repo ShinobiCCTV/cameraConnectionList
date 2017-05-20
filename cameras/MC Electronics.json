@@ -4,7 +4,7 @@
       "JPEG": [
         "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
         "/stream.asf",
         "/stream1.asf"
@@ -21,7 +21,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/video0.sdp",
         "/video1.sdp"
       ]

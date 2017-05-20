@@ -5,7 +5,7 @@
         "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
         "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
       ]
     },

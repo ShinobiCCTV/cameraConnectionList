@@ -15,7 +15,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/live/video_audio/profile1",
         "/live/video_audio/profile2"
       ]

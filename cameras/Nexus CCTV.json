@@ -10,7 +10,7 @@
       "MJPEG": [
         "/ipcam/mjpegcif.cgi"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.cgi?resolution=8&rate=13"
       ]
     },
@@ -25,7 +25,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/Streaming/Channels/1",
         "/ucast/12",
         "/ROH/channel/11",

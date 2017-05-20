@@ -10,7 +10,7 @@
         "/video.cgi?resolution=VGA",
         "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
         "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
@@ -31,7 +31,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/11"
       ]
     },

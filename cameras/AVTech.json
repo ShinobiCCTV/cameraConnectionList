@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/live/h264/HD1080P",
         "/live/video/profile1",
         "/live/h264_ulaw/VGA",
@@ -59,7 +59,7 @@
         "/live/mjpeg",
         "/axis-cgi/mjpg/video.cgi"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]"
       ]

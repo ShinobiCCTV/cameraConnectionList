@@ -17,7 +17,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/cam/realmonitor",
         "/user=admin_password=6QNMIQGe_channel=1_stream=0.sdp",
         "/user=admin_password=npz7PAyv_channel=1_stream=0.sdp"

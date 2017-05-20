@@ -5,7 +5,7 @@
         "/cgi-bin/snapshot.cgi?1",
         "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
       ]
     },

@@ -7,7 +7,7 @@
       "JPEG": [
         "/operator/get_jpeg.cgi"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/goform/video"
       ]
     },

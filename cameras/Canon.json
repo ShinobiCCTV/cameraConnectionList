@@ -1,7 +1,7 @@
-{
+﻿{
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/stream/profile2=r",
         "/stream/profile1=r",
         "/stream/profile0=r"

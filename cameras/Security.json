@@ -6,7 +6,7 @@
         "/Jpeg/CamImg.jpg",
         "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
       ]

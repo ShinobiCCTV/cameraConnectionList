@@ -17,7 +17,7 @@
         "/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
         "/cgi-bin/video.jpg"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
       ]
     },

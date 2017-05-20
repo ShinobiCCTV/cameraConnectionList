@@ -33,7 +33,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/cam1/onvif-h264"
       ]
     },

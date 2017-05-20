@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/ucast/11",
         "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"
       ]
@@ -17,7 +17,7 @@
       "JPEG": [
         "/cgi-bin/guest/Video.cgi?media=JPEG"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf"
       ]
     },

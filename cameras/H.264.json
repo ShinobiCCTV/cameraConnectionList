@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/user=admin_password=7NuPmaf5_channel=1_stream=0.sdp",
         "/user=admin&password=tlJwpbo6&channel=1&stream=0.sdp",
         "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
@@ -193,7 +193,7 @@
         "/videofeed",
         "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
       ]
     },

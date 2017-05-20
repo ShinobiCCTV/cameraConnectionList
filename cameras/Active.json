@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/streaming/video0",
         "/mpeg4/media.amp?resolution=640x480"
       ]

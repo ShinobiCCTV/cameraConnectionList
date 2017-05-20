@@ -1,7 +1,7 @@
 {
   "http://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/goform/video",
         "/videostream.cgi?resolution=8&rate=13",
         "/videostream.asf",
@@ -42,7 +42,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/11"
       ]
     },

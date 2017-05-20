@@ -1,7 +1,7 @@
 {
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/rtsp/unicast/DefaultProfile-02",
         "/rtsp/unicast/DefaultProfile-01"
       ]

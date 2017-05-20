@@ -45,7 +45,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/ONVIF/channel2",
         "/ONVIF/channel1",
         "/h264"

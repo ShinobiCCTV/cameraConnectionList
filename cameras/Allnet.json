@@ -22,7 +22,7 @@
         "/cgi/mjpg/mjpeg.cgi",
         "/cgi/mjpg/mjpg.cgi"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/stream1.asf"
       ]
     },
@@ -58,7 +58,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/h264",
         "/video.h264",
         "/mpeg4",

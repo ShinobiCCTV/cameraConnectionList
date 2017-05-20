@@ -36,7 +36,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/livestream",
         "/ch01_sub.264",
         "/video.h264",

@@ -15,7 +15,7 @@
         "/video.mjpg?q=30&fps=33&id=0.5",
         "/mjpeg.cgi"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/video.mp4",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
       ]
@@ -92,7 +92,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/video.pro2",
         "/video.h264",
         "/video.pro1",

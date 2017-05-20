@@ -10,7 +10,7 @@
         "/video?submenu=mjpg",
         "/video?profile=[CHANNEL]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
       ]
     },

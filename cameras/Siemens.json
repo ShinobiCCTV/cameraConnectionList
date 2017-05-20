@@ -22,7 +22,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/livestream/trackID=1",
         "/stream1"
       ]

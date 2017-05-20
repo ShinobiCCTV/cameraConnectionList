@@ -5,7 +5,7 @@
         "/jpg/image.jpg?size=3",
         "/jpg/image.jpg"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
       ]
     },

@@ -16,7 +16,7 @@
         "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
         "/videostream.cgi"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
       ]
     },
@@ -33,7 +33,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
         "/user=admin_password=Df7HGWO9_channel=1_stream=0.sdp",
         "/user=admin_password=zjD1bdPb_channel=1_stream=0.sdp",

@@ -16,7 +16,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/h264&basic_auth=YWRtaW46MTIzNA=="
       ]
     },

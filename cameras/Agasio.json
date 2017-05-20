@@ -10,7 +10,7 @@
         "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
         "/snap.jpg?JpegCam=[CHANNEL]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
         "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",

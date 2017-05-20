@@ -23,7 +23,7 @@
         "/mjpg/video.mjpg",
         "/video.cgi?resolution=VGA"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/video.mp4"
       ]
     },
@@ -67,7 +67,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/video.pro1"
       ]
     },

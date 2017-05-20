@@ -13,7 +13,7 @@
         "/cgi-bin/cmd/system?GET_STREAM&USER=[USERNAME]&PWD=[PASSWORD]",
         "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
       ]
     },
@@ -163,7 +163,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/stream1",
         "/onvif-stream1",
         "/onvif-media/media.amp",

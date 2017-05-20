@@ -20,7 +20,7 @@
         "/cgi-bin/viewer/video.jpg?resolution=640x480",
         "/cgi-bin/image640x480.jpg"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
         "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
       ]

@@ -28,7 +28,7 @@
   },
   "rtsp://": {
     "types": {
-      "FFMPEG": [
+      "H.264": [
         "/mpeg4",
         "/11",
         "/mpeg4cif",

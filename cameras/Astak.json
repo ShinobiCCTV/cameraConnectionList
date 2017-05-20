@@ -6,7 +6,7 @@
         "/tmpfs/auto.jpg",
         "/snap.jpg?JpegCam=[CHANNEL]"
       ],
-      "FFMPEG": [
+      "H.264": [
         "/videostream.asf"
       ],
       "MJPEG": [
