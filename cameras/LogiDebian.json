@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/?action=stream"
-      ]
+      "MJPEG": {
+        "/": [
+          "action=stream"
+        ]
+      }
     },
     "models": [
       "9000"

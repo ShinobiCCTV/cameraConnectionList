@@ -1,31 +1,47 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/video.jpg?size=2",
-        "/cgi-bin/video.jpg",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/videofeed",
-        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
-        "/video.cgi?resolution=VGA",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/cgi-bin/video.jpg": [
+          "size=2"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      },
+      "MJPEG": {
+        "/videofeed": [],
+        "/cgi-bin/video.jpg": [
+          "cam=[CHANNEL]&quality=3&size=2"
+        ],
+        "/video.cgi": [
+          "resolution=VGA"
+        ],
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "IP3112",
       "IPCAMW45",
       "KXSERIES",
-      "OTHER",
       "PT3114",
       "PZ6114",
       "WLPTG",

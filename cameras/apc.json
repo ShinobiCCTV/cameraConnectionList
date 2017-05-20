@@ -1,23 +1,26 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ],
-      "JPEG": [
-        "/images/stream_[CHANNEL].jpg",
-        "/images/webcam.jpg"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/images/stream_[CHANNEL].jpg": [],
+        "/images/webcam.jpg": []
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      }
     },
     "models": [
       "01",
       "NETBOTZ",
       "NETBOTZ1",
-      "NETBOTZ455",
-      "OTHER"
+      "NETBOTZ455"
     ]
   }
 }

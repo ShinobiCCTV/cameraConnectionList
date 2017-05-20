@@ -1,14 +1,14 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11",
-        "/live/ch0",
-        "/0/video0",
-        "/h264",
-        "/live/ch1",
-        "/Streaming/channels/101"
-      ]
+      "H.264": {
+        "/11": [],
+        "/live/ch0": [],
+        "/0/video0": [],
+        "/h264": [],
+        "/live/ch1": [],
+        "/Streaming/channels/101": []
+      }
     },
     "models": [
       "1MPHDP2P",
@@ -26,29 +26,36 @@
       "N/A",
       "NORDIC",
       "OMANORDIC",
-      "OTHER",
       "P2POUTDOOR",
       "VGA616W"
     ]
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/user/videostream.cgi"
-      ],
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-        "/tmpfs/auto.jpg",
-        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ],
+        "/user/videostream.cgi": []
+      },
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&count=0"
+        ],
+        "/tmpfs/auto.jpg": [],
+        "/snapshot.jpg": [
+          "account=[USERNAME]&password=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      }
     },
     "models": [
       "278042",
@@ -61,8 +68,6 @@
       "IPROBOT",
       "MP391W-HD",
       "NORDIC",
-      "OTHER",
-      "OTHER-MEDION",
       "P2P",
       "P2POUTDOOR",
       "VGA616W",

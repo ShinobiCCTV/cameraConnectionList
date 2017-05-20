@@ -1,18 +1,23 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/video.cgi?resolution=VGA"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ]
+      },
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=VGA"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
-      "OTHER",
       "SRX-IPI3000"
     ]
   }

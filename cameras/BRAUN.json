@@ -1,14 +1,18 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ],
-      "H.264": [
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "HD505",

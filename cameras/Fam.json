@@ -1,14 +1,15 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/image.jpg"
-      ],
-      "H.264": [
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/h264"
-      ]
+      "JPEG": {
+        "/image.jpg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ],
+        "/h264": []
+      }
     },
     "models": [
       "002R",

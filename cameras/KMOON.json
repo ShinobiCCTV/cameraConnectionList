@@ -1,11 +1,11 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/11",
-        "/0"
-      ]
+      "H.264": {
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/11": [],
+        "/0": []
+      }
     },
     "models": [
       "100BY",
@@ -15,12 +15,10 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/tmpfs/auto.jpg"
-      ]
+      "JPEG": {
+        "/tmpfs/auto.jpg": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

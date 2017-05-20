@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/video.cgi"
-      ]
+      "JPEG": {
+        "/cgi-bin/video.cgi": []
+      }
     },
     "models": [
       "PTI-H2100"

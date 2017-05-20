@@ -1,14 +1,17 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/img/snapshot.cgi?size=3",
-        "/cgi-bin/guest/Video.cgi?media=JPEG"
-      ]
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=3"
+        ],
+        "/cgi-bin/guest/Video.cgi": [
+          "media=JPEG"
+        ]
+      }
     },
     "models": [
-      "CAM300",
-      "OTHER"
+      "CAM300"
     ]
   }
 }

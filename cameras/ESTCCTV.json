@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/video.cgi?resolution=VGA"
-      ]
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=VGA"
+        ]
+      }
     },
     "models": [
       "WCAMIPDOMO"

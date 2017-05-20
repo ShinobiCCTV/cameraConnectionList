@@ -1,33 +1,35 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp"
-      ]
+      "H.264": {
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp": []
+      }
     },
     "models": [
       "1080",
-      "756",
-      "OTHER"
+      "756"
     ]
   },
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf"
-      ],
-      "JPEG": [
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/current[CHANNEL].jpg"
-      ],
-      "MJPEG": [
-        "/live?camera=[CHANNEL]&fps=5&quality=75&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/current[CHANNEL].jpg": []
+      },
+      "MJPEG": {
+        "/live": [
+          "camera=[CHANNEL]&fps=5&quality=75&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

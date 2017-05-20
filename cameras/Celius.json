@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/mjpeg"
-      ]
+      "MJPEG": {
+        "/mjpeg": []
+      }
     },
     "models": [
       "IP18W",

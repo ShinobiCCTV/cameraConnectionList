@@ -1,15 +1,17 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

@@ -1,40 +1,55 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.cgi?resolution=8&rate=13",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]"
-      ],
-      "JPEG": [
-        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
-        "/tmpfs/auto.jpg",
-        "/snap.jpg?JpegCam=[CHANNEL]",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/img/snapshot.cgi?size=2",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/mobile/channel[CHANNEL].jpg",
-        "/video.cgi"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/user/videostream.cgi",
-        "/videostream.cgi",
-        "/videostream.cgi?rate=11",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/video.cgi?resolution=VGA",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/video.cgi",
-        "/videostream.cgi?rate=0"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]"
+        ],
+        "/videostream.cgi": [
+          "resolution=8&rate=13"
+        ]
+      },
+      "JPEG": {
+        "/cgi/snapshot.cgi": [
+          "action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
+        ],
+        "/tmpfs/auto.jpg": [],
+        "/snap.jpg": [
+          "JpegCam=[CHANNEL]"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&count=0"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/mobile/channel[CHANNEL].jpg": [],
+        "/video.cgi": []
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+          "rate=11",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "rate=0"
+        ],
+        "/user/videostream.cgi": [],
+        "/video.cgi": [
+          "resolution=VGA",
+          "resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "COOLCAM",
@@ -65,16 +80,15 @@
       "NIP-H20(OZX)",
       "NIPJEAN2",
       "OBJ-007260-LYLDU",
-      "OTHER",
       "P2P"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/12",
-        "/0/av1"
-      ]
+      "H.264": {
+        "/12": [],
+        "/0/av1": []
+      }
     },
     "models": [
       "COOLCAMHBP",

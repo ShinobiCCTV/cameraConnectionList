@@ -1,17 +1,18 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?1"
-      ],
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+          "1"
+        ]
+      },
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": []
+      }
     },
     "models": [
-      "HDB4300F-PT",
-      "OTHER"
+      "HDB4300F-PT"
     ]
   }
 }

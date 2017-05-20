@@ -1,16 +1,19 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/img/video.mjpeg"
-      ],
-      "JPEG": [
-        "/img/snapshot.cgi?size=2",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
-      ]
+      "MJPEG": {
+        "/img/video.mjpeg": []
+      },
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      }
     },
     "models": [
-      "OTHER",
       "RC8021"
     ]
   }

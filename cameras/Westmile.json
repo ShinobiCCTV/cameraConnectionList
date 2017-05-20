@@ -1,16 +1,15 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=dcqNSqnO_channel=1_stream=0.sdp",
-        "/11",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/user=admin_password=dcqNSqnO_channel=1_stream=0.sdp": [],
+        "/11": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
       "291747574301",
-      "301587838630",
-      "OTHER"
+      "301587838630"
     ]
   }
 }

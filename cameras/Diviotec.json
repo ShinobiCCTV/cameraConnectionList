@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live.sdp"
-      ]
+      "H.264": {
+        "/live.sdp": []
+      }
     },
     "models": [
       "NBR325P"
@@ -11,9 +11,9 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/jpg/image.cgi"
-      ]
+      "JPEG": {
+        "/cgi-bin/jpg/image.cgi": []
+      }
     },
     "models": [
       "NBR325P"

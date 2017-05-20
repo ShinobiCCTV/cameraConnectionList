@@ -1,29 +1,44 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?1",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/jpg/image.cgi",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/cgi-bin/video.cgi?msubmenu=mjpg",
-        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
-        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-        "/",
-        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/axis-cgi/mjpg/video.cgi",
-        "/api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
-        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
-        "/video/mjpg.cgi"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "1",
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ],
+        "/cgi-bin/jpg/image.cgi": [],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/cgi-bin/video_snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/cgi-bin/video.cgi": [
+          "msubmenu=mjpg"
+        ],
+        "/axis-cgi/mjpg/video.cgi": [
+          "date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+          "date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+          "camera=[CHANNEL]",
+          "camera=1&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/": [],
+        "/cgi-bin/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/api/mjpegvideo.cgi": [
+          "InputNumber=1&StreamNumber=[CHANNEL]"
+        ],
+        "/video/mjpg.cgi": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      }
     },
     "models": [
       "121",
@@ -56,16 +71,15 @@
       "CP-VGC-T13L2",
       "DA10L3S",
       "DOMECAMERA",
-      "IPCV1.37",
-      "OTHER"
+      "IPCV1.37"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam/realmonitor",
-        "/live/av0"
-      ]
+      "H.264": {
+        "/cam/realmonitor": [],
+        "/live/av0": []
+      }
     },
     "models": [
       "1MP",
@@ -82,7 +96,6 @@
       "DVR",
       "INFEEDOFAUTOMATICSHOTBLASTING",
       "MODELCB",
-      "OTHER",
       "TP10L3C-V2-0360B"
     ]
   }

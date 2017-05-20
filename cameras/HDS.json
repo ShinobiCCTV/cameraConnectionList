@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/special/Cam[CHANNEL].jpg"
-      ]
+      "JPEG": {
+        "/special/Cam[CHANNEL].jpg": []
+      }
     },
     "models": [
       "DVR"

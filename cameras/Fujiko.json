@@ -1,12 +1,12 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cgi-bin/sf.cgi"
-      ],
-      "JPEG": [
-        "/stillimg.jpg"
-      ]
+      "MJPEG": {
+        "/cgi-bin/sf.cgi": []
+      },
+      "JPEG": {
+        "/stillimg.jpg": []
+      }
     },
     "models": [
       "-007",

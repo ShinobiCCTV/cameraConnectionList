@@ -1,11 +1,11 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/CH002.sdp",
-        "/CH001.sdp",
-        "/Streaming/Channels/1"
-      ]
+      "H.264": {
+        "/CH002.sdp": [],
+        "/CH001.sdp": [],
+        "/Streaming/Channels/1": []
+      }
     },
     "models": [
       "1",
@@ -114,7 +114,6 @@
       "MFD2401",
       "NLTESTS220",
       "NORMAL",
-      "OTHER",
       "SERVER",
       "UBX1320",
       "VD1500"
@@ -122,24 +121,31 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/jpg/image.cgi",
-        "/snapshot/view[CHANNEL].jpg",
-        "/cam[CHANNEL].jpg",
-        "/[USERNAME]/cam[CHANNEL].jpg",
-        "/GetImage.cgi",
-        "/cgi-bin/getimage",
-        "/dms.jpg",
-        "/out.jpg?id=0.5",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-        "/cgi-bin/viewer/video.jpg",
-        "/cgi-bin/viewer/video.jpg?resolution=640x480",
-        "/jpg/1/image.jpg"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/cgi-bin/jpg/image.cgi": [],
+        "/snapshot/view[CHANNEL].jpg": [],
+        "/cam[CHANNEL].jpg": [],
+        "/[USERNAME]/cam[CHANNEL].jpg": [],
+        "/GetImage.cgi": [],
+        "/cgi-bin/getimage": [],
+        "/dms.jpg": [],
+        "/out.jpg": [
+          "id=0.5"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ],
+        "/cgi-bin/viewer/video.jpg": [
+          "resolution=[WIDTH]x[HEIGHT]",
+          "resolution=640x480"
+        ],
+        "/jpg/1/image.jpg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "200S",
@@ -155,7 +161,6 @@
       "GV-CB120",
       "GV-DVR",
       "HWK-2008-DVR",
-      "OTHER",
       "S200-S",
       "SERVER"
     ]

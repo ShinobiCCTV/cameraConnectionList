@@ -1,21 +1,32 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/camera.jpg?camera=[CHANNEL]",
-        "/fullsize.jpg?camera=[CHANNEL]",
-        "/hugesize.jpg?camera=[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/camera.push?camera=[CHANNEL]",
-        "/fullsize.push?camera=1&sleep=15",
-        "/fullsize.push?camera=[CHANNEL]",
-        "/hugesize.push?camera=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/camera.jpg": [
+          "camera=[CHANNEL]"
+        ],
+        "/fullsize.jpg": [
+          "camera=[CHANNEL]"
+        ],
+        "/hugesize.jpg": [
+          "camera=[CHANNEL]"
+        ]
+      },
+      "MJPEG": {
+        "/camera.push": [
+          "camera=[CHANNEL]"
+        ],
+        "/fullsize.push": [
+          "camera=1&sleep=15",
+          "camera=[CHANNEL]"
+        ],
+        "/hugesize.push": [
+          "camera=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "IPVIDEOSERVER",
-      "OTHER",
       "VSERIESVIDEOSERVER",
       "V100/200VIDEOSERVER"
     ]

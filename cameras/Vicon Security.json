@@ -1,31 +1,34 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
-        "/cgi-bin/viewer/video.jpg",
-        "/jpg/image.jpg",
-        "/cgi-bin/viewer/video.jpg?resolution=640x480"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/cgi-bin/encoder": [
+          "USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT"
+        ],
+        "/cgi-bin/viewer/video.jpg": [
+          "resolution=640x480"
+        ],
+        "/jpg/image.jpg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "957",
-      "OTHER",
       "VND-970IP"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/1/stream1",
-        "/live/main"
-      ]
+      "H.264": {
+        "/1/stream1": [],
+        "/live/main": []
+      }
     },
     "models": [
-      "OTHER",
       "V960",
       "V960B",
       "V961",

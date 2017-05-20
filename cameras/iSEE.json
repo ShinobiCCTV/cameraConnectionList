@@ -1,19 +1,22 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-        "/img/snapshot.cgi?size=2",
-        "/tmpfs/auto.jpg"
-      ],
-      "MJPEG": [
-        "/img/video.mjpeg"
-      ]
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&count=0"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/tmpfs/auto.jpg": []
+      },
+      "MJPEG": {
+        "/img/video.mjpeg": []
+      }
     },
     "models": [
       "COVERT",
-      "-VCWLG",
-      "OTHER"
+      "-VCWLG"
     ]
   }
 }

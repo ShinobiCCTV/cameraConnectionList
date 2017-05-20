@@ -1,12 +1,12 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/image.jpg"
-      ],
-      "MJPEG": [
-        "/"
-      ]
+      "JPEG": {
+        "/image.jpg": []
+      },
+      "MJPEG": {
+        "/": []
+      }
     },
     "models": [
       "360",

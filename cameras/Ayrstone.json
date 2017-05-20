@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?rate=11"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=11"
+        ]
+      }
     },
     "models": [
       "FR4020A2"

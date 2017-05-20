@@ -1,19 +1,20 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi"
-      ],
-      "JPEG": [
-        "/snapshot.cgi",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "1Z074A2A0301627785",
-      "OTHER",
       "PIX006428BFYZY",
       "PIX009491MLJYM",
       "PIX009495HURFE",

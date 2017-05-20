@@ -1,11 +1,13 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/video.jpg?ch=[CHANNEL]",
-        "/snap.jpg",
-        "/tmpfs/auto.jpg"
-      ]
+      "JPEG": {
+        "/video.jpg": [
+          "ch=[CHANNEL]"
+        ],
+        "/snap.jpg": [],
+        "/tmpfs/auto.jpg": []
+      }
     },
     "models": [
       "H264-WEBCAM",

@@ -1,16 +1,17 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/user/videostream.cgi"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/user/videostream.cgi": []
+      }
     },
     "models": [
-      "NATWAVE",
-      "OTHER"
+      "NATWAVE"
     ]
   }
 }

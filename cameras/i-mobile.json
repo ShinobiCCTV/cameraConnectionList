@@ -1,13 +1,12 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videofeed"
-      ]
+      "MJPEG": {
+        "/videofeed": []
+      }
     },
     "models": [
-      "I-TAB",
-      "OTHER"
+      "I-TAB"
     ]
   }
 }

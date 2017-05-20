@@ -1,33 +1,34 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live/ch0",
-        "/11"
-      ]
+      "H.264": {
+        "/live/ch0": [],
+        "/11": []
+      }
     },
     "models": [
       "720P",
       "HDCAM",
       "HD720P",
-      "OTHER",
       "WIRELESSIP"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/img/snapshot.cgi?size=2"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/videostream.cgi?"
-      ]
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+        ]
+      }
     },
     "models": [
       "720P",
       "HOMECAMERA",
-      "OTHER",
       "WIFICAM",
       "WIRELESSCAMERA"
     ]

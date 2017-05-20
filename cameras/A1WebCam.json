@@ -1,12 +1,12 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/jpg.cgi?refresh=0&channel=[CHANNEL]&id=[USERNAME]&pass=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]&oldbrowser=1"
-      ]
+      "JPEG": {
+        "/cgi-bin/jpg.cgi": [
+          "refresh=0&channel=[CHANNEL]&id=[USERNAME]&pass=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]&oldbrowser=1"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

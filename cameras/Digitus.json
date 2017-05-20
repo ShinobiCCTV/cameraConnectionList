@@ -1,30 +1,40 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
-        "/cgi/jpg/image.cgi",
-        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-        "/goform/capture",
-        "/cgi-bin/video.jpg",
-        "/snapshot.cgi",
-        "/jpg/image.jpg",
-        "/_gCVimage.jpg",
-        "/cgi-bin/guest/Video.cgi?media=JPEG",
-        "/video.cgi"
-      ],
-      "MJPEG": [
-        "/video.cgi?resolution=VGA",
-        "/cgi/mjpg/mjpg.cgi",
-        "/live/mjpeg",
-        "/mjpg/video.mjpg",
-        "/videostream.cgi",
-        "/user/videostream.cgi"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/cgi-bin/guest/Video.cgi": [
+          "media=JPEG&channel=[CHANNEL]",
+          "media=JPEG"
+        ],
+        "/cgi/jpg/image.cgi": [],
+        "/snapshot.jpg": [
+          "account=[USERNAME]&password=[PASSWORD]"
+        ],
+        "/goform/capture": [],
+        "/cgi-bin/video.jpg": [],
+        "/snapshot.cgi": [],
+        "/jpg/image.jpg": [],
+        "/_gCVimage.jpg": [],
+        "/video.cgi": []
+      },
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=VGA"
+        ],
+        "/cgi/mjpg/mjpg.cgi": [],
+        "/live/mjpeg": [],
+        "/mjpg/video.mjpg": [],
+        "/videostream.cgi": [],
+        "/user/videostream.cgi": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "16037",
@@ -57,17 +67,16 @@
       "IPCAMERAGARTEN",
       "ONEWAY",
       "OPTIDOME",
-      "OTHER",
       "PSCAM"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11",
-        "/12",
-        "/live/video/profile1"
-      ]
+      "H.264": {
+        "/11": [],
+        "/12": [],
+        "/live/video/profile1": []
+      }
     },
     "models": [
       "16048",

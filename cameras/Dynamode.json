@@ -1,12 +1,14 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "JPEG": [
-        "/tmpfs/auto.jpg"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/tmpfs/auto.jpg": []
+      }
     },
     "models": [
       "CAM58-IP-B"
@@ -14,9 +16,9 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11"
-      ]
+      "H.264": {
+        "/11": []
+      }
     },
     "models": [
       "CAM58-IP-B"

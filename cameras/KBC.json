@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cgi-bin/cmd/system?GET_STREAM&USER=[USERNAME]&PWD=[PASSWORD]"
-      ]
+      "MJPEG": {
+        "/cgi-bin/cmd/system": [
+          "GET_STREAM&USER=[USERNAME]&PWD=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "ENC-H-WA"

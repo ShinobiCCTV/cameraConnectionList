@@ -1,14 +1,17 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
-        "/video.cgi?resolution=VGA"
-      ]
+      "MJPEG": {
+        "/mjpeg": [
+          "res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0"
+        ],
+        "/video.cgi": [
+          "resolution=VGA"
+        ]
+      }
     },
     "models": [
-      "BRESTA",
-      "OTHER"
+      "BRESTA"
     ]
   }
 }

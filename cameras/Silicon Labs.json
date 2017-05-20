@@ -1,28 +1,33 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ],
-      "MJPEG": [
-        "/user/videostream.cgi",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      },
+      "MJPEG": {
+        "/user/videostream.cgi": [],
+        "/video.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "F6815W",
-      "F6836W",
-      "OTHER"
+      "F6836W"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
       "RS-6W10IP"

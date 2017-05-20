@@ -1,16 +1,18 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/rtsph2641080p",
-        "/mpeg4/media.amp?resolution=640x480",
-        "/media.amp",
-        "/stream1",
-        "/mobile",
-        "/video.pro1",
-        "/video.pro2",
-        "/live/stream1"
-      ]
+      "H.264": {
+        "/rtsph2641080p": [],
+        "/mpeg4/media.amp": [
+          "resolution=640x480"
+        ],
+        "/media.amp": [],
+        "/stream1": [],
+        "/mobile": [],
+        "/video.pro1": [],
+        "/video.pro2": [],
+        "/live/stream1": []
+      }
     },
     "models": [
       "2060HD",
@@ -38,7 +40,6 @@
       "OD-2060HD",
       "OD-325HD",
       "OD-600HD",
-      "OTHER",
       "POE-100HD",
       "POE-200HD",
       "POE-250HD",
@@ -49,35 +50,49 @@
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi",
-        "/video.cgi?resolution=VGA",
-        "/video.mjpg",
-        "/cgi/mjpg/mjpeg.cgi",
-        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-        "/mjpg/video.mjpg",
-        "/ipcam/mjpeg.cgi"
-      ],
-      "JPEG": [
-        "/ipcam/jpeg.cgi",
-        "/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-        "/img/snapshot.cgi?size=2",
-        "/cgi-bin/view/image?pro_[CHANNEL]",
-        "/jpg/image.jpg",
-        "/cgi-bin/admin/snapshot.cgi",
-        "/image.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/jpg/image.jpg?size=3",
-        "/image/jpeg.cgi",
-        "/cgi-bin/video.jpg",
-        "/tmp/snap.jpg",
-        "/video.cgi",
-        "/current[CHANNEL].jpg"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ]
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": [
+          "date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+          "camera=[CHANNEL]"
+        ],
+        "/video.cgi": [
+          "resolution=VGA",
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/video.mjpg": [],
+        "/cgi/mjpg/mjpeg.cgi": [],
+        "/mjpg/video.mjpg": [],
+        "/ipcam/mjpeg.cgi": []
+      },
+      "JPEG": {
+        "/ipcam/jpeg.cgi": [],
+        "/axis-cgi/jpg/image.cgi": [
+          "date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/cgi-bin/view/image": [
+          "pro_[CHANNEL]"
+        ],
+        "/jpg/image.jpg": [
+          "size=3"
+        ],
+        "/cgi-bin/admin/snapshot.cgi": [],
+        "/image.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/image/jpeg.cgi": [],
+        "/cgi-bin/video.jpg": [],
+        "/tmp/snap.jpg": [],
+        "/video.cgi": [],
+        "/current[CHANNEL].jpg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      }
     },
     "models": [
       "2060HD",
@@ -103,7 +118,6 @@
       "OD300",
       "OD-325HD",
       "OD-600HD",
-      "OTHER",
       "POE-100CAMV2",
       "POE-100HD",
       "POE-200HD",

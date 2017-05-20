@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cgi-bin/webapp.cgi?MODE=8&ID=[USERNAME]&PW=[PASSWORD]&VER=3000&CH=[CHANNEL]"
-      ]
+      "MJPEG": {
+        "/cgi-bin/webapp.cgi": [
+          "MODE=8&ID=[USERNAME]&PW=[PASSWORD]&VER=3000&CH=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "-16"

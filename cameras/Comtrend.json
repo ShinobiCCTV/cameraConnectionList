@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cgi/mjpg/mjpeg.cgi"
-      ]
+      "MJPEG": {
+        "/cgi/mjpg/mjpeg.cgi": []
+      }
     },
     "models": [
       "VD-21IR"

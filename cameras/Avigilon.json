@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/media/still.jpg"
-      ]
+      "JPEG": {
+        "/media/still.jpg": []
+      }
     },
     "models": [
       "HDH.264CAMERA"

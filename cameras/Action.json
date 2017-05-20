@@ -1,25 +1,21 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live/av0"
-      ],
-      "MJPEG": [
-        "/cam[CHANNEL]/mjpeg"
-      ]
+      "H.264": {
+        "/live/av0": []
+      },
+      "MJPEG": {
+        "/cam[CHANNEL]/mjpeg": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videofeed"
-      ]
+      "MJPEG": {
+        "/videofeed": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

@@ -1,14 +1,12 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/current[CHANNEL].jpg",
-        "/image/[CHANNEL].jpg",
-        "/cgi-bin/video.jpg"
-      ]
+      "JPEG": {
+        "/current[CHANNEL].jpg": [],
+        "/image/[CHANNEL].jpg": [],
+        "/cgi-bin/video.jpg": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

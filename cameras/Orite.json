@@ -1,18 +1,19 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/GetData.cgi?Status=0",
-        "/GetData.cgi",
-        "/stream.jpg",
-        "/GetData.cgi?Status=false"
-      ],
-      "JPEG": [
-        "/Jpeg/CamImg.jpg"
-      ],
-      "H.264": [
-        "/stream.asf"
-      ]
+      "MJPEG": {
+        "/GetData.cgi": [
+          "Status=0",
+          "Status=false"
+        ],
+        "/stream.jpg": []
+      },
+      "JPEG": {
+        "/Jpeg/CamImg.jpg": []
+      },
+      "H.264": {
+        "/stream.asf": []
+      }
     },
     "models": [
       "301",

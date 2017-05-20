@@ -1,25 +1,32 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/video.mjpg",
-        "/user/videostream.cgi",
-        "/?action=appletvstream",
-        "/videofeed",
-        "/live?camera=[CHANNEL]&fps=5&quality=75&resolution=[WIDTH]x[HEIGHT]",
-        "/?action=stream",
-        "/live?codec=mjpeg&camera=[CHANNEL]",
-        "/live?camera=[USERNAME]&quality=75&fps=5&resolution=[PASSWORD]"
-      ],
-      "JPEG": [
-        "/cgi-bin/image.jpg?size=[WIDTH]x[HEIGHT]",
-        "/current[CHANNEL].jpg",
-        "/image.jpg"
-      ],
-      "H.264": [
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "MJPEG": {
+        "/video.mjpg": [],
+        "/user/videostream.cgi": [],
+        "/": [
+          "action=appletvstream",
+          "action=stream"
+        ],
+        "/videofeed": [],
+        "/live": [
+          "camera=[CHANNEL]&fps=5&quality=75&resolution=[WIDTH]x[HEIGHT]",
+          "codec=mjpeg&camera=[CHANNEL]",
+          "camera=[USERNAME]&quality=75&fps=5&resolution=[PASSWORD]"
+        ]
+      },
+      "JPEG": {
+        "/cgi-bin/image.jpg": [
+          "size=[WIDTH]x[HEIGHT]"
+        ],
+        "/current[CHANNEL].jpg": [],
+        "/image.jpg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "3GS",
@@ -28,7 +35,6 @@
       "CUSTOMCAM",
       "İPHONE",
       "5",
-      "OTHER",
       "USETHIS"
     ]
   }

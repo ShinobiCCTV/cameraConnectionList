@@ -1,21 +1,21 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/image.jpg",
-        "/IMAGE.JPG",
-        "/goform/capture",
-        "/goform/video2",
-        "/image/jpeg.cgi"
-      ],
-      "MJPEG": [
-        "/mjpeg.cgi",
-        "/VIDEO.CGI",
-        "/video/mjpg.cgi"
-      ],
-      "H.264": [
-        "/goform/video"
-      ]
+      "JPEG": {
+        "/image.jpg": [],
+        "/IMAGE.JPG": [],
+        "/goform/capture": [],
+        "/goform/video2": [],
+        "/image/jpeg.cgi": []
+      },
+      "MJPEG": {
+        "/mjpeg.cgi": [],
+        "/VIDEO.CGI": [],
+        "/video/mjpg.cgi": []
+      },
+      "H.264": {
+        "/goform/video": []
+      }
     },
     "models": [
       "CAS-330",
@@ -26,8 +26,7 @@
       "CAS-771W",
       "CAS-861W",
       "CS-15285B",
-      "CS-673",
-      "OTHER"
+      "CS-673"
     ]
   }
 }

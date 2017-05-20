@@ -1,15 +1,19 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cgi/mjpg/mjpg.cgi",
-        "/cgi/mjpg/mjpeg.cgi",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ],
-      "JPEG": [
-        "/cgi/jpg/image.cgi",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
-      ]
+      "MJPEG": {
+        "/cgi/mjpg/mjpg.cgi": [],
+        "/cgi/mjpg/mjpeg.cgi": [],
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/cgi/jpg/image.cgi": [],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "100",
@@ -29,8 +33,7 @@
       "ICS303A",
       "ICS7220",
       "IP-100",
-      "OKOK",
-      "OTHER"
+      "OKOK"
     ]
   }
 }

@@ -1,12 +1,12 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/image/[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/mjpg/[CHANNEL]"
-      ]
+      "JPEG": {
+        "/image/[CHANNEL]": []
+      },
+      "MJPEG": {
+        "/mjpg/[CHANNEL]": []
+      }
     },
     "models": [
       "IRIS",

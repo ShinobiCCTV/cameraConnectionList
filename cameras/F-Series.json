@@ -1,29 +1,35 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ],
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/user/videostream.cgi",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+        ],
+        "/user/videostream.cgi": []
+      }
     },
     "models": [
       "F980",
       "F-M136",
       "F-SEIRES",
       "FSERIES",
-      "IPCAMERAS",
-      "OTHER"
+      "IPCAMERAS"
     ]
   }
 }

@@ -1,17 +1,20 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/user/videostream.cgi"
-      ],
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/user/videostream.cgi": []
+      },
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
-      "OTHER",
       "PT-315V",
       "PT-3215P",
       "PT-325IP",
@@ -20,9 +23,9 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/12"
-      ]
+      "H.264": {
+        "/12": []
+      }
     },
     "models": [
       "PT593V"

@@ -1,12 +1,12 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/video.jpg"
-      ],
-      "MJPEG": [
-        "/MJPEG.CGI"
-      ]
+      "JPEG": {
+        "/cgi-bin/video.jpg": []
+      },
+      "MJPEG": {
+        "/MJPEG.CGI": []
+      }
     },
     "models": [
       "D-LINK"

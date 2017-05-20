@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Streaming/Channels/2"
-      ]
+      "H.264": {
+        "/Streaming/Channels/2": []
+      }
     },
     "models": [
       "DS-2CD2032-I"

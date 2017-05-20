@@ -1,29 +1,34 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ],
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/img/snapshot.cgi?size=2"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      }
     },
     "models": [
       "905",
       "906",
-      "OTHER",
       "W920"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live/ch0",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/live/ch0": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
       "908",

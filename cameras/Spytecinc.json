@@ -1,26 +1,26 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/img/snapshot.cgi",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/img/snapshot.cgi": [],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "IP-20",
-      "OTHER",
       "SPD3013"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/ch0_0.264",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/ch0_0.264": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
-      "OTHER",
       "SPYPIR32WF"
     ]
   }

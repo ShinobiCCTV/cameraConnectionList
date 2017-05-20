@@ -1,56 +1,72 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.cgi?resolution=8&rate=13",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "JPEG": [
-        "/tmpfs/auto.jpg",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snap.jpg?JpegSize=XL",
-        "/snap.jpg?JpegCam=[CHANNEL]",
-        "/snap.jpg",
-        "/snapshot.cgi",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-        "/snapshot.cgi?",
-        "/image.jpg",
-        "/img/snapshot.cgi?size=2",
-        "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
-        "/video.cgi",
-        "/snapshot.cgi?camera=[CHANNEL]",
-        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/now.jpg",
-        "/mjpg/[CHANNEL]/video.mjpg",
-        "/[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-        "/videostream.cgi?rate=11",
-        "/videostream.cgi",
-        "/user/videostream.cgi",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/VIDEO.CGI",
-        "/videostream.cgi?rate=0",
-        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/video.cgi?resolution=VGA",
-        "/mjpeg.cgi",
-        "/axis-cgi/mjpg/video.cgi",
-        "/nphMotionJpeg?Resolution=640x480&Quality=Standard"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/videostream.cgi": [
+          "resolution=8&rate=13"
+        ]
+      },
+      "JPEG": {
+        "/tmpfs/auto.jpg": [],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&count=0",
+          "camera=[CHANNEL]",
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/snap.jpg": [
+          "JpegSize=XL",
+          "JpegCam=[CHANNEL]"
+        ],
+        "/image.jpg": [],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/cgi-bin/CGIProxy.fcgi": [
+          "cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&"
+        ],
+        "/video.cgi": [],
+        "/now.jpg": [],
+        "/mjpg/[CHANNEL]/video.mjpg": [],
+        "/[CHANNEL]": []
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&password=[PASSWORD]",
+          "rate=11",
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+          "rate=0"
+        ],
+        "/user/videostream.cgi": [],
+        "/video.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]",
+          "resolution=VGA"
+        ],
+        "/VIDEO.CGI": [],
+        "/cgi-bin/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/mjpeg.cgi": [],
+        "/axis-cgi/mjpg/video.cgi": [],
+        "/nphMotionJpeg": [
+          "Resolution=640x480&Quality=Standard"
+        ]
+      }
     },
     "models": [
       "**1USETHIS",
@@ -159,7 +175,6 @@
       "MINI10D",
       "MITSOS",
       "MOJA",
-      "OTHER",
       "OURS",
       "OURS2",
       "PALLERO",
@@ -176,13 +191,13 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11",
-        "/live_h264.sdp",
-        "/12",
-        "/Streaming/Channels/1",
-        "/cam1/onvif-h264-1"
-      ]
+      "H.264": {
+        "/11": [],
+        "/live_h264.sdp": [],
+        "/12": [],
+        "/Streaming/Channels/1": [],
+        "/cam1/onvif-h264-1": []
+      }
     },
     "models": [
       "109",
@@ -225,7 +240,6 @@
       "IP-CAMERA",
       "JY-V136",
       "MINI10D",
-      "OTHER",
       "OURCAM",
       "POLE",
       "V10R",

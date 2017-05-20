@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "RS7518"

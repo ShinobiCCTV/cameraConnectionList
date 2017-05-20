@@ -1,17 +1,20 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?rate=11"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "rate=11"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
-      "GJC02",
-      "OTHER"
+      "GJC02"
     ]
   }
 }

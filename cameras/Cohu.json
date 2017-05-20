@@ -1,23 +1,24 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/stream1",
-        "/11"
-      ]
+      "H.264": {
+        "/stream1": [],
+        "/11": []
+      }
     },
     "models": [
       "3940",
       "3940HD",
-      "3960",
-      "OTHER"
+      "3960"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?1"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "1"
+        ]
+      }
     },
     "models": [
       "3960HD"

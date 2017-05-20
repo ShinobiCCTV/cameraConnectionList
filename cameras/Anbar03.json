@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Onvif/live/1/1"
-      ]
+      "H.264": {
+        "/Onvif/live/1/1": []
+      }
     },
     "models": [
       "KANDD"

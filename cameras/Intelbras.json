@@ -1,20 +1,25 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?1"
-      ],
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]",
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+          "1"
+        ],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": [
+          "camera=[CHANNEL]",
+          "date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "BR_1",
-      "OTHER",
       "S4120",
       "VIP",
       "VIP4120",
@@ -27,13 +32,12 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam/realmonitor"
-      ]
+      "H.264": {
+        "/cam/realmonitor": []
+      }
     },
     "models": [
       "INNOVAR",
-      "OTHER",
       "S3020",
       "S3120",
       "VIP",

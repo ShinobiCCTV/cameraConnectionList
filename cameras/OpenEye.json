@@ -1,12 +1,12 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.cgi?resolution=8&rate=13"
-      ]
+      "H.264": {
+        "/videostream.cgi": [
+          "resolution=8&rate=13"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

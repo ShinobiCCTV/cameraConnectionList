@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/mjpeg_vga.sdp"
-      ]
+      "H.264": {
+        "/mjpeg_vga.sdp": []
+      }
     },
     "models": [
       "NC220"

@@ -1,12 +1,10 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=tGBeMCel_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/user=admin_password=tGBeMCel_channel=1_stream=0.sdp": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

@@ -1,40 +1,42 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Streaming/Channels/101",
-        "/Streaming/Channels/1",
-        "/11",
-        "/Streaming/Channels/2",
-        "/Streaming/Channels/102",
-        "/rtsph2641080p",
-        "/h264",
-        "/video.h264",
-        "/Streaming/Channels/103",
-        "/videoMain",
-        "/Streaming/channels/101",
-        "/onvif/live/2",
-        "/live/av0",
-        "/cam/realmonitor",
-        "/cam1/onvif-h264",
-        "/ucast/11",
-        "/H264",
-        "/mpeg4/media.amp?resolution=640x480",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/1",
-        "/user=admin&password=rmQlkhqc&channel=1&stream=0.sdp",
-        "/Streaming/Unicast/channels/101",
-        "/Streaming/Channels/401",
-        "/Streaming/Channels/501",
-        "/Streaming/Channels/301",
-        "/Streaming/channels/102",
-        "/Streaming/channels/201",
-        "/av0_1",
-        "/user=admin_password=jgjJkIr0_channel=1_stream=0.sdp"
-      ],
-      "MJPEG": [
-        "/cam[CHANNEL]/mjpeg"
-      ]
+      "H.264": {
+        "/Streaming/Channels/101": [],
+        "/Streaming/Channels/1": [],
+        "/11": [],
+        "/Streaming/Channels/2": [],
+        "/Streaming/Channels/102": [],
+        "/rtsph2641080p": [],
+        "/h264": [],
+        "/video.h264": [],
+        "/Streaming/Channels/103": [],
+        "/videoMain": [],
+        "/Streaming/channels/101": [],
+        "/onvif/live/2": [],
+        "/live/av0": [],
+        "/cam/realmonitor": [],
+        "/cam1/onvif-h264": [],
+        "/ucast/11": [],
+        "/H264": [],
+        "/mpeg4/media.amp": [
+          "resolution=640x480"
+        ],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/1": [],
+        "/user=admin&password=rmQlkhqc&channel=1&stream=0.sdp": [],
+        "/Streaming/Unicast/channels/101": [],
+        "/Streaming/Channels/401": [],
+        "/Streaming/Channels/501": [],
+        "/Streaming/Channels/301": [],
+        "/Streaming/channels/102": [],
+        "/Streaming/channels/201": [],
+        "/av0_1": [],
+        "/user=admin_password=jgjJkIr0_channel=1_stream=0.sdp": []
+      },
+      "MJPEG": {
+        "/cam[CHANNEL]/mjpeg": []
+      }
     },
     "models": [
       "000",
@@ -344,7 +346,6 @@
       "IPTZ18X1H",
       "IRMINIBULLET",
       "NC312-MD",
-      "OTHER",
       "SC-303-MD",
       "SOUTH",
       "TOP-201",
@@ -353,24 +354,42 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/img/snapshot.cgi?size=2",
-        "/image/jpeg.cgi",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
-        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi/mjpg/mjpeg.cgi"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ],
+        "/cgi-bin/encoder": [
+          "USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/image/jpeg.cgi": [],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      },
+      "MJPEG": {
+        "/api/mjpegvideo.cgi": [
+          "InputNumber=1&StreamNumber=[CHANNEL]"
+        ],
+        "/cgi-bin/video.jpg": [
+          "cam=[CHANNEL]&quality=3&size=2"
+        ],
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi/mjpg/mjpeg.cgi": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      }
     },
     "models": [
       "2014",
@@ -389,8 +408,7 @@
       "DS-2D5174-A",
       "DS-2DF7286-A",
       "FFMPEGSUBSTREAM",
-      "IP-103",
-      "OTHER"
+      "IP-103"
     ]
   }
 }

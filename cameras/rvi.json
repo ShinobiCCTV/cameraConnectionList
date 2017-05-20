@@ -1,17 +1,16 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Streaming/Channels/1",
-        "/Streaming/Channels/2",
-        "/Streaming/channels/101",
-        "/Streaming/channels/201"
-      ]
+      "H.264": {
+        "/Streaming/Channels/1": [],
+        "/Streaming/Channels/2": [],
+        "/Streaming/channels/101": [],
+        "/Streaming/channels/201": []
+      }
     },
     "models": [
       "IPC11S",
       "IPS12SW",
-      "OTHER",
       "-IPC12SW",
       "ZAL"
     ]

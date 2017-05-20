@@ -1,14 +1,15 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/Jpeg/CamImg.jpg"
-      ]
+      "JPEG": {
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/Jpeg/CamImg.jpg": []
+      }
     },
     "models": [
       "IV-R0422",
-      "OTHER",
       "RYK-9324"
     ]
   }

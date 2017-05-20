@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/video.pro1"
-      ]
+      "H.264": {
+        "/video.pro1": []
+      }
     },
     "models": [
       "ZAVIO"

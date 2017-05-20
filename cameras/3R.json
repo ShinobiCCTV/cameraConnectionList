@@ -1,16 +1,17 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ],
-      "JPEG": [
-        "/current[CHANNEL].jpg",
-        "/image/[CHANNEL].jpg"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/current[CHANNEL].jpg": [],
+        "/image/[CHANNEL].jpg": []
+      }
     },
     "models": [
-      "OTHER",
       "PRESTIGEDVR",
       "PRESTİGEDVR"
     ]

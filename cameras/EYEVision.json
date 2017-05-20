@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/tmpfs/auto.jpg"
-      ]
+      "JPEG": {
+        "/tmpfs/auto.jpg": []
+      }
     },
     "models": [
       "EV-100D36IPC",
@@ -13,9 +13,9 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11"
-      ]
+      "H.264": {
+        "/11": []
+      }
     },
     "models": [
       "EV-IP100M"

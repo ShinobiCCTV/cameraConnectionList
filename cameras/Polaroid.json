@@ -1,24 +1,35 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.cgi?resolution=8&rate=13"
-      ],
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?rate=0",
-        "/videostream.cgi?rate=11",
-        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-        "/video.cgi?resolution=VGA",
-        "/videofeed"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ],
+        "/videostream.cgi": [
+          "resolution=8&rate=13"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=0",
+          "rate=11",
+          "user=[USERNAME]&password=[PASSWORD]"
+        ],
+        "/video.cgi": [
+          "resolution=VGA"
+        ],
+        "/videofeed": []
+      }
     },
     "models": [
       "2.6",
@@ -45,7 +56,6 @@
       "IP-810RW",
       "IP-810W",
       "IP-810WZ",
-      "OTHER",
       "POLIP101W",
       "POLIP201B",
       "POLIP201W",

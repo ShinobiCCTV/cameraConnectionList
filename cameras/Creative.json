@@ -1,23 +1,25 @@
-﻿{
+{
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "JPEG": [
-        "/getcam",
-        "/image.jpg"
-      ],
-      "MJPEG": [
-        "/video?submenu=mjpg"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/getcam": [],
+        "/image.jpg": []
+      },
+      "MJPEG": {
+        "/video": [
+          "submenu=mjpg"
+        ]
+      }
     },
     "models": [
       "BEST",
       "LIVEWIRELESS",
       "LİVEWİRELESS",
-      "OTHER",
       "PC-CAM750"
     ]
   }

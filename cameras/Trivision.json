@@ -1,15 +1,21 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/stream.jpg",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/cgi/mjpg/mjpeg.cgi"
-      ],
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "MJPEG": {
+        "/stream.jpg": [],
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/video.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/cgi/mjpg/mjpeg.cgi": []
+      },
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "MFC-228WF",
@@ -28,16 +34,15 @@
       "NC-336PWHD1080",
       "NC-336PW-HD-1080P",
       "NC-336W-HD-1080P",
-      "OTHER",
       "TV-IP110WN"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live/0/onvif.sdp",
-        "/ch1/stream0"
-      ]
+      "H.264": {
+        "/live/0/onvif.sdp": [],
+        "/ch1/stream0": []
+      }
     },
     "models": [
       "NC-239WF",

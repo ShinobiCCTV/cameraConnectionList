@@ -1,11 +1,11 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11",
-        "/12",
-        "/cam1/onvif-h264"
-      ]
+      "H.264": {
+        "/11": [],
+        "/12": [],
+        "/cam1/onvif-h264": []
+      }
     },
     "models": [
       "1.3MEGADOME",
@@ -26,23 +26,24 @@
       "MD712-POE",
       "MYM7",
       "MYM7I",
-      "NEWNORTHCAMERA",
-      "OTHER"
+      "NEWNORTHCAMERA"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot_ch0[CHANNEL].jpg",
-        "/snapshot_ch[CHANNEL].jpg",
-        "/tmpfs/auto.jpg"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ],
-      "MJPEG": [
-        "/video/mjpg.cgi"
-      ]
+      "JPEG": {
+        "/snapshot_ch0[CHANNEL].jpg": [],
+        "/snapshot_ch[CHANNEL].jpg": [],
+        "/tmpfs/auto.jpg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      },
+      "MJPEG": {
+        "/video/mjpg.cgi": []
+      }
     },
     "models": [
       "550TVL",

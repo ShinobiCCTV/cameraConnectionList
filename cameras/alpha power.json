@@ -1,14 +1,13 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cgi/mjpg/mjpeg.cgi",
-        "/videofeed"
-      ]
+      "MJPEG": {
+        "/cgi/mjpg/mjpeg.cgi": [],
+        "/videofeed": []
+      }
     },
     "models": [
-      "FIC-AM101",
-      "OTHER"
+      "FIC-AM101"
     ]
   }
 }

@@ -1,27 +1,32 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/img/snapshot.cgi?size=2",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]",
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "1_MPX1",
       "2MPX",
       "2MPX1",
-      "2MPX2",
-      "OTHER"
+      "2MPX2"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/mpeg4cif",
-        "/mpeg4"
-      ]
+      "H.264": {
+        "/mpeg4cif": [],
+        "/mpeg4": []
+      }
     },
     "models": [
       "JENCMPP205"

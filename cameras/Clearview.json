@@ -1,12 +1,16 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]"
-      ],
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?1"
-      ]
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": [
+          "camera=[CHANNEL]"
+        ]
+      },
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "1"
+        ]
+      }
     },
     "models": [
       "IP-70",

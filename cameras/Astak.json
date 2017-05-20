@@ -1,25 +1,28 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/GetStream.cgi?Video=[CHANNEL]",
-        "/tmpfs/auto.jpg",
-        "/snap.jpg?JpegCam=[CHANNEL]"
-      ],
-      "H.264": [
-        "/videostream.asf"
-      ],
-      "MJPEG": [
-        "/cgi-bin/sf.cgi"
-      ]
+      "JPEG": {
+        "/GetStream.cgi": [
+          "Video=[CHANNEL]"
+        ],
+        "/tmpfs/auto.jpg": [],
+        "/snap.jpg": [
+          "JpegCam=[CHANNEL]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": []
+      },
+      "MJPEG": {
+        "/cgi-bin/sf.cgi": []
+      }
     },
     "models": [
       "CM-818DVR4V",
       "IP-700",
       "MOLE",
       "MOLESCOTT",
-      "MOLE2",
-      "OTHER"
+      "MOLE2"
     ]
   }
 }

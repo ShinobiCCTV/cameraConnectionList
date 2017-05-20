@@ -1,22 +1,23 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-        "/user/videostream.cgi",
-        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?rate=11",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?",
-        "/videostream.cgi",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/videostream.cgi?rate=0"
-      ]
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&password=[PASSWORD]",
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "rate=11",
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+          "rate=0"
+        ],
+        "/user/videostream.cgi": []
+      }
     },
     "models": [
       "JK-C7823W",

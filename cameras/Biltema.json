@@ -1,13 +1,12 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11"
-      ]
+      "H.264": {
+        "/11": []
+      }
     },
     "models": [
       "IP-KAMERA",
-      "OTHER",
       "PIHA",
       "VETEJ"
     ]

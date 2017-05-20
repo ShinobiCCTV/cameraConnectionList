@@ -1,16 +1,16 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/video.jpg",
-        "/cgi-bin/video.jpg?size=2"
-      ]
+      "JPEG": {
+        "/cgi-bin/video.jpg": [
+          "size=2"
+        ]
+      }
     },
     "models": [
       "ANC-800",
       "ANC-800V",
-      "ANC-808V",
-      "OTHER"
+      "ANC-808V"
     ]
   }
 }

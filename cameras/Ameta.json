@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam/realmonitor"
-      ]
+      "H.264": {
+        "/cam/realmonitor": []
+      }
     },
     "models": [
       "EYEONET7942"
@@ -11,20 +11,25 @@
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ]
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": [
+          "camera=1&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      }
     },
     "models": [
       "IP9118-28",
-      "IP9313-28",
-      "OTHER"
+      "IP9313-28"
     ]
   }
 }

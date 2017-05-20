@@ -1,17 +1,20 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/Image.jpg",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/image.cgi?CAPTURE=YES&STREAM=1&COMMAND="
-      ]
+      "JPEG": {
+        "/Image.jpg": [],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ]
+      },
+      "MJPEG": {
+        "/image.cgi": [
+          "CAPTURE=YES&STREAM=1&COMMAND="
+        ]
+      }
     },
     "models": [
-      "IVIEWHD",
-      "OTHER"
+      "IVIEWHD"
     ]
   }
 }

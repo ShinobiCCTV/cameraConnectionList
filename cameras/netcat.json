@@ -1,11 +1,11 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11",
-        "/12",
-        "/user=admin_password=l5o5gWYt_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/11": [],
+        "/12": [],
+        "/user=admin_password=l5o5gWYt_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
       "1080P",
@@ -20,9 +20,9 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/tmpfs/auto.jpg"
-      ]
+      "JPEG": {
+        "/tmpfs/auto.jpg": []
+      }
     },
     "models": [
       "C01H1W2",

@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/GetImage.cgi"
-      ]
+      "JPEG": {
+        "/GetImage.cgi": []
+      }
     },
     "models": [
       "LX-515SH"

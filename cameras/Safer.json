@@ -1,12 +1,11 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/stander/livestream/0/0"
-      ]
+      "H.264": {
+        "/stander/livestream/0/0": []
+      }
     },
     "models": [
-      "OTHER",
       "SN3216",
       "SN326P"
     ]

@@ -1,45 +1,58 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/image.jpg",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi",
-        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/IMAGE.JPG",
-        "/jpg/image.jpg?size=3",
-        "/snapshot.cgi?",
-        "/cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
-        "/cgi-bin/guest/Video.cgi?media=JPEG",
-        "/current[CHANNEL].jpg"
-      ],
-      "H.264": [
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.cgi?resolution=8&rate=13",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ],
-      "MJPEG": [
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/mjpeg.cgi",
-        "/videostream.cgi?rate=11",
-        "/MJPEG.CGI",
-        "/videostream.cgi",
-        "/video.cgi?resolution=VGA",
-        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/VIDEO.CGI",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-        "/videostream.cgi?rate=0",
-        "/videostream.cgi?",
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/image.jpg": [],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/video_snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/IMAGE.JPG": [],
+        "/jpg/image.jpg": [
+          "size=3"
+        ],
+        "/cgi-bin/guest/Video.cgi": [
+          "media=JPEG&channel=[CHANNEL]",
+          "media=JPEG"
+        ],
+        "/current[CHANNEL].jpg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ],
+        "/videostream.cgi": [
+          "resolution=8&rate=13"
+        ]
+      },
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]",
+          "resolution=VGA"
+        ],
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "rate=11",
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&password=[PASSWORD]",
+          "rate=0"
+        ],
+        "/mjpeg.cgi": [],
+        "/MJPEG.CGI": [],
+        "/VIDEO.CGI": [],
+        "/GetData.cgi": [
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "700IP",
@@ -79,15 +92,14 @@
       "FISHGRIND",
       "IP901",
       "IP903",
-      "OPRIT",
-      "OTHER"
+      "OPRIT"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/av0_1"
-      ]
+      "H.264": {
+        "/av0_1": []
+      }
     },
     "models": [
       "C723IP"

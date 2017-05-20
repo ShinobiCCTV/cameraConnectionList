@@ -1,12 +1,16 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/img/snapshot.cgi?size=2"
-      ],
-      "MJPEG": [
-        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      },
+      "MJPEG": {
+        "/cgi-bin/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "DVC-150IP"

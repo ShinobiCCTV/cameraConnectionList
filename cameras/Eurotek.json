@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
-      ]
+      "MJPEG": {
+        "/GetData.cgi": [
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "HTIPB20"

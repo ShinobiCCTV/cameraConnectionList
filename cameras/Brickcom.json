@@ -1,17 +1,20 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/channel2",
-        "/Channel[CHANNEL]"
-      ],
-      "JPEG": [
-        "/snapshot.jpg",
-        "/cgi-bin/media.cgi?action=getSnapshot",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "MJPEG": {
+        "/channel2": [],
+        "/Channel[CHANNEL]": []
+      },
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+          "account=[USERNAME]&password=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/media.cgi": [
+          "action=getSnapshot"
+        ]
+      }
     },
     "models": [
       "100B-AP",
@@ -30,7 +33,6 @@
       "OB-300AF",
       "OB-300AP",
       "OB-E200NF",
-      "OTHER",
       "PANOMORPHMINIDOME",
       "VD-130AE",
       "VD-301AF",
@@ -45,11 +47,11 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/ONVIF/channel2",
-        "/ONVIF/channel1",
-        "/h264"
-      ]
+      "H.264": {
+        "/ONVIF/channel2": [],
+        "/ONVIF/channel1": [],
+        "/h264": []
+      }
     },
     "models": [
       "150",
@@ -62,7 +64,6 @@
       "FD-130AE",
       "OB-200AF-A1-V5",
       "OB-500AF",
-      "OTHER",
       "VD-300AF",
       "VD-302NP",
       "VD-500AF",

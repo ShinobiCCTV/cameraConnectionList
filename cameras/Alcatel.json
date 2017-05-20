@@ -1,10 +1,10 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videofeed",
-        "/video.mjpg"
-      ]
+      "MJPEG": {
+        "/videofeed": [],
+        "/video.mjpg": []
+      }
     },
     "models": [
       "6055U",

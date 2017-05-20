@@ -1,23 +1,23 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Streaming/channels/702",
-        "/Streaming/Unicast/channels/1301",
-        "/Streaming/channels/201",
-        "/Streaming/channels/101",
-        "/Streaming/channels/301",
-        "/Streaming/channels/401",
-        "/Streaming/channels/501",
-        "/Streaming/channels/601",
-        "/Streaming/Unicast/channels/101",
-        "/Streaming/Unicast/channels/201",
-        "/Streaming/Unicast/channels/301",
-        "/Streaming/Unicast/channels/401",
-        "/Streaming/channels/502",
-        "/Streaming/channels/802",
-        "/Streaming/Unicast/channels/801"
-      ]
+      "H.264": {
+        "/Streaming/channels/702": [],
+        "/Streaming/Unicast/channels/1301": [],
+        "/Streaming/channels/201": [],
+        "/Streaming/channels/101": [],
+        "/Streaming/channels/301": [],
+        "/Streaming/channels/401": [],
+        "/Streaming/channels/501": [],
+        "/Streaming/channels/601": [],
+        "/Streaming/Unicast/channels/101": [],
+        "/Streaming/Unicast/channels/201": [],
+        "/Streaming/Unicast/channels/301": [],
+        "/Streaming/Unicast/channels/401": [],
+        "/Streaming/channels/502": [],
+        "/Streaming/channels/802": [],
+        "/Streaming/Unicast/channels/801": []
+      }
     },
     "models": [
       "1234",
@@ -47,7 +47,6 @@
       "HIKVISION16CHANALOGICO",
       "HIKVISIONHD2.0",
       "LTSONVIFCH2",
-      "OTHER",
       "OUTSIDE",
       "SC16IP",
       "TRY"

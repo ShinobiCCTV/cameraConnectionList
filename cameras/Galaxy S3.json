@@ -1,14 +1,15 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videofeed",
-        "/video?profile=[CHANNEL]"
-      ]
+      "MJPEG": {
+        "/videofeed": [],
+        "/video": [
+          "profile=[CHANNEL]"
+        ]
+      }
     },
     "models": [
-      "IPWEBCAM",
-      "OTHER"
+      "IPWEBCAM"
     ]
   }
 }

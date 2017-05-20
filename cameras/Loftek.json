@@ -1,39 +1,50 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.cgi?resolution=8&rate=13",
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.asf",
-        "/goform/video"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?rate=0",
-        "/videostream.cgi?rate=11",
-        "/video.cgi?resolution=VGA",
-        "/video.cgi",
-        "/videostream.cgi",
-        "/videostream.cgi?",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "JPEG": [
-        "/snapshot.cgi",
-        "/tmpfs/auto.jpg",
-        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/snap.jpg",
-        "/snapshot.cgi?camera=[CHANNEL]",
-        "/cgi-bin/mobile_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/videostream.cgi": [
+          "resolution=8&rate=13"
+        ],
+        "/goform/video": []
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=0",
+          "rate=11",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&password=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/video.cgi": [
+          "resolution=VGA",
+          "resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.cgi": [
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "camera=[CHANNEL]"
+        ],
+        "/tmpfs/auto.jpg": [],
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ],
+        "/snap.jpg": [],
+        "/cgi-bin/mobile_snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "2040",
@@ -54,7 +65,6 @@
       "2200",
       "NEXUS543",
       "NEXUS543CUSTOM",
-      "OTHER",
       "OUTSIDE",
       "SENDINELD1",
       "SENTINEL",

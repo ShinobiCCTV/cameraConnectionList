@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "238BDP-POE"
@@ -11,9 +13,9 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/mpeg4"
-      ]
+      "H.264": {
+        "/mpeg4": []
+      }
     },
     "models": [
       "IPC-115HAP"

@@ -1,22 +1,24 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "MJPEG": [
-        "/cgi-bin/Stream?Video"
-      ],
-      "JPEG": [
-        "/current[CHANNEL].jpg",
-        "/cgi-bin/viewer/video.jpg"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "MJPEG": {
+        "/cgi-bin/Stream": [
+          "Video"
+        ]
+      },
+      "JPEG": {
+        "/current[CHANNEL].jpg": [],
+        "/cgi-bin/viewer/video.jpg": []
+      }
     },
     "models": [
       "200",
-      "NT-IPC360",
-      "OTHER"
+      "NT-IPC360"
     ]
   }
 }

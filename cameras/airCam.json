@@ -1,24 +1,31 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/video.cgi?resolution=VGA",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-        "/cgi/mjpg/mjpeg.cgi"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ]
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&count=0",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=VGA",
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/mjpeg.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
+        ],
+        "/cgi/mjpg/mjpeg.cgi": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      }
     },
     "models": [
       "OD-2025HD",
-      "OD-325HD",
-      "OTHER"
+      "OD-325HD"
     ]
   }
 }

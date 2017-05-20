@@ -1,13 +1,12 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/stream.sdp1"
-      ]
+      "H.264": {
+        "/stream.sdp1": []
+      }
     },
     "models": [
-      "IPVD-3MPVFIR",
-      "OTHER"
+      "IPVD-3MPVFIR"
     ]
   }
 }

@@ -1,18 +1,26 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/GetStream.cgi?Video=[CHANNEL]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/snapshot",
-        "/snap",
-        "/getimage",
-        "/cgi-bin/Stream?Video"
-      ],
-      "MJPEG": [
-        "/getimage[CHANNEL]",
-        "/getimage?camera=[CHANNEL]&fmt=vga"
-      ]
+      "JPEG": {
+        "/GetStream.cgi": [
+          "Video=[CHANNEL]"
+        ],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ],
+        "/snapshot": [],
+        "/snap": [],
+        "/getimage": [],
+        "/cgi-bin/Stream": [
+          "Video"
+        ]
+      },
+      "MJPEG": {
+        "/getimage[CHANNEL]": [],
+        "/getimage": [
+          "camera=[CHANNEL]&fmt=vga"
+        ]
+      }
     },
     "models": [
       "LILINDVR204",
@@ -22,15 +30,14 @@
       "LILINH.264HDCAMERA",
       "LILINIMEGAPROCAMERA",
       "LILINIPFASTDOME",
-      "LILINPDR-400",
-      "OTHER"
+      "LILINPDR-400"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/rtsph264"
-      ]
+      "H.264": {
+        "/rtsph264": []
+      }
     },
     "models": [
       "LILINIPFASTDOME"

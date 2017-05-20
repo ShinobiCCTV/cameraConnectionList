@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/dms?nowprofileid=2"
-      ]
+      "JPEG": {
+        "/dms": [
+          "nowprofileid=2"
+        ]
+      }
     },
     "models": [
       "DSC-2103"

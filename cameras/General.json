@@ -1,11 +1,11 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam/realmonitor",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/streaming/mjpeg"
-      ]
+      "H.264": {
+        "/cam/realmonitor": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/streaming/mjpeg": []
+      }
     },
     "models": [
       "0101",
@@ -72,7 +72,6 @@
       "MYZMODO",
       "NEW",
       "ONVIFCAMERAPARKINGCAMIONES",
-      "OTHER",
       "PTZ_CAM",
       "QVIS",
       "SMALL",
@@ -93,20 +92,27 @@
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": [
+          "camera=[CHANNEL]"
+        ],
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
-      "ICREALTIME",
-      "OTHER"
+      "ICREALTIME"
     ]
   }
 }

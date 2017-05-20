@@ -1,16 +1,16 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "JPEG": [
-        "/image.jpg"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "JPEG": {
+        "/image.jpg": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

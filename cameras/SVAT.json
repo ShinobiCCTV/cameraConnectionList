@@ -1,25 +1,34 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/GetStream.cgi?Video=[CHANNEL]",
-        "/cgi-bin/wappaint?camera_no=[CHANNEL]&animation=0&name=[USERNAME]&password=[PASSWORD]&pic_size=2",
-        "/Jpeg/CamImg.jpg",
-        "/out.jpg?id=0.5",
-        "/stillimg[CHANNEL].jpg"
-      ],
-      "MJPEG": [
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-        "/GetData.cgi?Status=false"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ]
+      "JPEG": {
+        "/GetStream.cgi": [
+          "Video=[CHANNEL]"
+        ],
+        "/cgi-bin/wappaint": [
+          "camera_no=[CHANNEL]&animation=0&name=[USERNAME]&password=[PASSWORD]&pic_size=2"
+        ],
+        "/Jpeg/CamImg.jpg": [],
+        "/out.jpg": [
+          "id=0.5"
+        ],
+        "/stillimg[CHANNEL].jpg": []
+      },
+      "MJPEG": {
+        "/GetData.cgi": [
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+          "Status=false"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      }
     },
     "models": [
       "CV-500",
-      "CV-501",
-      "OTHER"
+      "CV-501"
     ]
   }
 }

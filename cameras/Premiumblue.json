@@ -1,15 +1,16 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf"
-      ],
-      "JPEG": [
-        "/cgi-bin/viewer/video.jpg?resolution=640x480"
-      ]
+      "H.264": {
+        "/videostream.asf": []
+      },
+      "JPEG": {
+        "/cgi-bin/viewer/video.jpg": [
+          "resolution=640x480"
+        ]
+      }
     },
     "models": [
-      "OTHER",
       "PIPC-011"
     ]
   }

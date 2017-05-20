@@ -1,12 +1,16 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/cgi-bin/video_snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/cgi-bin/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "HD17"

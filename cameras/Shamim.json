@@ -1,12 +1,14 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.cgi?"
-      ],
-      "MJPEG": [
-        "/media/?action=stream"
-      ]
+      "JPEG": {
+        "/snapshot.cgi": []
+      },
+      "MJPEG": {
+        "/media/": [
+          "action=stream"
+        ]
+      }
     },
     "models": [
       "C50S",

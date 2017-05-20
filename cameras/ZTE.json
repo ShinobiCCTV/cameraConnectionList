@@ -1,23 +1,30 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videofeed",
-        "/video?submenu=mjpg",
-        "/video?profile=[CHANNEL]"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ],
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
-      ]
+      "MJPEG": {
+        "/videofeed": [],
+        "/video": [
+          "submenu=mjpg",
+          "profile=[CHANNEL]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "LITE",
       "N-860",
-      "OTHER",
       "SPEED",
       "Z-665G",
       "Z-667",

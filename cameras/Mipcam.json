@@ -1,16 +1,19 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": [
+          "account=[USERNAME]&password=[PASSWORD]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
-      "NKIP308-HD",
-      "OTHER"
+      "NKIP308-HD"
     ]
   }
 }

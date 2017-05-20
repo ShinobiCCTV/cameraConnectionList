@@ -1,25 +1,26 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/mjpg/1/video.mjpg",
-        "/mjpg/video.mjpg"
-      ],
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
-      ]
+      "MJPEG": {
+        "/mjpg/1/video.mjpg": [],
+        "/mjpg/video.mjpg": []
+      },
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ]
+      }
     },
     "models": [
-      "IC-42D63A",
-      "OTHER"
+      "IC-42D63A"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Streaming/Channels/101",
-        "/Streaming/Channels/1"
-      ]
+      "H.264": {
+        "/Streaming/Channels/101": [],
+        "/Streaming/Channels/1": []
+      }
     },
     "models": [
       "RBOF4-1",

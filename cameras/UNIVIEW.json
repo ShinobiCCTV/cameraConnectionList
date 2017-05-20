@@ -1,13 +1,13 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/media/video1",
-        "/media/video3",
-        "/media/video2",
-        "/11",
-        "/unicast/c1/s1/live"
-      ]
+      "H.264": {
+        "/media/video1": [],
+        "/media/video3": [],
+        "/media/video2": [],
+        "/11": [],
+        "/unicast/c1/s1/live": []
+      }
     },
     "models": [
       "1234",

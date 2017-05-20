@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/video.mjpg"
-      ]
+      "MJPEG": {
+        "/video.mjpg": []
+      }
     },
     "models": [
       "IPCAM25110"

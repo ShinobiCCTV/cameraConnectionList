@@ -1,20 +1,19 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi/jpg/image.cgi"
-      ],
-      "MJPEG": [
-        "/cgi/mjpg/mjpeg.cgi",
-        "/img/mjpeg.cgi"
-      ]
+      "JPEG": {
+        "/cgi/jpg/image.cgi": []
+      },
+      "MJPEG": {
+        "/cgi/mjpg/mjpeg.cgi": [],
+        "/img/mjpeg.cgi": []
+      }
     },
     "models": [
       "CS1300",
       "CS131",
       "CS1330",
-      "NETCAM",
-      "OTHER"
+      "NETCAM"
     ]
   }
 }

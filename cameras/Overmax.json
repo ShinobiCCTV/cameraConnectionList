@@ -1,13 +1,17 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/videofeed"
-      ]
+      "JPEG": {
+        "/cgi/snapshot.cgi": [
+          "action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+        ],
+        "/videofeed": []
+      }
     },
     "models": [
       "3.1",
@@ -18,13 +22,13 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/tcp/av0_0",
-        "/1.3gp",
-        "/live/ch0",
-        "/tcp/av0_1",
-        "/onvif2"
-      ]
+      "H.264": {
+        "/tcp/av0_0": [],
+        "/1.3gp": [],
+        "/live/ch0": [],
+        "/tcp/av0_1": [],
+        "/onvif2": []
+      }
     },
     "models": [
       "3.1",

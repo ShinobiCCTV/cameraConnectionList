@@ -1,16 +1,18 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/image.jpg"
-      ],
-      "MJPEG": [
-        "/cgi-bin/fwstream.cgi?ServerId=0&AppKey=0x331287e3&CameraId=[CHANNEL]&PortId=0&PauseTime=1&FwCgiVer=0x0001"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ],
+        "/image.jpg": []
+      },
+      "MJPEG": {
+        "/cgi-bin/fwstream.cgi": [
+          "ServerId=0&AppKey=0x331287e3&CameraId=[CHANNEL]&PortId=0&PauseTime=1&FwCgiVer=0x0001"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

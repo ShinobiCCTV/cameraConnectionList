@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/tmpfs/auto.jpg"
-      ]
+      "JPEG": {
+        "/tmpfs/auto.jpg": []
+      }
     },
     "models": [
       "1080P",
@@ -12,9 +12,9 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11"
-      ]
+      "H.264": {
+        "/11": []
+      }
     },
     "models": [
       "HT-N$K1080P-9313"

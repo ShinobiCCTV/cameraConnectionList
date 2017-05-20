@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.cgi?camera=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/snapshot.cgi": [
+          "camera=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "SVR-104"

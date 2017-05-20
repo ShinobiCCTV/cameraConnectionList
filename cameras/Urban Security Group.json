@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=6qAry1RO_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/user=admin_password=6qAry1RO_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
       "DK-7043S-GP-AF"

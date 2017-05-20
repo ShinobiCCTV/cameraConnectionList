@@ -1,20 +1,26 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/shot.jpg",
-        "/now.jpg",
-        "/capture[CHANNEL].jpg",
-        "/cam_1.jpg",
-        "/jpeg/qvga.jpg",
-        "/cgi-bin/jpg.cgi?refresh=0&channel=[CHANNEL]&id=[USERNAME]&pass=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]&oldbrowser=1",
-        "/?action=snapshot"
-      ],
-      "MJPEG": [
-        "/video?submenu=mjpg",
-        "/videofeed",
-        "/video?profile=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/shot.jpg": [],
+        "/now.jpg": [],
+        "/capture[CHANNEL].jpg": [],
+        "/cam_1.jpg": [],
+        "/jpeg/qvga.jpg": [],
+        "/cgi-bin/jpg.cgi": [
+          "refresh=0&channel=[CHANNEL]&id=[USERNAME]&pass=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]&oldbrowser=1"
+        ],
+        "/": [
+          "action=snapshot"
+        ]
+      },
+      "MJPEG": {
+        "/video": [
+          "submenu=mjpg",
+          "profile=[CHANNEL]"
+        ],
+        "/videofeed": []
+      }
     },
     "models": [
       "ALCATEL",
@@ -45,7 +51,6 @@
       "MOTO",
       "MOTOROLAPHOTON",
       "MOTOX",
-      "OTHER",
       "QMOBILE",
       "S6500",
       "SAMSUNG",

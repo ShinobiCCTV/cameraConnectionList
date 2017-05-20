@@ -1,17 +1,17 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live0.264",
-        "/live1.264",
-        "/cam1/onvif-h264-1",
-        "/live/ch0",
-        "/onvif1",
-        "/11",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/ch01.264",
-        "/ucast/11"
-      ]
+      "H.264": {
+        "/live0.264": [],
+        "/live1.264": [],
+        "/cam1/onvif-h264-1": [],
+        "/live/ch0": [],
+        "/onvif1": [],
+        "/11": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/ch01.264": [],
+        "/ucast/11": []
+      }
     },
     "models": [
       "11_19_15",
@@ -65,19 +65,20 @@
       "MD1B",
       "MP2",
       "NONE",
-      "OTHER",
       "P720D",
       "VOOR"
     ]
   },
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "JPEG": [
-        "/tmpfs/auto.jpg"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "JPEG": {
+        "/tmpfs/auto.jpg": []
+      }
     },
     "models": [
       "1M1W",

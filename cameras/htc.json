@@ -1,17 +1,20 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videofeed",
-        "/video?submenu=mjpg",
-        "/video?profile=[CHANNEL]",
-        "/mjpeg",
-        "/mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0"
-      ],
-      "JPEG": [
-        "/shot.jpg",
-        "/now.jpg"
-      ]
+      "MJPEG": {
+        "/videofeed": [],
+        "/video": [
+          "submenu=mjpg",
+          "profile=[CHANNEL]"
+        ],
+        "/mjpeg": [
+          "res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0"
+        ]
+      },
+      "JPEG": {
+        "/shot.jpg": [],
+        "/now.jpg": []
+      }
     },
     "models": [
       "100",
@@ -49,7 +52,6 @@
       "ONEMINI",
       "ONEVIPCAM",
       "ONEX",
-      "OTHER",
       "PERSONALPHONE",
       "S",
       "SAMSUNGGALAXYS",

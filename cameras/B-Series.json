@@ -1,24 +1,32 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf",
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ],
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/img/snapshot.cgi?size=2",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?rate=0",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "002AKSG",
@@ -29,7 +37,6 @@
       "B-1",
       "B-2",
       "CV-IP546PT",
-      "OTHER",
       "REECAMIP",
       "SKOVGAARD"
     ]

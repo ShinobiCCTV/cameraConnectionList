@@ -1,13 +1,13 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=mRQjS4l8_channel=1_stream=0.sdp",
-        "/user=admin_password=3JVJrc12_channel=1_stream=0.sdp",
-        "/user=admin_password=3JVJrc12_channel=1_stream=1.sdp",
-        "/user=admin_password=Oz9XUN7i_channel=1_stream=1.sdp",
-        "/user=admin_password=Oz9XUN7i_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/user=admin_password=mRQjS4l8_channel=1_stream=0.sdp": [],
+        "/user=admin_password=3JVJrc12_channel=1_stream=0.sdp": [],
+        "/user=admin_password=3JVJrc12_channel=1_stream=1.sdp": [],
+        "/user=admin_password=Oz9XUN7i_channel=1_stream=1.sdp": [],
+        "/user=admin_password=Oz9XUN7i_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
       "006",

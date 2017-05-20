@@ -1,13 +1,17 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.cgi",
-        "/img/snapshot.cgi?size=2"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/snapshot.cgi": [],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "IP2521"

@@ -1,13 +1,13 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live/ch0",
-        "/tcp/av0_0",
-        "/ROH/channel/11",
-        "/ucast/11",
-        "/live/ch1"
-      ]
+      "H.264": {
+        "/live/ch0": [],
+        "/tcp/av0_0": [],
+        "/ROH/channel/11": [],
+        "/ucast/11": [],
+        "/live/ch1": []
+      }
     },
     "models": [
       "10809",
@@ -21,7 +21,6 @@
       "IPCAMERA1080P",
       "MINIIPCAM",
       "MINIIPCAMERA",
-      "OTHER",
       "SMARTP2P",
       "XSERIES",
       "XSERIESIPCAMERA"
@@ -29,12 +28,16 @@
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?rate=11",
-        "/cgi/mjpg/mjpeg.cgi"
-      ]
+      "MJPEG": {
+        "/mjpeg.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
+        ],
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "rate=11"
+        ],
+        "/cgi/mjpg/mjpeg.cgi": []
+      }
     },
     "models": [
       "720P",

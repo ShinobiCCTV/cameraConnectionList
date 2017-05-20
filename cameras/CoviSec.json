@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/stillimg[CHANNEL].jpg"
-      ]
+      "JPEG": {
+        "/stillimg[CHANNEL].jpg": []
+      }
     },
     "models": [
       "ALD-400HKW/WEBPORT"

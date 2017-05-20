@@ -1,18 +1,18 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/goform/video"
-      ],
-      "MJPEG": [
-        "/img/mjpeg.jpg",
-        "/videofeed",
-        "/goform/video"
-      ],
-      "JPEG": [
-        "/shot.jpg",
-        "/image.jpg"
-      ]
+      "H.264": {
+        "/goform/video": []
+      },
+      "MJPEG": {
+        "/img/mjpeg.jpg": [],
+        "/videofeed": [],
+        "/goform/video": []
+      },
+      "JPEG": {
+        "/shot.jpg": [],
+        "/image.jpg": []
+      }
     },
     "models": [
       "F7D7601V1",
@@ -25,7 +25,6 @@
       "NETCAMHDX",
       "NETCAMHDXX",
       "OPEN",
-      "OTHER",
       "WIFINETCAM"
     ]
   }

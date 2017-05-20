@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snap.jpg?JpegSize=M"
-      ]
+      "JPEG": {
+        "/snap.jpg": [
+          "JpegSize=M"
+        ]
+      }
     },
     "models": [
       "1080",
@@ -31,20 +33,20 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/user=admin_password=BvWV3bYk_channel=1_stream=0.sdp",
-        "/user=admin_password=phffTFE8_channel=1_stream=0.sdp",
-        "/user=admin&password=tlJwpbo6&channel=1&stream=0.sdp",
-        "/user=admin_password=DTsbD3QC_channel=1_stream=0.sdp",
-        "/user=admin_password=t54NyleR_channel=1_stream=0.sdp",
-        "/0",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp",
-        "/user=admin_password=npz7PAyv_channel=1_stream=1.sdp",
-        "/user=admin_password=npz7PAyv_channel=1_stream=0.sdp",
-        "/user=admin_password=2GS7u3ot_channel=1_stream=0.sdp",
-        "/user=admin_password=goLZJEp6_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/user=admin_password=BvWV3bYk_channel=1_stream=0.sdp": [],
+        "/user=admin_password=phffTFE8_channel=1_stream=0.sdp": [],
+        "/user=admin&password=tlJwpbo6&channel=1&stream=0.sdp": [],
+        "/user=admin_password=DTsbD3QC_channel=1_stream=0.sdp": [],
+        "/user=admin_password=t54NyleR_channel=1_stream=0.sdp": [],
+        "/0": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp": [],
+        "/user=admin_password=npz7PAyv_channel=1_stream=1.sdp": [],
+        "/user=admin_password=npz7PAyv_channel=1_stream=0.sdp": [],
+        "/user=admin_password=2GS7u3ot_channel=1_stream=0.sdp": [],
+        "/user=admin_password=goLZJEp6_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
       "1280*720P",
@@ -71,7 +73,6 @@
       "MINI",
       "ONVIF",
       "ONVIF1280X768",
-      "OTHER",
       "X000QY76TT"
     ]
   }

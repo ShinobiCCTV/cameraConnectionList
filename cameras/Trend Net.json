@@ -1,47 +1,64 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/image.jpg",
-        "/cgi/jpg/image.cgi",
-        "/image/jpeg.cgi",
-        "/cgi-bin/video.jpg",
-        "/goform/video2",
-        "/Image.jpg",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/jpg/image.jpg?size=3",
-        "/img/snapshot.cgi?size=2",
-        "/goform/capture",
-        "/cgi-bin/viewer/video.jpg?resolution=640x480"
-      ],
-      "MJPEG": [
-        "/video.cgi",
-        "/cgi/mjpg/mjpeg.cgi",
-        "/cgi/mjpg/mjpg.cgi",
-        "/MJPEG.CGI",
-        "/video.cgi?resolution=VGA",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/VIDEO.CGI",
-        "/video/mjpg.cgi",
-        "/api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]",
-        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-        "/mjpeg.cgi",
-        "/videofeed",
-        "/goform/video2",
-        "/view2.cgi?profile=5",
-        "/GetData.cgi",
-        "/mjpg/1/video.mjpg",
-        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
-        "/img/video.mjpeg"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf",
-        "/goform/video",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ]
+      "JPEG": {
+        "/image.jpg": [],
+        "/cgi/jpg/image.cgi": [],
+        "/image/jpeg.cgi": [],
+        "/cgi-bin/video.jpg": [],
+        "/goform/video2": [],
+        "/Image.jpg": [],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ],
+        "/jpg/image.jpg": [
+          "size=3"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/goform/capture": [],
+        "/cgi-bin/viewer/video.jpg": [
+          "resolution=640x480"
+        ]
+      },
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=VGA",
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/cgi/mjpg/mjpeg.cgi": [],
+        "/cgi/mjpg/mjpg.cgi": [],
+        "/MJPEG.CGI": [],
+        "/VIDEO.CGI": [],
+        "/video/mjpg.cgi": [],
+        "/api/mjpegvideo.cgi": [
+          "InputNumber=1&StreamNumber=[CHANNEL]"
+        ],
+        "/mjpeg.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
+        ],
+        "/videofeed": [],
+        "/goform/video2": [],
+        "/view2.cgi": [
+          "profile=5"
+        ],
+        "/GetData.cgi": [],
+        "/mjpg/1/video.mjpg": [],
+        "/cgi-bin/video.jpg": [
+          "cam=[CHANNEL]&quality=3&size=2"
+        ],
+        "/img/video.mjpeg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ],
+        "/goform/video": []
+      }
     },
     "models": [
       "100",
@@ -101,7 +118,6 @@
       "IP-TV422",
       "IP-TV422W",
       "IPV-422WN",
-      "OTHER",
       "SP5511",
       "TP-IP110W",
       "TP-IP110WN",
@@ -235,16 +251,16 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Streaming/Channels/1",
-        "/cam/realmonitor",
-        "/cam1/onvif-h264",
-        "/OVProfile00",
-        "/Streaming/Channels/2",
-        "/11",
-        "/Streaming/Channels/101",
-        "/Streaming/Channels/102"
-      ]
+      "H.264": {
+        "/Streaming/Channels/1": [],
+        "/cam/realmonitor": [],
+        "/cam1/onvif-h264": [],
+        "/OVProfile00": [],
+        "/Streaming/Channels/2": [],
+        "/11": [],
+        "/Streaming/Channels/101": [],
+        "/Streaming/Channels/102": []
+      }
     },
     "models": [
       "310",
@@ -261,7 +277,6 @@
       "IP-7621C",
       "IP-8621C",
       "IP-TV1311PI",
-      "OTHER",
       "TV-311IP",
       "TV-311PI",
       "TVIP310PI",

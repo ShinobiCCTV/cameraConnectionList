@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/video.jpg?size=2"
-      ]
+      "JPEG": {
+        "/cgi-bin/video.jpg": [
+          "size=2"
+        ]
+      }
     },
     "models": [
       "ANC-606V"

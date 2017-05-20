@@ -1,12 +1,12 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/?action=stream"
-      ]
+      "MJPEG": {
+        "/": [
+          "action=stream"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

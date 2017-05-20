@@ -1,18 +1,18 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/mjpg/video.mjpg",
-        "/video?profile=[CHANNEL]",
-        "/videofeed"
-      ],
-      "JPEG": [
-        "/cam_1.jpg",
-        "/shot.jpg"
-      ]
+      "MJPEG": {
+        "/mjpg/video.mjpg": [],
+        "/video": [
+          "profile=[CHANNEL]"
+        ],
+        "/videofeed": []
+      },
+      "JPEG": {
+        "/cam_1.jpg": [],
+        "/shot.jpg": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

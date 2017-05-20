@@ -1,23 +1,26 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/PSIA/Streaming/channels/h264",
-        "/ch0.h264"
-      ]
+      "H.264": {
+        "/PSIA/Streaming/channels/h264": [],
+        "/ch0.h264": []
+      }
     },
     "models": [
       "CUSTOM",
-      "JE-M820D1A",
-      "OTHER"
+      "JE-M820D1A"
     ]
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
-        "/?action=stream"
-      ]
+      "MJPEG": {
+        "/cgi-bin/video.jpg": [
+          "cam=[CHANNEL]&quality=3&size=2"
+        ],
+        "/": [
+          "action=stream"
+        ]
+      }
     },
     "models": [
       "M800",

@@ -1,15 +1,15 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
-      ],
-      "JPEG": [
-        "/snap.jpg"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+        ]
+      },
+      "JPEG": {
+        "/snap.jpg": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

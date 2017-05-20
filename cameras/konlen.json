@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live/ch0"
-      ]
+      "H.264": {
+        "/live/ch0": []
+      }
     },
     "models": [
       "HDCLOUD",
@@ -12,9 +12,11 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/img/snapshot.cgi?size=2"
-      ]
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      }
     },
     "models": [
       "KL-X624GAW"

@@ -1,24 +1,28 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ],
-      "MJPEG": [
-        "/cgi/mjpg/mjpeg.cgi",
-        "/mjpg/video.mjpg",
-        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
-      ],
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi/jpg/image.cgi",
-        "/jpeg/pull"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      },
+      "MJPEG": {
+        "/cgi/mjpg/mjpeg.cgi": [],
+        "/mjpg/video.mjpg": [],
+        "/mjpeg.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi/jpg/image.cgi": [],
+        "/jpeg/pull": []
+      }
     },
     "models": [
       "C198",
-      "OTHER",
       "ZVC-7610W",
       "ZVC-7611",
       "ZVC-7630W",

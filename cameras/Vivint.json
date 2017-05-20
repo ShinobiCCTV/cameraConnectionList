@@ -1,11 +1,14 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/viewer/video.jpg?resolution=640x480",
-        "/cgi-bin/viewer/video.jpg",
-        "/img/snapshot.cgi?size=2"
-      ]
+      "JPEG": {
+        "/cgi-bin/viewer/video.jpg": [
+          "resolution=640x480"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      }
     },
     "models": [
       "ADC-V510",
@@ -13,8 +16,7 @@
       "ADC-V520IR",
       "ADC-V610PT",
       "ADC-V620PT",
-      "FIXED",
-      "OTHER"
+      "FIXED"
     ]
   }
 }

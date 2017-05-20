@@ -1,23 +1,26 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/IMAGE.JPG"
-      ],
-      "MJPEG": [
-        "/MJPEG.CGI",
-        "/video.cgi?resolution=VGA",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ]
+      "JPEG": {
+        "/IMAGE.JPG": []
+      },
+      "MJPEG": {
+        "/MJPEG.CGI": [],
+        "/video.cgi": [
+          "resolution=VGA",
+          "resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      }
     },
     "models": [
       "ICW1000",
       "IPC1000W",
-      "IPC1000WI",
-      "OTHER"
+      "IPC1000WI"
     ]
   }
 }

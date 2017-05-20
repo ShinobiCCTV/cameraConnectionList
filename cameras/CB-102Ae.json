@@ -1,12 +1,10 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/ONVIF/channel1"
-      ]
+      "H.264": {
+        "/ONVIF/channel1": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

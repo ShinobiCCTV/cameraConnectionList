@@ -1,28 +1,38 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-        "/videostream.cgi?rate=11",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/user/videostream.cgi",
-        "/video.mjpg"
-      ],
-      "JPEG": [
-        "/img/snapshot.cgi?size=2",
-        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.jpg",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/img/snapshot.cgi"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+          "user=[USERNAME]&password=[PASSWORD]",
+          "rate=11",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/user/videostream.cgi": [],
+        "/video.mjpg": []
+      },
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/snapshot.jpg": [
+          "account=[USERNAME]&password=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      }
     },
     "models": [
       "6836",
@@ -32,7 +42,6 @@
       "F-6815W",
       "F-6836W",
       "IC-202",
-      "OTHER",
       "T-6836WTP",
       "T-7815WIP",
       "T-7833WIP",

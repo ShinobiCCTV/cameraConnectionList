@@ -1,20 +1,25 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "H.264": [
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ]
+      "JPEG": {
+        "/snapshot.cgi": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      }
     },
     "models": [
       "IPCAM515",
-      "IPCAM510",
-      "OTHER"
+      "IPCAM510"
     ]
   }
 }

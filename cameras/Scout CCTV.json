@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "JNED89-360D"
@@ -11,9 +13,9 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11"
-      ]
+      "H.264": {
+        "/11": []
+      }
     },
     "models": [
       "SC-MDB3-13"

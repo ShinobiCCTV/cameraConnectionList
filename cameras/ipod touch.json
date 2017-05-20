@@ -1,12 +1,10 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/video.mjpg"
-      ]
+      "MJPEG": {
+        "/video.mjpg": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

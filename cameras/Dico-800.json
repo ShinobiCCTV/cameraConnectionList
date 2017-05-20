@@ -1,12 +1,10 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cam[CHANNEL].jpg"
-      ]
+      "JPEG": {
+        "/cam[CHANNEL].jpg": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

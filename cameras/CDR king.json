@@ -1,40 +1,51 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cgi/mjpg/mjpg.cgi",
-        "/video.cgi?resolution=VGA",
-        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/cgi/mjpg/mjpeg.cgi",
-        "/videostream.cgi?rate=11",
-        "/videostream.cgi?",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/videostream.cgi",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?rate=0"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.cgi?resolution=8&rate=13",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ],
-      "JPEG": [
-        "/image.jpg",
-        "/cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
-        "/tmpfs/auto.jpg",
-        "/img/snapshot.cgi?size=2",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-        "/image/[CHANNEL].jpg",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "MJPEG": {
+        "/cgi/mjpg/mjpg.cgi": [],
+        "/video.cgi": [
+          "resolution=VGA",
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/videostream.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]",
+          "rate=11",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "rate=0"
+        ],
+        "/cgi/mjpg/mjpeg.cgi": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ],
+        "/videostream.cgi": [
+          "resolution=8&rate=13"
+        ]
+      },
+      "JPEG": {
+        "/image.jpg": [],
+        "/cgi-bin/guest/Video.cgi": [
+          "media=JPEG&channel=[CHANNEL]"
+        ],
+        "/tmpfs/auto.jpg": [],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&count=0",
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/image/[CHANNEL].jpg": []
+      }
     },
     "models": [
       "AMSERIES",
@@ -44,7 +55,6 @@
       "DOME",
       "IPCAM1",
       "LP001377",
-      "OTHER",
       "PROJECTS",
       "QSERIES",
       "SE-039-NE",
@@ -67,13 +77,12 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/12",
-        "/11"
-      ]
+      "H.264": {
+        "/12": [],
+        "/11": []
+      }
     },
     "models": [
-      "OTHER",
       "SEC-037NE",
       "SEC-037-NE"
     ]

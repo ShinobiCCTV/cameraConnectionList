@@ -1,12 +1,12 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Streaming/channels/101",
-        "/0/av0",
-        "/11",
-        "/live/stream3"
-      ]
+      "H.264": {
+        "/Streaming/channels/101": [],
+        "/0/av0": [],
+        "/11": [],
+        "/live/stream3": []
+      }
     },
     "models": [
       "10921",
@@ -17,17 +17,25 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/pda.cgi?page=image&cam=[CHANNEL]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/showimg_pda.cgi?cam=[CHANNEL]",
-        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/snapshot.html"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "account=[USERNAME]&password=[PASSWORD]"
+        ],
+        "/pda.cgi": [
+          "page=image&cam=[CHANNEL]"
+        ],
+        "/showimg_pda.cgi": [
+          "cam=[CHANNEL]"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+        ],
+        "/snapshot.html": []
+      }
     },
     "models": [
       "IPSERIES(GENERIC)",

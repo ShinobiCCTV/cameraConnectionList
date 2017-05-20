@@ -1,31 +1,36 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf",
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-        "/videostream.cgi?",
-        "/video.cgi?resolution=VGA",
-        "/videostream.cgi",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?rate=11",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ],
-      "JPEG": [
-        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.jpg",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "rate=11",
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ],
+        "/video.cgi": [
+          "resolution=VGA",
+          "resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.cgi": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "10-AC",
@@ -42,16 +47,14 @@
       "IPC-2",
       "IPC-20",
       "IPC-20C",
-      "OTHER",
-      "OTHER11",
       "SP1"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Streaming/Channels/1"
-      ]
+      "H.264": {
+        "/Streaming/Channels/1": []
+      }
     },
     "models": [
       "IPC10AC"

@@ -1,12 +1,10 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/GetData.cgi"
-      ]
+      "MJPEG": {
+        "/GetData.cgi": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

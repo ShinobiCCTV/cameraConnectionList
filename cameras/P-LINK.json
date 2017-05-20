@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/video.mp4"
-      ]
+      "H.264": {
+        "/video.mp4": []
+      }
     },
     "models": [
       "TL-SC3130"

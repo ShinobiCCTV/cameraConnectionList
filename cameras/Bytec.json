@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/user/videostream.cgi"
-      ]
+      "MJPEG": {
+        "/user/videostream.cgi": []
+      }
     },
     "models": [
       "VET2"

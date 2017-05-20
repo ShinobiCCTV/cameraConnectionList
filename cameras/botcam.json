@@ -1,17 +1,16 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf"
-      ],
-      "JPEG": [
-        "/snap.jpg"
-      ]
+      "H.264": {
+        "/videostream.asf": []
+      },
+      "JPEG": {
+        "/snap.jpg": []
+      }
     },
     "models": [
       "IPCAMERA1",
-      "IPCAMERA2",
-      "OTHER"
+      "IPCAMERA2"
     ]
   }
 }

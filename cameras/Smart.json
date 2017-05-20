@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cgi-bin/pusher.cgi"
-      ]
+      "MJPEG": {
+        "/cgi-bin/pusher.cgi": []
+      }
     },
     "models": [
       "WIRELESSIP-CAM"

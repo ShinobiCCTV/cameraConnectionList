@@ -1,14 +1,18 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi",
-        "/img/video.mjpeg"
-      ],
-      "JPEG": [
-        "/cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
-        "/img/snapshot.cgi?size=3"
-      ]
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": [],
+        "/img/video.mjpeg": []
+      },
+      "JPEG": {
+        "/cgi-bin/webra_fcgi.fcgi": [
+          "api=get_jpeg_raw&chno=[CHANNEL]"
+        ],
+        "/img/snapshot.cgi": [
+          "size=3"
+        ]
+      }
     },
     "models": [
       "H264",
@@ -27,18 +31,17 @@
       "IPCAM-WI2",
       "IPCAM-WO",
       "IP-W0",
-      "IP-WO",
-      "OTHER"
+      "IP-WO"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/media",
-        "/h264",
-        "/cam/realmonitor",
-        "/ch01.264"
-      ]
+      "H.264": {
+        "/media": [],
+        "/h264": [],
+        "/cam/realmonitor": [],
+        "/ch01.264": []
+      }
     },
     "models": [
       "H3D1F",
@@ -60,7 +63,6 @@
       "HDZ30",
       "HIDC-2600TVI",
       "H4D1FR",
-      "OTHER",
       "PACO"
     ]
   }

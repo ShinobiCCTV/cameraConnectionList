@@ -1,13 +1,19 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cgi-bin/stream_jpeg.cgi?channel=[CHANNEL]&fps=1&multipart=1"
-      ],
-      "JPEG": [
-        "/cgi-bin/grabJPEG?06678",
-        "/cgi-bin/stream_jpeg.cgi?channel=[CHANNEL]&fps=1&multipart=0"
-      ]
+      "MJPEG": {
+        "/cgi-bin/stream_jpeg.cgi": [
+          "channel=[CHANNEL]&fps=1&multipart=1"
+        ]
+      },
+      "JPEG": {
+        "/cgi-bin/grabJPEG": [
+          "06678"
+        ],
+        "/cgi-bin/stream_jpeg.cgi": [
+          "channel=[CHANNEL]&fps=1&multipart=0"
+        ]
+      }
     },
     "models": [
       "LPMJPEGDVR",

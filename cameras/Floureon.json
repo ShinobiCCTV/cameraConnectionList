@@ -1,18 +1,18 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/1/h264major",
-        "/user=admin_password=aYSwRmK1_channel=1_stream=0.sdp",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp",
-        "/user=admin_password=DTsbD3QC_channel=1_stream=0.sdp",
-        "/12",
-        "/onvif2",
-        "/11",
-        "/onvif1",
-        "/tcp/av0_0"
-      ]
+      "H.264": {
+        "/1/h264major": [],
+        "/user=admin_password=aYSwRmK1_channel=1_stream=0.sdp": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp": [],
+        "/user=admin_password=DTsbD3QC_channel=1_stream=0.sdp": [],
+        "/12": [],
+        "/onvif2": [],
+        "/11": [],
+        "/onvif1": [],
+        "/tcp/av0_0": []
+      }
     },
     "models": [
       "DM523H",
@@ -22,26 +22,29 @@
       "IPCAMHIP2P",
       "IPD-L26Y02-BS",
       "N5810HH-E",
-      "OTHER",
       "PT720",
       "SP012"
     ]
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
-        "/mjpeg"
-      ],
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
-      ]
+      "MJPEG": {
+        "/mjpeg": [
+          "res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "H.264",
-      "H264",
-      "OTHER"
+      "H264"
     ]
   }
 }

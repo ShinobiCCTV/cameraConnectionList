@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/video/pull-[CHANNEL]"
-      ]
+      "JPEG": {
+        "/video/pull-[CHANNEL]": []
+      }
     },
     "models": [
       "SERVER"

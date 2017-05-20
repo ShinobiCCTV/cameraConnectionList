@@ -1,17 +1,18 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cgi/mjpg/mjpeg.cgi",
-        "/ipcam/stream.cgi?nowprofileid=2"
-      ],
-      "JPEG": [
-        "/dms"
-      ]
+      "MJPEG": {
+        "/cgi/mjpg/mjpeg.cgi": [],
+        "/ipcam/stream.cgi": [
+          "nowprofileid=2"
+        ]
+      },
+      "JPEG": {
+        "/dms": []
+      }
     },
     "models": [
-      "BE-3211P",
-      "OTHER"
+      "BE-3211P"
     ]
   }
 }

@@ -1,14 +1,18 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?rate=11",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=11",
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+        ]
+      }
     },
     "models": [
       "J6358"
@@ -16,12 +20,10 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live/ch0"
-      ]
+      "H.264": {
+        "/live/ch0": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

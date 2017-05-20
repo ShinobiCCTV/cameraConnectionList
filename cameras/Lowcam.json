@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf"
-      ]
+      "H.264": {
+        "/videostream.asf": []
+      }
     },
     "models": [
       "FI8608"

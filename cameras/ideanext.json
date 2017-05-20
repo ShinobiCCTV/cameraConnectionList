@@ -1,14 +1,14 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live/ch0",
-        "/11",
-        "/12",
-        "/live/ch1",
-        "/tcp/av0_0",
-        "/onvif1"
-      ]
+      "H.264": {
+        "/live/ch0": [],
+        "/11": [],
+        "/12": [],
+        "/live/ch1": [],
+        "/tcp/av0_0": [],
+        "/onvif1": []
+      }
     },
     "models": [
       "1080P",
@@ -35,7 +35,6 @@
       "FHD",
       "HD1080P",
       "IPW71",
-      "OTHER",
       "UKC1705W",
       "UKC1906W",
       "USC1604B",
@@ -46,14 +45,13 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/tmpfs/auto.jpg"
-      ]
+      "JPEG": {
+        "/tmpfs/auto.jpg": []
+      }
     },
     "models": [
       "C1503W",
       "IN-C",
-      "OTHER",
       "UKC1907W",
       "USC1907W"
     ]

@@ -1,13 +1,13 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/0",
-        "/1",
-        "/Onvif/Streaming/2",
-        "/stream",
-        "/PSIA/Streaming/channels/2"
-      ]
+      "H.264": {
+        "/0": [],
+        "/1": [],
+        "/Onvif/Streaming/2": [],
+        "/stream": [],
+        "/PSIA/Streaming/channels/2": []
+      }
     },
     "models": [
       "000",
@@ -113,7 +113,6 @@
       "OBSERVATORYCAM",
       "OEM",
       "ONVIF",
-      "OTHER",
       "OVI",
       "OVIKAMERA",
       "PACKING",

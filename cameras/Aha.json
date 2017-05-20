@@ -1,13 +1,14 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/video?profile=[CHANNEL]",
-        "/videofeed"
-      ]
+      "MJPEG": {
+        "/video": [
+          "profile=[CHANNEL]"
+        ],
+        "/videofeed": []
+      }
     },
     "models": [
-      "OTHER",
       "TOUCH"
     ]
   }

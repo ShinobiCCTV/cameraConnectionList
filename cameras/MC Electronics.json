@@ -1,34 +1,38 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/stream.asf",
-        "/stream1.asf"
-      ],
-      "MJPEG": [
-        "/cgi-bin/nph-update_4ch.cgi?ch=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/stream.asf": [],
+        "/stream1.asf": []
+      },
+      "MJPEG": {
+        "/cgi-bin/nph-update_4ch.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "HISI_001",
-      "HISI_002",
-      "OTHER"
+      "HISI_002"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/video0.sdp",
-        "/video1.sdp"
-      ]
+      "H.264": {
+        "/video0.sdp": [],
+        "/video1.sdp": []
+      }
     },
     "models": [
-      "HISI_002",
-      "OTHER"
+      "HISI_002"
     ]
   }
 }

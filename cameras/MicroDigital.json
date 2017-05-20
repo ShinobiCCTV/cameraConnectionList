@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Primary"
-      ]
+      "H.264": {
+        "/Primary": []
+      }
     },
     "models": [
       "MDC-N7290TDN"

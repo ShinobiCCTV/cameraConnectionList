@@ -1,17 +1,18 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "JPEG": [
-        "/image/qvga.jpg",
-        "/capture_normal.jpg"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/image/qvga.jpg": [],
+        "/capture_normal.jpg": []
+      }
     },
     "models": [
-      "OTHER",
       "PTC-200SERIES",
       "PTC-400SERIES"
     ]

@@ -1,10 +1,12 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
-        "/cgi-bin/guest/Video.cgi?media=JPEG"
-      ]
+      "JPEG": {
+        "/cgi-bin/guest/Video.cgi": [
+          "media=JPEG&channel=[CHANNEL]",
+          "media=JPEG"
+        ]
+      }
     },
     "models": [
       "HDPLUS",
@@ -15,10 +17,10 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live/video_audio/profile1",
-        "/live/video_audio/profile2"
-      ]
+      "H.264": {
+        "/live/video_audio/profile1": [],
+        "/live/video_audio/profile2": []
+      }
     },
     "models": [
       "HD-19",

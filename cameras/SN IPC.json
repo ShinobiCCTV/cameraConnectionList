@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/ROH/channel/11"
-      ]
+      "H.264": {
+        "/ROH/channel/11": []
+      }
     },
     "models": [
       "4015SW"

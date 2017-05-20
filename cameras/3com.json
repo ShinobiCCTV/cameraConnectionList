@@ -1,31 +1,48 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/video?submenu=mjpg",
-        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
-      ],
-      "JPEG": [
-        "/img/snapshot.cgi?size=2",
-        "/goform/video2",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/jpg/image.jpg?size=3",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/img/snapshot.cgi?size=3"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ],
+        "/video": [
+          "submenu=mjpg"
+        ],
+        "/mjpeg.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
+        ]
+      },
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=2",
+          "size=3"
+        ],
+        "/goform/video2": [],
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/jpg/image.jpg": [
+          "size=3"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "CASA",
       "EX11402-WIFI",
       "IPELA",
-      "OTHER",
       "RC8221",
       "XHCI-SE"
     ]

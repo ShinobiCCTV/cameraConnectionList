@@ -1,19 +1,27 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/stillimg[CHANNEL].jpg",
-        "/images/stream_[CHANNEL].jpg",
-        "/cgi-bin/snapshot.cgi?1"
-      ],
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-        "/image.jpg?type=motion",
-        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-        "/cgi-bin/video.cgi?msubmenu=mjpg"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]",
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+          "1"
+        ],
+        "/stillimg[CHANNEL].jpg": [],
+        "/images/stream_[CHANNEL].jpg": []
+      },
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": [
+          "camera=[CHANNEL]",
+          "date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/image.jpg": [
+          "type=motion"
+        ],
+        "/cgi-bin/video.cgi": [
+          "msubmenu=mjpg"
+        ]
+      }
     },
     "models": [
       "308",
@@ -21,7 +29,6 @@
       "8033B",
       "814",
       "DVRW/WEBPORT",
-      "OTHER",
       "QC-304",
       "QC-308",
       "QC-588",
@@ -38,10 +45,10 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam/realmonitor",
-        "/profile1"
-      ]
+      "H.264": {
+        "/cam/realmonitor": [],
+        "/profile1": []
+      }
     },
     "models": [
       "3MPBULLET",
@@ -51,7 +58,6 @@
       "BULLET",
       "DVRW/WEBPORT",
       "ONVIF",
-      "OTHER",
       "QC-308",
       "QC-40108",
       "QC-7005B",

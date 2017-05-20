@@ -1,41 +1,54 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?rate=11",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videofeed",
-        "/live?camera=[CHANNEL]&fps=5&quality=75&resolution=[WIDTH]x[HEIGHT]",
-        "/video.cgi?resolution=VGA",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/video?submenu=mjpg",
-        "/video.mjpg?q=30&fps=33&id=0.5"
-      ],
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/tmpfs/auto.jpg",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/image.jpg"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "rate=11",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/videofeed": [],
+        "/live": [
+          "camera=[CHANNEL]&fps=5&quality=75&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/video.cgi": [
+          "resolution=VGA"
+        ],
+        "/video": [
+          "submenu=mjpg"
+        ],
+        "/video.mjpg": [
+          "q=30&fps=33&id=0.5"
+        ]
+      },
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ],
+        "/tmpfs/auto.jpg": [],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/image.jpg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      }
     },
     "models": [
       "002A",
-      "LSERIES",
-      "OTHER"
+      "LSERIES"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11"
-      ]
+      "H.264": {
+        "/11": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

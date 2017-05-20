@@ -1,29 +1,29 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/ucast/11",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/ucast/11": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
       "720P",
-      "C062105-IP5",
-      "OTHER"
+      "C062105-IP5"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/guest/Video.cgi?media=JPEG"
-      ],
-      "H.264": [
-        "/videostream.asf"
-      ]
+      "JPEG": {
+        "/cgi-bin/guest/Video.cgi": [
+          "media=JPEG"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": []
+      }
     },
     "models": [
-      "HD",
-      "OTHER"
+      "HD"
     ]
   }
 }

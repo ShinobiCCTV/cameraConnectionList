@@ -1,13 +1,13 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/stillimg.jpg",
-        "/stillimg2.jpg"
-      ],
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi"
-      ]
+      "JPEG": {
+        "/stillimg.jpg": [],
+        "/stillimg2.jpg": []
+      },
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": []
+      }
     },
     "models": [
       "CST-240",
@@ -17,12 +17,12 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam/realmonitor",
-        "/live/av0",
-        "/video.h264",
-        "/video.mjpg"
-      ]
+      "H.264": {
+        "/cam/realmonitor": [],
+        "/live/av0": [],
+        "/video.h264": [],
+        "/video.mjpg": []
+      }
     },
     "models": [
       "ICT-220"

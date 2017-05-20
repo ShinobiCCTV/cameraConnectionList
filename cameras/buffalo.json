@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/channel2"
-      ]
+      "MJPEG": {
+        "/channel2": []
+      }
     },
     "models": [
       "WNC01WH"

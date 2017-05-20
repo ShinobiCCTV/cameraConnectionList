@@ -1,24 +1,32 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
-        "/snapshot.cgi",
-        "/img/snapshot.cgi?size=2",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/user/videostream.cgi",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&count=0"
+        ],
+        "/cgi/snapshot.cgi": [
+          "action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/user/videostream.cgi": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "CM-I11123BK",
@@ -26,25 +34,23 @@
       "IP-900",
       "IP-900-KMART",
       "IP-99",
-      "OTHER",
       "P-910",
       "SC-10IP"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/user=admin_password=Df7HGWO9_channel=1_stream=0.sdp",
-        "/user=admin_password=zjD1bdPb_channel=1_stream=0.sdp",
-        "/user=admin_password=5BWV0BYw_channel=1_stream=1.sdp"
-      ]
+      "H.264": {
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/user=admin_password=Df7HGWO9_channel=1_stream=0.sdp": [],
+        "/user=admin_password=zjD1bdPb_channel=1_stream=0.sdp": [],
+        "/user=admin_password=5BWV0BYw_channel=1_stream=1.sdp": []
+      }
     },
     "models": [
       "DL-10IP",
       "IP-900",
       "IPC",
-      "OTHER",
       "SC-10IP",
       "SC-10IP(SETUP)",
       "SC-10P",

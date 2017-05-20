@@ -1,15 +1,13 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf"
-      ],
-      "JPEG": [
-        "/tmpfs/auto.jpg"
-      ]
+      "H.264": {
+        "/videostream.asf": []
+      },
+      "JPEG": {
+        "/tmpfs/auto.jpg": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

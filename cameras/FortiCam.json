@@ -1,10 +1,10 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/ONVIF/channel3",
-        "/cam1/onvif-h264"
-      ]
+      "H.264": {
+        "/ONVIF/channel3": [],
+        "/cam1/onvif-h264": []
+      }
     },
     "models": [
       "20A"
@@ -12,18 +12,20 @@
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "H.264": [
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "20A",
-      "IPC-20C",
-      "OTHER"
+      "IPC-20C"
     ]
   }
 }

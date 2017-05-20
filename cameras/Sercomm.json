@@ -1,25 +1,36 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/img/video.mjpeg",
-        "/img/mjpeg.jpg",
-        "/img/mjpeg.cgi",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/?action=stream",
-        "/video?submenu=mjpg"
-      ],
-      "JPEG": [
-        "/img/snapshot.cgi?size=3",
-        "/img/snapshot.cgi?size=2",
-        "/img/snapshot.cgi?img=vga",
-        "/img/snapshot.cgi",
-        "/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-        "/cgi-bin/video.jpg"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "MJPEG": {
+        "/img/video.mjpeg": [],
+        "/img/mjpeg.jpg": [],
+        "/img/mjpeg.cgi": [],
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+        ],
+        "/": [
+          "action=stream"
+        ],
+        "/video": [
+          "submenu=mjpg"
+        ]
+      },
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=3",
+          "size=2",
+          "img=vga"
+        ],
+        "/axis-cgi/jpg/image.cgi": [
+          "date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/cgi-bin/video.jpg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "0C835",
@@ -44,7 +55,6 @@
       "OC8230D",
       "OC830",
       "OC-832",
-      "OTHER",
       "QTY6",
       "RC3221",
       "RC-4020",

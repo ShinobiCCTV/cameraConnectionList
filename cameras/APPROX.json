@@ -1,19 +1,26 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi?camera=[CHANNEL]",
-        "/img/snapshot.cgi?size=2"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?rate=11",
-        "/videostream.cgi",
-        "/cgi-bin/sf.cgi"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "camera=[CHANNEL]"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=11"
+        ],
+        "/cgi-bin/sf.cgi": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "APPI",
@@ -26,9 +33,9 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/tcp/av0_0"
-      ]
+      "H.264": {
+        "/tcp/av0_0": []
+      }
     },
     "models": [
       "APPIP02P2P"

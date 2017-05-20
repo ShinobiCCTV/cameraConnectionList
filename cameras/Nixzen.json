@@ -1,24 +1,29 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ]
+      },
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/cgi-bin/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
-      "150H",
-      "OTHER"
+      "150H"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live/av0"
-      ]
+      "H.264": {
+        "/live/av0": []
+      }
     },
     "models": [
       "H803"

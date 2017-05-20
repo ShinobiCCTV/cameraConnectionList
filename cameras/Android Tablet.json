@@ -1,14 +1,13 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videofeed"
-      ]
+      "MJPEG": {
+        "/videofeed": []
+      }
     },
     "models": [
       "CNM",
-      "GALAXYTAB",
-      "OTHER"
+      "GALAXYTAB"
     ]
   }
 }

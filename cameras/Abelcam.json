@@ -1,18 +1,19 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/current[CHANNEL].jpg",
-        "/screen.jpg"
-      ],
-      "MJPEG": [
-        "/current[CHANNEL].mjpg",
-        "/screen.mjpg"
-      ]
+      "JPEG": {
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/current[CHANNEL].jpg": [],
+        "/screen.jpg": []
+      },
+      "MJPEG": {
+        "/current[CHANNEL].mjpg": [],
+        "/screen.mjpg": []
+      }
     },
     "models": [
-      "OTHER",
       "WEBCAM(2)",
       "WEBCAMSERVER"
     ]

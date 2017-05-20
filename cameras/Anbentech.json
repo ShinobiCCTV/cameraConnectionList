@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": []
+      }
     },
     "models": [
       "BP20S-1H"

@@ -1,35 +1,48 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/img/snapshot.cgi?size=2",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-        "/snapshot.cgi",
-        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
-        "/img/snapshot.cgi?img=vga",
-        "/snapshot.cgi?camera=[CHANNEL]",
-        "/cgi-bin/mobile_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/user/videostream.cgi",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi",
-        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?rate=0",
-        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-        "/videostream.cgi?rate=11",
-        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-        "/videofeed"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.cgi?resolution=8&rate=13"
-      ]
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&count=0",
+          "camera=[CHANNEL]"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2",
+          "img=vga"
+        ],
+        "/cgi/snapshot.cgi": [
+          "action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
+        ],
+        "/cgi-bin/mobile_snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/user/videostream.cgi": [],
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "rate=0",
+          "user=[USERNAME]&password=[PASSWORD]",
+          "rate=11"
+        ],
+        "/mjpeg.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
+        ],
+        "/videofeed": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/videostream.cgi": [
+          "resolution=8&rate=13"
+        ]
+      }
     },
     "models": [
       "001",
@@ -68,7 +81,6 @@
       "AP-03",
       "H-264",
       "HD-750",
-      "OTHER",
       "P2P-BLACK",
       "SP-007",
       "SR-001",
@@ -77,17 +89,16 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/onvif1",
-        "/11"
-      ]
+      "H.264": {
+        "/onvif1": [],
+        "/11": []
+      }
     },
     "models": [
       "009C",
       "AP-008",
       "C6F0SFZ3N0P0L0",
       "IPF-W-2",
-      "OTHER",
       "SP-006",
       "SP-007",
       "SP-009B"

@@ -1,35 +1,42 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?1",
-        "/shot.jpg"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ],
-      "MJPEG": [
-        "/videofeed",
-        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "1"
+        ],
+        "/shot.jpg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      },
+      "MJPEG": {
+        "/videofeed": [],
+        "/mjpeg.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
+        ],
+        "/cgi-bin/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "231F",
       "543",
       "LG-ANDROID",
       "ONE",
-      "OTHER",
       "S-CAM"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/media.amp",
-        "/live/stream1",
-        "/live0.264"
-      ]
+      "H.264": {
+        "/media.amp": [],
+        "/live/stream1": [],
+        "/live0.264": []
+      }
     },
     "models": [
       "2560",

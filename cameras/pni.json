@@ -1,29 +1,39 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?1",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi?",
-        "/img/snapshot.cgi?size=2",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/videostream.cgi?rate=0",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?rate=11"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]",
+          "1"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&count=0"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+          "rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "rate=11"
+        ],
+        "/video.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "1000LINII",
@@ -40,17 +50,16 @@
       "IP720P",
       "IP751W",
       "IP941W",
-      "IP951W",
-      "OTHER"
+      "IP951W"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp",
-        "/user=admin_password=UdhG2iGn_channel=1_stream=0.sdp",
-        "/user=admin_password=6QNMIQGe_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp": [],
+        "/user=admin_password=UdhG2iGn_channel=1_stream=0.sdp": [],
+        "/user=admin_password=6QNMIQGe_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
       "IP1MP",

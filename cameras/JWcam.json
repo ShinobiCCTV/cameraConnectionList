@@ -1,25 +1,30 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/videostream.cgi",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ],
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/snapshot.cgi?camera=[CHANNEL]",
-        "/tmpfs/auto.jpg",
-        "/snapshot.cgi",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ],
+        "/snapshot.cgi": [
+          "camera=[CHANNEL]",
+          "user=[USERNAME]&pwd=[PASSWORD]&count=0",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/tmpfs/auto.jpg": [],
+        "/cgi/snapshot.cgi": [
+          "action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
+        ]
+      }
     },
     "models": [
-      "JWEV",
-      "OTHER"
+      "JWEV"
     ]
   }
 }

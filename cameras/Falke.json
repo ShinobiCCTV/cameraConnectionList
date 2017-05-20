@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Streaming/Channels/1"
-      ]
+      "H.264": {
+        "/Streaming/Channels/1": []
+      }
     },
     "models": [
       "VANDALPROOF"
@@ -11,9 +11,11 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snap.jpg?JpegCam=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/snap.jpg": [
+          "JpegCam=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "VANDALPROOF"

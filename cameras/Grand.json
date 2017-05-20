@@ -1,32 +1,32 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/GetData.cgi",
-        "/cgi-bin/still.cgi",
-        "/video.cgi?resolution=VGA",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "JPEG": [
-        "/Webcam.jpg",
-        "/cgi-bin/jpg/image.cgi",
-        "/still.jpg"
-      ]
+      "MJPEG": {
+        "/GetData.cgi": [],
+        "/cgi-bin/still.cgi": [],
+        "/video.cgi": [
+          "resolution=VGA",
+          "resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/Webcam.jpg": [],
+        "/cgi-bin/jpg/image.cgi": [],
+        "/still.jpg": []
+      }
     },
     "models": [
       "IPVIDEOSERVER",
-      "OTHER",
       "WIIFI"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/[CHANNEL]"
-      ]
+      "H.264": {
+        "/[CHANNEL]": []
+      }
     },
     "models": [
-      "OTHER",
       "WIIFI"
     ]
   }

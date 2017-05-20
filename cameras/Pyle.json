@@ -1,14 +1,22 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/video.cgi?resolution=VGA",
-        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "H.264": [
-        "/videostream.cgi?resolution=8&rate=13"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ],
+        "/video.cgi": [
+          "resolution=VGA"
+        ],
+        "/cgi-bin/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "H.264": {
+        "/videostream.cgi": [
+          "resolution=8&rate=13"
+        ]
+      }
     },
     "models": [
       "CAM5",

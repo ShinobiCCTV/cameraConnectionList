@@ -1,41 +1,48 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/jpg/image.jpg",
-        "/cgi-bin/jpg/image.cgi",
-        "/cgi-bin/admin/snapshot.cgi",
-        "/img/video.jpg",
-        "/IMAGE.JPG",
-        "/jpg/image.jpg?size=3",
-        "/GetData.cgi",
-        "/goform/capture",
-        "/image.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/goform/video2",
-        "/Jpeg/CamImg.jpg",
-        "/snapshot.jpg",
-        "/tmp/snap.jpg"
-      ],
-      "MJPEG": [
-        "/mjpg/video.mjpg",
-        "/GetData.cgi?Status=false",
-        "/VIDEO.CGI",
-        "/GetData.cgi?CH=2",
-        "/cgi/mjpg/mjpeg.cgi",
-        "/mjpg/video.cgi",
-        "/img/mjpeg.cgi",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/mjpg/1/video.mjpg",
-        "/img/mjpeg.jpg",
-        "/video.mjpg",
-        "/",
-        "/snapshot.cgi"
-      ],
-      "H.264": [
-        "/h264",
-        "/jpeg",
-        "/goform/video"
-      ]
+      "JPEG": {
+        "/jpg/image.jpg": [
+          "size=3"
+        ],
+        "/cgi-bin/jpg/image.cgi": [],
+        "/cgi-bin/admin/snapshot.cgi": [],
+        "/img/video.jpg": [],
+        "/IMAGE.JPG": [],
+        "/GetData.cgi": [],
+        "/goform/capture": [],
+        "/image.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/goform/video2": [],
+        "/Jpeg/CamImg.jpg": [],
+        "/snapshot.jpg": [],
+        "/tmp/snap.jpg": []
+      },
+      "MJPEG": {
+        "/mjpg/video.mjpg": [],
+        "/GetData.cgi": [
+          "Status=false",
+          "CH=2"
+        ],
+        "/VIDEO.CGI": [],
+        "/cgi/mjpg/mjpeg.cgi": [],
+        "/mjpg/video.cgi": [],
+        "/img/mjpeg.cgi": [],
+        "/video.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/mjpg/1/video.mjpg": [],
+        "/img/mjpeg.jpg": [],
+        "/video.mjpg": [],
+        "/": [],
+        "/snapshot.cgi": []
+      },
+      "H.264": {
+        "/h264": [],
+        "/jpeg": [],
+        "/goform/video": []
+      }
     },
     "models": [
       "107",
@@ -91,18 +98,17 @@
       "ICA-MS8350",
       "NEVIM1",
       "NEVIM2",
-      "OTHER",
       "ICA-H652"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/stander/livestream/0/0",
-        "/stream1",
-        "/",
-        "/stander/livestream/0/1"
-      ]
+      "H.264": {
+        "/stander/livestream/0/0": [],
+        "/stream1": [],
+        "/": [],
+        "/stander/livestream/0/1": []
+      }
     },
     "models": [
       "3250",
@@ -123,8 +129,7 @@
       "ICA-HM230",
       "ICA-HM317",
       "ICA-HM350",
-      "ICA-M227",
-      "OTHER"
+      "ICA-M227"
     ]
   }
 }

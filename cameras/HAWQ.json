@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/snl/live/1/2"
-      ]
+      "H.264": {
+        "/snl/live/1/2": []
+      }
     },
     "models": [
       "WINGDOME"

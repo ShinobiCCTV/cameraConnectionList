@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snap.jpg?JpegCam=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/snap.jpg": [
+          "JpegCam=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "AT-LBH400"
@@ -11,9 +13,9 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11"
-      ]
+      "H.264": {
+        "/11": []
+      }
     },
     "models": [
       "IPS-1024VW"

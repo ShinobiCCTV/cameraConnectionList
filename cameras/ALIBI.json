@@ -1,12 +1,12 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Streaming/Channels/2",
-        "/Streaming/Channels/1",
-        "/h264",
-        "/Streaming/Channels/101"
-      ]
+      "H.264": {
+        "/Streaming/Channels/2": [],
+        "/Streaming/Channels/1": [],
+        "/h264": [],
+        "/Streaming/Channels/101": []
+      }
     },
     "models": [
       "3030R",

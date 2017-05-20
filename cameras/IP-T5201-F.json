@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Streaming/Channels/1"
-      ]
+      "H.264": {
+        "/Streaming/Channels/1": []
+      }
     },
     "models": [
       "ESCAM"

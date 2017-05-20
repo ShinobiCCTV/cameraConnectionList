@@ -1,16 +1,17 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "MJPEG": [
-        "/video.cgi",
-        "/cgi/mjpg/mjpeg.cgi"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "MJPEG": {
+        "/video.cgi": [],
+        "/cgi/mjpg/mjpeg.cgi": []
+      }
     },
     "models": [
-      "OTHER",
       "UNC7500-IR"
     ]
   }

@@ -1,15 +1,18 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "JPEG": [
-        "/viewdevice.jsp?deviceid=[CHANNEL]"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "JPEG": {
+        "/viewdevice.jsp": [
+          "deviceid=[CHANNEL]"
+        ]
+      }
     },
     "models": [
-      "OTHER",
       "SURVEILLANCECENTER"
     ]
   }

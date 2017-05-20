@@ -1,31 +1,47 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/viewer/video.jpg",
-        "/GetData.cgi",
-        "/__live.jpg?&&&",
-        "/__live.jpg?&&[USERNAME]&[PASSWORD]",
-        "/Jpeg/CamImg.jpg",
-        "/cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-        "/cgi-bin/viewer/video.jpg?resolution=640x480",
-        "/image/jpeg.cgi"
-      ],
-      "MJPEG": [
-        "/getstream.cgi?10&10&&&10&0&0&0&0",
-        "/user/cgi-bin/getstream.cgi?10&&&&0&0&0&0&0",
-        "/GetData.cgi?Status=0",
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-        "/admin/cgi-bin/getstream.cgi?10&&&&&0&0&0&0",
-        "/video[USERNAME].mjpg",
-        "/video.mjpg",
-        "/video.mjpg?q=30&fps=33&id=0.5",
-        "/videofeed",
-        "/cgi-bin/mjpeg?stream=[CHANNEL]"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ]
+      "JPEG": {
+        "/cgi-bin/viewer/video.jpg": [
+          "resolution=[WIDTH]x[HEIGHT]",
+          "resolution=640x480"
+        ],
+        "/GetData.cgi": [],
+        "/__live.jpg": [
+          "&&&",
+          "&&[USERNAME]&[PASSWORD]"
+        ],
+        "/Jpeg/CamImg.jpg": [],
+        "/image/jpeg.cgi": []
+      },
+      "MJPEG": {
+        "/getstream.cgi": [
+          "10&10&&&10&0&0&0&0"
+        ],
+        "/user/cgi-bin/getstream.cgi": [
+          "10&&&&0&0&0&0&0"
+        ],
+        "/GetData.cgi": [
+          "Status=0",
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+        ],
+        "/admin/cgi-bin/getstream.cgi": [
+          "10&&&&&0&0&0&0"
+        ],
+        "/video[USERNAME].mjpg": [],
+        "/video.mjpg": [
+          "q=30&fps=33&id=0.5"
+        ],
+        "/videofeed": [],
+        "/cgi-bin/mjpeg": [
+          "stream=[CHANNEL]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      }
     },
     "models": [
       "IK-WB01A",
@@ -49,7 +65,6 @@
       "IK-WR12A",
       "IK-WR14A",
       "M-1060W",
-      "OTHER",
       "TD05W",
       "WEBCAMHD",
       "WVSC-385"
@@ -57,12 +72,12 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live.sdp",
-        "/live2.sdp",
-        "/live3.sdp",
-        "/live4.sdp"
-      ]
+      "H.264": {
+        "/live.sdp": [],
+        "/live2.sdp": [],
+        "/live3.sdp": [],
+        "/live4.sdp": []
+      }
     },
     "models": [
       "IKWD-12A",

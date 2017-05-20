@@ -1,30 +1,30 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snap.jpg?JpegCam=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/snap.jpg": [
+          "JpegCam=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "2MP-D",
-      "3MP-D-VF",
-      "OTHER"
+      "3MP-D-VF"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/cam1/onvif-h264",
-        "/0"
-      ]
+      "H.264": {
+        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/cam1/onvif-h264": [],
+        "/0": []
+      }
     },
     "models": [
       "3MP",
       "3MP-D-VF",
-      "DM365_IPNC",
-      "OTHER"
+      "DM365_IPNC"
     ]
   }
 }

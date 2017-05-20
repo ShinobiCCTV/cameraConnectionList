@@ -1,33 +1,41 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/1/stream1"
-      ]
+      "H.264": {
+        "/1/stream1": []
+      }
     },
     "models": [
-      "OTHER",
       "VK2-1080BIR37E",
       "VK2-1080BIR3V9F"
     ]
   },
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ],
-      "JPEG": [
-        "/cgi-bin/mobile_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/img/snapshot.cgi?size=2",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/video.cgi?resolution=VGA"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/cgi-bin/mobile_snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=VGA"
+        ]
+      }
     },
     "models": [
-      "OTHER",
       "PT",
       "VISATCAMSD"
     ]

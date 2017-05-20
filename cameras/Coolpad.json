@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/shot.jpg"
-      ]
+      "JPEG": {
+        "/shot.jpg": []
+      }
     },
     "models": [
       "1234",

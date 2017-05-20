@@ -1,30 +1,40 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/img/mjpeg.jpg",
-        "/img/video.mjpeg",
-        "/video2.mjpg",
-        "/videostream.cgi?rate=11",
-        "/img/mjpeg.cgi",
-        "/video.mjpg",
-        "/video.mjpg?q=30&fps=33&id=0.5",
-        "/video/mjpg.cgi"
-      ],
-      "JPEG": [
-        "/jpeg/qvga.jpg",
-        "/cgi-bin/jpg/image.cgi",
-        "/img/snapshot.cgi?img=vga",
-        "/img/snapshot.cgi?size=3",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/img/snapshot.cgi?size=2",
-        "/cgi-bin/viewer/snapshot.jpg?resolution=[WIDTH]x[HEIGHT]",
-        "/tmp/snap.jpg"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf"
-      ]
+      "MJPEG": {
+        "/img/mjpeg.jpg": [],
+        "/img/video.mjpeg": [],
+        "/video2.mjpg": [],
+        "/videostream.cgi": [
+          "rate=11"
+        ],
+        "/img/mjpeg.cgi": [],
+        "/video.mjpg": [
+          "q=30&fps=33&id=0.5"
+        ],
+        "/video/mjpg.cgi": []
+      },
+      "JPEG": {
+        "/jpeg/qvga.jpg": [],
+        "/cgi-bin/jpg/image.cgi": [],
+        "/img/snapshot.cgi": [
+          "img=vga",
+          "size=3",
+          "size=2"
+        ],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ],
+        "/cgi-bin/viewer/snapshot.jpg": [
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/tmp/snap.jpg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "2500",
@@ -39,8 +49,6 @@
       "IPC5011",
       "J",
       "LINKSYS",
-      "OTHER",
-      "OTHERJJ",
       "PVC2300",
       "PVC300",
       "VC220",

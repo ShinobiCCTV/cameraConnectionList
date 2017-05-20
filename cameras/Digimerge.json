@@ -1,29 +1,36 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "JPEG": [
-        "/cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?1",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "JPEG": {
+        "/cgi-bin/webra_fcgi.fcgi": [
+          "api=get_jpeg_raw&chno=[CHANNEL]"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]",
+          "1"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "DHU616",
       "DVR",
-      "FLIR",
-      "OTHER"
+      "FLIR"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam/realmonitor",
-        "/snl/live/1/1"
-      ]
+      "H.264": {
+        "/cam/realmonitor": [],
+        "/snl/live/1/1": []
+      }
     },
     "models": [
       "DNB13TF22",

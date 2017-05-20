@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam/realmonitor"
-      ]
+      "H.264": {
+        "/cam/realmonitor": []
+      }
     },
     "models": [
       "ICIPD2000"
@@ -11,9 +11,11 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?1"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "1"
+        ]
+      }
     },
     "models": [
       "ICIPD2000"

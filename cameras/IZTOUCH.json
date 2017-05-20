@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/onvif1"
-      ]
+      "H.264": {
+        "/onvif1": []
+      }
     },
     "models": [
       "0009",
@@ -12,19 +12,19 @@
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+        ]
+      }
     },
     "models": [
       "0009",
       "A001",
       "AP001",
       "IZ-009",
-      "LTH-A8645-C15",
-      "OTHER",
-      "OTHER1"
+      "LTH-A8645-C15"
     ]
   }
 }

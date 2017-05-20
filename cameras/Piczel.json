@@ -1,16 +1,19 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/GetData.cgi?Status=0"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ]
+      "MJPEG": {
+        "/GetData.cgi": [
+          "Status=0"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      }
     },
     "models": [
-      "3500/3505",
-      "OTHER"
+      "3500/3505"
     ]
   }
 }

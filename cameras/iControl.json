@@ -1,27 +1,37 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/img/snapshot.cgi?size=2",
-        "/img/snapshot.cgi",
-        "/img/snapshot.cgi?size=3",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/img/mjpeg.jpg",
-        "/img/video.mjpeg",
-        "/?&AUDIO=YES&CHOPIMAGE=YES&STREAM=YES&WANTIMAGE=[CHANNEL].JPG&SENDEMPTYIMAGES=NO",
-        "/img/mjpeg.cgi",
-        "/",
-        "/?action=stream",
-        "/?action=appletvstream",
-        "/video.cgi?resolution=VGA",
-        "/video.mjpg"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ]
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=2",
+          "size=3"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/img/mjpeg.jpg": [],
+        "/img/video.mjpeg": [],
+        "/": [
+          "&AUDIO=YES&CHOPIMAGE=YES&STREAM=YES&WANTIMAGE=[CHANNEL].JPG&SENDEMPTYIMAGES=NO",
+          "action=stream",
+          "action=appletvstream"
+        ],
+        "/img/mjpeg.cgi": [],
+        "/video.cgi": [
+          "resolution=VGA"
+        ],
+        "/video.mjpg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      }
     },
     "models": [
       "1000",
@@ -38,7 +48,6 @@
       "-1000",
       "IPC-1",
       "OC810",
-      "OTHER",
       "RC8021",
       "RC8021W",
       "RC-8025",

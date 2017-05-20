@@ -1,22 +1,25 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/img/snapshot.cgi?size=3",
-        "/img/snapshot.cgi?size=2"
-      ],
-      "MJPEG": [
-        "/img/mjpeg.cgi",
-        "/img/video.mjpeg",
-        "/img/mjpeg.jpg"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ]
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=3",
+          "size=2"
+        ]
+      },
+      "MJPEG": {
+        "/img/mjpeg.cgi": [],
+        "/img/video.mjpeg": [],
+        "/img/mjpeg.jpg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      }
     },
     "models": [
       "8030",
-      "OTHER",
       "RC4020",
       "RC4021",
       "RC-4030",

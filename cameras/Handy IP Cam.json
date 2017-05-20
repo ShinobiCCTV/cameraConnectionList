@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/video?profile=[CHANNEL]"
-      ]
+      "MJPEG": {
+        "/video": [
+          "profile=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "SAMSUNGGALAXYS3"

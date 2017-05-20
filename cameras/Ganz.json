@@ -1,17 +1,22 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
-        "/nvc-cgi/operator/snapshot.fcgi?channel=[CHANNEL]&name=snapshot&resolution=custom&quality=70&width=[WIDTH]&height=[HEIGHT]",
-        "/snap.jpg?JpegCam=[CHANNEL]",
-        "/snap.jpg?JpegSize=XL",
-        "/snapshot/view[CHANNEL].jpg"
-      ]
+      "JPEG": {
+        "/cgi-bin/webra_fcgi.fcgi": [
+          "api=get_jpeg_raw&chno=[CHANNEL]"
+        ],
+        "/nvc-cgi/operator/snapshot.fcgi": [
+          "channel=[CHANNEL]&name=snapshot&resolution=custom&quality=70&width=[WIDTH]&height=[HEIGHT]"
+        ],
+        "/snap.jpg": [
+          "JpegCam=[CHANNEL]",
+          "JpegSize=XL"
+        ],
+        "/snapshot/view[CHANNEL].jpg": []
+      }
     },
     "models": [
       "IPS400",
-      "OTHER",
       "PIXELPRO"
     ]
   }

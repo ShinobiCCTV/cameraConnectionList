@@ -1,38 +1,44 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/mpeg4",
-        "/4",
-        "/live/ch0"
-      ]
+      "H.264": {
+        "/mpeg4": [],
+        "/4": [],
+        "/live/ch0": []
+      }
     },
     "models": [
       "720P",
-      "CVAFA-I465",
-      "OTHER"
+      "CVAFA-I465"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/tmpfs/auto.jpg",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot/view[CHANNEL].jpg",
-        "/img/snapshot.cgi?size=2"
-      ],
-      "MJPEG": [
-        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi"
-      ],
-      "H.264": [
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/tmpfs/auto.jpg": [],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/snapshot/view[CHANNEL].jpg": [],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      },
+      "MJPEG": {
+        "/cgi-bin/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/videostream.cgi": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "720P",
       "IM61",
-      "OTHER",
       "P2PWIFICAM",
       "SMARTEYE"
     ]

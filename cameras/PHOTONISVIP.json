@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/videoinput_1:0/h264_1/onvif.stm"
-      ]
+      "H.264": {
+        "/videoinput_1:0/h264_1/onvif.stm": []
+      }
     },
     "models": [
       "OURCAM"

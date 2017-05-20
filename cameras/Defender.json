@@ -1,17 +1,22 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/stillimg[CHANNEL].jpg",
-        "/GetStream.cgi?Video=[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2"
-      ]
+      "JPEG": {
+        "/stillimg[CHANNEL].jpg": [],
+        "/GetStream.cgi": [
+          "Video=[CHANNEL]"
+        ]
+      },
+      "MJPEG": {
+        "/GetData.cgi": [
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+        ],
+        "/cgi-bin/video.jpg": [
+          "cam=[CHANNEL]&quality=3&size=2"
+        ]
+      }
     },
     "models": [
-      "OTHER",
       "SN301-8CHW/WEBPORT",
       "SN500DVR",
       "SN500DVR(OLD)"

@@ -1,14 +1,14 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live/ch0",
-        "/live/ch1",
-        "/11",
-        "/12",
-        "/live/ch2",
-        "/ucast/11"
-      ]
+      "H.264": {
+        "/live/ch0": [],
+        "/live/ch1": [],
+        "/11": [],
+        "/12": [],
+        "/live/ch2": [],
+        "/ucast/11": []
+      }
     },
     "models": [
       "1080",
@@ -46,7 +46,6 @@
       "NCM751VGA",
       "NGX5444",
       "NGX6544",
-      "OTHER",
       "PRO",
       "PROHD1080P",
       "PROHD",
@@ -64,39 +63,48 @@
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?",
-        "/videostream.cgi?rate=0",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?rate=11",
-        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/snapshot.html"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-        "/videostream.cgi?resolution=8&rate=13",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf"
-      ],
-      "JPEG": [
-        "/tmpfs/auto.jpg",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/img/snapshot.cgi?size=2",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-        "/snap.jpg?JpegCam=[CHANNEL]",
-        "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/current[CHANNEL].jpg",
-        "/cgi-bin/video.jpg",
-        "/jpg/1/image.jpg",
-        "/cgi-bin/viewer/video.jpg",
-        "/image.jpg",
-        "/snap.jpg?JpegSize=XL",
-        "/snapshot.cgi"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&password=[PASSWORD]",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "rate=11",
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+        ],
+        "/snapshot.html": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ],
+        "/videostream.cgi": [
+          "resolution=8&rate=13"
+        ]
+      },
+      "JPEG": {
+        "/tmpfs/auto.jpg": [],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&count=0"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/snap.jpg": [
+          "JpegCam=[CHANNEL]",
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "JpegSize=XL"
+        ],
+        "/current[CHANNEL].jpg": [],
+        "/cgi-bin/video.jpg": [],
+        "/jpg/1/image.jpg": [],
+        "/cgi-bin/viewer/video.jpg": [],
+        "/image.jpg": []
+      }
     },
     "models": [
       "541",
@@ -132,9 +140,7 @@
       "NCM621W",
       "NCM623W",
       "NCM-628",
-      "NCS543W",
-      "OTHER",
-      "OTHERNCL615"
+      "NCS543W"
     ]
   }
 }

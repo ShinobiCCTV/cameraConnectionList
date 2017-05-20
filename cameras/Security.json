@@ -1,21 +1,25 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/Jpeg/CamImg.jpg",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
-      ],
-      "H.264": [
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/Jpeg/CamImg.jpg": [],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      }
     },
     "models": [
       "LABSSLD251",
       "LABSSLD264",
-      "NV",
-      "OTHER"
+      "NV"
     ]
   }
 }

@@ -1,33 +1,41 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/img/snapshot.cgi?size=2",
-        "/img/snapshot.cgi?img=vga",
-        "/img/snapshot.cgi?size=3",
-        "/jpg/image.jpg?size=3",
-        "/jpg/image.jpg"
-      ],
-      "MJPEG": [
-        "/img/mjpeg.jpg",
-        "/snapshot.html",
-        "/img/video.mjpeg",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/cgi/mjpg/mjpeg.cgi",
-        "/cgi/mjpg/mjpg.cgi",
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
-      ],
-      "H.264": [
-        "/video.mp4",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ]
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=2",
+          "img=vga",
+          "size=3"
+        ],
+        "/jpg/image.jpg": [
+          "size=3"
+        ]
+      },
+      "MJPEG": {
+        "/img/mjpeg.jpg": [],
+        "/snapshot.html": [],
+        "/img/video.mjpeg": [],
+        "/video.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/cgi/mjpg/mjpeg.cgi": [],
+        "/cgi/mjpg/mjpg.cgi": [],
+        "/GetData.cgi": [
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "H.264": {
+        "/video.mp4": [],
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      }
     },
     "models": [
       "1010-W",
       "1011",
       "1011-W",
       "110-W",
-      "OTHER",
       "RC-8021",
       "1",
       "-1010W",

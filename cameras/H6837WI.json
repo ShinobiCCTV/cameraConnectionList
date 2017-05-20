@@ -1,29 +1,31 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/snapshot.cgi?",
-        "/cgi-bin/snapshot.cgi?1"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/snapshot.cgi": [],
+        "/cgi-bin/snapshot.cgi": [
+          "1"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
-      "(2)",
-      "OTHER"
+      "(2)"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/0/av0"
-      ]
+      "H.264": {
+        "/0/av0": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

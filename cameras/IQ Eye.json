@@ -1,38 +1,45 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/rtsp/onvif",
-        "/rtsp/stream1",
-        "/stream1",
-        "/rtsp/now.mp4",
-        "/rtsp/now.jpg"
-      ]
+      "H.264": {
+        "/rtsp/onvif": [],
+        "/rtsp/stream1": [],
+        "/stream1": [],
+        "/rtsp/now.mp4": [],
+        "/rtsp/now.jpg": []
+      }
     },
     "models": [
       "3",
       "862",
       "IQ862N",
       "IQ8712",
-      "IQR53",
-      "OTHER"
+      "IQR53"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/now.jpg?ds=",
-        "/jpg/image.jpg?size=3",
-        "/now.jpg",
-        "/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "MJPEG": [
-        "/now.jpg?snap=spush",
-        "/mjpg/video.mjpg",
-        "/axis-cgi/mjpg/video.cgi",
-        "/now.jpg?snap=spush?ds=",
-        "/video?submenu=mjpg"
-      ]
+      "JPEG": {
+        "/now.jpg": [
+          "ds="
+        ],
+        "/jpg/image.jpg": [
+          "size=3"
+        ],
+        "/axis-cgi/jpg/image.cgi": [
+          "date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "MJPEG": {
+        "/now.jpg": [
+          "snap=spush"
+        ],
+        "/mjpg/video.mjpg": [],
+        "/axis-cgi/mjpg/video.cgi": [],
+        "/video": [
+          "submenu=mjpg"
+        ]
+      }
     },
     "models": [
       "3",
@@ -59,7 +66,6 @@
       "IQM31N",
       "IQM32N",
       "M53",
-      "OTHER",
       "S031",
       "SENTINEL855"
     ]

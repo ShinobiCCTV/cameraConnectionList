@@ -1,13 +1,14 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?rate=11"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=11"
+        ]
+      }
     },
     "models": [
-      "IUK5A1",
-      "OTHER"
+      "IUK5A1"
     ]
   }
 }

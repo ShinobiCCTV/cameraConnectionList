@@ -1,19 +1,23 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/tmpfs/auto.jpg",
-        "/snapshot.cgi?"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi",
-        "/videostream.cgi?rate=0",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/cgi-bin/CGIProxy.fcgi": [
+          "cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/tmpfs/auto.jpg": []
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "20HD",
@@ -22,18 +26,17 @@
       "7210W",
       "7210W-MJPEG",
       "-7210W",
-      "OTHER",
       "X01"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/mpeg4",
-        "/11",
-        "/mpeg4cif",
-        "/12"
-      ]
+      "H.264": {
+        "/mpeg4": [],
+        "/11": [],
+        "/mpeg4cif": [],
+        "/12": []
+      }
     },
     "models": [
       "3XPTZ",
@@ -50,7 +53,6 @@
       "-009041-BUFXD",
       "-7210W",
       "-H05-POEA",
-      "OTHER",
       "VVVIPC1501223580HSDS"
     ]
   }

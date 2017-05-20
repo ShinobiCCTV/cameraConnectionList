@@ -1,16 +1,19 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ],
-      "JPEG": [
-        "/img/snapshot.cgi?size=2"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      }
     },
     "models": [
-      "H264-IPCAM",
-      "OTHER"
+      "H264-IPCAM"
     ]
   }
 }

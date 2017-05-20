@@ -1,11 +1,11 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam/realmonitor",
-        "/video.pro2",
-        "/videoMain"
-      ]
+      "H.264": {
+        "/cam/realmonitor": [],
+        "/video.pro2": [],
+        "/videoMain": []
+      }
     },
     "models": [
       "12M",
@@ -139,7 +139,6 @@
       "MP1801",
       "NVR",
       "ONVIF",
-      "OTHER",
       "PRSONVIF",
       "QCN7001B",
       "QCN7005B",
@@ -163,29 +162,42 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?1",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/cgi-bin/jpg/image.cgi",
-        "/jpg/image.jpg?size=3",
-        "/cgi-bin/video.jpg",
-        "/dms"
-      ],
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
-        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
-        "/axis-cgi/mjpg/video.cgi",
-        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-        "/cgi-bin/video.cgi?msubmenu=mjpg",
-        "/video/mjpg.cgi",
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]",
+          "1",
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+        ],
+        "/cgi-bin/jpg/image.cgi": [],
+        "/jpg/image.jpg": [
+          "size=3"
+        ],
+        "/cgi-bin/video.jpg": [],
+        "/dms": []
+      },
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": [
+          "camera=[CHANNEL]",
+          "date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+          "camera=1&resolution=[WIDTH]x[HEIGHT]",
+          "date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/cgi-bin/video.cgi": [
+          "msubmenu=mjpg"
+        ],
+        "/video/mjpg.cgi": [],
+        "/GetData.cgi": [
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+        ],
+        "/cgi-bin/video.jpg": [
+          "cam=[CHANNEL]&quality=3&size=2"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      }
     },
     "models": [
       "12M",
@@ -375,8 +387,6 @@
       "NVR_ADT",
       "NY1",
       "ONVIF",
-      "OTHER",
-      "OTHER1.2",
       "PTZ",
       "SD22202T-GN",
       "SD22204",

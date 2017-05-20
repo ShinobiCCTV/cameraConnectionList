@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/img/mjpeg.jpg"
-      ]
+      "MJPEG": {
+        "/img/mjpeg.jpg": []
+      }
     },
     "models": [
       "ICAMERA-1000"

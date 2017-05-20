@@ -1,45 +1,55 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam1/onvif-h264",
-        "/cam1/onvif-h264-1"
-      ]
+      "H.264": {
+        "/cam1/onvif-h264": [],
+        "/cam1/onvif-h264-1": []
+      }
     },
     "models": [
       "N3011",
       "N6079",
-      "N9071",
-      "OTHER"
+      "N9071"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/image/[CHANNEL].jpg",
-        "/snap.jpg?JpegCam=[CHANNEL]",
-        "/img/snapshot.cgi?size=2",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/video.jpg",
-        "/image.jpg",
-        "/current[CHANNEL].jpg"
-      ],
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/GetData.cgi",
-        "/videofeed"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/image/[CHANNEL].jpg": [],
+        "/snap.jpg": [
+          "JpegCam=[CHANNEL]"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]",
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/video.jpg": [],
+        "/image.jpg": [],
+        "/current[CHANNEL].jpg": []
+      },
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": [],
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/GetData.cgi": [],
+        "/videofeed": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
-      "N8072",
-      "OTHER"
+      "N8072"
     ]
   }
 }

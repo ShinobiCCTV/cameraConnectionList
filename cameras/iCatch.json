@@ -1,29 +1,28 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/cgi/mjpg/mjpeg.cgi"
-      ]
+      "JPEG": {
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      },
+      "MJPEG": {
+        "/cgi/mjpg/mjpeg.cgi": []
+      }
     },
     "models": [
       "960H",
       "DVR",
-      "OTHER",
       "RAS",
       "SDVR411S"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam/realmonitor"
-      ]
+      "H.264": {
+        "/cam/realmonitor": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

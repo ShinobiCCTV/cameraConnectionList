@@ -1,11 +1,11 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/0",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/4"
-      ]
+      "H.264": {
+        "/0": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/4": []
+      }
     },
     "models": [
       "5150",
@@ -43,23 +43,28 @@
       "MTI1",
       "NOIDEA",
       "ONVIF-VLC",
-      "OTHER",
       "UPSTAIRSDECK"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot/view[CHANNEL].jpg",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ],
-      "MJPEG": [
-        "/goform/stream?cmd=get&channel=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/snapshot/view[CHANNEL].jpg": [],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      },
+      "MJPEG": {
+        "/goform/stream": [
+          "cmd=get&channel=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "5150",
@@ -72,8 +77,7 @@
       "HCV720",
       "HCV724",
       "HIGHRES",
-      "HV724",
-      "OTHER"
+      "HV724"
     ]
   }
 }

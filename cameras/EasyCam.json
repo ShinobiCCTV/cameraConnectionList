@@ -1,10 +1,10 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=jXxbVxNB_channel=1_stream=0.sdp",
-        "/11"
-      ]
+      "H.264": {
+        "/user=admin_password=jXxbVxNB_channel=1_stream=0.sdp": [],
+        "/11": []
+      }
     },
     "models": [
       "E-130T",
@@ -13,19 +13,26 @@
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "H.264": [
-        "/videostream.asf",
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/tmpfs/auto.jpg",
-        "/img/snapshot.cgi?size=2"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ],
+        "/tmpfs/auto.jpg": [],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      }
     },
     "models": [
       "EC-101HD",
@@ -33,8 +40,7 @@
       "EC-101SD",
       "EC-102",
       "EC-IP153",
-      "NIIDEA",
-      "OTHER"
+      "NIIDEA"
     ]
   }
 }

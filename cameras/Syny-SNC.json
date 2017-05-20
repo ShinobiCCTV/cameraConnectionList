@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/oneshotimage.jpg"
-      ]
+      "JPEG": {
+        "/oneshotimage.jpg": []
+      }
     },
     "models": [
       "RZ25P"

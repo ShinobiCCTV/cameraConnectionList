@@ -1,47 +1,73 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/jpg.cgi?refresh=0&channel=[CHANNEL]&id=[USERNAME]&pass=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]&oldbrowser=1",
-        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/mobile_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/tmpfs/auto.jpg",
-        "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi?",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snap.jpg?JpegCam=[CHANNEL]",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/VIDEO.CGI",
-        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-        "/videostream.cgi?rate=11",
-        "/videostream.cgi",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.cgi?rate=0",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/cgi-bin/fullsize.jpg?camera=[CHANNEL]&clock=on&motion=0",
-        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/video?submenu=mjpg",
-        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
-        "/axis-cgi/mjpg/video.cgi",
-        "/video.cgi?resolution=VGA",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?resolution=8&rate=13",
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/cgi-bin/video_snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&count=0"
+        ],
+        "/cgi-bin/jpg.cgi": [
+          "refresh=0&channel=[CHANNEL]&id=[USERNAME]&pass=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]&oldbrowser=1"
+        ],
+        "/cgi-bin/mobile_snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/tmpfs/auto.jpg": [],
+        "/snap.jpg": [
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "JpegCam=[CHANNEL]"
+        ],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/cgi-bin/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/VIDEO.CGI": [],
+        "/videostream.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]",
+          "rate=11",
+          "rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/video.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]",
+          "resolution=VGA"
+        ],
+        "/cgi-bin/fullsize.jpg": [
+          "camera=[CHANNEL]&clock=on&motion=0"
+        ],
+        "/video": [
+          "submenu=mjpg"
+        ],
+        "/axis-cgi/mjpg/video.cgi": [
+          "camera=1&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/videostream.cgi": [
+          "resolution=8&rate=13"
+        ]
+      }
     },
     "models": [
       "910HD",
@@ -102,7 +128,6 @@
       "JP4045",
       "MAILSTEP",
       "N/A",
-      "OTHER",
       "P3364",
       "PIPCAM8",
       "PYLE",
@@ -116,17 +141,16 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/av0_1",
-        "/live/av0",
-        "/11"
-      ]
+      "H.264": {
+        "/av0_1": [],
+        "/live/av0": [],
+        "/11": []
+      }
     },
     "models": [
       "AH9063CW",
       "APM-H803",
-      "GENERICIPCAMERA",
-      "OTHER"
+      "GENERICIPCAMERA"
     ]
   }
 }

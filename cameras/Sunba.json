@@ -1,23 +1,23 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/user=admin_password=5IZA9u7u_channel=1_stream=0.sdp",
-        "/user=admin_password=fnLzNd8l_channel=1_stream=0.sdp",
-        "/user=admin_password=LMZsdd5A_channel=1_stream=0.sdp",
-        "/user=admin_password=5Nnb2Ao0_channel=1_stream=0.sdp",
-        "/user=admin_password=wbnQ0SX5_channel=1_stream=0.sdp",
-        "/user=admin_password=hxWPhXaB_channel=1_stream=0.sdp",
-        "/user=admin_password=rlEjb61N_channel=1_stream=0.sdp",
-        "/live/ch0",
-        "/cam/realmonitor",
-        "/user=admin_password=pfCUI11x_channel=1_stream=0.sdp",
-        "/stream1",
-        "/Onvif/Streaming/2",
-        "/stream2",
-        "/1"
-      ]
+      "H.264": {
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/user=admin_password=5IZA9u7u_channel=1_stream=0.sdp": [],
+        "/user=admin_password=fnLzNd8l_channel=1_stream=0.sdp": [],
+        "/user=admin_password=LMZsdd5A_channel=1_stream=0.sdp": [],
+        "/user=admin_password=5Nnb2Ao0_channel=1_stream=0.sdp": [],
+        "/user=admin_password=wbnQ0SX5_channel=1_stream=0.sdp": [],
+        "/user=admin_password=hxWPhXaB_channel=1_stream=0.sdp": [],
+        "/user=admin_password=rlEjb61N_channel=1_stream=0.sdp": [],
+        "/live/ch0": [],
+        "/cam/realmonitor": [],
+        "/user=admin_password=pfCUI11x_channel=1_stream=0.sdp": [],
+        "/stream1": [],
+        "/Onvif/Streaming/2": [],
+        "/stream2": [],
+        "/1": []
+      }
     },
     "models": [
       "1800",
@@ -35,7 +35,6 @@
       "805-D20X",
       "805-DG20X",
       "HZ502-20XA",
-      "OTHER",
       "PTZIRCAM",
       "MEGAPIXEL1080HP",
       "XMEYE"

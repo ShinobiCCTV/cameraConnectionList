@@ -1,12 +1,10 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

@@ -1,20 +1,21 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/mjpeg.cgi"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "JPEG": [
-        "/goform/capture",
-        "/cgi-bin/video.jpg"
-      ]
+      "MJPEG": {
+        "/mjpeg.cgi": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/goform/capture": [],
+        "/cgi-bin/video.jpg": []
+      }
     },
     "models": [
-      "351CLPK330W",
-      "OTHER"
+      "351CLPK330W"
     ]
   }
 }

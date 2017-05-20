@@ -1,27 +1,39 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/goform/video",
-        "/videostream.cgi?resolution=8&rate=13",
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "JPEG": [
-        "/snap.jpg?JpegSize=XL",
-        "/cgi-bin/guest/Video.cgi?media=JPEG",
-        "/tmpfs/auto.jpg",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snap.jpg",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-        "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/snap.jpg?JpegCam=[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?rate=11",
-        "/videostream.cgi?rate=0"
-      ]
+      "H.264": {
+        "/goform/video": [],
+        "/videostream.cgi": [
+          "resolution=8&rate=13"
+        ],
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/snap.jpg": [
+          "JpegSize=XL",
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "JpegCam=[CHANNEL]"
+        ],
+        "/cgi-bin/guest/Video.cgi": [
+          "media=JPEG"
+        ],
+        "/tmpfs/auto.jpg": [],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&count=0"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=11",
+          "rate=0"
+        ]
+      }
     },
     "models": [
       "303",
@@ -29,7 +41,6 @@
       "AVM357Z",
       "WIPC409HD",
       "C303",
-      "OTHER",
       "WIPC??",
       "WIPC302",
       "WIPC401",
@@ -42,9 +53,9 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11"
-      ]
+      "H.264": {
+        "/11": []
+      }
     },
     "models": [
       "WIPC409HD"

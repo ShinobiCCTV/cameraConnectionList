@@ -1,12 +1,14 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/videofeed"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/videofeed": []
+      }
     },
     "models": [
       "DOME4",

@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/tmpfs/auto.jpg"
-      ]
+      "JPEG": {
+        "/tmpfs/auto.jpg": []
+      }
     },
     "models": [
       "FW35",
@@ -12,15 +12,14 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11",
-        "/live/ch0",
-        "/live/ch1"
-      ]
+      "H.264": {
+        "/11": [],
+        "/live/ch0": [],
+        "/live/ch1": []
+      }
     },
     "models": [
       "FW38",
-      "OTHER",
       "PTZ"
     ]
   }

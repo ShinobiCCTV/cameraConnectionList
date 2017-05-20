@@ -1,24 +1,24 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/stream.asf",
-        "/stream1.asf"
-      ],
-      "JPEG": [
-        "/snapshot.jpg",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot_3gp.jpg",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/stream.jpg",
-        "/mjpg/video.mjpg"
-      ]
+      "H.264": {
+        "/stream.asf": [],
+        "/stream1.asf": []
+      },
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ],
+        "/snapshot_3gp.jpg": []
+      },
+      "MJPEG": {
+        "/stream.jpg": [],
+        "/mjpg/video.mjpg": []
+      }
     },
     "models": [
       "2700",
-      "OTHER",
       "SCNC-2601",
       "SCNC-2606N",
       "SCNC-2607",

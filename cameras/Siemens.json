@@ -1,36 +1,38 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/viewer/video.jpg?resolution=640x480",
-        "/cgi-bin/stilljpeg",
-        "/cgi-bin/getstream.cgi"
-      ],
-      "MJPEG": [
-        "/cgi-bin/getstream.cgi?VideoType=3",
-        "/cgi-bin/getstream.cgi?VideoType=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/cgi-bin/viewer/video.jpg": [
+          "resolution=640x480"
+        ],
+        "/cgi-bin/stilljpeg": [],
+        "/cgi-bin/getstream.cgi": []
+      },
+      "MJPEG": {
+        "/cgi-bin/getstream.cgi": [
+          "VideoType=3",
+          "VideoType=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "CCIC-1410-L",
       "CCIS-1425",
       "CCMC-1315-LP",
       "CCMS-1315",
-      "CFMS-2025",
-      "OTHER"
+      "CFMS-2025"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/livestream/trackID=1",
-        "/stream1"
-      ]
+      "H.264": {
+        "/livestream/trackID=1": [],
+        "/stream1": []
+      }
     },
     "models": [
       "CFMS2025",
-      "CVMW-3025",
-      "OTHER"
+      "CVMW-3025"
     ]
   }
 }

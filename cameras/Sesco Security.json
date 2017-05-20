@@ -1,13 +1,13 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?1",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "1",
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

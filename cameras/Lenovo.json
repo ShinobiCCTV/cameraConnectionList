@@ -1,14 +1,20 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/video?profile=[CHANNEL]",
-        "/videofeed"
-      ],
-      "JPEG": [
-        "/out.jpg?id=0.5",
-        "/cgi-bin/snapshot.cgi?1"
-      ]
+      "MJPEG": {
+        "/video": [
+          "profile=[CHANNEL]"
+        ],
+        "/videofeed": []
+      },
+      "JPEG": {
+        "/out.jpg": [
+          "id=0.5"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "1"
+        ]
+      }
     },
     "models": [
       "6010",
@@ -18,7 +24,6 @@
       "A850",
       "ANDROID_WEBCAM",
       "EASYCAM",
-      "OTHER",
       "TEL"
     ]
   }

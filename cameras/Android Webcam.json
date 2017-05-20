@@ -1,21 +1,22 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/video?submenu=mjpg",
-        "/videofeed",
-        "/video?profile=[CHANNEL]"
-      ],
-      "JPEG": [
-        "/shot.jpg"
-      ]
+      "MJPEG": {
+        "/video": [
+          "submenu=mjpg",
+          "profile=[CHANNEL]"
+        ],
+        "/videofeed": []
+      },
+      "JPEG": {
+        "/shot.jpg": []
+      }
     },
     "models": [
       "HNETWK",
       "HTC",
       "LG540",
-      "MEX173",
-      "OTHER"
+      "MEX173"
     ]
   }
 }

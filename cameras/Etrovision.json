@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/config/jpeg.cgi"
-      ]
+      "JPEG": {
+        "/config/jpeg.cgi": []
+      }
     },
     "models": [
       "CKSC",
@@ -14,15 +14,14 @@
       "EV8582A-BD",
       "EV8782U-B",
       "EVXX8X",
-      "N53",
-      "OTHER"
+      "N53"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/rtpvideoch12.sdp"
-      ]
+      "H.264": {
+        "/rtpvideoch12.sdp": []
+      }
     },
     "models": [
       "N76F-M"

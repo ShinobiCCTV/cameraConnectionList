@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live1.sdp"
-      ]
+      "H.264": {
+        "/live1.sdp": []
+      }
     },
     "models": [
       "AVD552MIP"

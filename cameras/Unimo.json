@@ -1,16 +1,19 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cgi-bin/webapp.cgi?MODE=8&ID=[USERNAME]&PW=[PASSWORD]&VER=3000&CH=[CHANNEL]"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "MJPEG": {
+        "/cgi-bin/webapp.cgi": [
+          "MODE=8&ID=[USERNAME]&PW=[PASSWORD]&VER=3000&CH=[CHANNEL]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "4004",
-      "OTHER",
       "UDR-708"
     ]
   }

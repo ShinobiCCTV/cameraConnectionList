@@ -1,16 +1,17 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-        "/videostream.asf"
-      ],
-      "JPEG": [
-        "/cgi-bin/video.jpg"
-      ],
-      "MJPEG": [
-        "/videofeed"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/cgi-bin/video.jpg": []
+      },
+      "MJPEG": {
+        "/videofeed": []
+      }
     },
     "models": [
       "BOLD",

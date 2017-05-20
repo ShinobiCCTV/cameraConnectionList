@@ -1,20 +1,26 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/snapshot.jpg",
-        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]&snapshot=on"
-      ],
-      "MJPEG": [
-        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-        "/mjpegStreamer.cgi",
-        "/mjpeg.cgi",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+          "account=[USERNAME]&password=[PASSWORD]"
+        ],
+        "/mjpeg.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]&snapshot=on"
+        ]
+      },
+      "MJPEG": {
+        "/mjpeg.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
+        ],
+        "/mjpegStreamer.cgi": [],
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      }
     },
     "models": [
       "CS40",
@@ -37,7 +43,6 @@
       "NC150/420/500",
       "NC2200",
       "NC2220",
-      "OTHER",
       "TN1600P",
       "TN1600W",
       "TN30W",
@@ -53,12 +58,12 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/cam[CHANNEL]/mjpeg"
-      ]
+      "H.264": {
+        "/[CHANNEL]": []
+      },
+      "MJPEG": {
+        "/cam[CHANNEL]/mjpeg": []
+      }
     },
     "models": [
       "IP70",

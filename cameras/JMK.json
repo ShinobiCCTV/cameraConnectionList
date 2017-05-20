@@ -1,21 +1,24 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/cgi/sf.cgi",
-        "/cgi-bin/sf.cgi"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/cgi/sf.cgi": [],
+        "/cgi-bin/sf.cgi": []
+      }
     },
     "models": [
       "JK8808",
       "JK-8808",
-      "OTHER",
       "UP-009",
       "UP-010",
       "UP-035W"

@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/0"
-      ]
+      "H.264": {
+        "/0": []
+      }
     },
     "models": [
       "IPCN2400W40W-P"
@@ -11,16 +11,19 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snap.jpg?JpegCam=[CHANNEL]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snap.jpg?JpegSize=M"
-      ]
+      "JPEG": {
+        "/snap.jpg": [
+          "JpegCam=[CHANNEL]",
+          "JpegSize=M"
+        ],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "IP2400",
-      "IPCN2400W40W-P",
-      "OTHER"
+      "IPCN2400W40W-P"
     ]
   }
 }

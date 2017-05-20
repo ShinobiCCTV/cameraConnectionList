@@ -1,18 +1,27 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/image?res=half&x0=0&y0=0&x1=1600&y1=1200&quality=15&doublescan=0&ssn=1340443365044&id=1340443379230",
-        "/img.jpg",
-        "/Jpeg/CamImg.jpg",
-        "/image[CHANNEL]?res=half&x1=0&y1=0",
-        "/img/snapshot.cgi?size=2"
-      ],
-      "MJPEG": [
-        "/mjpeg",
-        "/mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
-        "/mjpeg[CHANNEL]?res=half&x1=0&y1=0"
-      ]
+      "JPEG": {
+        "/image": [
+          "res=half&x0=0&y0=0&x1=1600&y1=1200&quality=15&doublescan=0&ssn=1340443365044&id=1340443379230"
+        ],
+        "/img.jpg": [],
+        "/Jpeg/CamImg.jpg": [],
+        "/image[CHANNEL]": [
+          "res=half&x1=0&y1=0"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      },
+      "MJPEG": {
+        "/mjpeg": [
+          "res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0"
+        ],
+        "/mjpeg[CHANNEL]": [
+          "res=half&x1=0&y1=0"
+        ]
+      }
     },
     "models": [
       "10MP",
@@ -88,19 +97,18 @@
       "AV8180",
       "AV8185DN",
       "AV8360",
-      "AV8365",
-      "OTHER"
+      "AV8365"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/ch0.h264",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/h264.sdp",
-        "/h264.sdp1",
-        "/onvif-media/media.amp"
-      ]
+      "H.264": {
+        "/ch0.h264": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/h264.sdp": [],
+        "/h264.sdp1": [],
+        "/onvif-media/media.amp": []
+      }
     },
     "models": [
       "1305",
@@ -117,8 +125,7 @@
       "AV12186DNCH1",
       "AV1355DN",
       "AV2455DN-AB",
-      "AV8185DN",
-      "OTHER"
+      "AV8185DN"
     ]
   }
 }

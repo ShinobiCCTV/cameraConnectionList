@@ -1,16 +1,17 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
-      ],
-      "JPEG": [
-        "/current[CHANNEL].jpg"
-      ]
+      "MJPEG": {
+        "/GetData.cgi": [
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/current[CHANNEL].jpg": []
+      }
     },
     "models": [
-      "HM85",
-      "OTHER"
+      "HM85"
     ]
   }
 }

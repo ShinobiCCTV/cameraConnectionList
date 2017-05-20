@@ -1,27 +1,32 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf",
-        "/videostream.cgi?resolution=8&rate=13",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ],
-      "JPEG": [
-        "/snapshot.cgi",
-        "/snap.jpg",
-        "/tmpfs/auto.jpg",
-        "/cgi-bin/snapshot.cgi?1",
-        "/snapshot.cgi?",
-        "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?rate=11",
-        "/video.cgi",
-        "/videostream.cgi",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/videostream.cgi?",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ],
+        "/videostream.cgi": [
+          "resolution=8&rate=13"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.cgi": [],
+        "/snap.jpg": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/tmpfs/auto.jpg": [],
+        "/cgi-bin/snapshot.cgi": [
+          "1"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=11",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/video.cgi": []
+      }
     },
     "models": [
       "F/B/N/I",
@@ -29,21 +34,19 @@
       "H3",
       "H3E",
       "M1",
-      "M2",
-      "OTHER"
+      "M2"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam1/onvif-h264",
-        "/live_h264.sdp"
-      ]
+      "H.264": {
+        "/cam1/onvif-h264": [],
+        "/live_h264.sdp": []
+      }
     },
     "models": [
       "H3",
-      "H3E",
-      "OTHER"
+      "H3E"
     ]
   }
 }

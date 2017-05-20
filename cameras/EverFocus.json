@@ -1,12 +1,12 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cgi-bin/rtspStreamOvf/1",
-        "/live1.sdp",
-        "/cgi-bin/rtspStreamOvf/0",
-        "/cgi-bin/rtspStream/0"
-      ]
+      "H.264": {
+        "/cgi-bin/rtspStreamOvf/1": [],
+        "/live1.sdp": [],
+        "/cgi-bin/rtspStreamOvf/0": [],
+        "/cgi-bin/rtspStream/0": []
+      }
     },
     "models": [
       "1360",
@@ -27,19 +27,19 @@
       "EZN1260",
       "EZN268",
       "EZN3160",
-      "FRONTENTRYWAY",
-      "OTHER"
+      "FRONTENTRYWAY"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/image[CHANNEL].jpg",
-        "/m/camera[CHANNEL].jpg",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.jpg"
-      ]
+      "JPEG": {
+        "/image[CHANNEL].jpg": [],
+        "/m/camera[CHANNEL].jpg": [],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "EBN268",

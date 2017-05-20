@@ -1,17 +1,16 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/user=admin_password=Ui7bxyLv_channel=1_stream=0.sdp",
-        "/ONVIF/channel1",
-        "/user=admin_password=OKTJl5Hs_channel=1_stream=0.sdp",
-        "/user=admin_password=xFsuBepL_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/user=admin_password=Ui7bxyLv_channel=1_stream=0.sdp": [],
+        "/ONVIF/channel1": [],
+        "/user=admin_password=OKTJl5Hs_channel=1_stream=0.sdp": [],
+        "/user=admin_password=xFsuBepL_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
       "201",
-      "OTHER",
       "SL-130IPC36WF",
       "TOP-201",
       "TOP-308"
@@ -19,26 +18,33 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "MJPEG": [
-        "/mjpeg.cgi",
-        "/videostream.cgi?rate=11",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "MJPEG": {
+        "/mjpeg.cgi": [],
+        "/videostream.cgi": [
+          "rate=11",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "7052",
       "IPA-7063",
-      "OTHER",
       "SL-30IPC01Z",
       "SL-720IPC02Z",
       "SL-910IW30",

@@ -1,17 +1,18 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/video.jpg?size=2",
-        "/snapshot.jpg"
-      ],
-      "MJPEG": [
-        "/mjpeg.cgi"
-      ]
+      "JPEG": {
+        "/cgi-bin/video.jpg": [
+          "size=2"
+        ],
+        "/snapshot.jpg": []
+      },
+      "MJPEG": {
+        "/mjpeg.cgi": []
+      }
     },
     "models": [
-      "IWC",
-      "OTHER"
+      "IWC"
     ]
   }
 }

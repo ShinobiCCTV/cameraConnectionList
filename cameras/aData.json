@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam/realmonitor"
-      ]
+      "H.264": {
+        "/cam/realmonitor": []
+      }
     },
     "models": [
       "AMB",
@@ -11,16 +11,17 @@
       "APOIP-MB",
       "BLC02",
       "EYE1.3",
-      "EYE2MBS",
-      "OTHER"
+      "EYE2MBS"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]",
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "AMB",
@@ -28,8 +29,7 @@
       "APOIP-MB",
       "APOLLOHDDVR",
       "EYE1.3",
-      "EYE2MBS",
-      "OTHER"
+      "EYE2MBS"
     ]
   }
 }

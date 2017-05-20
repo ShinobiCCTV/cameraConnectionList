@@ -1,36 +1,44 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/image.cgi",
-        "/image.jpg",
-        "/image.cgi?camera=[CHANNEL]",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0"
-      ],
-      "MJPEG": [
-        "/image.cgi?type=motion",
-        "/GetData.cgi",
-        "/image.cgi?type=motion&camera=[CHANNEL]",
-        "/VIDEO.CGI",
-        "/videostream.cgi?",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi",
-        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-        "/videostream.cgi?rate=11",
-        "/videostream.cgi?rate=0"
-      ],
-      "H.264": [
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ]
+      "JPEG": {
+        "/image.cgi": [
+          "camera=[CHANNEL]"
+        ],
+        "/image.jpg": [],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&count=0"
+        ],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ]
+      },
+      "MJPEG": {
+        "/image.cgi": [
+          "type=motion",
+          "type=motion&camera=[CHANNEL]"
+        ],
+        "/GetData.cgi": [],
+        "/VIDEO.CGI": [],
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&password=[PASSWORD]",
+          "rate=11",
+          "rate=0"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      }
     },
     "models": [
       "3SVISIONSERIES",
@@ -39,20 +47,18 @@
       "ALC-9352P",
       "ALC9751",
       "DAX",
-      "OTHER",
       "S2071/4071VIDEOSERVER"
     ]
   },
   "rtsp://": {
     "types": {
-      "MJPEG": [
-        "/cam[CHANNEL]/h264",
-        "/cam[CHANNEL]/mjpeg"
-      ]
+      "MJPEG": {
+        "/cam[CHANNEL]/h264": [],
+        "/cam[CHANNEL]/mjpeg": []
+      }
     },
     "models": [
-      "ALS-7742",
-      "OTHER"
+      "ALS-7742"
     ]
   }
 }

@@ -1,10 +1,10 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live/av0",
-        "/live/av1"
-      ]
+      "H.264": {
+        "/live/av0": [],
+        "/live/av1": []
+      }
     },
     "models": [
       "IP100",
@@ -17,9 +17,11 @@
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "MJPEG": {
+        "/cgi-bin/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "SUMPPLE"

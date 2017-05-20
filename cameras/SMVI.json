@@ -1,10 +1,12 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/img/snapshot.cgi?size=2",
-        "/img/snapshot.cgi?size=3"
-      ]
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=2",
+          "size=3"
+        ]
+      }
     },
     "models": [
       "ORION"

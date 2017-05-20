@@ -1,16 +1,18 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf"
-      ],
-      "JPEG": [
-        "/img/snapshot.cgi?size=2",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
-      ]
+      "H.264": {
+        "/videostream.asf": []
+      },
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

@@ -1,17 +1,20 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/Jpeg/CamImg.jpg",
-        "/still.jpg",
-        "/img/snapshot.cgi?size=2"
-      ],
-      "MJPEG": [
-        "/video.cgi",
-        "/video.cgi?resolution=VGA",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/cgi-bin/still.cgi"
-      ]
+      "JPEG": {
+        "/Jpeg/CamImg.jpg": [],
+        "/still.jpg": [],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      },
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=VGA",
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/cgi-bin/still.cgi": []
+      }
     },
     "models": [
       "1-PORTVIDEOSERVER",
@@ -25,8 +28,6 @@
       "MEGACAM",
       "MEGAPIXELIIWIFI",
       "MEGAPIXEL",
-      "OTHER",
-      "OTHER1",
       "PANTILTV5",
       "WIFICAMERA",
       "WIFICAMERAPRO",
@@ -36,13 +37,12 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/[CHANNEL]"
-      ]
+      "H.264": {
+        "/[CHANNEL]": []
+      }
     },
     "models": [
-      "MEGACAM",
-      "OTHER"
+      "MEGACAM"
     ]
   }
 }

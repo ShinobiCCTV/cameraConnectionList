@@ -1,13 +1,14 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "360",
-      "OTHER",
       "VR360-WIFI-P5"
     ]
   }

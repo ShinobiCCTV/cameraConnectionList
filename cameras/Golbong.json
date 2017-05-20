@@ -1,10 +1,10 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin&password=tlJwpbo6&channel=1&stream=1.sdp",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/user=admin&password=tlJwpbo6&channel=1&stream=1.sdp": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
       "GBHD3111RC",

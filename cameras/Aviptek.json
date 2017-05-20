@@ -1,16 +1,17 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/GetData.cgi"
-      ],
-      "JPEG": [
-        "/GetData.cgi?Status=1"
-      ]
+      "MJPEG": {
+        "/GetData.cgi": []
+      },
+      "JPEG": {
+        "/GetData.cgi": [
+          "Status=1"
+        ]
+      }
     },
     "models": [
-      "NC1600",
-      "OTHER"
+      "NC1600"
     ]
   }
 }

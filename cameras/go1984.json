@@ -1,12 +1,16 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/[USERNAME]/javascript/Jpg?Camera=[CHANNEL]&motion=1"
-      ],
-      "MJPEG": [
-        "/[USERNAME]/java/mjpeg?camera=[CHANNEL]&motion=0"
-      ]
+      "JPEG": {
+        "/[USERNAME]/javascript/Jpg": [
+          "Camera=[CHANNEL]&motion=1"
+        ]
+      },
+      "MJPEG": {
+        "/[USERNAME]/java/mjpeg": [
+          "camera=[CHANNEL]&motion=0"
+        ]
+      }
     },
     "models": [
       "DVR"

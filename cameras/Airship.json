@@ -1,13 +1,17 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/[CHANNEL]",
-        "/live?camera=[CHANNEL]&framerate=5"
-      ],
-      "MJPEG": [
-        "/live?codec=mjpeg&camera=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/[CHANNEL]": [],
+        "/live": [
+          "camera=[CHANNEL]&framerate=5"
+        ]
+      },
+      "MJPEG": {
+        "/live": [
+          "codec=mjpeg&camera=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "DVR",

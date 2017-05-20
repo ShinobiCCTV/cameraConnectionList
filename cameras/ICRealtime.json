@@ -1,13 +1,15 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?1"
-      ],
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]",
+          "1"
+        ]
+      },
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": []
+      }
     },
     "models": [
       "ICIPB3000AF",

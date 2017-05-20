@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/tmpfs/auto.jpg"
-      ]
+      "JPEG": {
+        "/tmpfs/auto.jpg": []
+      }
     },
     "models": [
       "720HD",
@@ -19,16 +19,15 @@
       "FD7902",
       "FD7903",
       "FD7903W",
-      "OTHER",
       "VIEW"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11",
-        "/12"
-      ]
+      "H.264": {
+        "/11": [],
+        "/12": []
+      }
     },
     "models": [
       "7901",

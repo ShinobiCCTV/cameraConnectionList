@@ -1,12 +1,12 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Streaming/Channels/1",
-        "/Streaming/Channels/2",
-        "/Streaming/Channels/101",
-        "/Streaming/channels/101"
-      ]
+      "H.264": {
+        "/Streaming/Channels/1": [],
+        "/Streaming/Channels/2": [],
+        "/Streaming/Channels/101": [],
+        "/Streaming/channels/101": []
+      }
     },
     "models": [
       "CBP1334",
@@ -18,24 +18,23 @@
       "LV-PB932F4",
       "LV-PC902F2-W",
       "LV-PC903F4-W",
-      "LV-WB933F4B",
-      "OTHER"
+      "LV-WB933F4B"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/image/[CHANNEL].jpg"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf"
-      ]
+      "JPEG": {
+        "/image/[CHANNEL].jpg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "H.264D1DVR",
-      "LV-CBA2963B",
-      "OTHER"
+      "LV-CBA2963B"
     ]
   }
 }

@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cmd=live&codec=mjpeg&ID=[CHANNEL]/"
-      ]
+      "MJPEG": {
+        "/cmd=live&codec=mjpeg&ID=[CHANNEL]/": []
+      }
     },
     "models": [
       "RGSSERVER"

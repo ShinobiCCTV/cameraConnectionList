@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live/h264/VGA"
-      ]
+      "H.264": {
+        "/live/h264/VGA": []
+      }
     },
     "models": [
       "AVTECH459"

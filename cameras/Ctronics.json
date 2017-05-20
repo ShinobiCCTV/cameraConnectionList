@@ -1,14 +1,14 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/11",
-        "/ch01.264",
-        "/user=admin_password=2xsH8XwC_channel=1_stream=0.sdp",
-        "/user=admin_password=wcPNY294_channel=1_stream=0.sdp",
-        "/user=admin_password=bHW0TSyA_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/11": [],
+        "/ch01.264": [],
+        "/user=admin_password=2xsH8XwC_channel=1_stream=0.sdp": [],
+        "/user=admin_password=wcPNY294_channel=1_stream=0.sdp": [],
+        "/user=admin_password=bHW0TSyA_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
       "123C720PW",
@@ -29,15 +29,14 @@
       "CTIPCW-112C720",
       "CTIPCW-123C1080PW",
       "CTIPCW-123C720PW",
-      "OTHER",
       "PWR1"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/tmpfs/auto.jpg"
-      ]
+      "JPEG": {
+        "/tmpfs/auto.jpg": []
+      }
     },
     "models": [
       "CTIPC-224C720720PWS"

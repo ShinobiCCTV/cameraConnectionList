@@ -1,16 +1,17 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": [
+          "account=[USERNAME]&password=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "DAYANDNIGHT",
       "KW.07",
-      "MIE640",
-      "OTHER"
+      "MIE640"
     ]
   }
 }

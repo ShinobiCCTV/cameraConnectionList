@@ -1,31 +1,38 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/jpg/image.jpg",
-        "/temp/image.jpg",
-        "/snapshot.cgi",
-        "/jpg/image.jpg?size=3",
-        "/cgi-bin/view/image?pro_[CHANNEL]",
-        "/cgi-bin/jpg/image",
-        "/snapshot.jpg",
-        "/image.jpg",
-        "/loginfree.jpg",
-        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/video.cgi",
-        "/snapshot.cgi",
-        "/image.cgi",
-        "/video.mjpg",
-        "/video.mjpg?q=30&fps=33&id=0.5",
-        "/mjpg/video.mjpg",
-        "/video.cgi?resolution=VGA"
-      ],
-      "H.264": [
-        "/video.mp4"
-      ]
+      "JPEG": {
+        "/jpg/image.jpg": [
+          "size=3"
+        ],
+        "/temp/image.jpg": [],
+        "/snapshot.cgi": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/view/image": [
+          "pro_[CHANNEL]"
+        ],
+        "/cgi-bin/jpg/image": [],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ],
+        "/image.jpg": [],
+        "/loginfree.jpg": []
+      },
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=VGA"
+        ],
+        "/snapshot.cgi": [],
+        "/image.cgi": [],
+        "/video.mjpg": [
+          "q=30&fps=33&id=0.5"
+        ],
+        "/mjpg/video.mjpg": []
+      },
+      "H.264": {
+        "/video.mp4": []
+      }
     },
     "models": [
       "INT-L10",
@@ -61,15 +68,14 @@
       "NSC15-WG",
       "NSC16-WG",
       "NSC18",
-      "OTHER",
       "ROMANELLI"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/video.pro1"
-      ]
+      "H.264": {
+        "/video.pro1": []
+      }
     },
     "models": [
       "IBC-637IR"

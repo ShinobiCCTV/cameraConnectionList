@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/stream.asf"
-      ]
+      "H.264": {
+        "/stream.asf": []
+      }
     },
     "models": [
       "AT-201",

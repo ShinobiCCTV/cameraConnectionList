@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/api/mjpegvideo.cgi?InputNumber=1&StreamNumber=[CHANNEL]"
-      ]
+      "MJPEG": {
+        "/api/mjpegvideo.cgi": [
+          "InputNumber=1&StreamNumber=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "NVRIPCAMERA"
@@ -11,9 +13,9 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/AVStream1_1"
-      ]
+      "H.264": {
+        "/AVStream1_1": []
+      }
     },
     "models": [
       "STH780"

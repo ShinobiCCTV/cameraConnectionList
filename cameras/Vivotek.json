@@ -1,34 +1,48 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
-        "/video.mjpg?q=30&fps=33&id=0.5",
-        "/video2.mjpg",
-        "/video[CHANNEL].mjpg",
-        "/video.jpg",
-        "/video.mjpg",
-        "/cgi-bin/viewer/video.jpg",
-        "/GetData.cgi?Status=false",
-        "/videostream.cgi?rate=11",
-        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-        "/cgi-bin/sf.cgi"
-      ],
-      "JPEG": [
-        "/cgi-bin/viewer/video.jpg?resolution=640x480",
-        "/cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-        "/cgi-bin/video.jpg",
-        "/cgi-bin/video.jpg?size=2",
-        "/cgi-bin/viewer/video.jpg",
-        "/cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-        "/snapshot.cgi",
-        "/image.jpg",
-        "/img.jpg",
-        "/jpg/image.jpg",
-        "/goform/capture",
-        "/jpg/image.jpg?size=3",
-        "/cgi-bin/video[CHANNEL].jpg?size=2&quality=3"
-      ]
+      "MJPEG": {
+        "/cgi-bin/video.jpg": [
+          "cam=[CHANNEL]&quality=3&size=2"
+        ],
+        "/video.mjpg": [
+          "q=30&fps=33&id=0.5"
+        ],
+        "/video2.mjpg": [],
+        "/video[CHANNEL].mjpg": [],
+        "/video.jpg": [],
+        "/cgi-bin/viewer/video.jpg": [],
+        "/GetData.cgi": [
+          "Status=false"
+        ],
+        "/videostream.cgi": [
+          "rate=11"
+        ],
+        "/axis-cgi/mjpg/video.cgi": [
+          "camera=[CHANNEL]"
+        ],
+        "/cgi-bin/sf.cgi": []
+      },
+      "JPEG": {
+        "/cgi-bin/viewer/video.jpg": [
+          "resolution=640x480",
+          "resolution=[WIDTH]x[HEIGHT]",
+          "channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/cgi-bin/video.jpg": [
+          "size=2"
+        ],
+        "/snapshot.cgi": [],
+        "/image.jpg": [],
+        "/img.jpg": [],
+        "/jpg/image.jpg": [
+          "size=3"
+        ],
+        "/goform/capture": [],
+        "/cgi-bin/video[CHANNEL].jpg": [
+          "size=2&quality=3"
+        ]
+      }
     },
     "models": [
       "0301-G",
@@ -184,7 +198,6 @@
       "NC-1600",
       "NCL-612W",
       "NDP8322P",
-      "OTHER",
       "PT-3112",
       "PT-3112/3122",
       "PT-3122",
@@ -238,13 +251,13 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live.sdp",
-        "/live4.sdp",
-        "/live2.sdp",
-        "/live3.sdp",
-        "/live1.sdp"
-      ]
+      "H.264": {
+        "/live.sdp": [],
+        "/live4.sdp": [],
+        "/live2.sdp": [],
+        "/live3.sdp": [],
+        "/live1.sdp": []
+      }
     },
     "models": [
       "1729",
@@ -348,8 +361,6 @@
       "MD-7560",
       "MD-8562",
       "MD-8562D",
-      "OTHER",
-      "OTHER1",
       "P-8133",
       "PD-8136",
       "PT-3122",

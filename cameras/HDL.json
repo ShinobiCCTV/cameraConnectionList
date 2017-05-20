@@ -1,19 +1,24 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/dms?nowprofileid=[CHANNEL]",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/ipcam/stream.cgi?nowprofileid=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/dms": [
+          "nowprofileid=[CHANNEL]"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      },
+      "MJPEG": {
+        "/ipcam/stream.cgi": [
+          "nowprofileid=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "HMEG-70P/70DVIR",
       "HMEG-80PIR",
-      "HMS1VIDEOSERVER",
-      "OTHER"
+      "HMS1VIDEOSERVER"
     ]
   }
 }

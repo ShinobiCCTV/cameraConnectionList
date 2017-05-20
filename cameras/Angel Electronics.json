@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/jpg/image.jpg"
-      ]
+      "JPEG": {
+        "/jpg/image.jpg": []
+      }
     },
     "models": [
       "DREAMSTAR"

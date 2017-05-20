@@ -1,22 +1,25 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf"
-      ],
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/Jpeg/CamImg.jpg",
-        "/GetData.cgi"
-      ],
-      "MJPEG": [
-        "/GetData.cgi?Status=0",
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
-      ]
+      "H.264": {
+        "/videostream.asf": []
+      },
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/Jpeg/CamImg.jpg": [],
+        "/GetData.cgi": []
+      },
+      "MJPEG": {
+        "/GetData.cgi": [
+          "Status=0",
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
-      "IPNETWORKCAMERA",
-      "OTHER"
+      "IPNETWORKCAMERA"
     ]
   }
 }

@@ -1,17 +1,18 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/channel2",
-        "/img/video.mjpeg"
-      ],
-      "JPEG": [
-        "/ivop.get?action=live&THREAD_ID="
-      ]
+      "MJPEG": {
+        "/channel2": [],
+        "/img/video.mjpeg": []
+      },
+      "JPEG": {
+        "/ivop.get": [
+          "action=live&THREAD_ID="
+        ]
+      }
     },
     "models": [
       "-100",
-      "OTHER",
       "TVR30"
     ]
   }

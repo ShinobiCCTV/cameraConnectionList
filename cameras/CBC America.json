@@ -1,10 +1,10 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/gnz_media/main",
-        "/gnz_media/second"
-      ]
+      "H.264": {
+        "/gnz_media/main": [],
+        "/gnz_media/second": []
+      }
     },
     "models": [
       "GANZ",
@@ -13,10 +13,10 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/img.jpg",
-        "/Jpeg/CamImg.jpg"
-      ]
+      "JPEG": {
+        "/img.jpg": [],
+        "/Jpeg/CamImg.jpg": []
+      }
     },
     "models": [
       "MP2",

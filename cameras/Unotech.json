@@ -1,12 +1,14 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": []
+      }
     },
     "models": [
       "IP-04",

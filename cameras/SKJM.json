@@ -1,17 +1,18 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/img/video.mjpeg",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ],
-      "JPEG": [
-        "/image.jpg"
-      ]
+      "MJPEG": {
+        "/img/video.mjpeg": [],
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/image.jpg": []
+      }
     },
     "models": [
-      "1000",
-      "OTHER"
+      "1000"
     ]
   }
 }

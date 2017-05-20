@@ -1,10 +1,10 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/tcp/av0_1",
-        "/tcp/av0_0"
-      ]
+      "H.264": {
+        "/tcp/av0_1": [],
+        "/tcp/av0_0": []
+      }
     },
     "models": [
       "HSL-289799-JUWZB",
@@ -13,14 +13,17 @@
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": [
+          "camera=1&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
-      "HSL-289799-JUWZB",
-      "OTHER"
+      "HSL-289799-JUWZB"
     ]
   }
 }

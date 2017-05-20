@@ -1,20 +1,23 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/now.jpg?snap=spush",
-        "/now.jpg?snap=spush?ds="
-      ],
-      "JPEG": [
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/now.jpg",
-        "/now.jpg?ds="
-      ]
+      "MJPEG": {
+        "/now.jpg": [
+          "snap=spush"
+        ]
+      },
+      "JPEG": {
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/now.jpg": [
+          "ds="
+        ]
+      }
     },
     "models": [
       "752",
-      "A32N",
-      "OTHER"
+      "A32N"
     ]
   }
 }

@@ -1,34 +1,48 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/jpg/1/image.jpg",
-        "/jpg/image.jpg?size=3",
-        "/jpg/image.jpg",
-        "/snapshot.jpg",
-        "/image.jpg",
-        "/snapshot.cgi",
-        "/cgi-bin/viewer/video.jpg?resolution=640x480",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/imagep/picture.jpg"
-      ],
-      "MJPEG": [
-        "/mjpg/video.mjpg",
-        "/mjpg/1/video.mjpg",
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-        "/cgi-bin/Stream?Video",
-        "/user/videostream.cgi",
-        "/cgi/mjpg/mjpeg.cgi",
-        "/VIDEO.CGI"
-      ],
-      "H.264": [
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.cgi?resolution=8&rate=13"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": [
+          "account=[USERNAME]&password=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/jpg/1/image.jpg": [],
+        "/jpg/image.jpg": [
+          "size=3"
+        ],
+        "/image.jpg": [],
+        "/snapshot.cgi": [],
+        "/cgi-bin/viewer/video.jpg": [
+          "resolution=640x480"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ],
+        "/imagep/picture.jpg": []
+      },
+      "MJPEG": {
+        "/mjpg/video.mjpg": [],
+        "/mjpg/1/video.mjpg": [],
+        "/GetData.cgi": [
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+        ],
+        "/cgi-bin/Stream": [
+          "Video"
+        ],
+        "/user/videostream.cgi": [],
+        "/cgi/mjpg/mjpeg.cgi": [],
+        "/VIDEO.CGI": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/videostream.cgi": [
+          "resolution=8&rate=13"
+        ]
+      }
     },
     "models": [
       "1115",
@@ -134,7 +148,6 @@
       "KITCHEN",
       "MD111E",
       "NC-213E",
-      "OTHER",
       "PT-112E",
       "SMART",
       "TV-IP110WIN",
@@ -144,17 +157,16 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/stream2",
-        "/stream1"
-      ]
+      "H.264": {
+        "/stream2": [],
+        "/stream1": []
+      }
     },
     "models": [
       "IR-112",
       "IR-112E",
       "IR113E",
       "ND-233E",
-      "OTHER",
       "PT-31E",
       "VS100",
       "ZEWNETRZNA"

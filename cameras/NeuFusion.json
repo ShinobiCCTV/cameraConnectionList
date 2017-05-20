@@ -1,19 +1,18 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/image.jpg",
-        "/goform/capture",
-        "/cgi-bin/video.jpg"
-      ],
-      "MJPEG": [
-        "/mjpeg.cgi"
-      ]
+      "JPEG": {
+        "/image.jpg": [],
+        "/goform/capture": [],
+        "/cgi-bin/video.jpg": []
+      },
+      "MJPEG": {
+        "/mjpeg.cgi": []
+      }
     },
     "models": [
       "230W",
-      "330W",
-      "OTHER"
+      "330W"
     ]
   }
 }

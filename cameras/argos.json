@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.cgi?"
-      ]
+      "JPEG": {
+        "/snapshot.cgi": []
+      }
     },
     "models": [
       "514"

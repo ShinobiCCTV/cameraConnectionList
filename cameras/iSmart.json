@@ -1,15 +1,19 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?1",
-        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "1",
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]",
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+        ],
+        "/cgi/snapshot.cgi": [
+          "action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": []
+      }
     },
     "models": [
       "1CN1006",
@@ -17,22 +21,20 @@
       "C3011DN2",
       "C8001DN1",
       "C8001DN2",
-      "D5010WH4",
-      "OTHER"
+      "D5010WH4"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live/ch0",
-        "/video0.sdp",
-        "/11"
-      ]
+      "H.264": {
+        "/live/ch0": [],
+        "/video0.sdp": [],
+        "/11": []
+      }
     },
     "models": [
       "C700GC",
-      "MCHISI_002",
-      "OTHER"
+      "MCHISI_002"
     ]
   }
 }

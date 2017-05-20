@@ -1,18 +1,18 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/Streaming/Channels/2",
-        "/11",
-        "/user=admin_password=DWfHWbin_channel=1_stream=0.sdp",
-        "/user=admin_password=ZlNKhPmN_channel=1_stream=0.sdp",
-        "/user=admin_password=6QNMIQGe_channel=1_stream=0.sdp",
-        "/user=admin_password=w6pWZwJz_channel=1_stream=0.sdp",
-        "/user=admin_password=ecuMeEKh_channel=1_stream=0.sdp",
-        "/Streaming/Channels/1",
-        "/"
-      ]
+      "H.264": {
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/Streaming/Channels/2": [],
+        "/11": [],
+        "/user=admin_password=DWfHWbin_channel=1_stream=0.sdp": [],
+        "/user=admin_password=ZlNKhPmN_channel=1_stream=0.sdp": [],
+        "/user=admin_password=6QNMIQGe_channel=1_stream=0.sdp": [],
+        "/user=admin_password=w6pWZwJz_channel=1_stream=0.sdp": [],
+        "/user=admin_password=ecuMeEKh_channel=1_stream=0.sdp": [],
+        "/Streaming/Channels/1": [],
+        "/": []
+      }
     },
     "models": [
       "107HD",
@@ -28,13 +28,19 @@
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "JPEG": [
-        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/mobile_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "MJPEG": {
+        "/cgi-bin/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "JPEG": {
+        "/cgi-bin/video_snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/mobile_snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "V-104",

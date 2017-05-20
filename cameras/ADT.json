@@ -1,26 +1,35 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/img/snapshot.cgi",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/snap.jpg",
-        "/img/snapshot.cgi?size=2",
-        "/img/snapshot.cgi?img=vga",
-        "/cgi-bin/snapshot.cgi?1",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/img/snapshot.cgi?size=3"
-      ],
-      "MJPEG": [
-        "/img/video.mjpeg",
-        "/img/mjpeg.jpg",
-        "/img/mjpeg.cgi",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ]
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=2",
+          "img=vga",
+          "size=3"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/snap.jpg": [],
+        "/cgi-bin/snapshot.cgi": [
+          "1",
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]",
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/img/video.mjpeg": [],
+        "/img/mjpeg.jpg": [],
+        "/img/mjpeg.cgi": [],
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      }
     },
     "models": [
       "0C810",
@@ -36,7 +45,6 @@
       "OC810-",
       "OC835-",
       "OTC810",
-      "OTHER",
       "PULSE",
       "RC8010",
       "RC8021",

@@ -1,15 +1,15 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/mpeg4",
-        "/ch01.264",
-        "/Onvif/Streaming/2",
-        "/11",
-        "/0",
-        "/mpeg4cif",
-        "/ch01_sub.264"
-      ]
+      "H.264": {
+        "/mpeg4": [],
+        "/ch01.264": [],
+        "/Onvif/Streaming/2": [],
+        "/11": [],
+        "/0": [],
+        "/mpeg4cif": [],
+        "/ch01_sub.264": []
+      }
     },
     "models": [
       "534/T13",
@@ -22,7 +22,6 @@
       "IPC-631",
       "IPC-631/T13",
       "MEGA-PIXEL",
-      "OTHER",
       "PARKING_1",
       "PARKING_2",
       "STIAN",
@@ -37,13 +36,21 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/img/snapshot.cgi?size=2",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]",
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "534/T13",
@@ -54,7 +61,6 @@
       "IPC-3518T",
       "IPC-631",
       "IPC-631/T13",
-      "OTHER",
       "TV-536W/IP",
       "TV631",
       "TV-631WIP",

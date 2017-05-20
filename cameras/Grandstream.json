@@ -1,16 +1,16 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/0",
-        "/1",
-        "/2",
-        "/3",
-        "/[CHANNEL]",
-        "/4",
-        "/0/888888:888888/main",
-        "/5"
-      ]
+      "H.264": {
+        "/0": [],
+        "/1": [],
+        "/2": [],
+        "/3": [],
+        "/[CHANNEL]": [],
+        "/4": [],
+        "/0/888888:888888/main": [],
+        "/5": []
+      }
     },
     "models": [
       "20-1",
@@ -73,24 +73,27 @@
       "LLBMINSIDE",
       "MEDIENRAUM",
       "MINE",
-      "OTHER",
       "VIDEOSERVER"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot/view[CHANNEL].jpg",
-        "/jpg/image.jpg"
-      ],
-      "MJPEG": [
-        "/goform/stream?cmd=get&channel=[CHANNEL]",
-        "/videofeed",
-        "/cgi-bin/still.cgi"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ]
+      "JPEG": {
+        "/snapshot/view[CHANNEL].jpg": [],
+        "/jpg/image.jpg": []
+      },
+      "MJPEG": {
+        "/goform/stream": [
+          "cmd=get&channel=[CHANNEL]"
+        ],
+        "/videofeed": [],
+        "/cgi-bin/still.cgi": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      }
     },
     "models": [
       "3501",
@@ -132,7 +135,6 @@
       "GXV3674_HD_VF",
       "GXV3674FHD",
       "IP1536B2",
-      "OTHER",
       "VIDEOSERVER"
     ]
   }

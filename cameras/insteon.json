@@ -1,29 +1,41 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.asf"
-      ],
-      "JPEG": [
-        "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
-        "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/img/snapshot.cgi?size=2"
-      ],
-      "MJPEG": [
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi",
-        "/videostream.cgi?rate=11"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "JPEG": {
+        "/cgi-bin/CGIProxy.fcgi": [
+          "cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
+          "cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ],
+        "/snapshot.cgi": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      },
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "rate=11"
+        ]
+      }
     },
     "models": [
       "1010",
@@ -54,7 +66,6 @@
       "INDOORIP",
       "LIVINGROOM",
       "OC821",
-      "OTHER",
       "OUTDOORHD",
       "OUTDOORWIRELESSIPCAMERA",
       "PTHDCAMERA",
@@ -69,16 +80,15 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/videoMain",
-        "/videoSub"
-      ]
+      "H.264": {
+        "/videoMain": [],
+        "/videoSub": []
+      }
     },
     "models": [
       "2864-226",
       "2864-22X",
-      "2864-232",
-      "OTHER"
+      "2864-232"
     ]
   }
 }

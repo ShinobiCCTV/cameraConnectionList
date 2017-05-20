@@ -1,14 +1,14 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
-      "IP-CAMERA",
-      "OTHER"
+      "IP-CAMERA"
     ]
   }
 }

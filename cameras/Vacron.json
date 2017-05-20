@@ -1,16 +1,15 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/video0.sdp",
-        "/0"
-      ]
+      "H.264": {
+        "/video0.sdp": [],
+        "/0": []
+      }
     },
     "models": [
       "2MPX",
       "5MPX",
       "629",
-      "OTHER",
       "VDH-DXG368",
       "VIG-DM755VE",
       "VIG-US731VE",
@@ -19,12 +18,12 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snap.jpg?JpegCam=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/snap.jpg": [
+          "JpegCam=[CHANNEL]"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

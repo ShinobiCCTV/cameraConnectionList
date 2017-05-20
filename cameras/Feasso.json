@@ -1,14 +1,15 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/user/videostream.cgi"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/user/videostream.cgi": []
+      }
     },
     "models": [
-      "F-IPCAM03",
-      "OTHER"
+      "F-IPCAM03"
     ]
   }
 }

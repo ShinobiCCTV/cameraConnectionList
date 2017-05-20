@@ -1,11 +1,11 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/0",
-        "/11",
-        "/12"
-      ]
+      "H.264": {
+        "/0": [],
+        "/11": [],
+        "/12": []
+      }
     },
     "models": [
       "400",
@@ -13,15 +13,16 @@
       "AT-LIR400",
       "B603W",
       "B608W",
-      "IP72-ONVIF-IPS",
-      "OTHER"
+      "IP72-ONVIF-IPS"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snap.jpg?JpegCam=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/snap.jpg": [
+          "JpegCam=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "400",

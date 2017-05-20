@@ -1,12 +1,12 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11",
-        "/live0.264",
-        "/Streaming/Channels/1",
-        "/live1.264"
-      ]
+      "H.264": {
+        "/11": [],
+        "/live0.264": [],
+        "/Streaming/Channels/1": [],
+        "/live1.264": []
+      }
     },
     "models": [
       "DRIVEWAY",
@@ -22,19 +22,17 @@
       "JVS-N61-NA",
       "JVS-N63-HC",
       "N61-HA",
-      "N61-NA",
-      "OTHER"
+      "N61-NA"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

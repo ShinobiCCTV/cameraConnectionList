@@ -1,10 +1,10 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/rtsp/record.sdp",
-        "/rtsp/mjpeg.sdp"
-      ]
+      "H.264": {
+        "/rtsp/record.sdp": [],
+        "/rtsp/mjpeg.sdp": []
+      }
     },
     "models": [
       "HIV6",

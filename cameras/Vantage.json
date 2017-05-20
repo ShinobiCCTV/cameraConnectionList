@@ -1,17 +1,22 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf"
-      ],
-      "JPEG": [
-        "/cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/api.htm?op.liveimage=1"
-      ]
+      "H.264": {
+        "/videostream.asf": []
+      },
+      "JPEG": {
+        "/cgi-bin/encoder": [
+          "USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/api.htm": [
+          "op.liveimage=1"
+        ]
+      }
     },
     "models": [
-      "OTHER",
       "VDR-009TC",
       "VIPC-1431EP"
     ]

@@ -1,17 +1,16 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/"
-      ],
-      "JPEG": [
-        "/cgi-bin/jpg/image.cgi"
-      ]
+      "MJPEG": {
+        "/": []
+      },
+      "JPEG": {
+        "/cgi-bin/jpg/image.cgi": []
+      }
     },
     "models": [
       "AKVATEK",
       "NH073",
-      "OTHER",
       "P2V6-5",
       "V5-ADV-BB300"
     ]

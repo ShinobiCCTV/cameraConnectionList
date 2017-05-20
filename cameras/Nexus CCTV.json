@@ -1,42 +1,48 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snap.jpg?JpegCam=[CHANNEL]",
-        "/img/snapshot.cgi?size=2",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/ipcam/mjpegcif.cgi"
-      ],
-      "H.264": [
-        "/videostream.cgi?resolution=8&rate=13"
-      ]
+      "JPEG": {
+        "/snap.jpg": [
+          "JpegCam=[CHANNEL]"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/ipcam/mjpegcif.cgi": []
+      },
+      "H.264": {
+        "/videostream.cgi": [
+          "resolution=8&rate=13"
+        ]
+      }
     },
     "models": [
       "1080P",
       "115VW",
       "231F",
       "NIP",
-      "NIP2",
-      "OTHER"
+      "NIP2"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Streaming/Channels/1",
-        "/ucast/12",
-        "/ROH/channel/11",
-        "/ucast/11"
-      ]
+      "H.264": {
+        "/Streaming/Channels/1": [],
+        "/ucast/12": [],
+        "/ROH/channel/11": [],
+        "/ucast/11": []
+      }
     },
     "models": [
       "115VW",
       "235",
-      "235FW",
-      "OTHER"
+      "235FW"
     ]
   }
 }

@@ -1,22 +1,36 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/control/faststream.jpg?stream=full",
-        "/faststream.jpg?stream=full&fps=0",
-        "/-wvhttp-01-/GetOneShot?image_size=[WIDTH]x[HEIGHT]&frame_count=0",
-        "/mjpeg"
-      ],
-      "JPEG": [
-        "/record/current.jpg?sync=-99",
-        "/cgi-bin/image.jpg?size=[WIDTH]x[HEIGHT]",
-        "/record/current.jpg",
-        "/cgi-bin/image.jpg",
-        "/jpg/image.jpg?size=3",
-        "/cgi-bin/snapshot.cgi?1",
-        "/cgi-bin/guest/Video.cgi?media=JPEG",
-        "/jpeg/vga.jpg"
-      ]
+      "MJPEG": {
+        "/control/faststream.jpg": [
+          "stream=full"
+        ],
+        "/faststream.jpg": [
+          "stream=full&fps=0"
+        ],
+        "/-wvhttp-01-/GetOneShot": [
+          "image_size=[WIDTH]x[HEIGHT]&frame_count=0"
+        ],
+        "/mjpeg": []
+      },
+      "JPEG": {
+        "/record/current.jpg": [
+          "sync=-99"
+        ],
+        "/cgi-bin/image.jpg": [
+          "size=[WIDTH]x[HEIGHT]"
+        ],
+        "/jpg/image.jpg": [
+          "size=3"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "1"
+        ],
+        "/cgi-bin/guest/Video.cgi": [
+          "media=JPEG"
+        ],
+        "/jpeg/vga.jpg": []
+      }
     },
     "models": [
       "BO",
@@ -42,7 +56,6 @@
       "M24",
       "M25",
       "M-SERIES",
-      "OTHER",
       "Q-22",
       "Q-24",
       "Q24M",

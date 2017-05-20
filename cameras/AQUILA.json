@@ -1,12 +1,14 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "JPEG": [
-        "/tmpfs/auto.jpg"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "JPEG": {
+        "/tmpfs/auto.jpg": []
+      }
     },
     "models": [
       "AV-IPE03",
@@ -16,9 +18,9 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/12"
-      ]
+      "H.264": {
+        "/12": []
+      }
     },
     "models": [
       "VIZION"

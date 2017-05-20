@@ -1,12 +1,14 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/[CHANNEL].jpg"
-      ],
-      "MJPEG": [
-        "/?&AUDIO=YES&CHOPIMAGE=YES&STREAM=YES&WANTIMAGE=[CHANNEL].JPG&SENDEMPTYIMAGES=NO"
-      ]
+      "JPEG": {
+        "/[CHANNEL].jpg": []
+      },
+      "MJPEG": {
+        "/": [
+          "&AUDIO=YES&CHOPIMAGE=YES&STREAM=YES&WANTIMAGE=[CHANNEL].JPG&SENDEMPTYIMAGES=NO"
+        ]
+      }
     },
     "models": [
       "SURVEILLANCEDVR"

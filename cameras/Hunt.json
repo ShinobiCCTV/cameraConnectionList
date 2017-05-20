@@ -1,17 +1,23 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/GetImage.cgi",
-        "/GetStream.cgi?Video=[CHANNEL]",
-        "/cgi-bin/jpg.cgi?refresh=0&channel=[CHANNEL]&id=[USERNAME]&pass=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]&oldbrowser=1",
-        "/GetImage.cgi?CH=[CHANNEL]",
-        "/GetStream.cgi"
-      ],
-      "MJPEG": [
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-        "/GetData.cgi?Status=0"
-      ]
+      "JPEG": {
+        "/GetImage.cgi": [
+          "CH=[CHANNEL]"
+        ],
+        "/GetStream.cgi": [
+          "Video=[CHANNEL]"
+        ],
+        "/cgi-bin/jpg.cgi": [
+          "refresh=0&channel=[CHANNEL]&id=[USERNAME]&pass=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]&oldbrowser=1"
+        ]
+      },
+      "MJPEG": {
+        "/GetData.cgi": [
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+          "Status=0"
+        ]
+      }
     },
     "models": [
       "1NCD",
@@ -30,20 +36,18 @@
       "HLV-1CM",
       "HWS-04HD",
       "LONIX",
-      "OTHER",
       "VLC-83V/W"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/stream1"
-      ]
+      "H.264": {
+        "/stream1": []
+      }
     },
     "models": [
       "HNC303",
-      "HTP-T3MPT",
-      "OTHER"
+      "HTP-T3MPT"
     ]
   }
 }

@@ -1,14 +1,13 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Streaming/Channels/1",
-        "/v1"
-      ]
+      "H.264": {
+        "/Streaming/Channels/1": [],
+        "/v1": []
+      }
     },
     "models": [
-      "IP-HD101B",
-      "OTHER"
+      "IP-HD101B"
     ]
   }
 }

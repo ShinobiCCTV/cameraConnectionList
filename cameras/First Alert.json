@@ -1,22 +1,24 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf"
-      ],
-      "JPEG": [
-        "/image/[CHANNEL].jpg"
-      ],
-      "MJPEG": [
-        "/video.cgi?resolution=VGA"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/image/[CHANNEL].jpg": []
+      },
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=VGA"
+        ]
+      }
     },
     "models": [
       "420",
       "DC8810-420",
-      "IMS200",
-      "OTHER"
+      "IMS200"
     ]
   }
 }

@@ -1,12 +1,10 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cgi-bin/sf.cgi"
-      ]
+      "MJPEG": {
+        "/cgi-bin/sf.cgi": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

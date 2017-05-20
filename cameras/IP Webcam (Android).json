@@ -1,16 +1,14 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/video",
-        "/videofeed"
-      ],
-      "JPEG": [
-        "/shot.jpg"
-      ]
+      "MJPEG": {
+        "/video": [],
+        "/videofeed": []
+      },
+      "JPEG": {
+        "/shot.jpg": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

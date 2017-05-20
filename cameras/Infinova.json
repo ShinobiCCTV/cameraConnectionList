@@ -1,14 +1,13 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/1/h264major",
-        "/1/mjpeg",
-        "/video1enc1"
-      ]
+      "H.264": {
+        "/1/h264major": [],
+        "/1/mjpeg": [],
+        "/video1enc1": []
+      }
     },
     "models": [
-      "OTHER",
       "V1492MP-30T",
       "V1492MP-30T25HE",
       "V6842"
@@ -16,12 +15,13 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snap.jpg?JpegCam=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/snap.jpg": [
+          "JpegCam=[CHANNEL]"
+        ]
+      }
     },
     "models": [
-      "OTHER",
       "V2501-M"
     ]
   }

@@ -1,10 +1,10 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/ucast/11",
-        "/live/ch1"
-      ]
+      "H.264": {
+        "/ucast/11": [],
+        "/live/ch1": []
+      }
     },
     "models": [
       "C301E",
@@ -13,12 +13,12 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/img/snapshot.cgi?size=2"
-      ]
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

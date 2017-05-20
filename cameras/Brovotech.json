@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live/main"
-      ]
+      "H.264": {
+        "/live/main": []
+      }
     },
     "models": [
       "600102003-BV-H0203"

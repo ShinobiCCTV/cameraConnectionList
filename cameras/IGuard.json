@@ -1,15 +1,18 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/showimg_pda.cgi?cam=[CHANNEL]",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/showimg_pda.cgi": [
+          "cam=[CHANNEL]"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "270E",
-      "380E",
-      "OTHER"
+      "380E"
     ]
   }
 }

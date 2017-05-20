@@ -1,23 +1,25 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]"
-      ],
-      "H.264": [
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/ch01.264"
-      ]
+      "H.264": {
+        "/ch01.264": []
+      }
     },
     "models": [
       "XL-ICA-270M1-28"

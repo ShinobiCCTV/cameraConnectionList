@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11"
-      ]
+      "H.264": {
+        "/11": []
+      }
     },
     "models": [
       "BULLET"
@@ -11,19 +11,23 @@
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi/mjpg/mjpeg.cgi",
-        "/cgi/mjpg/mjpg.cgi",
-        "/MJPEG.CGI",
-        "/VIDEO.CGI"
-      ],
-      "JPEG": [
-        "/cgi/jpg/image.cgi",
-        "/IMAGE.JPG",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi/mjpg/mjpeg.cgi": [],
+        "/cgi/mjpg/mjpg.cgi": [],
+        "/MJPEG.CGI": [],
+        "/VIDEO.CGI": []
+      },
+      "JPEG": {
+        "/cgi/jpg/image.cgi": [],
+        "/IMAGE.JPG": [],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&count=0"
+        ]
+      }
     },
     "models": [
       "GM-8126",
@@ -33,7 +37,6 @@
       "IPROBOCAM10/11/541/641",
       "IPROBOCAM21",
       "IPROBOCAM8",
-      "OTHER",
       "ROBOCAM10",
       "ROBOCAM21",
       "ROBOCAM8"

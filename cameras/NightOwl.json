@@ -1,19 +1,21 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "JPEG": [
-        "/current[CHANNEL].jpg",
-        "/video.cgi"
-      ],
-      "MJPEG": [
-        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/current[CHANNEL].jpg": [],
+        "/video.cgi": []
+      },
+      "MJPEG": {
+        "/cgi-bin/video.jpg": [
+          "cam=[CHANNEL]&quality=3&size=2"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

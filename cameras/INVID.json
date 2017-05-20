@@ -1,18 +1,21 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/GetImage.cgi"
-      ],
-      "MJPEG": [
-        "/GetData.cgi?Status=0",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ]
+      "JPEG": {
+        "/GetImage.cgi": []
+      },
+      "MJPEG": {
+        "/GetData.cgi": [
+          "Status=0"
+        ],
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      }
     },
     "models": [
       "MK21",
-      "OTHER",
       "VKS87"
     ]
   }

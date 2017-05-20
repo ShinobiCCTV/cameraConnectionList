@@ -1,14 +1,13 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin&password=tlJwpbo6&channel=1&stream=0.sdp",
-        "/user=admin&password=tlJwpbo6&channel=1&stream=1.sdp"
-      ]
+      "H.264": {
+        "/user=admin&password=tlJwpbo6&channel=1&stream=0.sdp": [],
+        "/user=admin&password=tlJwpbo6&channel=1&stream=1.sdp": []
+      }
     },
     "models": [
-      "1",
-      "OTHER"
+      "1"
     ]
   }
 }

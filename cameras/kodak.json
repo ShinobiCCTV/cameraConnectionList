@@ -1,22 +1,26 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-        "/image.jpg?type=motion"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf"
-      ],
-      "JPEG": [
-        "/IMAGE.JPG",
-        "/image.jpg"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]"
+        ],
+        "/image.jpg": [
+          "type=motion"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/IMAGE.JPG": [],
+        "/image.jpg": []
+      }
     },
     "models": [
       "201PL",
-      "OTHER",
       "S101"
     ]
   }

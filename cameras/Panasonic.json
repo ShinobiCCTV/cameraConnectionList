@@ -1,10 +1,10 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/ONVIF/MediaInput",
-        "/cam/realmonitor"
-      ]
+      "H.264": {
+        "/ONVIF/MediaInput": [],
+        "/cam/realmonitor": []
+      }
     },
     "models": [
       "104",
@@ -41,8 +41,6 @@
       "K-EP104W",
       "LOBBY",
       "ONVIF",
-      "OTHER",
-      "OTHERR",
       "_WV-SFN310",
       "PAN-ONVIV",
       "SC384",
@@ -114,56 +112,92 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/jpg/image.jpg",
-        "/SnapShotJPEG?Resolution=320x240&Quality=Motion",
-        "/cgi-bin/camera?ch=[CHANNEL]&resolution=",
-        "/SnapshotJPEG?Resolution=320x240",
-        "/cgi-bin/camera",
-        "/SnapshotJPEG",
-        "/cgi-bin/camera?UID=[USERNAME]",
-        "/snapshot/view[CHANNEL].jpg",
-        "/cgi-bin/jpeg",
-        "/current[CHANNEL].jpg",
-        "/Image.jpg",
-        "/image.jpg",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/CgiStart?page=Single&Resolution=640x480&Quality=Standard&Language=0",
-        "/cgi-bin/video.jpg",
-        "/liveimg.cgi?ch=[CHANNEL]",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?1",
-        "/liveimg.cgi",
-        "/view/camera.cgi?UID=[USERNAME]&CH=[CHANNEL]",
-        "/cgi-bin/checkimage.cgi?UID=[USERNAME]&CAM=[CHANNEL]",
-        "/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-        "/cgi-bin/cameraid?UID=",
-        "/jpeg/qvga.jpg"
-      ],
-      "MJPEG": [
-        "/cgi-bin/jpeg?connect=start&vmdinfo=none&UID=9&ch=[CHANNEL]&resolution=",
-        "/nphMotionJpeg?Resolution=640x480&Quality=Standard",
-        "/nphMotionJpeg",
-        "/cgi-bin/mjpeg?stream=[CHANNEL]",
-        "/cgi-bin/mjpeg",
-        "/cgi-bin/mjpeg?session_id=[CHANNEL]&buffer=0&prio=high&frame=4",
-        "/nphMotionJpeg?Resolution=320x240&Quality=Standard",
-        "/nphMotionJpeg?Resolution=320x240&Quality=Motion",
-        "/cgi-bin/camera",
-        "/cgi-bin/nphContinuousServerPush",
-        "/image.jpg?type=motion",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/MJPEG.CGI",
-        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-        "/GetData.cgi?Status=false",
-        "/video?profile=[CHANNEL]",
-        "/liveimg.cgi?serverpush=1",
-        "/liveimg.cgi?serverpush=1&jpeg=1&stream=[CHANNEL]"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf"
-      ]
+      "JPEG": {
+        "/jpg/image.jpg": [],
+        "/SnapShotJPEG": [
+          "Resolution=320x240&Quality=Motion"
+        ],
+        "/cgi-bin/camera": [
+          "ch=[CHANNEL]&resolution=",
+          "UID=[USERNAME]"
+        ],
+        "/SnapshotJPEG": [
+          "Resolution=320x240"
+        ],
+        "/snapshot/view[CHANNEL].jpg": [],
+        "/cgi-bin/jpeg": [],
+        "/current[CHANNEL].jpg": [],
+        "/Image.jpg": [],
+        "/image.jpg": [],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/CgiStart": [
+          "page=Single&Resolution=640x480&Quality=Standard&Language=0"
+        ],
+        "/cgi-bin/video.jpg": [],
+        "/liveimg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]",
+          "1"
+        ],
+        "/view/camera.cgi": [
+          "UID=[USERNAME]&CH=[CHANNEL]"
+        ],
+        "/cgi-bin/checkimage.cgi": [
+          "UID=[USERNAME]&CAM=[CHANNEL]"
+        ],
+        "/axis-cgi/jpg/image.cgi": [
+          "date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/cgi-bin/cameraid": [
+          "UID="
+        ],
+        "/jpeg/qvga.jpg": []
+      },
+      "MJPEG": {
+        "/cgi-bin/jpeg": [
+          "connect=start&vmdinfo=none&UID=9&ch=[CHANNEL]&resolution="
+        ],
+        "/nphMotionJpeg": [
+          "Resolution=640x480&Quality=Standard",
+          "Resolution=320x240&Quality=Standard",
+          "Resolution=320x240&Quality=Motion"
+        ],
+        "/cgi-bin/mjpeg": [
+          "stream=[CHANNEL]",
+          "session_id=[CHANNEL]&buffer=0&prio=high&frame=4"
+        ],
+        "/cgi-bin/camera": [],
+        "/cgi-bin/nphContinuousServerPush": [],
+        "/image.jpg": [
+          "type=motion"
+        ],
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/MJPEG.CGI": [],
+        "/axis-cgi/mjpg/video.cgi": [
+          "date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/GetData.cgi": [
+          "Status=false"
+        ],
+        "/video": [
+          "profile=[CHANNEL]"
+        ],
+        "/liveimg.cgi": [
+          "serverpush=1",
+          "serverpush=1&jpeg=1&stream=[CHANNEL]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "104",
@@ -262,7 +296,6 @@
       "BL-C20",
       "BL-C210",
       "BL-C210A",
-      "BL-C210AOTHER",
       "BL-C230",
       "BL-C230A",
       "BL-C30",
@@ -318,7 +351,6 @@
       "NP-WV472E",
       "NT304",
       "NW470",
-      "OTHER",
       "PL-SFW303L",
       "PW-CP480",
       "SC384",

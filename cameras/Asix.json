@@ -1,25 +1,36 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/jpg/image.jpg?size=3",
-        "/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-        "/axis-cgi/jpg/image.cgi?camera=1&resolution=320x240&compression=25",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/jpg/1/image.jpg"
-      ],
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi",
-        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
-        "/mjpg/1/video.mjpg",
-        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
-        "/img/video.mjpeg",
-        "/videostream.cgi?rate=11"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/jpg/image.jpg": [
+          "size=3"
+        ],
+        "/axis-cgi/jpg/image.cgi": [
+          "date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+          "camera=1&resolution=320x240&compression=25"
+        ],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/jpg/1/image.jpg": []
+      },
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": [
+          "date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+          "camera=[CHANNEL]",
+          "camera=1&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/mjpg/1/video.mjpg": [],
+        "/img/video.mjpeg": [],
+        "/videostream.cgi": [
+          "rate=11"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "1011W",
@@ -54,7 +65,6 @@
       "M3007",
       "M3114",
       "M3204",
-      "OTHER",
       "P1214",
       "P1344",
       "P1347",

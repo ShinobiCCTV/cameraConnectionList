@@ -1,26 +1,28 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/snapshot.cgi": [],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "5210",
       "IC-202W",
-      "OTHER",
       "P6620",
       "RSERIESDVR"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/h264main"
-      ]
+      "H.264": {
+        "/h264main": []
+      }
     },
     "models": [
       "D6122P"

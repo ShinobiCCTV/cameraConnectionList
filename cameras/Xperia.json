@@ -1,10 +1,12 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videofeed",
-        "/video?submenu=mjpg"
-      ]
+      "MJPEG": {
+        "/videofeed": [],
+        "/video": [
+          "submenu=mjpg"
+        ]
+      }
     },
     "models": [
       "SONY",

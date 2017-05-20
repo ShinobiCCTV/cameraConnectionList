@@ -1,31 +1,38 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ],
-      "JPEG": [
-        "/img/snapshot.cgi?size=2",
-        "/cgi/jpg/image.cgi",
-        "/Image.jpg",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/snapshot.jpg",
-        "/cgi-bin/jpg/image.micgi",
-        "/goform/capture",
-        "/snap.jpg",
-        "/cgi-bin/jpg/image.cgi"
-      ],
-      "MJPEG": [
-        "/video.cgi?resolution=VGA",
-        "/cgi/mjpg/mjpeg.cgi",
-        "/snapshot.cgi",
-        "/mjpg/video.mjpg",
-        "/"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/cgi/jpg/image.cgi": [],
+        "/Image.jpg": [],
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ],
+        "/snapshot.jpg": [],
+        "/cgi-bin/jpg/image.micgi": [],
+        "/goform/capture": [],
+        "/snap.jpg": [],
+        "/cgi-bin/jpg/image.cgi": []
+      },
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=VGA"
+        ],
+        "/cgi/mjpg/mjpeg.cgi": [],
+        "/snapshot.cgi": [],
+        "/mjpg/video.mjpg": [],
+        "/": []
+      }
     },
     "models": [
       "MIRASBOBBYHOME",
-      "OTHER",
       "SP5512W",
       "SP5520",
       "SP5523W",

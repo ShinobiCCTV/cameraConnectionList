@@ -1,19 +1,18 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/video.cgi"
-      ],
-      "JPEG": [
-        "/operator/get_jpeg.cgi"
-      ],
-      "H.264": [
-        "/goform/video"
-      ]
+      "MJPEG": {
+        "/video.cgi": []
+      },
+      "JPEG": {
+        "/operator/get_jpeg.cgi": []
+      },
+      "H.264": {
+        "/goform/video": []
+      }
     },
     "models": [
-      "KERBYWIRELESSCAMERA",
-      "OTHER"
+      "KERBYWIRELESSCAMERA"
     ]
   }
 }

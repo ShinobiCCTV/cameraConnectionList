@@ -1,12 +1,12 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/?action=appletvstream"
-      ]
+      "MJPEG": {
+        "/": [
+          "action=appletvstream"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

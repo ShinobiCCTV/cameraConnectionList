@@ -1,18 +1,19 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/img/snapshot.cgi?size=2"
-      ],
-      "MJPEG": [
-        "/mjpg/video.cgi",
-        "/img/video.mjpeg"
-      ]
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      },
+      "MJPEG": {
+        "/mjpg/video.cgi": [],
+        "/img/video.mjpeg": []
+      }
     },
     "models": [
       "EVOMINI",
-      "GRANDEYE",
-      "OTHER"
+      "GRANDEYE"
     ]
   }
 }

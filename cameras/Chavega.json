@@ -1,11 +1,11 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/Onvif/Streaming/2",
-        "/Streaming/Channels/1"
-      ]
+      "H.264": {
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/Onvif/Streaming/2": [],
+        "/Streaming/Channels/1": []
+      }
     },
     "models": [
       "CSJ-320R-40",

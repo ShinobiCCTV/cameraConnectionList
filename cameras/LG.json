@@ -1,22 +1,30 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videofeed",
-        "/video?profile=[CHANNEL]",
-        "/video?submenu=mjpg",
-        "/",
-        "/?&AUDIO=YES&CHOPIMAGE=YES&STREAM=YES&WANTIMAGE=[CHANNEL].JPG&SENDEMPTYIMAGES=NO",
-        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2"
-      ],
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.jpg",
-        "/shot.jpg",
-        "/snapshot.cgi",
-        "/img/snapshot.cgi",
-        "/cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "MJPEG": {
+        "/videofeed": [],
+        "/video": [
+          "profile=[CHANNEL]",
+          "submenu=mjpg"
+        ],
+        "/": [
+          "&AUDIO=YES&CHOPIMAGE=YES&STREAM=YES&WANTIMAGE=[CHANNEL].JPG&SENDEMPTYIMAGES=NO"
+        ],
+        "/cgi-bin/video.jpg": [
+          "cam=[CHANNEL]&quality=3&size=2"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/shot.jpg": [],
+        "/snapshot.cgi": [],
+        "/img/snapshot.cgi": [],
+        "/cgi-bin/viewer/video.jpg": [
+          "channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "4X",
@@ -31,7 +39,6 @@
       "NEXUS4",
       "OPTIMUS",
       "OPTIMUSV",
-      "OTHER",
       "P350",
       "P509",
       "P970"
@@ -39,10 +46,10 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Master-0",
-        "/Slave-0"
-      ]
+      "H.264": {
+        "/Master-0": [],
+        "/Slave-0": []
+      }
     },
     "models": [
       "LDW2010-F1E858",

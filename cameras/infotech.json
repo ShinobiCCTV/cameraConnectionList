@@ -1,15 +1,13 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi/jpg/image.cgi"
-      ],
-      "MJPEG": [
-        "/cgi/mjpg/mjpg.cgi"
-      ]
+      "JPEG": {
+        "/cgi/jpg/image.cgi": []
+      },
+      "MJPEG": {
+        "/cgi/mjpg/mjpg.cgi": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

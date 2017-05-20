@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": [
+          "account=[USERNAME]&password=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "BLUESTORKIPCAM"

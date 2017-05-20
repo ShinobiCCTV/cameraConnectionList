@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/CH002.sdp"
-      ]
+      "H.264": {
+        "/CH002.sdp": []
+      }
     },
     "models": [
       "DUNLANG"

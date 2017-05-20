@@ -1,12 +1,12 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/onvif-stream1",
-        "/media/video1",
-        "/onvif-stream2",
-        "/h264"
-      ]
+      "H.264": {
+        "/onvif-stream1": [],
+        "/media/video1": [],
+        "/onvif-stream2": [],
+        "/h264": []
+      }
     },
     "models": [
       "AVX-HD510",
@@ -20,9 +20,9 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/jpg/image.cgi"
-      ]
+      "JPEG": {
+        "/cgi-bin/jpg/image.cgi": []
+      }
     },
     "models": [
       "HD90"

@@ -1,14 +1,14 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live/0/h264.sdp",
-        "/live_mpeg4.sdp",
-        "/live_h264_1.sdp",
-        "/live/0/onvif.sdp",
-        "/live_h264.sdp",
-        "/live_mpeg4_1.sdp"
-      ]
+      "H.264": {
+        "/live/0/h264.sdp": [],
+        "/live_mpeg4.sdp": [],
+        "/live_h264_1.sdp": [],
+        "/live/0/onvif.sdp": [],
+        "/live_h264.sdp": [],
+        "/live_mpeg4_1.sdp": []
+      }
     },
     "models": [
       "1080",
@@ -29,36 +29,49 @@
       "DOMERANGE",
       "HD720",
       "HD720PRO",
-      "OTHER",
       "WHITE"
     ]
   },
   "http://": {
     "types": {
-      "H.264": [
-        "/stream.asf",
-        "/stream1.asf",
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf"
-      ],
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/snapshot.jpg",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?1",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/guest/Video.cgi?media=JPEG",
-        "/img/snapshot.cgi?size=3",
-        "/image/[CHANNEL].jpg",
-        "/jpeg/qvga.jpg"
-      ],
-      "MJPEG": [
-        "/stream.jpg",
-        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
-        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-        "/nphMotionJpeg?Resolution=320x240&Quality=Standard"
-      ]
+      "H.264": {
+        "/stream.asf": [],
+        "/stream1.asf": [],
+        "/videostream.asf": [
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]",
+          "1"
+        ],
+        "/cgi-bin/guest/Video.cgi": [
+          "media=JPEG"
+        ],
+        "/img/snapshot.cgi": [
+          "size=3"
+        ],
+        "/image/[CHANNEL].jpg": [],
+        "/jpeg/qvga.jpg": []
+      },
+      "MJPEG": {
+        "/stream.jpg": [],
+        "/axis-cgi/mjpg/video.cgi": [
+          "camera=1&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/mjpeg.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
+        ],
+        "/nphMotionJpeg": [
+          "Resolution=320x240&Quality=Standard"
+        ]
+      }
     },
     "models": [
       "4.3",
@@ -75,7 +88,6 @@
       "DOMERANGE",
       "HD1080",
       "KNIGHT",
-      "OTHER",
       "VZS5SX5U6L271JBW87ZJ",
       "WHITE",
       "WHITECUBE720",

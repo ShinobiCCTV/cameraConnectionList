@@ -1,18 +1,17 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/admin/snapshot.cgi",
-        "/tmp/snap.jpg"
-      ]
+      "JPEG": {
+        "/cgi-bin/admin/snapshot.cgi": [],
+        "/tmp/snap.jpg": []
+      }
     },
     "models": [
       "NL621E",
       "N621-E",
       "N621E",
       "NL",
-      "NLE621E",
-      "OTHER"
+      "NLE621E"
     ]
   }
 }

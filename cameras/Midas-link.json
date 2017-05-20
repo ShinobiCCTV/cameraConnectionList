@@ -1,11 +1,11 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/ucast/11",
-        "/user=admin_password=oM20GpeF_channel=1_stream=0.sdp",
-        "/user=admin_password=oM20GpeF_channel=1_stream=1.sdp"
-      ]
+      "H.264": {
+        "/ucast/11": [],
+        "/user=admin_password=oM20GpeF_channel=1_stream=0.sdp": [],
+        "/user=admin_password=oM20GpeF_channel=1_stream=1.sdp": []
+      }
     },
     "models": [
       "203W",

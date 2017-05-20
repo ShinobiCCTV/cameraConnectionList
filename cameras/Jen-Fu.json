@@ -1,11 +1,12 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snap.jpg?JpegSize=XL",
-        "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/snap.jpg"
-      ]
+      "JPEG": {
+        "/snap.jpg": [
+          "JpegSize=XL",
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "HVB-2M-V3"

@@ -1,34 +1,40 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/ipcam/mjpeg.cgi",
-        "/control/faststream.jpg?stream=full",
-        "/videofeed"
-      ],
-      "JPEG": [
-        "/cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
-        "/image/[CHANNEL].jpg",
-        "/cgi-bin/video.jpg",
-        "/screen.jpg",
-        "/current[CHANNEL].jpg",
-        "/jpg/1/image.jpg",
-        "/cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-        "/cgi-bin/viewer/video.jpg",
-        "/jpg/image.jpg",
-        "/capture[CHANNEL].jpg",
-        "/cgi-bin/viewer/video.jpg?resolution=640x480",
-        "/cgi-bin/image640x480.jpg"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ]
+      "MJPEG": {
+        "/ipcam/mjpeg.cgi": [],
+        "/control/faststream.jpg": [
+          "stream=full"
+        ],
+        "/videofeed": []
+      },
+      "JPEG": {
+        "/cgi-bin/webra_fcgi.fcgi": [
+          "api=get_jpeg_raw&chno=[CHANNEL]"
+        ],
+        "/image/[CHANNEL].jpg": [],
+        "/cgi-bin/video.jpg": [],
+        "/screen.jpg": [],
+        "/current[CHANNEL].jpg": [],
+        "/jpg/1/image.jpg": [],
+        "/cgi-bin/viewer/video.jpg": [
+          "resolution=[WIDTH]x[HEIGHT]",
+          "resolution=640x480"
+        ],
+        "/jpg/image.jpg": [],
+        "/capture[CHANNEL].jpg": [],
+        "/cgi-bin/image640x480.jpg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      }
     },
     "models": [
       "DDK",
-      "DVR",
-      "OTHER"
+      "DVR"
     ]
   }
 }

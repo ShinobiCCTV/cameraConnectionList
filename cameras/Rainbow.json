@@ -1,13 +1,12 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/"
-      ],
-      "JPEG": [
-        "/cgi-bin/jpg/image.cgi?",
-        "/cgi-bin/jpg/image.cgi"
-      ]
+      "MJPEG": {
+        "/": []
+      },
+      "JPEG": {
+        "/cgi-bin/jpg/image.cgi": []
+      }
     },
     "models": [
       "IPM14",

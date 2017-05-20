@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/jpg/image.jpg?size=3"
-      ]
+      "JPEG": {
+        "/jpg/image.jpg": [
+          "size=3"
+        ]
+      }
     },
     "models": [
       "SILVER"

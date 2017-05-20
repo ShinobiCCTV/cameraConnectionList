@@ -1,14 +1,13 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/user=admin_password=nTBCS19C_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/user=admin_password=nTBCS19C_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
-      "AR-48W-IP",
-      "OTHER"
+      "AR-48W-IP"
     ]
   }
 }

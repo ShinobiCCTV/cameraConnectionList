@@ -1,14 +1,15 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/guest/Video.cgi?media=JPEG",
-        "/cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/cgi-bin/guest/Video.cgi": [
+          "media=JPEG",
+          "media=JPEG&channel=[CHANNEL]"
+        ]
+      }
     },
     "models": [
-      "IPNETWORKCAMERA",
-      "OTHER"
+      "IPNETWORKCAMERA"
     ]
   }
 }

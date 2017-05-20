@@ -1,12 +1,16 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/mjpegstream?cam=[CHANNEL]&single=1"
-      ],
-      "MJPEG": [
-        "/cgi-bin/mjpegstream?cam=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/cgi-bin/mjpegstream": [
+          "cam=[CHANNEL]&single=1"
+        ]
+      },
+      "MJPEG": {
+        "/cgi-bin/mjpegstream": [
+          "cam=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "DIREX-PRODVR"

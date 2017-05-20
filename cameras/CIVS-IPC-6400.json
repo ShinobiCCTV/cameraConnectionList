@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/StreamingSetting"
-      ]
+      "H.264": {
+        "/StreamingSetting": []
+      }
     },
     "models": [
       "6400",

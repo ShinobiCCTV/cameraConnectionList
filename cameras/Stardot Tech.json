@@ -1,17 +1,21 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/nph-mjpeg.cgi?[CHANNEL]",
-        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-        "/nph-mjpeg.cgi",
-        "/mjpeg"
-      ],
-      "JPEG": [
-        "/netcam.jpg",
-        "/jpeg.cgi?[CHANNEL]",
-        "/jpeg.cgi"
-      ]
+      "MJPEG": {
+        "/nph-mjpeg.cgi": [
+          "[CHANNEL]"
+        ],
+        "/mjpeg.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
+        ],
+        "/mjpeg": []
+      },
+      "JPEG": {
+        "/netcam.jpg": [],
+        "/jpeg.cgi": [
+          "[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "EXPRESS2",
@@ -19,7 +23,6 @@
       "EXPRESSXL",
       "NETCAMSC",
       "NETCAMXL",
-      "OTHER",
       "SDH130V"
     ]
   }

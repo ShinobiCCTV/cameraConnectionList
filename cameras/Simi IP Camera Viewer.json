@@ -1,20 +1,20 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/mjpeg.cgi",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ]
+      "MJPEG": {
+        "/mjpeg.cgi": [],
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/ucast/11"
-      ]
+      "H.264": {
+        "/ucast/11": []
+      }
     },
     "models": [
       "PLONKA"

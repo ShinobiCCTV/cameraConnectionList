@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=RDPzAozd_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/user=admin_password=RDPzAozd_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
       "QD300"

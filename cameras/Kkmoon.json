@@ -1,14 +1,14 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/0",
-        "/live0.264",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/1",
-        "/11",
-        "/12"
-      ]
+      "H.264": {
+        "/0": [],
+        "/live0.264": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/1": [],
+        "/11": [],
+        "/12": []
+      }
     },
     "models": [
       "1HD",
@@ -22,7 +22,6 @@
       "903",
       "ALEX",
       "HI3518",
-      "OTHER",
       "P2P",
       "PTZ1080P",
       "SD13W",
@@ -37,20 +36,23 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/tmpfs/auto.jpg",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/videofeed"
-      ]
+      "JPEG": {
+        "/tmpfs/auto.jpg": [],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/videofeed": []
+      }
     },
     "models": [
       "1HD",
       "8106",
       "H264",
-      "OTHER",
       "P2P",
       "S600-US",
       "SD13W",

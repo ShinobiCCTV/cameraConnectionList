@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/video.mjpg?q=30&fps=33&id=0.5"
-      ]
+      "MJPEG": {
+        "/video.mjpg": [
+          "q=30&fps=33&id=0.5"
+        ]
+      }
     },
     "models": [
       "F1105"

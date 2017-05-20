@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live/main"
-      ]
+      "H.264": {
+        "/live/main": []
+      }
     },
     "models": [
       "224"
@@ -11,9 +11,9 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snap.jpg"
-      ]
+      "JPEG": {
+        "/snap.jpg": []
+      }
     },
     "models": [
       "950"

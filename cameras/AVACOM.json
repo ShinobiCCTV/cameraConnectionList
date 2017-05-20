@@ -1,22 +1,29 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/img/snapshot.cgi?size=2",
-        "/snapshot.cgi"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/video.cgi?resolution=VGA",
-        "/videostream.cgi?"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+        ],
+        "/video.cgi": [
+          "resolution=VGA"
+        ]
+      }
     },
     "models": [
       "1080W",
@@ -28,17 +35,16 @@
       "M1060W",
       "M1080W",
       "M1080-W",
-      "NEW",
-      "OTHER"
+      "NEW"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/tcp/av0_0",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/0"
-      ]
+      "H.264": {
+        "/tcp/av0_0": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/0": []
+      }
     },
     "models": [
       "5080W",

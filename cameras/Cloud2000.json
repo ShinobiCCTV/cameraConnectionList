@@ -1,12 +1,10 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/mpeg4"
-      ]
+      "H.264": {
+        "/mpeg4": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

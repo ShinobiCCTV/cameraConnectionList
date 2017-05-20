@@ -1,28 +1,38 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ],
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/tmpfs/auto.jpg",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?rate=11",
-        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/video.cgi?resolution=VGA"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&count=0",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ],
+        "/tmpfs/auto.jpg": [],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "rate=11",
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/video.cgi": [
+          "resolution=VGA"
+        ]
+      }
     },
     "models": [
       "1.7.24HD",
@@ -41,7 +51,6 @@
       "IP609AW",
       "IP611W",
       "LSERIES",
-      "OTHER",
       "S06",
       "STREET",
       "SUPER-1"
@@ -49,13 +58,13 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/0",
-        "/ucast/11",
-        "/user=admin&password=zrkXveRr&channel=1&stream=0.sdp",
-        "/live/0/MAIN",
-        "/onvif1"
-      ]
+      "H.264": {
+        "/0": [],
+        "/ucast/11": [],
+        "/user=admin&password=zrkXveRr&channel=1&stream=0.sdp": [],
+        "/live/0/MAIN": [],
+        "/onvif1": []
+      }
     },
     "models": [
       "BOATCAM",

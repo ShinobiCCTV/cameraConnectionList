@@ -1,36 +1,47 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/tmpfs/auto.jpg",
-        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi?camera=[CHANNEL]",
-        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi",
-        "/img/snapshot.cgi?img=vga",
-        "/img/snapshot.cgi?size=2",
-        "/img/snapshot.cgi?size=3"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?rate=11",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?rate=0",
-        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
-      ],
-      "H.264": [
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-        "/videostream.cgi?resolution=8&rate=13"
-      ]
+      "JPEG": {
+        "/tmpfs/auto.jpg": [],
+        "/cgi/snapshot.cgi": [
+          "action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&count=0",
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "camera=[CHANNEL]",
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/img/snapshot.cgi": [
+          "img=vga",
+          "size=2",
+          "size=3"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+          "user=[USERNAME]&password=[PASSWORD]",
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "rate=11",
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "rate=0"
+        ],
+        "/mjpeg.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]"
+        ],
+        "/videostream.cgi": [
+          "resolution=8&rate=13"
+        ]
+      }
     },
     "models": [
       "0001",
@@ -81,7 +92,6 @@
       "HOME",
       "KILINSKIAPCAM",
       "MY0210-IPCAM",
-      "OTHER",
       "P2P-BLACK",
       "P2PBLACK(FRANK)",
       "PTZ",
@@ -104,14 +114,14 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11",
-        "/ucast/11",
-        "/onvif1",
-        "/onvif2",
-        "/ucast/12",
-        "/rtsp_live1"
-      ]
+      "H.264": {
+        "/11": [],
+        "/ucast/11": [],
+        "/onvif1": [],
+        "/onvif2": [],
+        "/ucast/12": [],
+        "/rtsp_live1": []
+      }
     },
     "models": [
       "485906",
@@ -140,8 +150,6 @@
       "IPC_830435",
       "ONIF",
       "ONVIFSP013",
-      "OTHER",
-      "OTHER(MYIPCAM)",
       "PANTILT",
       "PTZ",
       "PTZIP008",

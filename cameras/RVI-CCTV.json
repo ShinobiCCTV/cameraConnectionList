@@ -1,29 +1,28 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam/realmonitor",
-        "/video.h264",
-        "/Streaming/Channels/1"
-      ]
+      "H.264": {
+        "/cam/realmonitor": [],
+        "/video.h264": [],
+        "/Streaming/Channels/1": []
+      }
     },
     "models": [
       "IPC52Z30",
-      "OTHER",
       "RVI-IPC31S"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

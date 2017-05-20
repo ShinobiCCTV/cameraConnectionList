@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/profile1"
-      ]
+      "H.264": {
+        "/profile1": []
+      }
     },
     "models": [
       "1MPX",
@@ -12,10 +12,12 @@
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/",
-        "/GetData.cgi?Status=false"
-      ]
+      "MJPEG": {
+        "/": [],
+        "/GetData.cgi": [
+          "Status=false"
+        ]
+      }
     },
     "models": [
       "7000",

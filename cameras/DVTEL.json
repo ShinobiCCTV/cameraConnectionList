@@ -1,10 +1,12 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/jpg/image.cgi",
-        "/cgi-bin/viewer/video.jpg?resolution=640x480"
-      ]
+      "JPEG": {
+        "/cgi-bin/jpg/image.cgi": [],
+        "/cgi-bin/viewer/video.jpg": [
+          "resolution=640x480"
+        ]
+      }
     },
     "models": [
       "CM-3211-11",

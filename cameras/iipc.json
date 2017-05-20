@@ -1,10 +1,12 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
-        "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/cgi-bin/CGIProxy.fcgi": [
+          "cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&",
+          "cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "10HD",

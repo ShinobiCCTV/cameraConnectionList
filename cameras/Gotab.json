@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/video?submenu=mjpg"
-      ]
+      "MJPEG": {
+        "/video": [
+          "submenu=mjpg"
+        ]
+      }
     },
     "models": [
       "ANDROID"

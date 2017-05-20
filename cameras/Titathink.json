@@ -1,11 +1,11 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11",
-        "/live/0/onvif.sdp",
-        "/1.3gp"
-      ]
+      "H.264": {
+        "/11": [],
+        "/live/0/onvif.sdp": [],
+        "/1.3gp": []
+      }
     },
     "models": [
       "CLOCK",
@@ -17,11 +17,13 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/tmpfs/auto.jpg"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ],
+        "/tmpfs/auto.jpg": []
+      }
     },
     "models": [
       "TT520PW",

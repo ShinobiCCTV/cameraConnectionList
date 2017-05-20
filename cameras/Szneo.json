@@ -1,13 +1,13 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11",
-        "/cam/realmonitor",
-        "/12",
-        "/cam1/onvif-h264",
-        "/av0_1"
-      ]
+      "H.264": {
+        "/11": [],
+        "/cam/realmonitor": [],
+        "/12": [],
+        "/cam1/onvif-h264": [],
+        "/av0_1": []
+      }
     },
     "models": [
       "C-32FX",
@@ -16,37 +16,48 @@
       "NIP-16",
       "NIP-31(L2J)",
       "NIP-36",
-      "NOP-16",
-      "OTHER"
+      "NOP-16"
     ]
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/video.cgi?resolution=VGA",
-        "/videostream.cgi",
-        "/user/videostream.cgi"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ],
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/tmpfs/auto.jpg",
-        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
-        "/snap.jpg?JpegCam=[CHANNEL]",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-        "/jpg/image.jpg?size=3"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/video.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]",
+          "resolution=VGA"
+        ],
+        "/user/videostream.cgi": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&count=0"
+        ],
+        "/tmpfs/auto.jpg": [],
+        "/cgi/snapshot.cgi": [
+          "action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
+        ],
+        "/snap.jpg": [
+          "JpegCam=[CHANNEL]"
+        ],
+        "/jpg/image.jpg": [
+          "size=3"
+        ]
+      }
     },
     "models": [
       "CAM0X",
@@ -82,7 +93,6 @@
       "NIP-X",
       "NIT",
       "NP-254095",
-      "OTHER",
       "TFD"
     ]
   }

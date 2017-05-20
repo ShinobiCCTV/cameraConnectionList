@@ -1,15 +1,18 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/GetData.cgi?Camera=0&BandWidth=0",
-        "/videostream.cgi?rate=11",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ]
+      "MJPEG": {
+        "/GetData.cgi": [
+          "Camera=0&BandWidth=0"
+        ],
+        "/videostream.cgi": [
+          "rate=11",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      }
     },
     "models": [
-      "KA",
-      "OTHER"
+      "KA"
     ]
   }
 }

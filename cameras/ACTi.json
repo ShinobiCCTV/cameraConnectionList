@@ -1,21 +1,33 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
-        "/jpg/image.jpg",
-        "/image?res=half&x0=0&y0=0&x1=1600&y1=1200&quality=15&doublescan=0&ssn=1340443365044&id=1340443379230",
-        "/cgi-bin/view/image?pro_[CHANNEL]",
-        "/cgi/jpg/image.cgi",
-        "/now.jpg"
-      ],
-      "MJPEG": [
-        "/cgi-bin/cmd/system?GET_STREAM&USER=[USERNAME]&PWD=[PASSWORD]",
-        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ]
+      "JPEG": {
+        "/cgi-bin/encoder": [
+          "USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT"
+        ],
+        "/jpg/image.jpg": [],
+        "/image": [
+          "res=half&x0=0&y0=0&x1=1600&y1=1200&quality=15&doublescan=0&ssn=1340443365044&id=1340443379230"
+        ],
+        "/cgi-bin/view/image": [
+          "pro_[CHANNEL]"
+        ],
+        "/cgi/jpg/image.cgi": [],
+        "/now.jpg": []
+      },
+      "MJPEG": {
+        "/cgi-bin/cmd/system": [
+          "GET_STREAM&USER=[USERNAME]&PWD=[PASSWORD]"
+        ],
+        "/mjpeg.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      }
     },
     "models": [
       "00217",
@@ -137,8 +149,6 @@
       "KCM7111",
       "KCM7211",
       "KCM-8111",
-      "OTHER",
-      "OTHER1",
       "SED-2120",
       "SHS",
       "TCM4301",
@@ -163,16 +173,16 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/stream1",
-        "/onvif-stream1",
-        "/onvif-media/media.amp",
-        "/",
-        "/stream2",
-        "/onvif-stream2",
-        "/onvif&event&video1",
-        "/onvif&event&video2"
-      ]
+      "H.264": {
+        "/stream1": [],
+        "/onvif-stream1": [],
+        "/onvif-media/media.amp": [],
+        "/": [],
+        "/stream2": [],
+        "/onvif-stream2": [],
+        "/onvif&event&video1": [],
+        "/onvif&event&video2": []
+      }
     },
     "models": [
       "1231",
@@ -265,7 +275,6 @@
       "KCM7211",
       "KCM7911",
       "KCM8211",
-      "OTHER",
       "SED-2120",
       "TCM4511",
       "TCM-3511",

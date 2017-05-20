@@ -1,31 +1,33 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/0",
-        "/11"
-      ]
+      "H.264": {
+        "/0": [],
+        "/11": []
+      }
     },
     "models": [
       "ICB-200",
       "KG-SHA108W/WEBPORT",
-      "OTHER",
       "QRT-10",
       "QRT-502"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/stillimg[CHANNEL].jpg",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/cgi-bin/wappaint?camera_no=[CHANNEL]&animation=0&name=[USERNAME]&password=[PASSWORD]&pic_size=2",
-        "/capture[CHANNEL].jpg"
-      ]
+      "JPEG": {
+        "/stillimg[CHANNEL].jpg": [],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/cgi-bin/wappaint": [
+          "camera_no=[CHANNEL]&animation=0&name=[USERNAME]&password=[PASSWORD]&pic_size=2"
+        ],
+        "/capture[CHANNEL].jpg": []
+      }
     },
     "models": [
-      "KG-SHA108W/WEBPORT",
-      "OTHER"
+      "KG-SHA108W/WEBPORT"
     ]
   }
 }

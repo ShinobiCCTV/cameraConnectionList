@@ -1,16 +1,19 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": [
+          "camera=1&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
-      "IPROBOOT",
-      "OTHER"
+      "IPROBOOT"
     ]
   }
 }

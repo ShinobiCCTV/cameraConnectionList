@@ -1,34 +1,34 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/user=admin_password=1ayWjkxb_channel=1_stream=0.sdp",
-        "/user=admin_password=X3DE3vjW_channel=1_stream=0.sdp",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp",
-        "/user=admin_password=0VJvdFK5_channel=1_stream=0.sdp",
-        "/user=admin_password=pzmhld1r_channel=1_stream=0.sdp",
-        "/user=admin_password=G0g2FGAp_channel=1_stream=0.sdp",
-        "/user=admin_password=ywo28LtW_channel=1_stream=0.sdp",
-        "/user=admin_password=6QNMIQGe_channel=1_stream=0.sdp",
-        "/user=admin_password=vDyPMjzO_channel=1_stream=0.sdp",
-        "/user=admin_password=6UPg24pB_channel=1_stream=0.sdp",
-        "/user=admin_password=ZvsDFFvn_channel=1_stream=0.sdp",
-        "/user=admin_password=Vnd5Ess5_channel=1_stream=0.sdp",
-        "/11",
-        "/user=admin_password=aYSwRmK1_channel=1_stream=0.sdp",
-        "/user=admin_password=zNOuSYNv_channel=1_stream=0.sdp",
-        "/user=admin_password=zaKpYgD3_channel=1_stream=0.sdp",
-        "/user=admin_password=kJHoadMq_channel=1_stream=0.sdp",
-        "/user=admin_password=pXYZybJz_channel=1_stream=0.sdp",
-        "/user=admin_password=rtE68qua_channel=1_stream=0.sdp",
-        "/user=admin_password=SsGtfyfy_channel=1_stream=0.sdp",
-        "/user=admin_password=I950KPva_channel=1_stream=0.sdp",
-        "/user=admin_password=nc5NxNEj_channel=1_stream=0.sdp",
-        "/user=admin_password=hzAK3MBE_channel=1_stream=0.sdp",
-        "/user=admin_password=pgqBi4bJ_channel=1_stream=0.sdp",
-        "/user=admin_password=xnOi26xV_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/user=admin_password=1ayWjkxb_channel=1_stream=0.sdp": [],
+        "/user=admin_password=X3DE3vjW_channel=1_stream=0.sdp": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp": [],
+        "/user=admin_password=0VJvdFK5_channel=1_stream=0.sdp": [],
+        "/user=admin_password=pzmhld1r_channel=1_stream=0.sdp": [],
+        "/user=admin_password=G0g2FGAp_channel=1_stream=0.sdp": [],
+        "/user=admin_password=ywo28LtW_channel=1_stream=0.sdp": [],
+        "/user=admin_password=6QNMIQGe_channel=1_stream=0.sdp": [],
+        "/user=admin_password=vDyPMjzO_channel=1_stream=0.sdp": [],
+        "/user=admin_password=6UPg24pB_channel=1_stream=0.sdp": [],
+        "/user=admin_password=ZvsDFFvn_channel=1_stream=0.sdp": [],
+        "/user=admin_password=Vnd5Ess5_channel=1_stream=0.sdp": [],
+        "/11": [],
+        "/user=admin_password=aYSwRmK1_channel=1_stream=0.sdp": [],
+        "/user=admin_password=zNOuSYNv_channel=1_stream=0.sdp": [],
+        "/user=admin_password=zaKpYgD3_channel=1_stream=0.sdp": [],
+        "/user=admin_password=kJHoadMq_channel=1_stream=0.sdp": [],
+        "/user=admin_password=pXYZybJz_channel=1_stream=0.sdp": [],
+        "/user=admin_password=rtE68qua_channel=1_stream=0.sdp": [],
+        "/user=admin_password=SsGtfyfy_channel=1_stream=0.sdp": [],
+        "/user=admin_password=I950KPva_channel=1_stream=0.sdp": [],
+        "/user=admin_password=nc5NxNEj_channel=1_stream=0.sdp": [],
+        "/user=admin_password=hzAK3MBE_channel=1_stream=0.sdp": [],
+        "/user=admin_password=pgqBi4bJ_channel=1_stream=0.sdp": [],
+        "/user=admin_password=xnOi26xV_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
       "1080P",
@@ -99,7 +99,6 @@
       "MINIWIFI",
       "N4PW-IP",
       "NVT",
-      "OTHER",
       "PTZ",
       "SAVY",
       "S-VGB721-IP2.0",
@@ -112,22 +111,36 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/img/snapshot.cgi?size=2",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/image.jpg"
-      ],
-      "MJPEG": [
-        "/video.cgi?resolution=VGA",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/img/mjpeg.jpg",
-        "/img/video.mjpeg"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ]
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+        ],
+        "/image.jpg": []
+      },
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=VGA"
+        ],
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ],
+        "/img/mjpeg.jpg": [],
+        "/img/video.mjpeg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      }
     },
     "models": [
       "24NB-IP",
@@ -138,8 +151,7 @@
       "AR-IP180",
       "AR-VD123-WIFI",
       "HOME",
-      "IP180",
-      "OTHER"
+      "IP180"
     ]
   }
 }

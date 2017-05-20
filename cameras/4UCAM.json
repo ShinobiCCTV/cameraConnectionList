@@ -1,44 +1,57 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cgi-bin/Stream?Video?Acc=[USERNAME]?Pwd=[PASSWORD]?webcamPWD=UserCookie00000",
-        "/video.cgi?resolution=VGA",
-        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
-        "/videostream.cgi",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ],
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/shot.jpg",
-        "/cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/cgi-bin/snapshot.cgi?1",
-        "/img/snapshot.cgi?size=2",
-        "/capture[CHANNEL].jpg",
-        "/loginfree.jpg"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/stream.asf"
-      ]
+      "MJPEG": {
+        "/cgi-bin/Stream": [
+          "Video"
+        ],
+        "/video.cgi": [
+          "resolution=VGA"
+        ],
+        "/cgi-bin/video.jpg": [
+          "cam=[CHANNEL]&quality=3&size=2"
+        ],
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+          "1"
+        ],
+        "/shot.jpg": [],
+        "/cgi-bin/guest/Video.cgi": [
+          "media=JPEG&channel=[CHANNEL]"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/capture[CHANNEL].jpg": [],
+        "/loginfree.jpg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ],
+        "/stream.asf": []
+      }
     },
     "models": [
-      "EYESDVR",
-      "OTHER"
+      "EYESDVR"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam/realmonitor"
-      ]
+      "H.264": {
+        "/cam/realmonitor": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

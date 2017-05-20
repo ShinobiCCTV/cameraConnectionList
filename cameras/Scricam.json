@@ -1,19 +1,29 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1",
-        "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?rate=11"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi/snapshot.cgi": [
+          "action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
+        ],
+        "/cgi-bin/CGIProxy.fcgi": [
+          "cmd=snapPicture2&usr=[USERNAME]&pwd=[PASSWORD]&"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "rate=11"
+        ]
+      }
     },
     "models": [
       "004",
@@ -26,20 +36,18 @@
       "AP006",
       "AP-006",
       "AP-009",
-      "MAJAS",
-      "OTHER"
+      "MAJAS"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/onvif2",
-        "/onvif1"
-      ]
+      "H.264": {
+        "/onvif2": [],
+        "/onvif1": []
+      }
     },
     "models": [
       "AP015",
-      "OTHER",
       "P13",
       "SP008",
       "SP-009",

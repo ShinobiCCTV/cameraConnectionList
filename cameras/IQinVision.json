@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/now.jpg"
-      ]
+      "JPEG": {
+        "/now.jpg": []
+      }
     },
     "models": [
       "AZ032S",

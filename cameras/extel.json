@@ -1,15 +1,16 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/img/video.mjpeg",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "MJPEG": {
+        "/img/video.mjpeg": [],
+        "/video.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "MINI318",
-      "MOVA",
-      "OTHER"
+      "MOVA"
     ]
   }
 }

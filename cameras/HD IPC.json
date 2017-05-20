@@ -1,14 +1,14 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11",
-        "/live0.264",
-        "/live1.264",
-        "/12",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp",
-        "/ucast/11"
-      ]
+      "H.264": {
+        "/11": [],
+        "/live0.264": [],
+        "/live1.264": [],
+        "/12": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp": [],
+        "/ucast/11": []
+      }
     },
     "models": [
       "100",
@@ -340,7 +340,6 @@
       "NOUVELLE",
       "NVSIP",
       "ONVIF",
-      "OTHER",
       "OTSASEIN",
       "OUTSIDE",
       "OUTSIDE1",
@@ -470,22 +469,29 @@
   },
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ],
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+        ]
+      }
     },
     "models": [
       "DB-POWER",
       "FREDE",
-      "OTHER",
       "SV3C"
     ]
   }

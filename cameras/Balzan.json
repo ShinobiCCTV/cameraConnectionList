@@ -1,15 +1,14 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/image/jpeg.cgi",
-        "/Image.jpg"
-      ]
+      "JPEG": {
+        "/image/jpeg.cgi": [],
+        "/Image.jpg": []
+      }
     },
     "models": [
       "LOUNGE",
-      "MANCAVE",
-      "OTHER"
+      "MANCAVE"
     ]
   }
 }

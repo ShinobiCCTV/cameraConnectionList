@@ -1,12 +1,12 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/tcp/av0_0",
-        "/udp/av0_0",
-        "/11",
-        "/Streaming/Channels/1"
-      ]
+      "H.264": {
+        "/tcp/av0_0": [],
+        "/udp/av0_0": [],
+        "/11": [],
+        "/Streaming/Channels/1": []
+      }
     },
     "models": [
       "C7815WIP",
@@ -16,9 +16,9 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/tmpfs/auto.jpg"
-      ]
+      "JPEG": {
+        "/tmpfs/auto.jpg": []
+      }
     },
     "models": [
       "C9F0SEZ0N0P0L0",

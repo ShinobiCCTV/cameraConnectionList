@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/media.amp"
-      ]
+      "H.264": {
+        "/media.amp": []
+      }
     },
     "models": [
       "AH2927T-A"
@@ -11,22 +11,25 @@
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi",
-        "/videofeed",
-        "/video?profile=[CHANNEL]",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/video.cgi?resolution=VGA"
-      ],
-      "JPEG": [
-        "/snap.jpg",
-        "/capture[CHANNEL].jpg"
-      ]
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": [],
+        "/videofeed": [],
+        "/video": [
+          "profile=[CHANNEL]"
+        ],
+        "/video.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]",
+          "resolution=VGA"
+        ]
+      },
+      "JPEG": {
+        "/snap.jpg": [],
+        "/capture[CHANNEL].jpg": []
+      }
     },
     "models": [
       "AH2927T-A",
-      "DOME",
-      "OTHER"
+      "DOME"
     ]
   }
 }

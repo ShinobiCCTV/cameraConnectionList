@@ -1,11 +1,11 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/ucast/11",
-        "/Streaming/Channels/1",
-        "/11"
-      ]
+      "H.264": {
+        "/ucast/11": [],
+        "/Streaming/Channels/1": [],
+        "/11": []
+      }
     },
     "models": [
       "IPD-3MIR"
@@ -13,12 +13,12 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

@@ -1,26 +1,25 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/12",
-        "/11"
-      ]
+      "H.264": {
+        "/12": [],
+        "/11": []
+      }
     },
     "models": [
       "B1012",
-      "OTHER",
       "SV-B603W",
       "SW-B603W"
     ]
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/video.cgi?resolution=VGA"
-      ]
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=VGA"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

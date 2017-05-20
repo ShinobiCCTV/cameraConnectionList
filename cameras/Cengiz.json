@@ -1,23 +1,21 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/stream1"
-      ]
+      "H.264": {
+        "/stream1": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/stream2",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
-      ]
+      "MJPEG": {
+        "/stream2": [],
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

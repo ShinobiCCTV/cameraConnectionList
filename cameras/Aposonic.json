@@ -1,16 +1,26 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/cgi-bin/wappaint?camera_no=[CHANNEL]&animation=0&name=[USERNAME]&password=[PASSWORD]&pic_size=2",
-        "/GetStream.cgi?Video=[CHANNEL]",
-        "/images/stream_[CHANNEL].jpg"
-      ],
-      "MJPEG": [
-        "/video?profile=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/cgi-bin/guest/Video.cgi": [
+          "media=JPEG&channel=[CHANNEL]"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/cgi-bin/wappaint": [
+          "camera_no=[CHANNEL]&animation=0&name=[USERNAME]&password=[PASSWORD]&pic_size=2"
+        ],
+        "/GetStream.cgi": [
+          "Video=[CHANNEL]"
+        ],
+        "/images/stream_[CHANNEL].jpg": []
+      },
+      "MJPEG": {
+        "/video": [
+          "profile=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "AH.264DVR",
@@ -18,8 +28,7 @@
       "A-BR18B8-C500",
       "A-S0401R1",
       "A-S0401R23",
-      "H.264DVR",
-      "OTHER"
+      "H.264DVR"
     ]
   }
 }

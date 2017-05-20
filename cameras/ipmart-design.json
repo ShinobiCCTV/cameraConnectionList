@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/goform/video"
-      ]
+      "H.264": {
+        "/goform/video": []
+      }
     },
     "models": [
       "IPD-380"

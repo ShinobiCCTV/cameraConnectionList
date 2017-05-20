@@ -1,12 +1,12 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11",
-        "/ucast/11",
-        "/ucast/12",
-        "/ROH/channel/11"
-      ]
+      "H.264": {
+        "/11": [],
+        "/ucast/11": [],
+        "/ucast/12": [],
+        "/ROH/channel/11": []
+      }
     },
     "models": [
       "1MPCAM",
@@ -35,7 +35,6 @@
       "IPC-F20M",
       "NOTSURE",
       "ONVI",
-      "OTHER",
       "SINO",
       "SN-30008B",
       "SN-5022CSW",
@@ -62,20 +61,25 @@
   },
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ],
-      "JPEG": [
-        "/snapshot",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/snapshot": [],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ]
+      }
     },
     "models": [
-      "OTHER",
       "SNIPC3001",
       "SN-IPC-3001FSW13"
     ]

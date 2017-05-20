@@ -1,21 +1,24 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/tmpfs/auto.jpg"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ],
-      "MJPEG": [
-        "/video.cgi?resolution=VGA"
-      ]
+      "JPEG": {
+        "/tmpfs/auto.jpg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      },
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=VGA"
+        ]
+      }
     },
     "models": [
       "C50-PRO",
       "IP-J03",
-      "IP-J03-KS",
-      "OTHER"
+      "IP-J03-KS"
     ]
   }
 }

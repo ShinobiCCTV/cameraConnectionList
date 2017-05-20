@@ -1,21 +1,28 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/tmpfs/auto.jpg",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi",
-        "/snap.jpg?JpegCam=[CHANNEL]"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?rate=11",
-        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
-      ]
+      "JPEG": {
+        "/tmpfs/auto.jpg": [],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/snap.jpg": [
+          "JpegCam=[CHANNEL]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=11",
+          "user=[USERNAME]&password=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+        ]
+      }
     },
     "models": [
       "IN-009",
@@ -23,16 +30,15 @@
       "IN/EX",
       "IN/EXSERIES",
       "IN/EXSERİES",
-      "IN-010",
-      "OTHER"
+      "IN-010"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/12",
-        "/ONVIF/channel2"
-      ]
+      "H.264": {
+        "/12": [],
+        "/ONVIF/channel2": []
+      }
     },
     "models": [
       "IN-010"

@@ -1,12 +1,14 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/img/video.mjpeg"
-      ],
-      "JPEG": [
-        "/img/snapshot.cgi?size=2"
-      ]
+      "MJPEG": {
+        "/img/video.mjpeg": []
+      },
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      }
     },
     "models": [
       "1000",

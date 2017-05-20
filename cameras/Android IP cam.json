@@ -1,24 +1,35 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/video?submenu=mjpg",
-        "/video?profile=[CHANNEL]",
-        "/videofeed",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/img/video.mjpeg",
-        "/mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0"
-      ],
-      "JPEG": [
-        "/shot.jpg",
-        "/config/jpeg.cgi",
-        "/cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-        "/video?submenu=jpg",
-        "/cgi-bin/viewer/video.jpg"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "MJPEG": {
+        "/video": [
+          "submenu=mjpg",
+          "profile=[CHANNEL]"
+        ],
+        "/videofeed": [],
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ],
+        "/img/video.mjpeg": [],
+        "/mjpeg": [
+          "res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0"
+        ]
+      },
+      "JPEG": {
+        "/shot.jpg": [],
+        "/config/jpeg.cgi": [],
+        "/cgi-bin/viewer/video.jpg": [
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/video": [
+          "submenu=jpg"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "AHA",
@@ -51,8 +62,6 @@
       "NEXUS7",
       "NOTE10.1",
       "OPTIMUSS",
-      "OTHER",
-      "OTHER2",
       "SAMS1",
       "SAMSUNG",
       "SF",

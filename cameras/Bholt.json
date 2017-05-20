@@ -1,12 +1,10 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/ipcam/mjpeg.cgi"
-      ]
+      "MJPEG": {
+        "/ipcam/mjpeg.cgi": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

@@ -1,11 +1,11 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/profile1",
-        "/cam/realmonitor",
-        "/Streaming/Channels/1"
-      ]
+      "H.264": {
+        "/profile1": [],
+        "/cam/realmonitor": [],
+        "/Streaming/Channels/1": []
+      }
     },
     "models": [
       "9411M",
@@ -16,27 +16,35 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/image.jpg",
-        "/goform/video2",
-        "/out.jpg?id=0.5"
-      ],
-      "MJPEG": [
-        "/video.cgi",
-        "/mjpeg.cgi",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/video.mjpg",
-        "/?action=stream"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ]
+      "JPEG": {
+        "/image.jpg": [],
+        "/goform/video2": [],
+        "/out.jpg": [
+          "id=0.5"
+        ]
+      },
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/mjpeg.cgi": [],
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+        ],
+        "/video.mjpg": [],
+        "/": [
+          "action=stream"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      }
     },
     "models": [
       "NW-7100",
       "NW-7500",
-      "OTHER",
       "SIP1M"
     ]
   }

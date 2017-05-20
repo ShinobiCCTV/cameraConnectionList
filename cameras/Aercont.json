@@ -1,19 +1,18 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/mjpeg"
-      ],
-      "JPEG": [
-        "/img.jpg"
-      ]
+      "MJPEG": {
+        "/mjpeg": []
+      },
+      "JPEG": {
+        "/img.jpg": []
+      }
     },
     "models": [
       "2155M",
       "AV8185DNHB",
       "AV3100",
-      "AV8365DN",
-      "OTHER"
+      "AV8365DN"
     ]
   }
 }

@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=8uutGsM6_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/user=admin_password=8uutGsM6_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
       "5510"
@@ -11,9 +11,11 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "29"

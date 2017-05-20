@@ -1,36 +1,55 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videofeed",
-        "/?action=stream",
-        "/video.mjpg",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/video.mjpg?q=30&fps=33&id=0.5",
-        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-        "/nphMotionJpeg?Resolution=320x240&Quality=Motion",
-        "/video?submenu=mjpg",
-        "/img/mjpeg.jpg",
-        "/"
-      ],
-      "JPEG": [
-        "/out.jpg?id=0.5",
-        "/Image.jpg",
-        "/image[CHANNEL].jpg",
-        "/jpeg/pull",
-        "/jstream.cgi?chid=[CHANNEL]&cnt=0",
-        "/image/[CHANNEL].jpg",
-        "/cam_1.jpg",
-        "/image/jpeg.cgi",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/img/snapshot.cgi?size=2",
-        "/image.jpg"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf"
-      ]
+      "MJPEG": {
+        "/videofeed": [],
+        "/": [
+          "action=stream"
+        ],
+        "/video.mjpg": [
+          "q=30&fps=33&id=0.5"
+        ],
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/mjpeg.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
+        ],
+        "/nphMotionJpeg": [
+          "Resolution=320x240&Quality=Motion"
+        ],
+        "/video": [
+          "submenu=mjpg"
+        ],
+        "/img/mjpeg.jpg": []
+      },
+      "JPEG": {
+        "/out.jpg": [
+          "id=0.5"
+        ],
+        "/Image.jpg": [],
+        "/image[CHANNEL].jpg": [],
+        "/jpeg/pull": [],
+        "/jstream.cgi": [
+          "chid=[CHANNEL]&cnt=0"
+        ],
+        "/image/[CHANNEL].jpg": [],
+        "/cam_1.jpg": [],
+        "/image/jpeg.cgi": [],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/image.jpg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "525",
@@ -49,7 +68,6 @@
       "MCC950",
       "NCW150/S",
       "ORBIT",
-      "OTHER",
       "PLC-128PW",
       "PRO4000",
       "QUICKCAMFORNOTEBOOKS",

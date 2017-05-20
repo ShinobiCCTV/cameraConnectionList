@@ -1,16 +1,16 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cgi/mjpg/mjpeg.cgi",
-        "/video.cgi",
-        "/VIDEO.CGI",
-        "/cgi/mjpg/mjpg.cgi",
-        "/mjpeg.cgi"
-      ],
-      "JPEG": [
-        "/goform/capture"
-      ]
+      "MJPEG": {
+        "/cgi/mjpg/mjpeg.cgi": [],
+        "/video.cgi": [],
+        "/VIDEO.CGI": [],
+        "/cgi/mjpg/mjpg.cgi": [],
+        "/mjpeg.cgi": []
+      },
+      "JPEG": {
+        "/goform/capture": []
+      }
     },
     "models": [
       "CG-NC034A",
@@ -18,7 +18,6 @@
       "CG-NCMNV2",
       "CG-WLNCM4G",
       "NC",
-      "OTHER",
       "WLNCM4G"
     ]
   }

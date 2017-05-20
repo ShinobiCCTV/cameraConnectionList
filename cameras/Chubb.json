@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/dsr-cgi/getdsrimage.cgi?camera=[CHANNEL]&username=[USERNAME]&password=[PASSWORD]&adfa=1"
-      ]
+      "JPEG": {
+        "/dsr-cgi/getdsrimage.cgi": [
+          "camera=[CHANNEL]&username=[USERNAME]&password=[PASSWORD]&adfa=1"
+        ]
+      }
     },
     "models": [
       "DVR"

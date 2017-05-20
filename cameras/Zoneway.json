@@ -1,13 +1,13 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11",
-        "/live0.264",
-        "/cam1/onvif-h264",
-        "/live/ch0",
-        "/tcp/av0_0"
-      ]
+      "H.264": {
+        "/11": [],
+        "/live0.264": [],
+        "/cam1/onvif-h264": [],
+        "/live/ch0": [],
+        "/tcp/av0_0": []
+      }
     },
     "models": [
       "862",
@@ -18,7 +18,6 @@
       "NC-824",
       "NC-851",
       "NC851MW-P",
-      "OTHER",
       "ZW-NC530W",
       "ZW-NC638MWP",
       "ZW-NC638MW-P",
@@ -28,21 +27,28 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/mobile_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/mobile_snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "IPC-1100HA",
       "NC638MW-P",
-      "OTHER",
       "ZW-NC638MWP",
       "ZW-NC857MVP",
       "ZW-NC866M-P",

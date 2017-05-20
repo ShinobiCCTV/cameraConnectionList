@@ -1,16 +1,17 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/img/snapshot.cgi",
-        "/img/snapshot.cgi?size=2",
-        "/img/snapshot.cgi?size=3",
-        "/img/snapshot.cgi?img=vga"
-      ],
-      "MJPEG": [
-        "/img/mjpeg.jpg",
-        "/img/video.mjpeg"
-      ]
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=2",
+          "size=3",
+          "img=vga"
+        ]
+      },
+      "MJPEG": {
+        "/img/mjpeg.jpg": [],
+        "/img/video.mjpeg": []
+      }
     },
     "models": [
       "INDOOR/OUTDOOR",
@@ -23,7 +24,6 @@
       "OC8221",
       "OC830",
       "OC8821",
-      "OTHER",
       "OUTDOORIPCAMERA",
       "RC8221",
       "RC-8221",

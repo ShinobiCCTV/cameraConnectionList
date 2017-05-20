@@ -1,21 +1,24 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/GetData.cgi?Status=false",
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
-      ],
-      "JPEG": [
-        "/usr/yoics[CHANNEL].jpg",
-        "/tmpfs/auto.jpg"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ]
+      "MJPEG": {
+        "/GetData.cgi": [
+          "Status=false",
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/usr/yoics[CHANNEL].jpg": [],
+        "/tmpfs/auto.jpg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      }
     },
     "models": [
-      "9100-A",
-      "OTHER"
+      "9100-A"
     ]
   }
 }

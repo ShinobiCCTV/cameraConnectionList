@@ -1,24 +1,25 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam/realmonitor",
-        "/11"
-      ]
+      "H.264": {
+        "/cam/realmonitor": [],
+        "/11": []
+      }
     },
     "models": [
-      "NVR",
-      "OTHER"
+      "NVR"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?1",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/tmpfs/auto.jpg"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "1",
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ],
+        "/tmpfs/auto.jpg": []
+      }
     },
     "models": [
       "NVR-24",

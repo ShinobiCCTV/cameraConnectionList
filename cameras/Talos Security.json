@@ -1,13 +1,13 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snap.jpg",
-        "/tmpfs/auto.jpg"
-      ],
-      "MJPEG": [
-        "/cgi-bin/sf.cgi"
-      ]
+      "JPEG": {
+        "/snap.jpg": [],
+        "/tmpfs/auto.jpg": []
+      },
+      "MJPEG": {
+        "/cgi-bin/sf.cgi": []
+      }
     },
     "models": [
       "IPCAMERAH264"

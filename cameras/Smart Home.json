@@ -1,13 +1,15 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/img/snapshot.cgi?size=3",
-        "/img/snapshot.cgi?size=2"
-      ],
-      "MJPEG": [
-        "/img/video.mjpeg"
-      ]
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=3",
+          "size=2"
+        ]
+      },
+      "MJPEG": {
+        "/img/video.mjpeg": []
+      }
     },
     "models": [
       "SCHLAGENEXIAWCW100"

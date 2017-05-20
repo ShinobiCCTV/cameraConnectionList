@@ -1,10 +1,10 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/rtsp/unicast/DefaultProfile-02",
-        "/rtsp/unicast/DefaultProfile-01"
-      ]
+      "H.264": {
+        "/rtsp/unicast/DefaultProfile-02": [],
+        "/rtsp/unicast/DefaultProfile-01": []
+      }
     },
     "models": [
       "CAMERA_EXT1",
@@ -13,7 +13,6 @@
       "CR-POE-13S2C_14181859",
       "CR-POE-20S2C_14050067",
       "CR-POE-20S3C_14241655",
-      "OTHER",
       "POINTGREY",
       "POINTGREY1.3MP"
     ]

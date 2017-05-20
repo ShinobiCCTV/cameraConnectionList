@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam/realmonitor"
-      ]
+      "H.264": {
+        "/cam/realmonitor": []
+      }
     },
     "models": [
       "BULLET",
@@ -16,16 +16,20 @@
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
-        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]"
-      ],
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?1",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
-      ]
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": [
+          "date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+          "camera=1&resolution=[WIDTH]x[HEIGHT]",
+          "camera=[CHANNEL]"
+        ]
+      },
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "1",
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]",
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "DH_IPC_HFW1320SN",
@@ -36,8 +40,7 @@
       "DH-IPC-HFW4300S",
       "IPC-2200",
       "IPC-HDW4300C",
-      "IPC-HDW4431C-A",
-      "OTHER"
+      "IPC-HDW4431C-A"
     ]
   }
 }

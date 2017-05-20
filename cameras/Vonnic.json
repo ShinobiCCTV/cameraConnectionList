@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam/realmonitor"
-      ]
+      "H.264": {
+        "/cam/realmonitor": []
+      }
     },
     "models": [
       "1000",
@@ -15,24 +15,26 @@
   },
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf"
-      ],
-      "JPEG": [
-        "/snap.jpg?JpegSize=XL",
-        "/snapshot.cgi",
-        "/snap.jpg",
-        "/tmpfs/auto.jpg",
-        "/image.jpg"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?rate=11"
-      ]
+      "H.264": {
+        "/videostream.asf": []
+      },
+      "JPEG": {
+        "/snap.jpg": [
+          "JpegSize=XL"
+        ],
+        "/snapshot.cgi": [],
+        "/tmpfs/auto.jpg": [],
+        "/image.jpg": []
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=11"
+        ]
+      }
     },
     "models": [
       "C-907IP",
-      "C-909IP",
-      "OTHER"
+      "C-909IP"
     ]
   }
 }

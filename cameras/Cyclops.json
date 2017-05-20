@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/0"
-      ]
+      "H.264": {
+        "/0": []
+      }
     },
     "models": [
       "IP1200"
@@ -11,15 +11,18 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot/view[CHANNEL].jpg",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/snapshot.cgi?camera=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/snapshot/view[CHANNEL].jpg": [],
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ],
+        "/snapshot.cgi": [
+          "camera=[CHANNEL]"
+        ]
+      }
     },
     "models": [
-      "IP1200",
-      "OTHER"
+      "IP1200"
     ]
   }
 }

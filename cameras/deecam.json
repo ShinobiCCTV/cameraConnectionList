@@ -1,25 +1,23 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11"
-      ]
+      "H.264": {
+        "/11": []
+      }
     },
     "models": [
       "200",
-      "D200",
-      "OTHER"
+      "D200"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/tmpfs/auto.jpg"
-      ]
+      "JPEG": {
+        "/tmpfs/auto.jpg": []
+      }
     },
     "models": [
-      "D200",
-      "OTHER"
+      "D200"
     ]
   }
 }

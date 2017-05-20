@@ -1,12 +1,10 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/treeproxy/cam[CHANNEL].jpg"
-      ]
+      "JPEG": {
+        "/treeproxy/cam[CHANNEL].jpg": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

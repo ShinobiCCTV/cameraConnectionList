@@ -1,44 +1,63 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/img/snapshot.cgi?size=3",
-        "/snapshot.jpg",
-        "/cgi-bin/media.cgi?action=getSnapshot",
-        "/cgi-bin/jpg/image.cgi",
-        "/cgi-bin/viewer/video.jpg",
-        "/img/snapshot.cgi?size=2",
-        "/cgi-bin/video.jpg?size=2",
-        "/jpg/image.jpg?size=3",
-        "/cgi-bin/jpg/image.cgi?",
-        "/jpg/image.jpg",
-        "/imagep/picture.jpg",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-        "/cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
-        "/cgi-bin/viewer/video.jpg?resolution=640x480",
-        "/tmp/snap.jpg",
-        "/cgi-bin/admin/snapshot.cgi",
-        "/cgi-bin/video.jpg",
-        "/cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-        "/IEIDVR?CH=[USERNAME]&CARD=0",
-        "/cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/loginfree.jpg"
-      ],
-      "MJPEG": [
-        "/video.mjpg",
-        "/img/video.mjpeg",
-        "/channel2",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/",
-        "/cgi-bin/cmd/system?GET_STREAM&USER=[USERNAME]&PWD=[PASSWORD]",
-        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
-        "/video2.mjpg"
-      ],
-      "H.264": [
-        "/img/video.asf"
-      ]
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=3",
+          "size=2"
+        ],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+          "account=[USERNAME]&password=[PASSWORD]"
+        ],
+        "/cgi-bin/media.cgi": [
+          "action=getSnapshot"
+        ],
+        "/cgi-bin/jpg/image.cgi": [],
+        "/cgi-bin/viewer/video.jpg": [
+          "resolution=640x480",
+          "channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/cgi-bin/video.jpg": [
+          "size=2"
+        ],
+        "/jpg/image.jpg": [
+          "size=3"
+        ],
+        "/imagep/picture.jpg": [],
+        "/cgi-bin/encoder": [
+          "USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT"
+        ],
+        "/tmp/snap.jpg": [],
+        "/cgi-bin/admin/snapshot.cgi": [],
+        "/IEIDVR": [
+          "CH=[USERNAME]&CARD=0"
+        ],
+        "/snapshot.cgi": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/loginfree.jpg": []
+      },
+      "MJPEG": {
+        "/video.mjpg": [],
+        "/img/video.mjpeg": [],
+        "/channel2": [],
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ],
+        "/": [],
+        "/cgi-bin/cmd/system": [
+          "GET_STREAM&USER=[USERNAME]&PWD=[PASSWORD]"
+        ],
+        "/cgi-bin/video.jpg": [
+          "cam=[CHANNEL]&quality=3&size=2"
+        ],
+        "/video2.mjpg": []
+      },
+      "H.264": {
+        "/img/video.asf": []
+      }
     },
     "models": [
       "0010/0020",
@@ -106,7 +125,6 @@
       "IP61X2",
       "MBEDTHIS-APP",
       "MIN",
-      "OTHER",
       "WCS0040",
       "WCS00500",
       "WCS2040",
@@ -128,13 +146,13 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live1.sdp",
-        "/h264",
-        "/onvif-stream1",
-        "/onvif&event&video1",
-        "/onvif-stream2"
-      ]
+      "H.264": {
+        "/live1.sdp": [],
+        "/h264": [],
+        "/onvif-stream1": [],
+        "/onvif&event&video1": [],
+        "/onvif-stream2": []
+      }
     },
     "models": [
       "4101",
@@ -157,7 +175,6 @@
       "FCS-5056",
       "FCS-5061",
       "FSC-4101",
-      "OTHER",
       "WCS0040",
       "WCS-0010",
       "WCS-6050"

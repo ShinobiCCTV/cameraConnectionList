@@ -1,44 +1,56 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snap.jpg?JpegCam=[CHANNEL]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/video.cgi",
-        "/snapshot.cgi",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-        "/tmpfs/auto.jpg",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/snap.jpg",
-        "/img/snapshot.cgi?size=2",
-        "/img/snapshot.cgi"
-      ],
-      "H.264": [
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?resolution=8&rate=13"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi",
-        "/videostream.cgi?rate=11",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/video.cgi?resolution=VGA",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/mjpeg",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/videostream.cgi?",
-        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?rate=0",
-        "/video/mjpg.cgi"
-      ]
+      "JPEG": {
+        "/snap.jpg": [
+          "JpegCam=[CHANNEL]"
+        ],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&count=0"
+        ],
+        "/video.cgi": [],
+        "/tmpfs/auto.jpg": [],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ],
+        "/videostream.cgi": [
+          "resolution=8&rate=13"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "rate=11",
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+          "user=[USERNAME]&password=[PASSWORD]",
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "rate=0"
+        ],
+        "/video.cgi": [
+          "resolution=VGA",
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/mjpeg": [],
+        "/video/mjpg.cgi": []
+      }
     },
     "models": [
       "002DUHT",
@@ -83,8 +95,6 @@
       "MSERIES",
       "MARTYCAM",
       "MOBILE_CAM",
-      "OTHER",
-      "OTHER2",
       "P2PH264",
       "PTZ",
       "PTZDOME",
@@ -115,25 +125,25 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11",
-        "/live/ch0",
-        "/ucast/11",
-        "/1.3gp",
-        "/onvif1",
-        "/ROH/channel/11",
-        "/12",
-        "/ucast/12",
-        "/live/ch1",
-        "/user=admin_password=fiLdDgpk_channel=1_stream=0.sdp",
-        "/user=admin_password=TAysS4ai_channel=1_stream=0.sdp",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/0/av0",
-        "/user=admin_password=bPbyYe3S_channel=1_stream=0.sdp",
-        "/cam1/onvif-h264",
-        "/H264",
-        "/cam1/onvif-h264-1"
-      ]
+      "H.264": {
+        "/11": [],
+        "/live/ch0": [],
+        "/ucast/11": [],
+        "/1.3gp": [],
+        "/onvif1": [],
+        "/ROH/channel/11": [],
+        "/12": [],
+        "/ucast/12": [],
+        "/live/ch1": [],
+        "/user=admin_password=fiLdDgpk_channel=1_stream=0.sdp": [],
+        "/user=admin_password=TAysS4ai_channel=1_stream=0.sdp": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/0/av0": [],
+        "/user=admin_password=bPbyYe3S_channel=1_stream=0.sdp": [],
+        "/cam1/onvif-h264": [],
+        "/H264": [],
+        "/cam1/onvif-h264-1": []
+      }
     },
     "models": [
       "005UWZF",
@@ -176,7 +186,6 @@
       "IPC",
       "MSERIES",
       "NEW",
-      "OTHER",
       "PT100C",
       "V754",
       "VA0074_M",

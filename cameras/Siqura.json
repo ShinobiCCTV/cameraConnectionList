@@ -1,10 +1,12 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/video.jpg?ch=[CHANNEL]",
-        "/cgi-bin/jpg/image.cgi"
-      ]
+      "JPEG": {
+        "/video.jpg": [
+          "ch=[CHANNEL]"
+        ],
+        "/cgi-bin/jpg/image.cgi": []
+      }
     },
     "models": [
       "HD-66",
@@ -15,9 +17,9 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/ProfileToken_1_4"
-      ]
+      "H.264": {
+        "/ProfileToken_1_4": []
+      }
     },
     "models": [
       "HSD-626"

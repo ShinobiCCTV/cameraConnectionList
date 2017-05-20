@@ -1,14 +1,13 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/h264Preview_01_main",
-        "/h264Preview_01_sub"
-      ]
+      "H.264": {
+        "/h264Preview_01_main": [],
+        "/h264Preview_01_sub": []
+      }
     },
     "models": [
       "IP3M952E",
-      "OTHER",
       "QCAM",
       "QSEE",
       "REOLINCRLC-410",

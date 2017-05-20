@@ -1,10 +1,12 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snap.jpg?JpegSize=XL",
-        "/snap.jpg?JpegCam=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/snap.jpg": [
+          "JpegSize=XL",
+          "JpegCam=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "ARKA"

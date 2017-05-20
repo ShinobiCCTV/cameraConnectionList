@@ -1,32 +1,31 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi/jpg/image.cgi",
-        "/goform/capture"
-      ],
-      "MJPEG": [
-        "/cgi/mjpg/mjpg.cgi",
-        "/cgi/mjpg/mjpeg.cgi",
-        "/video.cgi",
-        "/mjpeg.cgi",
-        "/cgi-bin/getstream.cgi?ch=[CHANNEL]&stream_id=0"
-      ]
+      "JPEG": {
+        "/cgi/jpg/image.cgi": [],
+        "/goform/capture": []
+      },
+      "MJPEG": {
+        "/cgi/mjpg/mjpg.cgi": [],
+        "/cgi/mjpg/mjpeg.cgi": [],
+        "/video.cgi": [],
+        "/mjpeg.cgi": [],
+        "/cgi-bin/getstream.cgi": [
+          "ch=[CHANNEL]&stream_id=0"
+        ]
+      }
     },
     "models": [
       "ICS-1013",
-      "OTHER",
       "VIOSTOR4012"
     ]
   },
   "rtsp://": {
     "types": {
-      "MJPEG": [
-        "/cam[CHANNEL]/mjpeg"
-      ]
+      "MJPEG": {
+        "/cam[CHANNEL]/mjpeg": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

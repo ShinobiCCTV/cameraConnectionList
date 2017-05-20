@@ -1,18 +1,17 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videofeed"
-      ],
-      "JPEG": [
-        "/shot.jpg"
-      ]
+      "MJPEG": {
+        "/videofeed": []
+      },
+      "JPEG": {
+        "/shot.jpg": []
+      }
     },
     "models": [
       "CELL",
       "NESUS7",
-      "NEXUS7JPG",
-      "OTHER"
+      "NEXUS7JPG"
     ]
   }
 }

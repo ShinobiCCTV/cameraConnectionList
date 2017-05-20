@@ -1,27 +1,27 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/tmpfs/auto.jpg"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/tmpfs/auto.jpg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
-      "PTZ",
-      "OTHER"
+      "PTZ"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/av0_0"
-      ]
+      "H.264": {
+        "/av0_0": []
+      }
     },
     "models": [
-      "PTZ",
-      "OTHER"
+      "PTZ"
     ]
   }
 }

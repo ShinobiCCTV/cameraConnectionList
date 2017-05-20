@@ -1,12 +1,14 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/stream.asf"
-      ],
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
-      ]
+      "H.264": {
+        "/stream.asf": []
+      },
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "AT201"

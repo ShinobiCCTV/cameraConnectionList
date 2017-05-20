@@ -1,12 +1,12 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/0",
-        "/cam1/onvif-h264",
-        "/1"
-      ]
+      "H.264": {
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/0": [],
+        "/cam1/onvif-h264": [],
+        "/1": []
+      }
     },
     "models": [
       "106",
@@ -15,16 +15,19 @@
       "LBH24T200",
       "LIRDCS130ONVIF",
       "LIRDCS400",
-      "LIRDT200",
-      "OTHER"
+      "LIRDT200"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snap.jpg?JpegCam=[CHANNEL]",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/snap.jpg": [
+          "JpegCam=[CHANNEL]"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "1MP",
@@ -34,8 +37,7 @@
       "LIRDNTA200",
       "LIZM40",
       "LIZM40T100",
-      "LIZM40T200",
-      "OTHER"
+      "LIZM40T200"
     ]
   }
 }

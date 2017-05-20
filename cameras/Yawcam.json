@@ -1,30 +1,42 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/video.mjpg",
-        "/video.mjpg?q=30&fps=33&id=0.5",
-        "/videostream.cgi?rate=11",
-        "/videofeed",
-        "/?action=stream",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "JPEG": [
-        "/out.jpg?id=0.5",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?1",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
-      ]
+      "MJPEG": {
+        "/video.mjpg": [
+          "q=30&fps=33&id=0.5"
+        ],
+        "/videostream.cgi": [
+          "rate=11",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/videofeed": [],
+        "/": [
+          "action=stream"
+        ]
+      },
+      "JPEG": {
+        "/out.jpg": [
+          "id=0.5"
+        ],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+          "1",
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ]
+      }
     },
     "models": [
       "1280",
       "HDC-270",
       "LIFECAM",
-      "OTHER",
       "WINHTTP",
       "WINDOWS"
     ]

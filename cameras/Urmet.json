@@ -1,24 +1,23 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/stremming1",
-        "/v01"
-      ]
+      "H.264": {
+        "/stremming1": [],
+        "/v01": []
+      }
     },
     "models": [
-      "M-12",
-      "OTHER"
+      "M-12"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

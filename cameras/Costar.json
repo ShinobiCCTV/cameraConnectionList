@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": [
+          "date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "CDIH200F"
@@ -11,9 +13,9 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/1/stream1"
-      ]
+      "H.264": {
+        "/1/stream1": []
+      }
     },
     "models": [
       "CDIH226V"

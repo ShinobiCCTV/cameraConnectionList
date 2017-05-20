@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/stream1"
-      ]
+      "H.264": {
+        "/stream1": []
+      }
     },
     "models": [
       "AD1",
@@ -12,12 +12,11 @@
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cgi/mjpg/mjpeg.cgi"
-      ]
+      "MJPEG": {
+        "/cgi/mjpg/mjpeg.cgi": []
+      }
     },
     "models": [
-      "OTHER",
       "SICPT500W",
       "SICPT501W"
     ]

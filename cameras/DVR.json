@@ -1,31 +1,51 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
-        "/cgi-bin/guest/Video.cgi?media=JPEG",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/snapshot",
-        "/cgi-bin/snapshot.cgi?1",
-        "/image/[CHANNEL].jpg",
-        "/img.jpg",
-        "/ivop.get?action=live&THREAD_ID=",
-        "/cgi-bin/video[CHANNEL].jpg?size=2&quality=3"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-        "/mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
-        "/mjpeg",
-        "/",
-        "/cgi-bin/net_jpeg.cgi?ch=0"
-      ],
-      "H.264": [
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/cgi-bin/webra_fcgi.fcgi": [
+          "api=get_jpeg_raw&chno=[CHANNEL]"
+        ],
+        "/cgi-bin/guest/Video.cgi": [
+          "media=JPEG"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]",
+          "1"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/snapshot": [],
+        "/image/[CHANNEL].jpg": [],
+        "/img.jpg": [],
+        "/ivop.get": [
+          "action=live&THREAD_ID="
+        ],
+        "/cgi-bin/video[CHANNEL].jpg": [
+          "size=2&quality=3"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/axis-cgi/mjpg/video.cgi": [
+          "camera=[CHANNEL]"
+        ],
+        "/mjpeg": [
+          "res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0"
+        ],
+        "/": [],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=0"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "10.0.4.21",
@@ -38,7 +58,6 @@
       "JA7204S-2",
       "JA7208",
       "JA7216NC",
-      "OTHER",
       "R2009",
       "R7816",
       "VIDEOSERVER"
@@ -46,16 +65,15 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/11": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
       "DMS8108-A",
       "H.264",
       "H264",
-      "OTHER",
       "VIDEOSERVER"
     ]
   }

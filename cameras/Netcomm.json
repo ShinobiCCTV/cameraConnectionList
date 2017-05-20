@@ -1,17 +1,20 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/video.cgi?resolution=VGA"
-      ],
-      "JPEG": [
-        "/cgi-bin/video.jpg",
-        "/img/snapshot.cgi?size=2"
-      ]
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=VGA"
+        ]
+      },
+      "JPEG": {
+        "/cgi-bin/video.jpg": [],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ]
+      }
     },
     "models": [
       "NS370W",
-      "OTHER",
       "W70"
     ]
   }

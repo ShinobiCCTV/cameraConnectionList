@@ -1,12 +1,14 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/GetData.cgi"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": [
+          "account=[USERNAME]&password=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/GetData.cgi": []
+      }
     },
     "models": [
       "E200",
@@ -14,16 +16,15 @@
       "EDS5110",
       "EDS5115",
       "EDS5250",
-      "FRAMSIDAN",
-      "OTHER"
+      "FRAMSIDAN"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live/ch01_0",
-        "/live/ch00_0"
-      ]
+      "H.264": {
+        "/live/ch01_0": [],
+        "/live/ch00_0": []
+      }
     },
     "models": [
       "EDS6115",

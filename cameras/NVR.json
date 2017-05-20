@@ -1,17 +1,22 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi?camera=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/cgi-bin/webra_fcgi.fcgi": [
+          "api=get_jpeg_raw&chno=[CHANNEL]"
+        ],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/snapshot.cgi": [
+          "camera=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "EXIN-L024",
       "HT10",
-      "L024",
-      "OTHER"
+      "L024"
     ]
   }
 }

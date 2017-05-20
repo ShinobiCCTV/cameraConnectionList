@@ -1,12 +1,12 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/12",
-        "/ucast/11",
-        "/11",
-        "/ucast/12"
-      ]
+      "H.264": {
+        "/12": [],
+        "/ucast/11": [],
+        "/11": [],
+        "/ucast/12": []
+      }
     },
     "models": [
       "00000",
@@ -24,16 +24,15 @@
       "GS-W220B",
       "IPC-8016B",
       "ONVIF",
-      "OTHER",
       "SUMVISION",
       "VOORDEUR"
     ]
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videofeed"
-      ]
+      "MJPEG": {
+        "/videofeed": []
+      }
     },
     "models": [
       "VOORDEUR"

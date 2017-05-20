@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot"
-      ]
+      "JPEG": {
+        "/snapshot": []
+      }
     },
     "models": [
       "SDS-2016H"

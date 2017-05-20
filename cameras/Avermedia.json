@@ -1,20 +1,23 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]&count=0",
-        "/cgi-bin/guest/Video.cgi?media=JPEG",
-        "/mobile/channel[CHANNEL].jpg"
-      ],
-      "MJPEG": [
-        "/video/mjpg.cgi"
-      ]
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&count=0"
+        ],
+        "/cgi-bin/guest/Video.cgi": [
+          "media=JPEG"
+        ],
+        "/mobile/channel[CHANNEL].jpg": []
+      },
+      "MJPEG": {
+        "/video/mjpg.cgi": []
+      }
     },
     "models": [
       "IPV58",
       "NVSERIES",
       "NVSERİES",
-      "OTHER",
       "SF1301"
     ]
   }

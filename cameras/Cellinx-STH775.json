@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/AVStream1_1"
-      ]
+      "H.264": {
+        "/AVStream1_1": []
+      }
     },
     "models": [
       "DY-IR2020HD"

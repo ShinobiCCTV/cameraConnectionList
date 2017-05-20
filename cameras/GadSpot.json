@@ -1,27 +1,41 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/GetData.cgi",
-        "/cgi-bin/getimage.cgi?motion=1",
-        "/video.mjpg",
-        "/GetData.cgi?Status=0",
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
-      ],
-      "JPEG": [
-        "/stillimg[CHANNEL].jpg",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/jpg/image.jpg?size=3",
-        "/Jpeg/CamImg.jpg",
-        "/jpg/image.jpg",
-        "/cgi-bin/jpg/image",
-        "/GetData.cgi?Status=1",
-        "/cgi-bin/admin/snapshot.cgi",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/getimage.cgi?motion=0",
-        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-        "/tmp/snap.jpg"
-      ]
+      "MJPEG": {
+        "/GetData.cgi": [
+          "Status=0",
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+        ],
+        "/cgi-bin/getimage.cgi": [
+          "motion=1"
+        ],
+        "/video.mjpg": []
+      },
+      "JPEG": {
+        "/stillimg[CHANNEL].jpg": [],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/jpg/image.jpg": [
+          "size=3"
+        ],
+        "/Jpeg/CamImg.jpg": [],
+        "/cgi-bin/jpg/image": [],
+        "/GetData.cgi": [
+          "Status=1"
+        ],
+        "/cgi-bin/admin/snapshot.cgi": [],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/getimage.cgi": [
+          "motion=0"
+        ],
+        "/snapshot.jpg": [
+          "account=[USERNAME]&password=[PASSWORD]"
+        ],
+        "/tmp/snap.jpg": []
+      }
     },
     "models": [
       "GS-1000",
@@ -37,20 +51,18 @@
       "NC1000-W10",
       "NC1200",
       "NC-1200SERIES",
-      "NC800",
-      "OTHER"
+      "NC800"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/ucast/11",
-        "/11"
-      ]
+      "H.264": {
+        "/ucast/11": [],
+        "/11": []
+      }
     },
     "models": [
-      "GS-W221A",
-      "OTHER"
+      "GS-W221A"
     ]
   }
 }

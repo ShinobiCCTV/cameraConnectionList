@@ -1,13 +1,13 @@
-﻿{
+{
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/h264",
-        "/rtsp/unicast/DefaultProfile-01",
-        "/channel1",
-        "/mjpeg",
-        "/onvif/stream1"
-      ]
+      "H.264": {
+        "/h264": [],
+        "/rtsp/unicast/DefaultProfile-01": [],
+        "/channel1": [],
+        "/mjpeg": [],
+        "/onvif/stream1": []
+      }
     },
     "models": [
       "421",
@@ -35,21 +35,28 @@
   },
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ],
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/jpg/1/image.jpg",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/animate.cgi?[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/img/video.mjpeg"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/jpg/1/image.jpg": [],
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ],
+        "/cgi-bin/animate.cgi": [
+          "[CHANNEL]"
+        ]
+      },
+      "MJPEG": {
+        "/img/video.mjpeg": []
+      }
     },
     "models": [
-      "OTHER",
       "WATCHDOGVMAX-D1MOBILE",
       "WATCHDOGVMAX-D1MOBİLE"
     ]

@@ -1,22 +1,21 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf"
-      ],
-      "MJPEG": [
-        "/mjpg/video.mjpg",
-        "/video.cgi",
-        "/mjpg/1/video.mjpg"
-      ],
-      "JPEG": [
-        "/snapshot.cgi"
-      ]
+      "H.264": {
+        "/videostream.asf": []
+      },
+      "MJPEG": {
+        "/mjpg/video.mjpg": [],
+        "/video.cgi": [],
+        "/mjpg/1/video.mjpg": []
+      },
+      "JPEG": {
+        "/snapshot.cgi": []
+      }
     },
     "models": [
       "16NX2644PT001",
-      "NETWIDEYE100",
-      "OTHER"
+      "NETWIDEYE100"
     ]
   }
 }

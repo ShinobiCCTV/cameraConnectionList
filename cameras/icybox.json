@@ -1,12 +1,14 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/operator/get_jpeg.cgi"
-      ],
-      "MJPEG": [
-        "/operator/get_video.cgi?channel=1&video=0"
-      ]
+      "JPEG": {
+        "/operator/get_jpeg.cgi": []
+      },
+      "MJPEG": {
+        "/operator/get_video.cgi": [
+          "channel=1&video=0"
+        ]
+      }
     },
     "models": [
       "BOXIB-CAM200X",
@@ -17,9 +19,9 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/stream1"
-      ]
+      "H.264": {
+        "/stream1": []
+      }
     },
     "models": [
       "BOXIB-CAM2210"

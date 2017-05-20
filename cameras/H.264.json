@@ -1,57 +1,57 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=7NuPmaf5_channel=1_stream=0.sdp",
-        "/user=admin&password=tlJwpbo6&channel=1&stream=0.sdp",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/live/ch00_0",
-        "/user=admin_password=3iNPnVCF_channel=1_stream=0.sdp",
-        "/user=admin_password=Cv006OgF_channel=1_stream=0.sdp",
-        "/user=admin_password=firy6S1f_channel=1_stream=0.sdp",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp",
-        "/user=admin_password=IgenCqR9_channel=1_stream=0.sdp",
-        "/user=admin_password=nRopifcy_channel=1_stream=0.sdp",
-        "/user=admin_password=QuQ34dJE_channel=1_stream=0.sdp",
-        "/user=admin_password=1tmCHQEi_channel=1_stream=0.sdp",
-        "/user=admin_password=BxKF8Zu2_channel=1_stream=0.sdp",
-        "/user=admin_password=SsGtfyfy_channel=1_stream=0.sdp",
-        "/user=admin_password=9fj4ZVJb_channel=1_stream=0.sdp",
-        "/user=admin_password=xqrlkNym_channel=1_stream=0.sdp",
-        "/user=admin_password=skj6tVN2_channel=1_stream=0.sdp",
-        "/user=admin_password=OoPO4gBw_channel=1_stream=0.sdp",
-        "/user=admin_password=gpiw393y_channel=1_stream=0.sdp",
-        "/user=admin_password=5MxLFy45_channel=1_stream=0.sdp",
-        "/user=admin_password=7d7bv1uO_channel=1_stream=0.sdp",
-        "/user=admin_password=Yw1jCzO8_channel=1_stream=0.sdp",
-        "/user=admin_password=wOEqAAvf_channel=1_stream=0.sdp",
-        "/user=admin&password=6QNMIQGe&channel=1&stream=0.sdp",
-        "/user=admin&password=9kwf1kHJ&channel=1&stream=0.sdp",
-        "/user=admin_password=Y2ndyUuB_channel=1_stream=0.sdp",
-        "/user=admin_password=6QNMIQGe_channel=1_stream=0.sdp",
-        "/user=admin_password=yMJLPSR0_channel=1_stream=1.sdp",
-        "/user=admin&password=tlJwpbo6&channel=1&stream=1.sdp",
-        "/user=admin&password=rmQlkhqc&channel=1&stream=0.sdp",
-        "/user=admin_password=zZNUZF9o_channel=1_stream=0.sdp",
-        "/live/ch00_1",
-        "/user=admin_password=RjQn8I1O_channel=1_stream=0.sdp",
-        "/user=admin_password=EZDadSI1_channel=1_stream=0.sdp",
-        "/user=admin_password=EZDadSI1_channel=1_stream=1.sdp",
-        "/user=admin_password=mF95aD4o_channel=1_stream=0.sdp",
-        "/user=admin_password=QgSQHVK0_channel=1_stream=0.sdp",
-        "/user=admin&password=bYD12EwQ&channel=1&stream=0.sdp",
-        "/user=admin_password=t4wznUd8_channel=1_stream=0.sdp",
-        "/user=admin_password=KcZNaDiq_channel=1_stream=0.sdp",
-        "/live0.264",
-        "/11",
-        "/user=admin_password=3iNPnVCF_channel=1_stream=1.sdp",
-        "/user=admin_password=R6WyFUg5_channel=1_stream=0.sdp",
-        "/user=admin_password=ngdu98Du_channel=1_stream=0.sdp",
-        "/user=admin_password=KByhL1V7_channel=1_stream=0.sdp",
-        "/user=admin_password=6V0Y4HLF_channel=1_stream=0.sdp",
-        "/user=admin_password=6V0Y4HLF_channel=1_stream=1.sdp",
-        "/user=admin_password=qIkW4cZP_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/user=admin_password=7NuPmaf5_channel=1_stream=0.sdp": [],
+        "/user=admin&password=tlJwpbo6&channel=1&stream=0.sdp": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/live/ch00_0": [],
+        "/user=admin_password=3iNPnVCF_channel=1_stream=0.sdp": [],
+        "/user=admin_password=Cv006OgF_channel=1_stream=0.sdp": [],
+        "/user=admin_password=firy6S1f_channel=1_stream=0.sdp": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=1.sdp": [],
+        "/user=admin_password=IgenCqR9_channel=1_stream=0.sdp": [],
+        "/user=admin_password=nRopifcy_channel=1_stream=0.sdp": [],
+        "/user=admin_password=QuQ34dJE_channel=1_stream=0.sdp": [],
+        "/user=admin_password=1tmCHQEi_channel=1_stream=0.sdp": [],
+        "/user=admin_password=BxKF8Zu2_channel=1_stream=0.sdp": [],
+        "/user=admin_password=SsGtfyfy_channel=1_stream=0.sdp": [],
+        "/user=admin_password=9fj4ZVJb_channel=1_stream=0.sdp": [],
+        "/user=admin_password=xqrlkNym_channel=1_stream=0.sdp": [],
+        "/user=admin_password=skj6tVN2_channel=1_stream=0.sdp": [],
+        "/user=admin_password=OoPO4gBw_channel=1_stream=0.sdp": [],
+        "/user=admin_password=gpiw393y_channel=1_stream=0.sdp": [],
+        "/user=admin_password=5MxLFy45_channel=1_stream=0.sdp": [],
+        "/user=admin_password=7d7bv1uO_channel=1_stream=0.sdp": [],
+        "/user=admin_password=Yw1jCzO8_channel=1_stream=0.sdp": [],
+        "/user=admin_password=wOEqAAvf_channel=1_stream=0.sdp": [],
+        "/user=admin&password=6QNMIQGe&channel=1&stream=0.sdp": [],
+        "/user=admin&password=9kwf1kHJ&channel=1&stream=0.sdp": [],
+        "/user=admin_password=Y2ndyUuB_channel=1_stream=0.sdp": [],
+        "/user=admin_password=6QNMIQGe_channel=1_stream=0.sdp": [],
+        "/user=admin_password=yMJLPSR0_channel=1_stream=1.sdp": [],
+        "/user=admin&password=tlJwpbo6&channel=1&stream=1.sdp": [],
+        "/user=admin&password=rmQlkhqc&channel=1&stream=0.sdp": [],
+        "/user=admin_password=zZNUZF9o_channel=1_stream=0.sdp": [],
+        "/live/ch00_1": [],
+        "/user=admin_password=RjQn8I1O_channel=1_stream=0.sdp": [],
+        "/user=admin_password=EZDadSI1_channel=1_stream=0.sdp": [],
+        "/user=admin_password=EZDadSI1_channel=1_stream=1.sdp": [],
+        "/user=admin_password=mF95aD4o_channel=1_stream=0.sdp": [],
+        "/user=admin_password=QgSQHVK0_channel=1_stream=0.sdp": [],
+        "/user=admin&password=bYD12EwQ&channel=1&stream=0.sdp": [],
+        "/user=admin_password=t4wznUd8_channel=1_stream=0.sdp": [],
+        "/user=admin_password=KcZNaDiq_channel=1_stream=0.sdp": [],
+        "/live0.264": [],
+        "/11": [],
+        "/user=admin_password=3iNPnVCF_channel=1_stream=1.sdp": [],
+        "/user=admin_password=R6WyFUg5_channel=1_stream=0.sdp": [],
+        "/user=admin_password=ngdu98Du_channel=1_stream=0.sdp": [],
+        "/user=admin_password=KByhL1V7_channel=1_stream=0.sdp": [],
+        "/user=admin_password=6V0Y4HLF_channel=1_stream=0.sdp": [],
+        "/user=admin_password=6V0Y4HLF_channel=1_stream=1.sdp": [],
+        "/user=admin_password=qIkW4cZP_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
       "1",
@@ -147,7 +147,6 @@
       "NRAN",
       "NVT",
       "ONVIF",
-      "OTHER",
       "PST-HH201B",
       "QUBE",
       "SABER",
@@ -174,35 +173,54 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/cgi-bin/guest/Video.cgi?media=JPEG",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/nvc-cgi/operator/snapshot.fcgi?channel=[CHANNEL]&name=snapshot&resolution=custom&quality=70&width=[WIDTH]&height=[HEIGHT]",
-        "/cgi-bin/wappaint?camera_no=[CHANNEL]&animation=0&name=[USERNAME]&password=[PASSWORD]&pic_size=2",
-        "/tmpfs/auto.jpg",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/video.cgi?resolution=VGA",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/video?submenu=mjpg",
-        "/videofeed",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
-      ],
-      "H.264": [
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/cgi-bin/guest/Video.cgi": [
+          "media=JPEG&channel=[CHANNEL]",
+          "media=JPEG"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/nvc-cgi/operator/snapshot.fcgi": [
+          "channel=[CHANNEL]&name=snapshot&resolution=custom&quality=70&width=[WIDTH]&height=[HEIGHT]"
+        ],
+        "/cgi-bin/wappaint": [
+          "camera_no=[CHANNEL]&animation=0&name=[USERNAME]&password=[PASSWORD]&pic_size=2"
+        ],
+        "/tmpfs/auto.jpg": []
+      },
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=VGA"
+        ],
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32"
+        ],
+        "/video": [
+          "submenu=mjpg"
+        ],
+        "/videofeed": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "16CH",
       "ADMIN",
       "DVR",
       "H26429",
-      "OTHER",
       "SCM-194730",
       "TSM"
     ]

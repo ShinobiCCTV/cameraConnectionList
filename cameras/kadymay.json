@@ -1,22 +1,28 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/tmpfs/auto.jpg",
-        "/cgi-bin/video.jpg",
-        "/img/snapshot.cgi",
-        "/snap.jpg?JpegSize=XL",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/snap.jpg?JpegCam=[CHANNEL]",
-        "/snap.jpg?JpegSize=M"
-      ],
-      "H.264": [
-        "/videostream.asf"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-        "/cgi-bin/sf.cgi"
-      ]
+      "JPEG": {
+        "/tmpfs/auto.jpg": [],
+        "/cgi-bin/video.jpg": [],
+        "/img/snapshot.cgi": [],
+        "/snap.jpg": [
+          "JpegSize=XL",
+          "JpegCam=[CHANNEL]",
+          "JpegSize=M"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": []
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]"
+        ],
+        "/cgi-bin/sf.cgi": []
+      }
     },
     "models": [
       "791WL",
@@ -27,16 +33,15 @@
       "KDM-6821A",
       "KDM-6828A",
       "KDM-6836A",
-      "KMD-6800",
-      "OTHER"
+      "KMD-6800"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/live0.264"
-      ]
+      "H.264": {
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/live0.264": []
+      }
     },
     "models": [
       "FISHEYE",

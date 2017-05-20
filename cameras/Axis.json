@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/onvif-media/media.amp"
-      ]
+      "H.264": {
+        "/onvif-media/media.amp": []
+      }
     },
     "models": [
       "1",
@@ -54,7 +54,6 @@
       "M7016",
       "M7104",
       "MAX",
-      "OTHER",
       "P1214",
       "P1344",
       "P1346",
@@ -98,72 +97,109 @@
   },
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/stream.asf",
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]"
-      ],
-      "JPEG": [
-        "/jpg/image.jpg?size=3",
-        "/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
-        "/jpg/image.jpg",
-        "/axis-cgi/jpg/image.cgi?camera=1&resolution=320x240&compression=25",
-        "/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-        "/jpg/1/image.jpg",
-        "/fullsize.jpg?camera=1",
-        "/hugesize.jpg?camera=[CHANNEL]",
-        "/cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-        "/cgi-bin/jpg/image.cgi",
-        "/cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
-        "/fullsize.jpg?camera=[CHANNEL]",
-        "/cgi-bin/image640x480.jpg",
-        "/cgi-bin/image320x240.jpg",
-        "/cgi-bin/jpg/image.cgi?",
-        "/SnapshotJPEG?Resolution=320x240",
-        "/snapshot.cgi",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/tmpfs/auto.jpg",
-        "/cgi-bin/hugesize.jpg?camera=[CHANNEL]&clock=on",
-        "/cgi-bin/image.jpg",
-        "/cgi-bin/view/image?pro_[CHANNEL]",
-        "/imagep/picture.jpg",
-        "/cgi/jpg/image.cgi",
-        "/cgi-bin/video.jpg",
-        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-        "/cgi-bin/viewer/video.jpg",
-        "/cgi-bin/guest/Video.cgi?media=JPEG",
-        "/jpeg/pull"
-      ],
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-        "/nphMotionJpeg?Resolution=640x480&Quality=Standard",
-        "/axis-cgi/mjpg/video.cgi",
-        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
-        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
-        "/mjpg/video.mjpg",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-        "/mjpg/1/video.mjpg",
-        "/cgi-bin/hugesize.jpg?camera=[CHANNEL]&clock=on&motion=0",
-        "/cgi-bin/fullsize.jpg?camera=[CHANNEL]&clock=on&motion=0",
-        "/cgi-bin/halfsize.jpg?camera=[CHANNEL]&clock=on&motion=0",
-        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/mjpeg",
-        "/MJPEG.CGI",
-        "/cgi-bin/mjpeg?stream=[CHANNEL]",
-        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
-        "/videostream.cgi?",
-        "/video.cgi?resolution=VGA",
-        "/GetData.cgi?CH=2",
-        "/video/mjpg.cgi"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]"
+        ],
+        "/stream.asf": []
+      },
+      "JPEG": {
+        "/jpg/image.jpg": [
+          "size=3"
+        ],
+        "/axis-cgi/jpg/image.cgi": [
+          "date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+          "camera=1&resolution=320x240&compression=25",
+          "date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/jpg/1/image.jpg": [],
+        "/fullsize.jpg": [
+          "camera=1",
+          "camera=[CHANNEL]"
+        ],
+        "/hugesize.jpg": [
+          "camera=[CHANNEL]"
+        ],
+        "/cgi-bin/viewer/video.jpg": [
+          "resolution=[WIDTH]x[HEIGHT]",
+          "channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/cgi-bin/jpg/image.cgi": [],
+        "/cgi-bin/encoder": [
+          "USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT"
+        ],
+        "/cgi-bin/image640x480.jpg": [],
+        "/cgi-bin/image320x240.jpg": [],
+        "/SnapshotJPEG": [
+          "Resolution=320x240"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/tmpfs/auto.jpg": [],
+        "/cgi-bin/hugesize.jpg": [
+          "camera=[CHANNEL]&clock=on"
+        ],
+        "/cgi-bin/image.jpg": [],
+        "/cgi-bin/view/image": [
+          "pro_[CHANNEL]"
+        ],
+        "/imagep/picture.jpg": [],
+        "/cgi/jpg/image.cgi": [],
+        "/cgi-bin/video.jpg": [],
+        "/cgi-bin/guest/Video.cgi": [
+          "media=JPEG"
+        ],
+        "/jpeg/pull": []
+      },
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": [
+          "date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+          "camera=1&resolution=[WIDTH]x[HEIGHT]",
+          "date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
+          "camera=[CHANNEL]"
+        ],
+        "/nphMotionJpeg": [
+          "Resolution=640x480&Quality=Standard"
+        ],
+        "/mjpg/video.mjpg": [],
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/mjpg/1/video.mjpg": [],
+        "/cgi-bin/hugesize.jpg": [
+          "camera=[CHANNEL]&clock=on&motion=0"
+        ],
+        "/cgi-bin/fullsize.jpg": [
+          "camera=[CHANNEL]&clock=on&motion=0"
+        ],
+        "/cgi-bin/halfsize.jpg": [
+          "camera=[CHANNEL]&clock=on&motion=0"
+        ],
+        "/mjpeg": [],
+        "/MJPEG.CGI": [],
+        "/cgi-bin/mjpeg": [
+          "stream=[CHANNEL]"
+        ],
+        "/cgi-bin/video.jpg": [
+          "cam=[CHANNEL]&quality=3&size=2"
+        ],
+        "/video.cgi": [
+          "resolution=VGA"
+        ],
+        "/GetData.cgi": [
+          "CH=2"
+        ],
+        "/video/mjpg.cgi": []
+      }
     },
     "models": [
       "1_GENERIC",
@@ -402,7 +438,6 @@
       "NMPHC",
       "ONVIF",
       "OQ6032-E",
-      "OTHER",
       "P12",
       "P1204",
       "P1214",

@@ -1,20 +1,25 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "MJPEG": [
-        "/mjpg/video.mjpg",
-        "/videostream.cgi",
-        "/videostream.cgi?",
-        "/cgi/mjpg/mjpeg.cgi"
-      ],
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "MJPEG": {
+        "/mjpg/video.mjpg": [],
+        "/videostream.cgi": [],
+        "/cgi/mjpg/mjpeg.cgi": []
+      },
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "AMAN",
@@ -23,16 +28,15 @@
       "BS-IPCAM/W2",
       "BS-IPCAM-W",
       "FGHGH",
-      "OTHER",
       "PORTAIL",
       "TP81C2300195"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/1.3gp"
-      ]
+      "H.264": {
+        "/1.3gp": []
+      }
     },
     "models": [
       "BS-CAM-OF/HD",

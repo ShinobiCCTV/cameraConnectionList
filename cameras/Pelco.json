@@ -1,11 +1,11 @@
-﻿{
+{
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/stream1",
-        "/1/stream1",
-        "/stream2"
-      ]
+      "H.264": {
+        "/stream1": [],
+        "/1/stream1": [],
+        "/stream2": []
+      }
     },
     "models": [
       "D3200",
@@ -36,7 +36,6 @@
       "IX-P51DN",
       "IX-P52DN",
       "NET5404T",
-      "OTHER",
       "SARIX",
       "SARIXID",
       "SARIXIMS0",
@@ -49,27 +48,48 @@
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/[CHANNEL]/video.cgi",
-        "/api/jpegControl.php?frameRate=10",
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-        "/?action=stream",
-        "/-wvhttp-01-/GetOneShot?image_size=[WIDTH]x[HEIGHT]&frame_count=0"
-      ],
-      "JPEG": [
-        "/jpeg",
-        "/jpg/image.jpg?size=3",
-        "/jpeg.fcgi?mode=real&si=[USERNAME]&mon=1&ch=[CHANNEL]&width=[WIDTH]&height=[HEIGHT]&quality=7&fps=0",
-        "/snap.jpg?JpegCam=[CHANNEL]",
-        "/snap.jpg?JpegSize=M",
-        "/jpeg/pull",
-        "/vid.cgi?id=[USERNAME]&doc=[PASSWORD]&nc=0",
-        "/img/snapshot.cgi?size=2",
-        "/tmpfs/auto.jpg",
-        "/img.jpg",
-        "/jpeg?id=[CHANNEL]",
-        "/-wvhttp-01-/GetOneShot?image_size=[WIDTH]x[HEIGHT]"
-      ]
+      "MJPEG": {
+        "/[CHANNEL]/video.cgi": [],
+        "/api/jpegControl.php": [
+          "frameRate=10"
+        ],
+        "/GetData.cgi": [
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+        ],
+        "/": [
+          "action=stream"
+        ],
+        "/-wvhttp-01-/GetOneShot": [
+          "image_size=[WIDTH]x[HEIGHT]&frame_count=0"
+        ]
+      },
+      "JPEG": {
+        "/jpeg": [
+          "id=[CHANNEL]"
+        ],
+        "/jpg/image.jpg": [
+          "size=3"
+        ],
+        "/jpeg.fcgi": [
+          "mode=real&si=[USERNAME]&mon=1&ch=[CHANNEL]&width=[WIDTH]&height=[HEIGHT]&quality=7&fps=0"
+        ],
+        "/snap.jpg": [
+          "JpegCam=[CHANNEL]",
+          "JpegSize=M"
+        ],
+        "/jpeg/pull": [],
+        "/vid.cgi": [
+          "id=[USERNAME]&doc=[PASSWORD]&nc=0"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/tmpfs/auto.jpg": [],
+        "/img.jpg": [],
+        "/-wvhttp-01-/GetOneShot": [
+          "image_size=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "EVO-05LID",
@@ -97,7 +117,6 @@
       "IXP51",
       "NET_OLD",
       "NET300TSMALL",
-      "OTHER",
       "S5118",
       "SARIX",
       "SARIXID",

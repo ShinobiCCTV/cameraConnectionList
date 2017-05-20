@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/profile/profile01"
-      ]
+      "H.264": {
+        "/profile/profile01": []
+      }
     },
     "models": [
       "CR351F"
@@ -11,12 +11,10 @@
   },
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf"
-      ]
+      "H.264": {
+        "/videostream.asf": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

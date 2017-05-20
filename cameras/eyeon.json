@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/GetData.cgi"
-      ]
+      "MJPEG": {
+        "/GetData.cgi": []
+      }
     },
     "models": [
       "ESR5"

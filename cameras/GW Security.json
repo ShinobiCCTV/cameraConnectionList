@@ -1,14 +1,14 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/mpeg4cif",
-        "/mpeg4",
-        "/0",
-        "/11",
-        "/H264",
-        "/ch00/0"
-      ]
+      "H.264": {
+        "/mpeg4cif": [],
+        "/mpeg4": [],
+        "/0": [],
+        "/11": [],
+        "/H264": [],
+        "/ch00/0": []
+      }
     },
     "models": [
       "1337IP",
@@ -47,15 +47,22 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.cgi?camera=[CHANNEL]",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/video_snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi?",
-        "/img/snapshot.cgi?size=2",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?1"
-      ]
+      "JPEG": {
+        "/snapshot.cgi": [
+          "camera=[CHANNEL]",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/video_snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]",
+          "1"
+        ]
+      }
     },
     "models": [
       "2250IP",

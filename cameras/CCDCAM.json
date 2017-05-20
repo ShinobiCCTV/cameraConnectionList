@@ -1,21 +1,25 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
-      ],
-      "JPEG": [
-        "/tmpfs/auto.jpg",
-        "/snapshot/view[CHANNEL].jpg",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/snapshot.jpg",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "MJPEG": {
+        "/GetData.cgi": [
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/tmpfs/auto.jpg": [],
+        "/snapshot/view[CHANNEL].jpg": [],
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "1600",
-      "EC-IP5815",
-      "OTHER"
+      "EC-IP5815"
     ]
   }
 }

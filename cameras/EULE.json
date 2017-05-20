@@ -1,10 +1,10 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/0",
-        "/1"
-      ]
+      "H.264": {
+        "/0": [],
+        "/1": []
+      }
     },
     "models": [
       "DOM-21IP",
@@ -13,9 +13,11 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/snap.jpg": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "DOM-21IP"

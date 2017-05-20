@@ -1,12 +1,14 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videofeed"
-      ],
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
-      ]
+      "MJPEG": {
+        "/videofeed": []
+      },
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "BROKEBNSCREEN",
@@ -18,9 +20,9 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Streaming/Channels/101"
-      ]
+      "H.264": {
+        "/Streaming/Channels/101": []
+      }
     },
     "models": [
       "NV743MF-IR"

@@ -1,23 +1,26 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/video.cgi",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "JPEG": [
-        "/cgi-bin/video.jpg?size=2",
-        "/cgi-bin/video.jpg",
-        "/imagep/picture.jpg",
-        "/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/cgi-bin/video.jpg": [
+          "size=2"
+        ],
+        "/imagep/picture.jpg": [],
+        "/axis-cgi/jpg/image.cgi": [
+          "date=1&clock=1&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "IP-200PHD-24",
       "OC-600/800",
       "OC-700",
       "OC-800",
-      "OTHER",
       "WL5400CAM"
     ]
   }

@@ -1,31 +1,34 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg",
-        "/image.cgi?img=ch[CHANNEL]",
-        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": [
+          "account=[USERNAME]&password=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ],
+        "/image.cgi": [
+          "img=ch[CHANNEL]"
+        ]
+      },
+      "MJPEG": {
+        "/GetData.cgi": [
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
-      "H264DVR",
-      "OTHER"
+      "H264DVR"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Streaming/Channels/1"
-      ]
+      "H.264": {
+        "/Streaming/Channels/1": []
+      }
     },
     "models": [
       "NC303-MB",
-      "NC303-MD",
-      "OTHER"
+      "NC303-MD"
     ]
   }
 }

@@ -1,17 +1,19 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/jpg/image.jpg?size=3",
-        "/jpg/image.jpg"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/jpg/image.jpg": [
+          "size=3"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
-      "NETWORKCAMERA",
-      "OTHER"
+      "NETWORKCAMERA"
     ]
   }
 }

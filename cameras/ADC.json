@@ -1,31 +1,29 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live1.sdp",
-        "/live2.sdp",
-        "/live.sdp"
-      ]
+      "H.264": {
+        "/live1.sdp": [],
+        "/live2.sdp": [],
+        "/live.sdp": []
+      }
     },
     "models": [
       "I400-X002",
       "D064",
       "ILUSTRA400",
-      "OTHER",
       "V520IR"
     ]
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/video.mjpg"
-      ],
-      "JPEG": [
-        "/cgi-bin/viewer/video.jpg"
-      ]
+      "MJPEG": {
+        "/video.mjpg": []
+      },
+      "JPEG": {
+        "/cgi-bin/viewer/video.jpg": []
+      }
     },
     "models": [
-      "OTHER",
       "V520IR",
       "V721W"
     ]

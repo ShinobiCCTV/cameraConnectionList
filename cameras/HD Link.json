@@ -1,13 +1,13 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/MJPEG.CGI"
-      ],
-      "JPEG": [
-        "/image/jpeg.cgi",
-        "/Image.jpg"
-      ]
+      "MJPEG": {
+        "/MJPEG.CGI": []
+      },
+      "JPEG": {
+        "/image/jpeg.cgi": [],
+        "/Image.jpg": []
+      }
     },
     "models": [
       "930L",
@@ -16,9 +16,9 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/h264&basic_auth=YWRtaW46MTIzNA=="
-      ]
+      "H.264": {
+        "/h264&basic_auth=YWRtaW46MTIzNA==": []
+      }
     },
     "models": [
       "IPMC-K200T(L)"

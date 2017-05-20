@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/mpeg4"
-      ]
+      "H.264": {
+        "/mpeg4": []
+      }
     },
     "models": [
       "1080P",
@@ -12,9 +12,11 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi/snapshot.cgi?action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
-      ]
+      "JPEG": {
+        "/cgi/snapshot.cgi": [
+          "action=getdata&channel.[CHANNEL].capture=true&channel.[CHANNEL].resolution=1"
+        ]
+      }
     },
     "models": [
       "1080P",

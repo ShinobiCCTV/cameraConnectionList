@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/user=admin_password=hi1FGS1g_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/user=admin_password=hi1FGS1g_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
       "TCV-GQH300"

@@ -1,14 +1,16 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/still.jpg",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi"
-      ]
+      "JPEG": {
+        "/still.jpg": [],
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]",
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": []
+      }
     },
     "models": [
       "232",
@@ -18,16 +20,15 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam/realmonitor"
-      ]
+      "H.264": {
+        "/cam/realmonitor": []
+      }
     },
     "models": [
       "BACK",
       "MPIX",
       "MPIX20",
-      "MPIX21",
-      "OTHER"
+      "MPIX21"
     ]
   }
 }

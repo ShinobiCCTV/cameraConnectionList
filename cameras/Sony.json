@@ -1,55 +1,90 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videofeed",
-        "/videostream.cgi?rate=11",
-        "/video?submenu=mjpg",
-        "/mjpeg",
-        "/image",
-        "/img/mjpeg.cgi",
-        "/video?profile=[CHANNEL]",
-        "/cgi-bin/fwstream.cgi?ServerId=0&AppKey=0x00006784&PortId=0&CameraId=[CHANNEL]&PauseTime=0&FwCgiVer=0x0001",
-        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/GetData.cgi",
-        "/image[CHANNEL]",
-        "/?action=stream",
-        "/",
-        "/video.mjpg",
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-        "/nphMotionJpeg?Resolution=640x480&Quality=Standard",
-        "/mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
-        "/command/image.cgi?grant=User&channelno=[CHANNEL]"
-      ],
-      "JPEG": [
-        "/jpeg/vga.jpg",
-        "/oneshotimage.jpg",
-        "/oneshotimage[CHANNEL]",
-        "/jpeg/qvga.jpg",
-        "/image/qvga.jpg",
-        "/now.jpg",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
-        "/image?res=half&x0=0&y0=0&x1=1600&y1=1200&quality=15&doublescan=0&ssn=1340443365044&id=1340443379230",
-        "/cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
-        "/cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
-        "/out.jpg?id=0.5",
-        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-        "/cgi-bin/guest/Video.cgi?media=JPEG",
-        "/-wvhttp-01-/GetOneShot?image_size=[WIDTH]x[HEIGHT]",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/CH[CHANNEL]/oneshotimage.jpg",
-        "/img/snapshot.cgi?size=2",
-        "/cgi-bin/viewer/video.jpg",
-        "/image.jpg"
-      ],
-      "H.264": [
-        "/h264",
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/stream.asf"
-      ]
+      "MJPEG": {
+        "/videofeed": [],
+        "/videostream.cgi": [
+          "rate=11",
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/video": [
+          "submenu=mjpg",
+          "profile=[CHANNEL]"
+        ],
+        "/mjpeg": [
+          "res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0"
+        ],
+        "/image": [],
+        "/img/mjpeg.cgi": [],
+        "/cgi-bin/fwstream.cgi": [
+          "ServerId=0&AppKey=0x00006784&PortId=0&CameraId=[CHANNEL]&PauseTime=0&FwCgiVer=0x0001"
+        ],
+        "/GetData.cgi": [
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+        ],
+        "/image[CHANNEL]": [],
+        "/": [
+          "action=stream"
+        ],
+        "/video.mjpg": [],
+        "/nphMotionJpeg": [
+          "Resolution=640x480&Quality=Standard"
+        ],
+        "/command/image.cgi": [
+          "grant=User&channelno=[CHANNEL]"
+        ]
+      },
+      "JPEG": {
+        "/jpeg/vga.jpg": [],
+        "/oneshotimage.jpg": [],
+        "/oneshotimage[CHANNEL]": [],
+        "/jpeg/qvga.jpg": [],
+        "/image/qvga.jpg": [],
+        "/now.jpg": [],
+        "/cgi-bin/snapshot.cgi": [
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+        ],
+        "/cgi-bin/webra_fcgi.fcgi": [
+          "api=get_jpeg_raw&chno=[CHANNEL]"
+        ],
+        "/image": [
+          "res=half&x0=0&y0=0&x1=1600&y1=1200&quality=15&doublescan=0&ssn=1340443365044&id=1340443379230"
+        ],
+        "/cgi-bin/guest/Video.cgi": [
+          "media=JPEG&channel=[CHANNEL]",
+          "media=JPEG"
+        ],
+        "/cgi-bin/encoder": [
+          "USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT"
+        ],
+        "/out.jpg": [
+          "id=0.5"
+        ],
+        "/snapshot.jpg": [
+          "account=[USERNAME]&password=[PASSWORD]"
+        ],
+        "/-wvhttp-01-/GetOneShot": [
+          "image_size=[WIDTH]x[HEIGHT]"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/CH[CHANNEL]/oneshotimage.jpg": [],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/cgi-bin/viewer/video.jpg": [],
+        "/image.jpg": []
+      },
+      "H.264": {
+        "/h264": [],
+        "/videostream.asf": [
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]*[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/stream.asf": []
+      }
     },
     "models": [
       "10MINI",
@@ -92,7 +127,6 @@
       "IPELA",
       "IPELASNC-RX530",
       "NC1500-1600",
-      "OTHER",
       "PCAM-6300",
       "RZ-25P",
       "SCN-DS60",
@@ -221,16 +255,16 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/media/video1",
-        "/media/video2",
-        "/av0_0",
-        "/video1",
-        "/user=admin_password=8Zf2yPmi_channel=1_stream=0.sdp",
-        "/videoinput_1:0/h264_1/onvif.stm",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/profile"
-      ]
+      "H.264": {
+        "/media/video1": [],
+        "/media/video2": [],
+        "/av0_0": [],
+        "/video1": [],
+        "/user=admin_password=8Zf2yPmi_channel=1_stream=0.sdp": [],
+        "/videoinput_1:0/h264_1/onvif.stm": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/profile": []
+      }
     },
     "models": [
       "210",
@@ -245,7 +279,6 @@
       "DOMEKAMERA",
       "FCB-EV7500",
       "IMX222",
-      "OTHER",
       "RH-124",
       "SNC",
       "SNC-580",

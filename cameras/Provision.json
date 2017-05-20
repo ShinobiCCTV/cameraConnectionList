@@ -1,26 +1,32 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/img/snapshot.cgi?size=2",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi",
-        "/videostream.cgi?rate=11",
-        "/user/videostream.cgi"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "rate=11"
+        ],
+        "/user/videostream.cgi": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "717",
       "737",
       "F-717",
       "F-737",
-      "OTHER",
       "PT-737",
       "WP-711",
       "WP-717",
@@ -29,10 +35,10 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/profile1",
-        "/tcp/av0_0"
-      ]
+      "H.264": {
+        "/profile1": [],
+        "/tcp/av0_0": []
+      }
     },
     "models": [
       "DAI-390PA36",

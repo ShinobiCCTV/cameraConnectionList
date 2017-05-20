@@ -1,13 +1,17 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/img/video.mjpeg"
-      ],
-      "JPEG": [
-        "/img/snapshot.cgi?size=2",
-        "/cgi-bin/getimage.cgi?motion=0"
-      ]
+      "MJPEG": {
+        "/img/video.mjpeg": []
+      },
+      "JPEG": {
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/cgi-bin/getimage.cgi": [
+          "motion=0"
+        ]
+      }
     },
     "models": [
       "CIC-930W"

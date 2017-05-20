@@ -1,10 +1,12 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-        "/GetData.cgi?Status=false"
-      ]
+      "MJPEG": {
+        "/GetData.cgi": [
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+          "Status=false"
+        ]
+      }
     },
     "models": [
       "PT-300"

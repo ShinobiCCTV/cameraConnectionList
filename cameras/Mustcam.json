@@ -1,35 +1,36 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/rtsp_live0"
-      ]
+      "H.264": {
+        "/rtsp_live0": []
+      }
     },
     "models": [
       "807",
       "816",
       "H809P",
-      "IP-86",
-      "OTHER"
+      "IP-86"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi?"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/snapshot.cgi": [
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "807P",
       "H-806P",
       "H-808P",
-      "H821P",
-      "OTHER"
+      "H821P"
     ]
   }
 }

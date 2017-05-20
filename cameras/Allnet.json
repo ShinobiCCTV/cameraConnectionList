@@ -1,30 +1,40 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/video.jpg",
-        "/img/snapshot.cgi?size=3",
-        "/jpg/image.jpg?size=3",
-        "/cgi/jpg/image.cgi",
-        "/cgi-bin/jpg/image",
-        "/cgi-bin/jpg/image.cgi",
-        "/cgi-bin/guest/Video.cgi?media=JPEG"
-      ],
-      "MJPEG": [
-        "/img/mjpeg.jpg",
-        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/img/video.mjpeg",
-        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/",
-        "/video.mjpg",
-        "/live/mjpeg",
-        "/img/mjpeg.cgi",
-        "/cgi/mjpg/mjpeg.cgi",
-        "/cgi/mjpg/mjpg.cgi"
-      ],
-      "H.264": [
-        "/stream1.asf"
-      ]
+      "JPEG": {
+        "/cgi-bin/video.jpg": [],
+        "/img/snapshot.cgi": [
+          "size=3"
+        ],
+        "/jpg/image.jpg": [
+          "size=3"
+        ],
+        "/cgi/jpg/image.cgi": [],
+        "/cgi-bin/jpg/image": [],
+        "/cgi-bin/jpg/image.cgi": [],
+        "/cgi-bin/guest/Video.cgi": [
+          "media=JPEG"
+        ]
+      },
+      "MJPEG": {
+        "/img/mjpeg.jpg": [],
+        "/cgi-bin/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/img/video.mjpeg": [],
+        "/videostream.cgi": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/": [],
+        "/video.mjpg": [],
+        "/live/mjpeg": [],
+        "/img/mjpeg.cgi": [],
+        "/cgi/mjpg/mjpeg.cgi": [],
+        "/cgi/mjpg/mjpg.cgi": []
+      },
+      "H.264": {
+        "/stream1.asf": []
+      }
     },
     "models": [
       "2200",
@@ -50,7 +60,6 @@
       "ALL2297",
       "ALL2298",
       "ALL2299",
-      "OTHER",
       "TECHNOPARK",
       "TECHNOPARK2",
       "TECHNOPARK3"
@@ -58,14 +67,14 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/h264",
-        "/video.h264",
-        "/mpeg4",
-        "/Streaming/Channels/101",
-        "/Streaming/Channels/1",
-        "/Streaming/Channels/2"
-      ]
+      "H.264": {
+        "/h264": [],
+        "/video.h264": [],
+        "/mpeg4": [],
+        "/Streaming/Channels/101": [],
+        "/Streaming/Channels/1": [],
+        "/Streaming/Channels/2": []
+      }
     },
     "models": [
       "2250",
@@ -82,8 +91,7 @@
       "ALL2298",
       "ALL-CAM2305-LW",
       "ALL-CAM2397-LE",
-      "ALL-CAM2398-EP",
-      "OTHER"
+      "ALL-CAM2398-EP"
     ]
   }
 }

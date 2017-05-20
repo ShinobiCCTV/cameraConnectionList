@@ -1,11 +1,11 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/mpeg4",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/Streaming/Channels/1"
-      ]
+      "H.264": {
+        "/mpeg4": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/Streaming/Channels/1": []
+      }
     },
     "models": [
       "5MP",
@@ -15,9 +15,11 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "HV-3820"

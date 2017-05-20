@@ -1,12 +1,12 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/ROH/channel/11",
-        "/ucast/11",
-        "/11",
-        "/ucast/12"
-      ]
+      "H.264": {
+        "/ROH/channel/11": [],
+        "/ucast/11": [],
+        "/11": [],
+        "/ucast/12": []
+      }
     },
     "models": [
       "1.0IP",
@@ -25,7 +25,6 @@
       "IPC-5030BSW-EU",
       "IPC-5030BSW-UK",
       "IPC-5033-SW",
-      "OTHER",
       "P2PIP",
       "SN-IPC5033SW-UK",
       "SN-IPC-4014SW-AU",

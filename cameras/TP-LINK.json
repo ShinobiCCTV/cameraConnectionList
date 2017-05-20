@@ -1,39 +1,55 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/video.mp4",
-        "/videostream.asf",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.cgi?resolution=8&rate=13"
-      ],
-      "JPEG": [
-        "/jpg/image.jpg",
-        "/jpg/image.jpg?size=3",
-        "/cgi-bin/view/image?pro_[CHANNEL]",
-        "/cgi-bin/jpg/image",
-        "/imagep/picture.jpg",
-        "/image/jpeg.cgi",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.jpg",
-        "/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-        "/snapshot.cgi",
-        "/live/mjpeg",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/video.jpg?size=2",
-        "/cgi-bin/video.jpg"
-      ],
-      "MJPEG": [
-        "/video.mjpg",
-        "/axis-cgi/mjpg/video.cgi",
-        "/video.cgi?resolution=VGA",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/?action=stream",
-        "/mjpg/video.mjpg",
-        "/video.mjpg?q=30&fps=33&id=0.5",
-        "/cgi/mjpg/mjpeg.cgi",
-        "/videostream.cgi"
-      ]
+      "H.264": {
+        "/video.mp4": [],
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/videostream.cgi": [
+          "resolution=8&rate=13"
+        ]
+      },
+      "JPEG": {
+        "/jpg/image.jpg": [
+          "size=3"
+        ],
+        "/cgi-bin/view/image": [
+          "pro_[CHANNEL]"
+        ],
+        "/cgi-bin/jpg/image": [],
+        "/imagep/picture.jpg": [],
+        "/image/jpeg.cgi": [],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/axis-cgi/jpg/image.cgi": [
+          "date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/live/mjpeg": [],
+        "/cgi-bin/video.jpg": [
+          "size=2"
+        ]
+      },
+      "MJPEG": {
+        "/video.mjpg": [
+          "q=30&fps=33&id=0.5"
+        ],
+        "/axis-cgi/mjpg/video.cgi": [],
+        "/video.cgi": [
+          "resolution=VGA",
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/": [
+          "action=stream"
+        ],
+        "/mjpg/video.mjpg": [],
+        "/cgi/mjpg/mjpeg.cgi": [],
+        "/videostream.cgi": []
+      }
     },
     "models": [
       "192.168.1.68",
@@ -54,7 +70,6 @@
       "KAMERAP.KARYAWAN",
       "N3230",
       "NC-200",
-      "OTHER",
       "SC-1713G",
       "SC-2020",
       "SC-2020DN",
@@ -106,17 +121,17 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/video.mp4",
-        "/video.pro1",
-        "/video.pro2",
-        "/video.pro3",
-        "/video.mjpg",
-        "/video.h264",
-        "/h264_vga.sdp",
-        "/media.amp",
-        "/11"
-      ]
+      "H.264": {
+        "/video.mp4": [],
+        "/video.pro1": [],
+        "/video.pro2": [],
+        "/video.pro3": [],
+        "/video.mjpg": [],
+        "/video.h264": [],
+        "/h264_vga.sdp": [],
+        "/media.amp": [],
+        "/11": []
+      }
     },
     "models": [
       "3130",
@@ -128,7 +143,6 @@
       "NC250",
       "NC260",
       "NC450",
-      "OTHER",
       "SC-1713G",
       "SC-3130G",
       "SC-3130GV2",

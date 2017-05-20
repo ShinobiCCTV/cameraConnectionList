@@ -1,14 +1,18 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/image.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/jpg/image.jpg"
-      ],
-      "MJPEG": [
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/mjpg/video.mjpg"
-      ]
+      "JPEG": {
+        "/image.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/jpg/image.jpg": []
+      },
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/mjpg/video.mjpg": []
+      }
     },
     "models": [
       "IP-2000HW",

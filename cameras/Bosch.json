@@ -1,13 +1,13 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/rtsp_tunnel",
-        "/h264",
-        "/video.h264",
-        "/11",
-        "/ch1-s1"
-      ]
+      "H.264": {
+        "/rtsp_tunnel": [],
+        "/h264": [],
+        "/video.h264": [],
+        "/11": [],
+        "/ch1-s1": []
+      }
     },
     "models": [
       ".75",
@@ -75,7 +75,6 @@
       "OJO",
       "ON75",
       "ONVIF",
-      "OTHER",
       "SECOND",
       "TINYON2000WIFI",
       "UNKOWN",
@@ -93,24 +92,31 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snap.jpg?JpegCam=[CHANNEL]",
-        "/snap.jpg?JpegSize=M",
-        "/snap.jpg?JpegSize=XL",
-        "/snap.jpg",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?1",
-        "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/img.jpg",
-        "/image.jpg"
-      ],
-      "MJPEG": [
-        "/img/mjpeg.jpg",
-        "/mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
-        "/cgi-bin/video.jpg?cam=[CHANNEL]&quality=3&size=2",
-        "/GetData.cgi"
-      ]
+      "JPEG": {
+        "/snap.jpg": [
+          "JpegCam=[CHANNEL]",
+          "JpegSize=M",
+          "JpegSize=XL",
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]",
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
+          "1"
+        ],
+        "/img.jpg": [],
+        "/image.jpg": []
+      },
+      "MJPEG": {
+        "/img/mjpeg.jpg": [],
+        "/mjpeg": [
+          "res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0"
+        ],
+        "/cgi-bin/video.jpg": [
+          "cam=[CHANNEL]&quality=3&size=2"
+        ],
+        "/GetData.cgi": []
+      }
     },
     "models": [
       "455",
@@ -161,7 +167,6 @@
       "NWC-0800",
       "NWC-0900",
       "NWC-900",
-      "OTHER",
       "PTZ",
       "UNKOWN",
       "VG4",

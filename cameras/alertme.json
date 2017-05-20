@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/img/video.mjpeg"
-      ]
+      "MJPEG": {
+        "/img/video.mjpeg": []
+      }
     },
     "models": [
       "CAM300"

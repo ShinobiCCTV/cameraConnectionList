@@ -1,39 +1,50 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cgi-bin/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/VIDEO.CGI",
-        "/videostream.cgi",
-        "/GetData.cgi",
-        "/videostream.cgi?rate=11",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/cgi/mjpg/mjpeg.cgi"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "JPEG": [
-        "/snapshot.cgi",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/jpg/image.jpg?size=3",
-        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-        "/cgi-bin/guest/Video.cgi?media=JPEG&channel=[CHANNEL]",
-        "/cgi/jpg/image.cgi",
-        "/snap.jpg"
-      ]
+      "MJPEG": {
+        "/cgi-bin/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/videostream.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&password=[PASSWORD]",
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "rate=11",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0"
+        ],
+        "/VIDEO.CGI": [],
+        "/GetData.cgi": [],
+        "/cgi/mjpg/mjpeg.cgi": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.cgi": [],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+          "account=[USERNAME]&password=[PASSWORD]"
+        ],
+        "/snap.jpg": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/jpg/image.jpg": [
+          "size=3"
+        ],
+        "/cgi-bin/guest/Video.cgi": [
+          "media=JPEG&channel=[CHANNEL]"
+        ],
+        "/cgi/jpg/image.cgi": []
+      }
     },
     "models": [
       "EPK-EP10L1",
       "PAN/TILTV2",
-      "OTHER",
       "PAN/TILTV1"
     ]
   }

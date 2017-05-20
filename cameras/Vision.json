@@ -1,12 +1,16 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/?action=stream"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/": [
+          "action=stream"
+        ]
+      }
     },
     "models": [
       "540TVL",
@@ -15,9 +19,9 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/h264&basic_auth=YWRtaW46U2tyYWJ5MjkyNSE="
-      ]
+      "H.264": {
+        "/h264&basic_auth=YWRtaW46U2tyYWJ5MjkyNSE=": []
+      }
     },
     "models": [
       "VDA101"

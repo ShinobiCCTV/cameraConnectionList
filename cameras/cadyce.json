@@ -1,20 +1,23 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/current[CHANNEL].jpg"
-      ],
-      "MJPEG": [
-        "/video.cgi?resolution=VGA"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/current[CHANNEL].jpg": []
+      },
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=VGA"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "CA-IP100M",
-      "CA-IP300MP",
-      "OTHER"
+      "CA-IP300MP"
     ]
   }
 }

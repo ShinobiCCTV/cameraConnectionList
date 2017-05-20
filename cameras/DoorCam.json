@@ -1,22 +1,20 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live0.264"
-      ]
+      "H.264": {
+        "/live0.264": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

@@ -1,22 +1,27 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ],
-      "JPEG": [
-        "/cgi-bin/getimage",
-        "/IMAGE.JPG",
-        "/cgi-bin/getimage?java=0",
-        "/image.jpg",
-        "/out.jpg?id=0.5"
-      ],
-      "MJPEG": [
-        "/video.cgi",
-        "/videostream.cgi?",
-        "/"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/cgi-bin/getimage": [
+          "java=0"
+        ],
+        "/IMAGE.JPG": [],
+        "/image.jpg": [],
+        "/out.jpg": [
+          "id=0.5"
+        ]
+      },
+      "MJPEG": {
+        "/video.cgi": [],
+        "/videostream.cgi": [],
+        "/": []
+      }
     },
     "models": [
       "300",
@@ -24,7 +29,6 @@
       "310R",
       "IPCAMSECURE300",
       "ISLIM1300",
-      "OTHER",
       "SECURE300"
     ]
   }

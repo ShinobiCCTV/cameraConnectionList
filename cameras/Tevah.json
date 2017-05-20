@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/video.jpg"
-      ]
+      "JPEG": {
+        "/cgi-bin/video.jpg": []
+      }
     },
     "models": [
       "ANC-600G",

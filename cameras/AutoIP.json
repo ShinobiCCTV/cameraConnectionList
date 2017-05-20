@@ -1,14 +1,13 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/"
-      ]
+      "MJPEG": {
+        "/": []
+      }
     },
     "models": [
       "GV-NC-201B",
-      "NIB-2150",
-      "OTHER"
+      "NIB-2150"
     ]
   }
 }

@@ -1,20 +1,22 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snap.jpg?JpegSize=XL",
-        "/snap.jpg?JpegCam=[CHANNEL]",
-        "/snap.jpg?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/tmpfs/auto.jpg",
-        "/snap.jpg",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
-      ]
+      "JPEG": {
+        "/snap.jpg": [
+          "JpegSize=XL",
+          "JpegCam=[CHANNEL]",
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/tmpfs/auto.jpg": [],
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "3516CV200_IMX323",
       "MCI281D6",
       "MCI281O6",
-      "OTHER",
       "PREMIO",
       "TROPOX",
       "TROPOXIP",
@@ -23,10 +25,10 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/0",
-        "/11"
-      ]
+      "H.264": {
+        "/0": [],
+        "/11": []
+      }
     },
     "models": [
       "BIG",

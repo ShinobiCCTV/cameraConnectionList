@@ -1,11 +1,11 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/tcp/av0_0",
-        "/tcp/av0_1",
-        "/11"
-      ]
+      "H.264": {
+        "/tcp/av0_0": [],
+        "/tcp/av0_1": [],
+        "/11": []
+      }
     },
     "models": [
       "1234",
@@ -49,7 +49,6 @@
       "NVT",
       "ONE",
       "ONVIF",
-      "OTHER",
       "OUVIS",
       "OUVISVEEZONVZ1",
       "P2P",
@@ -96,24 +95,34 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/img/snapshot.cgi?size=2",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/jpeg/qvga.jpg",
-        "/image.jpg",
-        "/tmpfs/auto.jpg"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "H.264": [
-        "/goform/video",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ]
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/jpeg/qvga.jpg": [],
+        "/image.jpg": [],
+        "/tmpfs/auto.jpg": []
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "H.264": {
+        "/goform/video": [],
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      }
     },
     "models": [
       "360",
@@ -125,7 +134,6 @@
       "NC335PW-HD-1080P",
       "IP",
       "NVTOF",
-      "OTHER",
       "OUVISVEEZONVZ1",
       "PT-163",
       "PT163S",

@@ -1,14 +1,15 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/Jpeg/CamImg.jpg"
-      ],
-      "MJPEG": [
-        "/GetData.cgi",
-        "/GetData.cgi?CH=2",
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/Jpeg/CamImg.jpg": []
+      },
+      "MJPEG": {
+        "/GetData.cgi": [
+          "CH=2",
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "DSC-720SI(P)"

@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live.sdp"
-      ]
+      "H.264": {
+        "/live.sdp": []
+      }
     },
     "models": [
       "VIVOTEK"
@@ -11,12 +11,14 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/viewer/video.jpg?resolution=640x480"
-      ],
-      "MJPEG": [
-        "/video.mjpg"
-      ]
+      "JPEG": {
+        "/cgi-bin/viewer/video.jpg": [
+          "resolution=640x480"
+        ]
+      },
+      "MJPEG": {
+        "/video.mjpg": []
+      }
     },
     "models": [
       "VIVOTEK"

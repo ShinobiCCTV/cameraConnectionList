@@ -1,27 +1,30 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?rate=11",
-        "/video.cgi?resolution=VGA"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=11"
+        ],
+        "/video.cgi": [
+          "resolution=VGA"
+        ]
+      }
     },
     "models": [
-      "IN-3010",
-      "OTHER"
+      "IN-3010"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/rtsp_tunnel"
-      ]
+      "H.264": {
+        "/rtsp_tunnel": []
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

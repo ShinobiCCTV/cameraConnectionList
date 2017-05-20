@@ -1,24 +1,31 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-        "/Jpeg/CamImg.jpg",
-        "/snapshot.cgi",
-        "/image.jpg",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/GetData.cgi?Status=false",
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-        "/GetData.cgi?CH=2",
-        "/GetData.cgi",
-        "/cgi-bin/Stream?Video",
-        "/GetData.cgi?Status=0",
-        "/ipcam/mjpeg.cgi",
-        "/GetData.cgi?Camera=0&BandWidth=0",
-        "/videofeed"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": [
+          "account=[USERNAME]&password=[PASSWORD]"
+        ],
+        "/Jpeg/CamImg.jpg": [],
+        "/snapshot.cgi": [],
+        "/image.jpg": [],
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/GetData.cgi": [
+          "Status=false",
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
+          "CH=2",
+          "Status=0",
+          "Camera=0&BandWidth=0"
+        ],
+        "/cgi-bin/Stream": [
+          "Video"
+        ],
+        "/ipcam/mjpeg.cgi": [],
+        "/videofeed": []
+      }
     },
     "models": [
       "9000/9100SERIES",
@@ -33,8 +40,7 @@
       "IP9060I",
       "IP9100",
       "KAMERA9060I/O/MP",
-      "KAMERA9070SERIES",
-      "OTHER"
+      "KAMERA9070SERIES"
     ]
   }
 }

@@ -1,16 +1,16 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/Jpeg/CamImg.jpg"
-      ],
-      "MJPEG": [
-        "/cgi-bin/pusher.cgi",
-        "/?action=stream"
-      ]
+      "JPEG": {
+        "/Jpeg/CamImg.jpg": []
+      },
+      "MJPEG": {
+        "/cgi-bin/pusher.cgi": [],
+        "/": [
+          "action=stream"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   }
 }

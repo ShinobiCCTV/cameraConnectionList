@@ -1,9 +1,11 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "MJPEG": {
+        "/video.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "47885FPPK/BEU"

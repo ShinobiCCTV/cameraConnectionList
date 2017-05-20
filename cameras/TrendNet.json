@@ -1,13 +1,13 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi/jpg/image.cgi",
-        "/image.jpg"
-      ],
-      "MJPEG": [
-        "/video/mjpg.cgi"
-      ]
+      "JPEG": {
+        "/cgi/jpg/image.cgi": [],
+        "/image.jpg": []
+      },
+      "MJPEG": {
+        "/video/mjpg.cgi": []
+      }
     },
     "models": [
       "110WN",
@@ -17,11 +17,11 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam/realmonitor",
-        "/user=admin_password=6QNMIQGe_channel=1_stream=0.sdp",
-        "/user=admin_password=npz7PAyv_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/cam/realmonitor": [],
+        "/user=admin_password=6QNMIQGe_channel=1_stream=0.sdp": [],
+        "/user=admin_password=npz7PAyv_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
       "TV-IP321PI"

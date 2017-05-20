@@ -1,21 +1,31 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/live?codec=mjpeg&camera=[CHANNEL]",
-        "/video.mjpg",
-        "/live?camera=[CHANNEL]&fps=5&quality=75&resolution=[WIDTH]x[HEIGHT]",
-        "/?action=stream",
-        "/image.mjpg",
-        "/videofeed",
-        "/live?camera=[USERNAME]&quality=75&fps=5&resolution=[PASSWORD]"
-      ],
-      "JPEG": [
-        "/image.jpg",
-        "/cgi-bin/image.jpg?size=[WIDTH]x[HEIGHT]",
-        "/jpg/image.jpg?size=3",
-        "/out.jpg?id=0.5"
-      ]
+      "MJPEG": {
+        "/live": [
+          "codec=mjpeg&camera=[CHANNEL]",
+          "camera=[CHANNEL]&fps=5&quality=75&resolution=[WIDTH]x[HEIGHT]",
+          "camera=[USERNAME]&quality=75&fps=5&resolution=[PASSWORD]"
+        ],
+        "/video.mjpg": [],
+        "/": [
+          "action=stream"
+        ],
+        "/image.mjpg": [],
+        "/videofeed": []
+      },
+      "JPEG": {
+        "/image.jpg": [],
+        "/cgi-bin/image.jpg": [
+          "size=[WIDTH]x[HEIGHT]"
+        ],
+        "/jpg/image.jpg": [
+          "size=3"
+        ],
+        "/out.jpg": [
+          "id=0.5"
+        ]
+      }
     },
     "models": [
       "3GS",
@@ -34,15 +44,14 @@
       "IPHONE3",
       "IPOD",
       "MACBOOK",
-      "OTHER",
       "SONY"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11"
-      ]
+      "H.264": {
+        "/11": []
+      }
     },
     "models": [
       "IPHONE5"

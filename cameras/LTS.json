@@ -1,15 +1,15 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Streaming/Channels/1",
-        "/live/ch0",
-        "/Streaming/Channels/2",
-        "/Streaming/Channels/101",
-        "/rtsph2641080p",
-        "/Streaming/Unicast/channels/801",
-        "/Streaming/Channels/102"
-      ]
+      "H.264": {
+        "/Streaming/Channels/1": [],
+        "/live/ch0": [],
+        "/Streaming/Channels/2": [],
+        "/Streaming/Channels/101": [],
+        "/rtsph2641080p": [],
+        "/Streaming/Unicast/channels/801": [],
+        "/Streaming/Channels/102": []
+      }
     },
     "models": [
       "3432",
@@ -28,7 +28,6 @@
       "CMIP9532",
       "DS-2CD2112-I",
       "FFMPEG",
-      "OTHER",
       "PTZ",
       "PTZIP762X20IR",
       "X-CAM"
@@ -36,15 +35,17 @@
   },
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videostream.cgi?rate=11",
-        "/stream.jpg"
-      ],
-      "JPEG": [
-        "/snapshot.jpg",
-        "/snapshot_3gp.jpg",
-        "/stillimg[CHANNEL].jpg"
-      ]
+      "MJPEG": {
+        "/videostream.cgi": [
+          "rate=11"
+        ],
+        "/stream.jpg": []
+      },
+      "JPEG": {
+        "/snapshot.jpg": [],
+        "/snapshot_3gp.jpg": [],
+        "/stillimg[CHANNEL].jpg": []
+      }
     },
     "models": [
       "6800B",

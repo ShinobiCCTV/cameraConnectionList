@@ -1,10 +1,10 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live/main",
-        "/live/second"
-      ]
+      "H.264": {
+        "/live/main": [],
+        "/live/second": []
+      }
     },
     "models": [
       "BULLET",
@@ -19,9 +19,11 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/cgi-bin/webra_fcgi.fcgi": [
+          "api=get_jpeg_raw&chno=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "SME-2220"

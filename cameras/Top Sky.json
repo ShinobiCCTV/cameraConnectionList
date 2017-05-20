@@ -1,20 +1,19 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/mpeg4cif",
-        "/mpeg4",
-        "/user=admin_password=UqsecOdl_channel=1_stream=0.sdp",
-        "/user=admin_password=UqsecOdl_channel=1_stream=1.sdp",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/mpeg4cif": [],
+        "/mpeg4": [],
+        "/user=admin_password=UqsecOdl_channel=1_stream=0.sdp": [],
+        "/user=admin_password=UqsecOdl_channel=1_stream=1.sdp": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
       "EC-8512W",
       "EC-IP5911P",
       "GADAAURD",
       "N500",
-      "OTHER",
       "TE-IQ619",
       "WP-1014VIP",
       "Z-IPZ18X13"
@@ -22,14 +21,17 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "N-1490",
-      "OTHER",
       "TSV-HR03W"
     ]
   }

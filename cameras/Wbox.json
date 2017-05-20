@@ -1,11 +1,11 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Streaming/Channels/1",
-        "/Streaming/Channels/2",
-        "/11"
-      ]
+      "H.264": {
+        "/Streaming/Channels/1": [],
+        "/Streaming/Channels/2": [],
+        "/11": []
+      }
     },
     "models": [
       "0E-21BF40",

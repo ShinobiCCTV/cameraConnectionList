@@ -1,32 +1,36 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/GetData.cgi",
-        "/cgi/mjpg/mjpeg.cgi",
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-        "/channel2"
-      ],
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
-      ]
+      "MJPEG": {
+        "/GetData.cgi": [
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+        ],
+        "/cgi/mjpg/mjpeg.cgi": [],
+        "/channel2": []
+      },
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      }
     },
     "models": [
       "3MEGA",
       "ACM-V3002",
       "CB-100",
       "_X",
-      "OTHER",
       "RFG"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/stream1",
-        "/s1"
-      ]
+      "H.264": {
+        "/stream1": [],
+        "/s1": []
+      }
     },
     "models": [
       "ACM-V3002",

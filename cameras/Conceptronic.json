@@ -1,27 +1,34 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/videostream.asf"
-      ],
-      "JPEG": [
-        "/IMAGE.JPG",
-        "/cgi/jpg/image.cgi",
-        "/tmpfs/auto.jpg",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/MJPEG.CGI",
-        "/VIDEO.CGI",
-        "/cgi/mjpg/mjpeg.cgi",
-        "/video.cgi?resolution=VGA",
-        "/cgi/mjpg/mjpg.cgi",
-        "/videostream.cgi?user=[USERNAME]&password=[PASSWORD]",
-        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/IMAGE.JPG": [],
+        "/cgi/jpg/image.cgi": [],
+        "/tmpfs/auto.jpg": [],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/MJPEG.CGI": [],
+        "/VIDEO.CGI": [],
+        "/cgi/mjpg/mjpeg.cgi": [],
+        "/video.cgi": [
+          "resolution=VGA"
+        ],
+        "/cgi/mjpg/mjpg.cgi": [],
+        "/videostream.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]",
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "BSERIES",
@@ -35,7 +42,6 @@
       "CIPCAMPTIWL",
       "CNETCAM2",
       "NEW",
-      "OTHER",
       "PTZ-CAM",
       "SLIM1320",
       "THUIS"
@@ -43,13 +49,13 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam/realmonitor",
-        "/live/ch0",
-        "/11",
-        "/12",
-        "/live/ch2"
-      ]
+      "H.264": {
+        "/cam/realmonitor": [],
+        "/live/ch0": [],
+        "/11": [],
+        "/12": [],
+        "/live/ch2": []
+      }
     },
     "models": [
       "C54NETCAM2OK",
@@ -57,8 +63,7 @@
       "CIPCAM720OD",
       "CIPCAM720PTIWL",
       "CIPCAM720PTIWLV1",
-      "CIPCAM720PTIWLV2",
-      "OTHER"
+      "CIPCAM720PTIWLV2"
     ]
   }
 }

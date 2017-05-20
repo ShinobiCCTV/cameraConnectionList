@@ -1,31 +1,46 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?1",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/img/snapshot.cgi?size=2",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "MJPEG": [
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-        "/axis-cgi/mjpg/video.cgi",
-        "/video.cgi?resolution=VGA",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/cgi/mjpg/mjpeg.cgi"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "1",
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/img/snapshot.cgi": [
+          "size=2"
+        ],
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "MJPEG": {
+        "/GetData.cgi": [
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+        ],
+        "/axis-cgi/mjpg/video.cgi": [],
+        "/video.cgi": [
+          "resolution=VGA"
+        ],
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi/mjpg/mjpeg.cgi": []
+      }
     },
     "models": [
       "1080D",
       "1080-D",
       "3000-V",
       "FI-8602W",
-      "OTHER",
       "X-720B",
       "X720D",
       "XIP3001",
@@ -35,19 +50,20 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/ch01.264",
-        "/cam/realmonitor",
-        "/mpeg4/media.amp?resolution=640x480",
-        "/ch00/0",
-        "/ch00/1",
-        "/cam1/onvif-h264-1"
-      ]
+      "H.264": {
+        "/ch01.264": [],
+        "/cam/realmonitor": [],
+        "/mpeg4/media.amp": [
+          "resolution=640x480"
+        ],
+        "/ch00/0": [],
+        "/ch00/1": [],
+        "/cam1/onvif-h264-1": []
+      }
     },
     "models": [
       "1080-D",
       "FI-8602W",
-      "OTHER",
       "X2C",
       "X2C4000BP",
       "X2C400BP",

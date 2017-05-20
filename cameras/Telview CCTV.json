@@ -1,29 +1,30 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "JPEG": [
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "JPEG": {
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      }
     },
-    "models": [
-      "OTHER"
-    ]
+    "models": []
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/11",
-        "/Streaming/Channels/1",
-        "/0",
-        "/live/ch0",
-        "/Streaming/Channels/2"
-      ]
+      "H.264": {
+        "/11": [],
+        "/Streaming/Channels/1": [],
+        "/0": [],
+        "/live/ch0": [],
+        "/Streaming/Channels/2": []
+      }
     },
     "models": [
-      "OTHER",
       "SWB-1612"
     ]
   }

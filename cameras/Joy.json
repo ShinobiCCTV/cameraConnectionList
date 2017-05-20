@@ -1,16 +1,17 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "MJPEG": [
-        "/videostream.cgi",
-        "/videofeed"
-      ]
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "MJPEG": {
+        "/videostream.cgi": [],
+        "/videofeed": []
+      }
     },
     "models": [
-      "OTHER",
       "SYMPHONYXPLORERW16"
     ]
   }

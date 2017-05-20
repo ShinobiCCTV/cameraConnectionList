@@ -1,10 +1,10 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/stream1.asf",
-        "/stream.asf"
-      ]
+      "H.264": {
+        "/stream1.asf": [],
+        "/stream.asf": []
+      }
     },
     "models": [
       "BLKN3304MV"

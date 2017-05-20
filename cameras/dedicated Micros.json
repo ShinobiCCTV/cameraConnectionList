@@ -1,15 +1,16 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/display_pic.cgi?cam=[CHANNEL]&res=hi"
-      ]
+      "MJPEG": {
+        "/display_pic.cgi": [
+          "cam=[CHANNEL]&res=hi"
+        ]
+      }
     },
     "models": [
       "CAMVUDN",
       "ECODVR",
-      "DS2",
-      "OTHER"
+      "DS2"
     ]
   }
 }

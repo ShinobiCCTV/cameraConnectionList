@@ -1,20 +1,23 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
-      ],
-      "JPEG": [
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/config/jpeg.cgi",
-        "/snapshot.cgi?camera=[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/mjpeg"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0"
+        ]
+      },
+      "JPEG": {
+        "/snapshot.cgi": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "camera=[CHANNEL]"
+        ],
+        "/config/jpeg.cgi": []
+      },
+      "MJPEG": {
+        "/mjpeg": []
+      }
     },
     "models": [
-      "OTHER",
       "XTS-BU1/2/3",
       "XTS-MDI/MDVP",
       "XTS-NVR16"

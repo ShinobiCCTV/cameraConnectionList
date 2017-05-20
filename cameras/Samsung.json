@@ -1,50 +1,78 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/now.jpg",
-        "/cgi-bin/video.cgi?msubmenu=jpg",
-        "/cgi-bin/video.jpg",
-        "/jpeg/qvga.jpg",
-        "/shot.jpg",
-        "/snapshot.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot/view[CHANNEL].jpg",
-        "/media/still.jpg",
-        "/cgi-bin/encoder?USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT",
-        "/image.jpg",
-        "/video?submenu=jpg",
-        "/image/[CHANNEL].jpg",
-        "/cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
-        "/snap"
-      ],
-      "MJPEG": [
-        "/GetData.cgi?CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]",
-        "/video?submenu=mjpg",
-        "/videofeed",
-        "/video?profile=[CHANNEL]",
-        "/?&AUDIO=YES&CHOPIMAGE=YES&STREAM=YES&WANTIMAGE=[CHANNEL].JPG&SENDEMPTYIMAGES=NO",
-        "/mjpeg",
-        "/videostream.cgi?rate=11",
-        "/mjpeg?res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0",
-        "/",
-        "/cgi-bin/video.cgi?msubmenu=mjpg",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
-        "/VIDEO.CGI",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi?user=[USERNAME]&pwd=[PASSWORD]",
-        "/?action=stream",
-        "/img/video.mjpeg",
-        "/public/video.cgi?ch=[CHANNEL]",
-        "/cgi-bin/fwstream.cgi?ServerId=0&AppKey=0x00006784&PortId=0&CameraId=[CHANNEL]&PauseTime=0&FwCgiVer=0x0001"
-      ],
-      "H.264": [
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]"
+        ],
+        "/now.jpg": [],
+        "/cgi-bin/video.cgi": [
+          "msubmenu=jpg"
+        ],
+        "/cgi-bin/video.jpg": [],
+        "/jpeg/qvga.jpg": [],
+        "/shot.jpg": [],
+        "/snapshot.cgi": [
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/snapshot/view[CHANNEL].jpg": [],
+        "/media/still.jpg": [],
+        "/cgi-bin/encoder": [
+          "USER=[USERNAME]&PWD=[PASSWORD]&SNAPSHOT"
+        ],
+        "/image.jpg": [],
+        "/video": [
+          "submenu=jpg"
+        ],
+        "/image/[CHANNEL].jpg": [],
+        "/cgi-bin/webra_fcgi.fcgi": [
+          "api=get_jpeg_raw&chno=[CHANNEL]"
+        ],
+        "/snap": []
+      },
+      "MJPEG": {
+        "/GetData.cgi": [
+          "CH=[CHANNEL]&Codec=jpeg&Size=[WIDTH]x[HEIGHT]"
+        ],
+        "/video": [
+          "submenu=mjpg",
+          "profile=[CHANNEL]"
+        ],
+        "/videofeed": [],
+        "/": [
+          "&AUDIO=YES&CHOPIMAGE=YES&STREAM=YES&WANTIMAGE=[CHANNEL].JPG&SENDEMPTYIMAGES=NO",
+          "action=stream"
+        ],
+        "/mjpeg": [
+          "res=full&x0=0&y0=0&x1=100%&y1=100%&quality=12&doublescan=0"
+        ],
+        "/videostream.cgi": [
+          "rate=11",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=32&rate=0",
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/video.cgi": [
+          "msubmenu=mjpg"
+        ],
+        "/VIDEO.CGI": [],
+        "/img/video.mjpeg": [],
+        "/public/video.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/cgi-bin/fwstream.cgi": [
+          "ServerId=0&AppKey=0x00006784&PortId=0&CameraId=[CHANNEL]&PauseTime=0&FwCgiVer=0x0001"
+        ]
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "usr=[USERNAME]&pwd=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=64&rate=0",
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "1.3",
@@ -114,7 +142,6 @@
       "NOTE",
       "NOTE10.12014SM-P605",
       "NOTE2",
-      "OTHER",
       "PHOME",
       "PHONE",
       "PHONE2",
@@ -239,25 +266,24 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/onvif/profile1/media.smp",
-        "/profile[CHANNEL]/media.smp",
-        "/MJPEG/media.smp",
-        "/H264/media.smp",
-        "/profile1/media.smp",
-        "/mpeg4unicast",
-        "/MainStream/media.smp",
-        "/onvif/profile5/media.smp",
-        "/onvif/profile4/media.smp",
-        "/h264unicast",
-        "/mjpegunicast",
-        "/MPEG4/media.smp",
-        "/onvif/profile2/media.smp"
-      ]
+      "H.264": {
+        "/onvif/profile1/media.smp": [],
+        "/profile[CHANNEL]/media.smp": [],
+        "/MJPEG/media.smp": [],
+        "/H264/media.smp": [],
+        "/profile1/media.smp": [],
+        "/mpeg4unicast": [],
+        "/MainStream/media.smp": [],
+        "/onvif/profile5/media.smp": [],
+        "/onvif/profile4/media.smp": [],
+        "/h264unicast": [],
+        "/mjpegunicast": [],
+        "/MPEG4/media.smp": [],
+        "/onvif/profile2/media.smp": []
+      }
     },
     "models": [
       "6084RP",
-      "OTHER",
       "SN0-6084",
       "SNB-3000",
       "SNB-6004P",

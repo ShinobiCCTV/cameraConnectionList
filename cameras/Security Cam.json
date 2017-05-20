@@ -1,22 +1,21 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/0/admin:db2x.x1UW/main",
-        "/0/888888:888888/main"
-      ]
+      "H.264": {
+        "/0/admin:db2x.x1UW/main": [],
+        "/0/888888:888888/main": []
+      }
     },
     "models": [
       "5MP",
-      "IPVA58",
-      "OTHER"
+      "IPVA58"
     ]
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/image.jpg"
-      ]
+      "JPEG": {
+        "/image.jpg": []
+      }
     },
     "models": [
       "SEC"

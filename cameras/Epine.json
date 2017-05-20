@@ -1,18 +1,18 @@
 {
   "http://": {
     "types": {
-      "H.264": [
-        "/stream.asf"
-      ],
-      "MJPEG": [
-        "/videostream.cgi?usr=[USERNAME]&pwd=[PASSWORD]",
-        "/videostream.cgi"
-      ]
+      "H.264": {
+        "/stream.asf": []
+      },
+      "MJPEG": {
+        "/videostream.cgi": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "EP-M602W",
       "EP-PD22W-HD",
-      "OTHER",
       "PM12WP"
     ]
   }

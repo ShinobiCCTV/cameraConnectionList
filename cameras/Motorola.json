@@ -1,39 +1,57 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/videofeed",
-        "/-wvhttp-01-/video.cgi",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/?action=appletvstream",
-        "/?action=stream",
-        "/image.cgi?type=motion&camera=[CHANNEL]",
-        "/video?submenu=mjpg",
-        "/video?profile=[CHANNEL]",
-        "/video.cgi?resolution=VGA",
-        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
-        "/axis-cgi/mjpg/video.cgi",
-        "/image.cgi?type=motion",
-        "/[CHANNEL]/video.cgi",
-        "/media/?action=stream",
-        "/cgi-bin/video.cgi?msubmenu=mjpg",
-        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "JPEG": [
-        "/axis-cgi/jpg/image.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-        "/cgi-bin/jpg/image.cgi",
-        "/shot.jpg",
-        "/jpeg/qvga.jpg",
-        "/axis-cgi/jpg/image.cgi?camera=1&resolution=320x240&compression=25",
-        "/?action=snapshot",
-        "/cgi-bin/jpg/image.cgi?",
-        "/image.cgi?resolution=[WIDTH]x[HEIGHT]",
-        "/cgi/jpg/image.cgi",
-        "/axis-cgi/jpg/image.cgi?date=1&clock=1&resolution=[WIDTH]x[HEIGHT]",
-        "/now.jpg"
-      ]
+      "MJPEG": {
+        "/videofeed": [],
+        "/-wvhttp-01-/video.cgi": [],
+        "/video.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]",
+          "resolution=VGA"
+        ],
+        "/": [
+          "action=appletvstream",
+          "action=stream"
+        ],
+        "/image.cgi": [
+          "type=motion&camera=[CHANNEL]",
+          "type=motion"
+        ],
+        "/video": [
+          "submenu=mjpg",
+          "profile=[CHANNEL]"
+        ],
+        "/axis-cgi/mjpg/video.cgi": [
+          "camera=[CHANNEL]",
+          "date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+          "camera=1&resolution=[WIDTH]x[HEIGHT]",
+          "date=1&clock=1&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/[CHANNEL]/video.cgi": [],
+        "/media/": [
+          "action=stream"
+        ],
+        "/cgi-bin/video.cgi": [
+          "msubmenu=mjpg"
+        ]
+      },
+      "JPEG": {
+        "/axis-cgi/jpg/image.cgi": [
+          "date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+          "camera=1&resolution=320x240&compression=25",
+          "date=1&clock=1&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/cgi-bin/jpg/image.cgi": [],
+        "/shot.jpg": [],
+        "/jpeg/qvga.jpg": [],
+        "/": [
+          "action=snapshot"
+        ],
+        "/image.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/cgi/jpg/image.cgi": [],
+        "/now.jpg": []
+      }
     },
     "models": [
       "ATRIX",
@@ -88,7 +106,6 @@
       "MILESTONE2",
       "MOTOE",
       "MOTOG",
-      "OTHER",
       "PHNE",
       "PHONE",
       "PHOTON",

@@ -1,23 +1,26 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi/jpg/image.cgi",
-        "/image.cgi?resolution=[WIDTH]x[HEIGHT]"
-      ],
-      "MJPEG": [
-        "/cgi/mjpg/mjpeg.cgi",
-        "/cgi/mjpg/mjpg.cgi",
-        "/video.cgi?resolution=[WIDTH]x[HEIGHT]"
-      ]
+      "JPEG": {
+        "/cgi/jpg/image.cgi": [],
+        "/image.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]"
+        ]
+      },
+      "MJPEG": {
+        "/cgi/mjpg/mjpeg.cgi": [],
+        "/cgi/mjpg/mjpg.cgi": [],
+        "/video.cgi": [
+          "resolution=[WIDTH]x[HEIGHT]"
+        ]
+      }
     },
     "models": [
       "101",
       "AICN500W",
       "IPC1",
       "IPC2",
-      "IPC3",
-      "OTHER"
+      "IPC3"
     ]
   }
 }

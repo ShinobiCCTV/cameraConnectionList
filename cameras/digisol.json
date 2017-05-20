@@ -1,15 +1,17 @@
 {
   "http://": {
     "types": {
-      "MJPEG": [
-        "/cgi/mjpg/mjpeg.cgi",
-        "/mjpg/video.mjpg"
-      ],
-      "JPEG": [
-        "/snapshot.cgi",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]"
-      ]
+      "MJPEG": {
+        "/cgi/mjpg/mjpeg.cgi": [],
+        "/mjpg/video.mjpg": []
+      },
+      "JPEG": {
+        "/snapshot.cgi": [],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]",
+          "account=[USERNAME]&password=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "7100P",
@@ -18,8 +20,7 @@
       "DG-SC4600PI",
       "DG-SC5800PI",
       "DSSC3610",
-      "DSSC3630",
-      "OTHER"
+      "DSSC3630"
     ]
   }
 }

@@ -1,13 +1,13 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/ucast/11",
-        "/h264",
-        "/Streaming/Channels/2",
-        "/cam/realmonitor",
-        "/live/ch0"
-      ]
+      "H.264": {
+        "/ucast/11": [],
+        "/h264": [],
+        "/Streaming/Channels/2": [],
+        "/cam/realmonitor": [],
+        "/live/ch0": []
+      }
     },
     "models": [
       "DVR-6008",

@@ -1,9 +1,9 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/mjpeg&basic_auth=YWRtaW46U0lTdGVjMjAwNQ=="
-      ]
+      "H.264": {
+        "/mjpeg&basic_auth=YWRtaW46U0lTdGVjMjAwNQ==": []
+      }
     },
     "models": [
       "727",

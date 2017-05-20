@@ -1,12 +1,12 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/0",
-        "/1",
-        "/2",
-        "/cam1/onvif-h264"
-      ]
+      "H.264": {
+        "/0": [],
+        "/1": [],
+        "/2": [],
+        "/cam1/onvif-h264": []
+      }
     },
     "models": [
       "00X",
@@ -69,7 +69,6 @@
       "NEXUS154F",
       "NEXUS219F",
       "NOVELL",
-      "OTHER",
       "OTRO",
       "PREMIO",
       "S1010",
@@ -89,11 +88,12 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/snap.jpg?JpegCam=[CHANNEL]",
-        "/snap.jpg",
-        "/snap.jpg?JpegSize=XL"
-      ]
+      "JPEG": {
+        "/snap.jpg": [
+          "JpegCam=[CHANNEL]",
+          "JpegSize=XL"
+        ]
+      }
     },
     "models": [
       "HS3518",

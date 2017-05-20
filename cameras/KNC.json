@@ -1,9 +1,9 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/ipcam/jpeg.cgi"
-      ]
+      "JPEG": {
+        "/ipcam/jpeg.cgi": []
+      }
     },
     "models": [
       "HDI47"
@@ -11,12 +11,12 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/stream0",
-        "/Streaming/Channels/1",
-        "/h264",
-        "/Streaming/Channels/2"
-      ]
+      "H.264": {
+        "/stream0": [],
+        "/Streaming/Channels/1": [],
+        "/h264": [],
+        "/Streaming/Channels/2": []
+      }
     },
     "models": [
       "HDI47",

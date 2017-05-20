@@ -1,15 +1,15 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/12",
-        "/Streaming/Channels/1",
-        "/user=admin_password=bKDaxEgH_channel=1_stream=0.sdp",
-        "/11",
-        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp",
-        "/user=admin_password=UO8XjMJE_channel=1_stream=0.sdp",
-        "/user=admin_password=49I95b0e_channel=1_stream=0.sdp"
-      ]
+      "H.264": {
+        "/12": [],
+        "/Streaming/Channels/1": [],
+        "/user=admin_password=bKDaxEgH_channel=1_stream=0.sdp": [],
+        "/11": [],
+        "/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp": [],
+        "/user=admin_password=UO8XjMJE_channel=1_stream=0.sdp": [],
+        "/user=admin_password=49I95b0e_channel=1_stream=0.sdp": []
+      }
     },
     "models": [
       "2MPHD",
@@ -25,7 +25,6 @@
       "AM-Q6320-WIFI",
       "AM-Q855RV2",
       "H.264",
-      "OTHER",
       "Q10325V",
       "Q1036",
       "Q11404R-WIFI",
@@ -41,19 +40,29 @@
   },
   "http://": {
     "types": {
-      "H.264": [
-        "/videostream.asf?usr=[USERNAME]&pwd=[PASSWORD]"
-      ],
-      "JPEG": [
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]",
-        "/snap.jpg?JpegSize=XL",
-        "/snap.jpg?JpegCam=[CHANNEL]",
-        "/tmpfs/auto.jpg"
-      ],
-      "MJPEG": [
-        "/ipcam/mjpeg.cgi?ch=[CHANNEL]",
-        "/videostream.cgi?rate=0&user=[USERNAME]&pwd=[PASSWORD]"
-      ]
+      "H.264": {
+        "/videostream.asf": [
+          "usr=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      },
+      "JPEG": {
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/snap.jpg": [
+          "JpegSize=XL",
+          "JpegCam=[CHANNEL]"
+        ],
+        "/tmpfs/auto.jpg": []
+      },
+      "MJPEG": {
+        "/ipcam/mjpeg.cgi": [
+          "ch=[CHANNEL]"
+        ],
+        "/videostream.cgi": [
+          "rate=0&user=[USERNAME]&pwd=[PASSWORD]"
+        ]
+      }
     },
     "models": [
       "AM-643R-WIFI",
@@ -71,8 +80,7 @@
       "AM-Q1039",
       "C739",
       "CPT510",
-      "H.264",
-      "OTHER"
+      "H.264"
     ]
   }
 }

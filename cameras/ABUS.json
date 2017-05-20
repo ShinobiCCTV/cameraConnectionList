@@ -1,29 +1,39 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/jpg/image.jpg?size=3",
-        "/cgi-bin/viewer/video.jpg?resolution=640x480",
-        "/cgi-bin/viewer/video.jpg?channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-        "/cgi-bin/video.jpg",
-        "/cgi-bin/viewer/video.jpg",
-        "/cgi-bin/viewer/video.jpg?resolution=[WIDTH]x[HEIGHT]",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/jpg/image",
-        "/jpg/image.jpg",
-        "/cgi-bin/view/image?pro_[CHANNEL]",
-        "/cgi-bin/video.jpg?size=2",
-        "/jpeg/pull"
-      ],
-      "MJPEG": [
-        "/video.mjpg",
-        "/video.mjpg?q=30&fps=33&id=0.5",
-        "/video[USERNAME].mjpg"
-      ],
-      "H.264": [
-        "/videostream.asf?user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]",
-        "/video.mp4"
-      ]
+      "JPEG": {
+        "/jpg/image.jpg": [
+          "size=3"
+        ],
+        "/cgi-bin/viewer/video.jpg": [
+          "resolution=640x480",
+          "channel=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
+          "resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/cgi-bin/video.jpg": [
+          "size=2"
+        ],
+        "/cgi-bin/snapshot.cgi": [
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]"
+        ],
+        "/cgi-bin/jpg/image": [],
+        "/cgi-bin/view/image": [
+          "pro_[CHANNEL]"
+        ],
+        "/jpeg/pull": []
+      },
+      "MJPEG": {
+        "/video.mjpg": [
+          "q=30&fps=33&id=0.5"
+        ],
+        "/video[USERNAME].mjpg": []
+      },
+      "H.264": {
+        "/videostream.asf": [
+          "user=[USERNAME]&pwd=[PASSWORD]&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/video.mp4": []
+      }
     },
     "models": [
       "21501",
@@ -37,7 +47,6 @@
       "HD720PDOME",
       "INNENHOF",
       "IPTV605550",
-      "OTHER",
       "TIVP31500",
       "TIVP31550",
       "TV21550",
@@ -87,12 +96,12 @@
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/Streaming/Channels/101",
-        "/Streaming/Channels/1",
-        "/video.h264",
-        "/Streaming/Channels/2"
-      ]
+      "H.264": {
+        "/Streaming/Channels/101": [],
+        "/Streaming/Channels/1": [],
+        "/video.h264": [],
+        "/Streaming/Channels/2": []
+      }
     },
     "models": [
       "IPCB42550",

@@ -1,31 +1,44 @@
 {
   "http://": {
     "types": {
-      "JPEG": [
-        "/cgi-bin/snapshot.cgi?1",
-        "/cgi-bin/snapshot.cgi?loginuse=[USERNAME]&loginpas=[PASSWORD]",
-        "/cgi-bin/snapshot.cgi?chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]",
-        "/showimg_pda.cgi?cam=[CHANNEL]",
-        "/jpg/image.jpg",
-        "/cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
-        "/snapshot.jpg?account=[USERNAME]&password=[PASSWORD]",
-        "/snapshot.jpg?user=[USERNAME]&pwd=[PASSWORD]",
-        "/snapshot.jpg",
-        "/cgi-bin/jpg/image",
-        "/snapshot",
-        "/cgi-bin/net_jpeg.cgi?ch=[CHANNEL]"
-      ],
-      "MJPEG": [
-        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-        "/GetData.cgi",
-        "/mjpeg.cgi?user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]",
-        "/video.mjpg",
-        "/getimage",
-        "/axis-cgi/mjpg/video.cgi?date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]",
-        "/axis-cgi/mjpg/video.cgi",
-        "/GetData.cgi?CH=2"
-      ]
+      "JPEG": {
+        "/cgi-bin/snapshot.cgi": [
+          "1",
+          "loginuse=[USERNAME]&loginpas=[PASSWORD]",
+          "chn=[CHANNEL]&u=[USERNAME]&p=[PASSWORD]"
+        ],
+        "/showimg_pda.cgi": [
+          "cam=[CHANNEL]"
+        ],
+        "/jpg/image.jpg": [],
+        "/cgi-bin/webra_fcgi.fcgi": [
+          "api=get_jpeg_raw&chno=[CHANNEL]"
+        ],
+        "/snapshot.jpg": [
+          "user=[USERNAME]&pwd=[PASSWORD]&strm=[CHANNEL]",
+          "account=[USERNAME]&password=[PASSWORD]",
+          "user=[USERNAME]&pwd=[PASSWORD]"
+        ],
+        "/cgi-bin/jpg/image": [],
+        "/snapshot": [],
+        "/cgi-bin/net_jpeg.cgi": [
+          "ch=[CHANNEL]"
+        ]
+      },
+      "MJPEG": {
+        "/axis-cgi/mjpg/video.cgi": [
+          "camera=[CHANNEL]",
+          "date=1&clock=1&camera=[CHANNEL]&resolution=[WIDTH]x[HEIGHT]"
+        ],
+        "/GetData.cgi": [
+          "CH=2"
+        ],
+        "/mjpeg.cgi": [
+          "user=[USERNAME]&password=[PASSWORD]&channel=[CHANNEL]"
+        ],
+        "/video.mjpg": [],
+        "/getimage": []
+      }
     },
     "models": [
       "4321",
@@ -77,17 +90,16 @@
       "MCNB3153",
       "MCNB3153B",
       "MPX822VW",
-      "OTHER",
       "V030409"
     ]
   },
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/cam/realmonitor",
-        "/Streaming/Channels/1",
-        "/Streaming/Channels/2"
-      ]
+      "H.264": {
+        "/cam/realmonitor": [],
+        "/Streaming/Channels/1": [],
+        "/Streaming/Channels/2": []
+      }
     },
     "models": [
       "LHV1000",
@@ -96,8 +108,7 @@
       "MCN2153",
       "MCNB2152",
       "MCNB2153",
-      "MCND2152",
-      "OTHER"
+      "MCND2152"
     ]
   }
 }

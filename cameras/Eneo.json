@@ -1,11 +1,11 @@
 {
   "rtsp://": {
     "types": {
-      "H.264": [
-        "/live1.sdp",
-        "/live2.sdp",
-        "/ch1/stream0"
-      ]
+      "H.264": {
+        "/live1.sdp": [],
+        "/live2.sdp": [],
+        "/ch1/stream0": []
+      }
     },
     "models": [
       "GLS-2302H",
@@ -16,26 +16,32 @@
   },
   "http://": {
     "types": {
-      "JPEG": [
-        "/dms?nowprofileid=2",
-        "/dms?nowprofileid=[CHANNEL]",
-        "/dms",
-        "/cgi-bin/webra_fcgi.fcgi?api=get_jpeg_raw&chno=[CHANNEL]",
-        "/cgi-bin/jpg/image.cgi"
-      ],
-      "MJPEG": [
-        "/ipcam/stream.cgi?nowprofileid=[CHANNEL]",
-        "/axis-cgi/mjpg/video.cgi?camera=1&resolution=[WIDTH]x[HEIGHT]",
-        "/axis-cgi/mjpg/video.cgi?camera=[CHANNEL]",
-        "/ipcam/stream.cgi?nowprofileid=2",
-        "/"
-      ]
+      "JPEG": {
+        "/dms": [
+          "nowprofileid=2",
+          "nowprofileid=[CHANNEL]"
+        ],
+        "/cgi-bin/webra_fcgi.fcgi": [
+          "api=get_jpeg_raw&chno=[CHANNEL]"
+        ],
+        "/cgi-bin/jpg/image.cgi": []
+      },
+      "MJPEG": {
+        "/ipcam/stream.cgi": [
+          "nowprofileid=[CHANNEL]",
+          "nowprofileid=2"
+        ],
+        "/axis-cgi/mjpg/video.cgi": [
+          "camera=1&resolution=[WIDTH]x[HEIGHT]",
+          "camera=[CHANNEL]"
+        ],
+        "/": []
+      }
     },
     "models": [
       "GXC-1606M-IR",
       "GXD-1610M",
       "GXD-1710M/IR",
-      "OTHER",
       "PLD-2012PTZ",
       "PXD-1010F021",
       "PXD-2018PTZ1080",
