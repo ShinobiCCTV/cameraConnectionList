@@ -110,11 +110,14 @@
   "rtsp://": {
     "types": {
       "H.264": {
-        "/cam/realmonitor": [],
+        "/cam/realmonitor": [
+            "channel=1&subtype=0"
+        ],
         "/h264Preview_01_main": []
       }
     },
     "models": [
+      "IP2M-841B",
       "722-IP",
       "IP3M-956E",
       "IPM722S",
