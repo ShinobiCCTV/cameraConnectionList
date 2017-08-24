@@ -18,5 +18,17 @@
       "AIR-VISION",
       "WCSNET-ACD1"
     ]
-  }
+  },
+    "rtsp://":{
+        "types":{
+            "H.264":{
+                "/live/ch00_0":[
+                    
+                ]
+            }
+        },
+        "models":[
+            "AIR-CAM"
+        ]
+    }
 }
