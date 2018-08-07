@@ -10,5 +10,15 @@
     "models": [
       "TR-GIPR143Z-POE"
     ]
-  }
+  },
+  "rtsp://":{
+        "types":{
+            "H.265":{
+                "/media=0/channel=0&level=0/":[]
+            }
+        },
+        "models":[
+            "IPJ5204G5"
+        ]
+    }
 }
